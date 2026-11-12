@@ -1,0 +1,120 @@
+{
+ "paper": "LaBella2020",
+ "annotations": [
+  {
+   "id": "5ee2c3",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "one 4-to-1 module with a uniform glass light-guide, one 4-to-1 Prism-PET module, and one 9-to-1 Prism-PET module"
+   },
+   "note": "Modules compared: uniform glass guide 4-to-1, Prism-PET 4-to-1 and 9-to-1",
+   "status": "unchecked"
+  },
+  {
+   "id": "f46f0f",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "data were acquired using a 3-MBq 22Na source"
+   },
+   "value": {
+    "number": 3.0,
+    "unit": "MBq",
+    "what": "source activity"
+   },
+   "note": "Flood histograms and energy resolution from a 3 MBq Na-22 source",
+   "status": "unchecked"
+  },
+  {
+   "id": "ca32a0",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Lead collimation was used to acquire data at specific depths"
+   },
+   "note": "DOI resolution from lead-collimated irradiation at known depths",
+   "status": "unchecked"
+  },
+  {
+   "id": "621541",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "DOI resolution of 5.0 mm full width at half maximum (FWHM) and an energy resolution of 13% FWHM"
+   },
+   "value": {
+    "number": 5.0,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Uniform glass light-guide module: DOI 5.0 mm, energy 13% FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "f09e7b",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Prism-PET module achieved a DOI resolution of 2.5 mm FWHM and an energy resolution of 9% FWHM"
+   },
+   "value": {
+    "number": 2.5,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "4-to-1 Prism-PET: DOI 2.5 mm, energy 9% FWHM (DOI-corrected)",
+   "status": "unchecked"
+  },
+  {
+   "id": "3dc533",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "A typical center crystal from each module was used to calculate the DOI resolutions"
+   },
+   "note": "DOI resolutions from one centre crystal per module",
+   "status": "unchecked"
+  },
+  {
+   "id": "17de39",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "and 16% energy resolution without DOI correction"
+   },
+   "value": {
+    "number": 14.0,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Without DOI correction: Prism-PET 4-to-1 14%, 9-to-1 16%, uniform guide 20%",
+   "status": "unchecked"
+  },
+  {
+   "id": "b2840d",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "guide module achieves 20% energy resolution"
+   },
+   "value": {
+    "number": 20.0,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Uniform light-guide energy resolution without DOI correction",
+   "status": "unchecked"
+  },
+  {
+   "id": "f8fc79",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "excellent and uniform crystal separation throughout the Prism-PET modules, whereas the uniform glass light-guide module had performance degradation at the edges and corners"
+   },
+   "note": "Prism-PET uniform crystal separation; uniform guide degrades at edges and corners",
+   "status": "unchecked"
+  }
+ ]
+}

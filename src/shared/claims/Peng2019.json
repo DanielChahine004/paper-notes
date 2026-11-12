@@ -269,6 +269,46 @@
    },
    "note": "Network: a single convolution layer, classification onto the 625 positions",
    "status": "unchecked"
+  },
+  {
+   "id": "c241c5",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "3.16 mm3. Both the top and bottom surfaces of each crystal were covered with enhanced specular reflective films"
+   },
+   "value": {
+    "number": 3.16,
+    "unit": "mm",
+    "what": "layer thickness"
+   },
+   "note": "Four LYSO layers of 13.24 x 13.24 x 3.16 mm, ESR on top and bottom faces",
+   "status": "unchecked"
+  },
+  {
+   "id": "675b41",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "grid) with 0.5 mm pitch on the x-y (top) surface of the module"
+   },
+   "value": {
+    "number": 0.5,
+    "unit": "mm",
+    "what": "training grid pitch"
+   },
+   "note": "Training set: perpendicular beam at 625 positions on a 0.5 mm grid",
+   "status": "unchecked"
+  },
+  {
+   "id": "414a71",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "pixel image, which represents the light distribution detected by the photodetectors on the four sides of the FIL"
+   },
+   "note": "Input to the network: the 16 side signals of the first interaction layer",
+   "status": "unchecked"
   }
  ]
 }

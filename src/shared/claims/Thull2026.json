@@ -1,0 +1,270 @@
+{
+ "paper": "Thull2026",
+ "annotations": [
+  {
+   "id": "9423a0",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Hyperion Hybrid Imaging Systems GmbH, Aachen, Germany"
+   },
+   "note": "Schug, Weissler and Schulz also affiliated with Hyperion Hybrid Imaging Systems GmbH",
+   "status": "unchecked"
+  },
+  {
+   "id": "f48fd1",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Regression models were trained using a Gaussian negative log-likelihood to jointly estimate gamma interaction coordinates and event-wise positional variance"
+   },
+   "note": "Regressors trained with Gaussian NLL to predict position and per-event variance",
+   "status": "unchecked"
+  },
+  {
+   "id": "814663",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Predicted variances were further integrated into the time-of-flight ordered-subsets expectation maximization (TOF-OSEM) reconstruction via event-level filtering and LOR weighting"
+   },
+   "note": "Variance used to filter and weight LORs in TOF-OSEM",
+   "status": "unchecked"
+  },
+  {
+   "id": "df999f",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "classification models consistently exhibit lower bias magnitudes compared to regression models"
+   },
+   "note": "Classifiers show lower bias than regressors",
+   "status": "unchecked"
+  },
+  {
+   "id": "e0d9b6",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "A total of 24 semi-monolithic detector blocks were manufactured and arranged in a cylindrical geometry at an approximate inner radius of 62.5 mm"
+   },
+   "value": {
+    "number": 62.5,
+    "unit": "mm",
+    "what": "inner radius"
+   },
+   "note": "24 semi-monolithic blocks at ~62.5 mm inner radius",
+   "status": "unchecked"
+  },
+  {
+   "id": "8a98e6",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Regression models display regions of near-zero predictions"
+   },
+   "note": "Regressor flood maps show near-zero-density regions",
+   "status": "unchecked"
+  },
+  {
+   "id": "49cf0b",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "System control was implemented using the Hyperion III PET and PET/MRI platform"
+   },
+   "note": "Hyperion III platform",
+   "status": "unchecked"
+  },
+  {
+   "id": "5751e4",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "with the CNN regressor yielding the best performance among all DOI models"
+   },
+   "note": "CNN regressor best for DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "b44512",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "overall dimensions of 48.4 × 48.3 × 10 mm3, corresponding to the planar-segmented, planar-monolithic, and DOI directions"
+   },
+   "value": {
+    "number": 10.0,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "Block 48.4x48.3x10 mm3 (segmented, monolithic, DOI)",
+   "status": "unchecked"
+  },
+  {
+   "id": "ca01f9",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "achieving the lowest planar MAE in both segmented and monolithic directions"
+   },
+   "note": "CNN classifier best in-plane",
+   "status": "unchecked"
+  },
+  {
+   "id": "805f82",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "44 polished LYSO slabs of dimensions 1 × 24 × 10 mm3, separated and surrounded by a 0.1 mm reflective BaSO4 layer"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "slab width"
+   },
+   "note": "Two arrays of 44 LYSO slabs 1x24x10 mm3, 0.1 mm BaSO4",
+   "status": "unchecked"
+  },
+  {
+   "id": "c34b54",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "These interactions would be rejected under an energy-based filter but retained under a variance-based criterion"
+   },
+   "note": "Low-energy, low-variance population kept by variance filter, cut by energy window",
+   "status": "unchecked"
+  },
+  {
+   "id": "f73b74",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "A 0.3 mm light guide separates the crystal array from the 12 × 12 SiPM array, implemented using a 6 × 6 grid of Philips DPC3200-22 sensors"
+   },
+   "value": {
+    "number": 0.3,
+    "unit": "mm",
+    "what": "light guide"
+   },
+   "note": "0.3 mm light guide onto 12x12 channels from 6x6 Philips DPC3200-22",
+   "status": "unchecked"
+  },
+  {
+   "id": "20cd4b",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "possibly when occurring in regions of elevated intrinsic sensitivity such as directly above SiPMs"
+   },
+   "note": "Authors speculate these events sit directly above SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "cf7589",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The achieved energy resolution is approximately 12.7%"
+   },
+   "value": {
+    "number": 12.7,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "4546e3",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "a clear, monotonically increasing trend emerges"
+   },
+   "note": "MAE increases monotonically with predicted variance",
+   "status": "unchecked"
+  },
+  {
+   "id": "2cde94",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "achieving a coincidence timing resolution (CTR) of approximately 500 ps"
+   },
+   "value": {
+    "number": 500.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "CTR after time-skew correction",
+   "status": "unchecked"
+  },
+  {
+   "id": "c2ecfe",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "indicating a heavy-tailed error distribution"
+   },
+   "note": "Growing dispersion: heavy-tailed error distribution",
+   "status": "unchecked"
+  },
+  {
+   "id": "de869c",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "a collimated fan-beam setup with a fan width of 0.5 mm and a motorized stage with a positioning repeatability of 2 μm"
+   },
+   "value": {
+    "number": 0.5,
+    "unit": "mm",
+    "what": "fan width"
+   },
+   "note": "Fan beam 0.5 mm wide, stage repeatability 2 um",
+   "status": "unchecked"
+  },
+  {
+   "id": "1e56c0",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "the MAE as a function of energy exhibits a distinctly non-monotonic structure"
+   },
+   "note": "MAE vs energy is non-monotonic",
+   "status": "unchecked"
+  },
+  {
+   "id": "7f9dd9",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "44 positions with a 1.1 mm pitch and 20,000 collected samples per target"
+   },
+   "value": {
+    "number": 1.1,
+    "unit": "mm",
+    "what": "segmented pitch"
+   },
+   "note": "Segmented axis calibration: 44 positions, 1.1 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "da232c",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "A secondary minimum is observed around 340 keV, corresponding to Compton backscatter events"
+   },
+   "value": {
+    "number": 340.0,
+    "unit": "keV",
+    "what": "secondary minimum"
+   },
+   "note": "Secondary MAE minimum near 340 keV from 180 deg backscatter",
+   "status": "unchecked"
+  }
+ ]
+}

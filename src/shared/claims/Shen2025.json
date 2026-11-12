@@ -703,6 +703,16 @@
    },
    "note": "Proposed: keep Compton events an energy window would drop",
    "status": "unchecked"
+  },
+  {
+   "id": "9969d2",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "optical photon map corresponding to each energy"
+   },
+   "note": "Localiser input: 20x20x2 optical photon map per energy-depositing event",
+   "status": "unchecked"
   }
  ]
 }

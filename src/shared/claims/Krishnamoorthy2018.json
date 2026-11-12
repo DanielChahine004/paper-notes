@@ -259,6 +259,21 @@
    },
    "note": "Calibration with 400 um collimated 511 keV beam on a 3D robot stage",
    "status": "unchecked"
+  },
+  {
+   "id": "67d67e",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Image uniformity of 7.4%"
+   },
+   "value": {
+    "number": 7.4,
+    "unit": "%",
+    "what": "uniformity"
+   },
+   "note": "NEMA IQ uniformity (SOR ~8%)",
+   "status": "unchecked"
   }
  ]
 }

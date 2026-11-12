@@ -260,6 +260,41 @@
    },
    "note": "Energy loss attributed to TOFPET2 thresholds dropping small signals",
    "status": "unchecked"
+  },
+  {
+   "id": "7643cc",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "semi-monolithic detector and a reference detector consisting of a crystal of"
+   },
+   "note": "Timing reference: 2x2x20 mm3 crystal on one 3x3 mm2 SiPM",
+   "status": "unchecked"
+  },
+  {
+   "id": "accd8f",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The semi-monolithic scintillator detector consists of nine"
+   },
+   "value": {
+    "number": 9.0,
+    "unit": "slices",
+    "what": "slice count"
+   },
+   "note": "Nine LYSO slices of 1.37x51.2x20 mm3",
+   "status": "unchecked"
+  },
+  {
+   "id": "6866a4",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "four rows by 16 columns and consists of four Hamamatsu"
+   },
+   "note": "Each end a 4x16 SiPM array, 3.0x3.0 mm2 pixels at 3.2 mm pitch",
+   "status": "unchecked"
   }
  ]
 }

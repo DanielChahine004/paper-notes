@@ -210,6 +210,16 @@
    },
    "note": "Of closest, furthest and max-energy layer, max-energy positions best",
    "status": "unchecked"
+  },
+  {
+   "id": "e78ed5",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "positioning errors for low-angle forward scatter are still quite small"
+   },
+   "note": "Reason the max-energy layer works: best SNR, small error from low-angle forward scatter",
+   "status": "unchecked"
   }
  ]
 }

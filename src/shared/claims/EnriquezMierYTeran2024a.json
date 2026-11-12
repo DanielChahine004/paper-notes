@@ -1,0 +1,144 @@
+{
+ "paper": "EnriquezMierYTeran2024a",
+ "annotations": [
+  {
+   "id": "c47e43",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "to simulate the high resolution open-field mouse brain PET scanner"
+   },
+   "note": "GATE v8.2 simulation of the open-field mouse brain PET scanner's LYSO blocks",
+   "status": "unchecked"
+  },
+  {
+   "id": "2be71d",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Individual crystals are 0.785 × 0.785 × 20 mm3 (pitch = 0.85 mm)"
+   },
+   "value": {
+    "number": 0.85,
+    "unit": "mm",
+    "what": "crystal pitch"
+   },
+   "note": "Finely segmented LYSO: 0.785 x 0.785 x 20 mm3 crystals, 0.85 mm pitch, 23 x 23 per block",
+   "status": "unchecked"
+  },
+  {
+   "id": "3a164e",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "light distributions of photoelectric (P) and Compton + photoelectric (CP) events simulated using optical GATE and an analytical method to speed up data generation"
+   },
+   "note": "Training light distributions of P and CP events from optical GATE plus a faster analytic method",
+   "status": "unchecked"
+  },
+  {
+   "id": "6540c3",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The fraction of events forward and backward scattered in the LYSO detector was 0.54 and 0.46"
+   },
+   "value": {
+    "number": 0.54,
+    "what": "forward scatter fraction"
+   },
+   "note": "ICS forward/backward fractions 0.54/0.46",
+   "status": "unchecked"
+  },
+  {
+   "id": "b2a699",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "naïve application of the Klein–Nishina formulation predicts 70% forward scatter"
+   },
+   "value": {
+    "number": 70.0,
+    "unit": "%",
+    "what": "forward scatter (KN)"
+   },
+   "note": "Naive Klein-Nishina prediction of forward scatter",
+   "status": "unchecked"
+  },
+  {
+   "id": "342642",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "crystal classification accuracy of 90% for P events and 82% for CP events"
+   },
+   "value": {
+    "number": 90.0,
+    "unit": "%",
+    "what": "crystal classification accuracy"
+   },
+   "note": "Abstract: DNN crystal classification 90% (P), 82% (CP)",
+   "status": "unchecked"
+  },
+  {
+   "id": "03538f",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "the classification accuracy for all event types across all point source locations was 82%"
+   },
+   "value": {
+    "number": 82.0,
+    "unit": "%",
+    "what": "crystal classification accuracy"
+   },
+   "note": "Results: 82% is all event types; CP events 84%",
+   "status": "unchecked"
+  },
+  {
+   "id": "a4c16f",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "the DNN outperformed Anger logic by at least 34% and 14% for P and CP events"
+   },
+   "value": {
+    "number": 34.0,
+    "unit": "%",
+    "what": "improvement over Anger"
+   },
+   "note": "Positioning gain over Anger logic: >=34% (P), >=14% (CP)",
+   "status": "unchecked"
+  },
+  {
+   "id": "e677ea",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "an energy-guided positioning algorithm was then built into the DNN"
+   },
+   "note": "Energy-guided rule inside the DNN",
+   "status": "unchecked"
+  },
+  {
+   "id": "1306f3",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "enables selection of the unique or first crystal of interaction in P and CP events"
+   },
+   "note": "Rule picks the unique (P) or first (CP) crystal",
+   "status": "unchecked"
+  },
+  {
+   "id": "d0edd4",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "This prevents selecting the first crystal of interaction in CP events with a high degree of certainty"
+   },
+   "note": "Backward:forward scatter near 1 limits first-crystal selection",
+   "status": "unchecked"
+  }
+ ]
+}
