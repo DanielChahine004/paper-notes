@@ -29,4 +29,4 @@ tools/notesmap/.venv/
 .ipynb_checkpoints/
 
 # paper PDFs: a clone of the private thesis-papers repo (pixi run papers-pull)
-papers/
+papers
