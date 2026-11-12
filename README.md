@@ -4,7 +4,7 @@
 
 Working notes on the papers behind a PhD thesis on monolithic-detector PET,
 one LaTeX file, and the world map of research programmes drawn from them. The
-thesis is in [local_latex](https://github.com/DanielChahine004/local_latex); the
+thesis is in [phd-thesis](https://github.com/DanielChahine004/phd-thesis); the
 papers themselves are in the private thesis-papers repo.
 
 ## Setup and build

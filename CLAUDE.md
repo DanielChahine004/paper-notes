@@ -3,7 +3,7 @@
 The thesis's paper notes (`src/paper-notes/main.tex`), built with Tectonic via
 pixi, and the map drawn from them (notesmap, `tools/notesmap`). `README.md`
 covers setup and the map; this file is the conventions. The thesis itself is in
-the local_latex repo.
+the phd-thesis repo.
 
 ## Build
 
