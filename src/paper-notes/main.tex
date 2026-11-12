@@ -52,8 +52,9 @@
 \usepackage{amsmath, amssymb}
 \usepackage[backend=biber, style=numeric, sorting=none]{biblatex}
 \usepackage{siunitx}
-% units.tex and references.bib are the thesis's own, found via the
-% -Z search-path=src/thesis that build-notes passes. No copies to keep in sync.
+% units.tex (the thesis's unit shorthands) and references.bib (thesis-papers'
+% bibliography, kept current by pixi run sync) are in src/shared, found via the
+% -Z search-path=src/shared that the build task passes.
 \input{units} % \keV{511} etc.
 % a \pm inside a number prints as "1.38 ± 0.23 mm", not siunitx's default
 % "1.38(23) mm" -- the map spells it out and the PDF should match.

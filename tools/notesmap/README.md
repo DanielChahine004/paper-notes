@@ -116,7 +116,7 @@ required to reach an entry in it:
 
 ```toml
 [check]
-bib = "src/thesis/references.bib"
+bib = "src/shared/references.bib"
 ```
 
 It also reports one DOI appearing under two entry keys, which is the other way

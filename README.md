@@ -1,53 +1,28 @@
-# local_latex
+# paper-notes
 
-**▶ [Open the paper-notes map](https://danielchahine004.github.io/danvas/?repo=DanielChahine004/local_latex)** (runs in your browser, no server)
+**▶ [Open the map](https://danielchahine004.github.io/danvas/?repo=DanielChahine004/paper-notes)** (runs in your browser, no server)
 
-PhD thesis in LaTeX, built with [Tectonic](https://tectonic-typesetting.github.io/)
-via [pixi](https://pixi.sh/). The thesis is also on Overleaf, synced through this
-GitHub repo.
+Working notes on the papers behind a PhD thesis on monolithic-detector PET,
+one LaTeX file, and the world map of research programmes drawn from them. The
+thesis is in [local_latex](https://github.com/DanielChahine004/local_latex); the
+papers themselves are in the private thesis-papers repo.
 
-## Layout
-
-Three standalone documents, one folder each, every root named `main.tex`.
-
-- `src/thesis/` — the thesis: `main.tex`, `chapters/` (one `.tex` per chapter),
-  `figures/<NN-name>/` (one subfolder per chapter), `references.bib`
-  (biblatex + biber), `acronyms.tex`, `units.tex`
-- `src/paper-notes/` — working notes on papers (`pixi run build-notes`). Reads
-  the thesis's `units.tex` and `references.bib` in place, via a search path the
-  build task passes — there are no copies to keep in sync
-- `src/meetings/` — supervisor-meeting log (`pixi run build-meetings`),
-  self-contained
-- `build/` — compiled output, not committed
-- `tools/` — standalone `biber.exe` 2.17 (matches biblatex 3.17 in Tectonic's
-  bundle; not on conda-forge for Windows) and a wrapper batch file for the
-  VS Code build, plus `tikz-external.bat`, the per-figure compile behind TikZ
-  externalisation. Linux twins: `get-biber.sh` (fetches biber 2.17 on first
-  build), `tikz-external` and `sync.sh`
-
-## Setup (fresh clone)
-
-Windows (`win-64`) and Linux (`linux-64`). The `pixi run` tasks are the same on
-both; on Linux the first build downloads biber 2.17 into `tools/biber/`
-(gitignored). VS Code's Ctrl+Alt+B build runs through `pixi run vscode-build`,
-so pixi must be on the PATH VS Code sees.
+## Setup and build
 
 Install [pixi](https://pixi.sh), then in the repo root:
 
 ```
 pixi install
+pixi run build            # -> build/main.pdf
+pixi run sync             # commit, pull, refresh the bibliography, push
 ```
 
-Nothing else to set up. In VS Code, open this folder (the one containing
-`.vscode/`) as the workspace.
+`src/paper-notes/main.tex` is the notes. `src/shared/` holds `units.tex` (a copy
+of the thesis's unit shorthands) and `references.bib` (a copy of thesis-papers'
+bibliography, refreshed by every `pixi run sync` and `pixi run papers-pull`;
+add papers there, not here).
 
-## Build
-
-```
-pixi run build            # thesis      -> build/thesis/main.pdf
-pixi run build-notes      # paper notes -> build/paper-notes/main.pdf
-pixi run build-meetings   # meeting log -> build/meetings/main.pdf
-```
+## The map
 
 The paper notes also render as a live board, and as a world map pinned by
 institution. The tool is `tools/notesmap`, configured by `notesmap.toml`, and
@@ -57,7 +32,7 @@ it follows edits to the notes without a restart:
 pixi run notes-map        # world map, http://127.0.0.1:8000
 pixi run notes-canvas     # the same notes as clustered rows
 pixi run notes-check      # lint: missing images, dangling refs, unplaced programmes,
-                          # and every \doi{} in the notes against src/thesis/references.bib
+                          # and every \doi{} in the notes against src/shared/references.bib
 pixi run notes-check --gaps --strict   # also unfinished notes; non-zero exit, for CI
 pixi run notes-edit       # shared live editor, http://127.0.0.1:8891/lab
 ```
@@ -72,7 +47,7 @@ the link, because anyone holding it can edit the notes.
 
 To share just the map, nothing needs to run: it is published from this
 repository at
-[danielchahine004.github.io/danvas/?repo=DanielChahine004/local_latex](https://danielchahine004.github.io/danvas/?repo=DanielChahine004/local_latex),
+[danielchahine004.github.io/danvas/?repo=DanielChahine004/paper-notes](https://danielchahine004.github.io/danvas/?repo=DanielChahine004/paper-notes),
 built in each reader's browser (`danvas.toml` says how) and redrawn within a
 minute of a push.
 
@@ -98,43 +73,12 @@ the only thing protecting the notes, so treat the two links differently.
 (one file per programme, lock files, bucket or URL sources), and how another
 lab adapts it.
 
-In VS Code, Ctrl+Alt+B (LaTeX Workshop) builds the document the open file
-belongs to (chapter files declare `% !TeX root = ../main.tex`).
-
-TikZ figures are externalised: each `tikzpicture` is compiled once to
-`build/thesis/main-figureN.pdf` and only recompiled when its source changes, so
-the first build after a clone or a `build/` wipe is slow (one full pass per
-figure) and the rest are not. Delete `build/thesis/main-figure*` to force a
-redo.
-
 ## CI
 
-`.github/workflows/build.yml` runs on every push. One job lints the notes
-(`notesmap check --gaps --strict`); the other builds all three documents with
-the same Tectonic the lockfile pins and uploads `thesis.pdf`,
-`paper-notes.pdf` and `meetings.pdf` as a run artefact, so a current PDF is
-downloadable from any machine without a local toolchain. Tectonic's bundle,
-biber and the externalised TikZ figures are cached between runs.
-
-`--strict` fails on a defect in the notes — a missing image, a `\ref` to a key
-nothing defines, a programme with no `\location`, a `\doi` that reaches no
-`references.bib` entry. Unfinished notes and a conference whose deadline has
-passed print as `note:` and never fail the run.
-
-## Sync
-
-```
-pixi run sync                    # message defaults to "wip: <today's date>"
-pixi run sync "drafted 3.2"      # or give your own commit message
-```
-
-Commits every source change (`git add -A`), pulls with `--rebase`, then pushes.
-It refuses to run on a detached HEAD or with an unfinished merge or rebase.
-
-The thesis is on a paid Overleaf plan linked to this repo through Overleaf's
-GitHub Sync. Everything flows local ⇄ GitHub ⇄ Overleaf: run `pixi run sync`
-here, then pull from within Overleaf, and vice versa.
-
+`.github/workflows/build.yml` runs on every push: `notesmap check --gaps
+--strict`, which fails on a defect in the notes (a missing image, a `\ref` to a
+key nothing defines, a programme with no `\location`, a `\doi` that reaches no
+bibliography entry), and a build whose PDF is uploaded as a run artefact.
 
 ## Paper PDFs
 

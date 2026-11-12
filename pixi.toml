@@ -1,64 +1,32 @@
 [workspace]
 authors = ["DanielChahine004 <daniel.chahine004@gmail.com>"]
 channels = ["conda-forge"]
-name = "local_latex"
+name = "paper-notes"
 platforms = ["win-64", "linux-64"]
 version = "0.1.0"
 
-# Build tasks differ per OS: PATH separator, and the biber / tikz-external /
-# sync helpers in tools/ (.exe/.bat/.ps1 on Windows, .sh/no extension on Linux).
+# The notes PDF: biber (tools/biber; fetched on Linux by tools/get-biber.sh) for
+# the bibliography, and -Z search-path=src/shared for units.tex and
+# references.bib, the copies of the thesis's and thesis-papers' own.
 
 # --- Windows ---
-# biber (not on conda-forge for Windows) lives in tools/biber; tectonic
-# invokes it automatically for biblatex documents if it's on PATH
 [target.win-64.tasks.build]
-# -k keeps the TikZ externalisation stamps (*.md5); shell-escape-cwd lands the
-# figure sub-compiles (tools/tikz-external.bat) in the same outdir
-cmd = "mkdir -p build/thesis && tectonic --synctex -k -Z shell-escape-cwd=build/thesis --outdir build/thesis src/thesis/main.tex"
-env = { PATH = "$PIXI_PROJECT_ROOT/tools;$PIXI_PROJECT_ROOT/tools/biber;$PATH" }
-
-[target.win-64.tasks.build-meetings]
-cmd = "mkdir -p build/meetings && tectonic --synctex --outdir build/meetings src/meetings/main.tex"
+cmd = "mkdir -p build && tectonic --synctex -Z search-path=src/shared --outdir build src/paper-notes/main.tex"
 env = { PATH = "$PIXI_PROJECT_ROOT/tools/biber;$PATH" }
 
-# search-path lets it read the thesis's units.tex and references.bib in place,
-# so there are no copies to keep in sync
-[target.win-64.tasks.build-notes]
-cmd = "mkdir -p build/paper-notes && tectonic --synctex -Z search-path=src/thesis --outdir build/paper-notes src/paper-notes/main.tex"
-env = { PATH = "$PIXI_PROJECT_ROOT/tools/biber;$PATH" }
-
-# commit local work, pull --rebase the other machine's commits, push
+# commit local work, pull --rebase, refresh the bibliography from
+# thesis-papers, push
 [target.win-64.tasks.sync]
 cmd = "powershell -NoProfile -ExecutionPolicy Bypass -File tools/sync.ps1"
 
-# LaTeX Workshop (Ctrl+Alt+B) runs `pixi run vscode-build <tectonic args>` on
-# both OSes; this picks the wrapper
-[target.win-64.tasks.vscode-build]
-cmd = "cmd /c $PIXI_PROJECT_ROOT/tools/vscode-tectonic.bat"
-
 # --- Linux ---
-# tools/get-biber.sh fetches biber 2.17 into tools/biber (gitignored) on first
-# use; tools/tikz-external is the twin of tikz-external.bat
 [target.linux-64.tasks.get-biber]
 cmd = "bash tools/get-biber.sh"
 
 [target.linux-64.tasks.build]
-cmd = "mkdir -p build/thesis && tectonic --synctex -k -Z shell-escape-cwd=build/thesis --outdir build/thesis src/thesis/main.tex"
-env = { PATH = "$PIXI_PROJECT_ROOT/tools:$PIXI_PROJECT_ROOT/tools/biber:$PATH" }
-depends-on = ["get-biber"]
-
-[target.linux-64.tasks.build-meetings]
-cmd = "mkdir -p build/meetings && tectonic --synctex --outdir build/meetings src/meetings/main.tex"
+cmd = "mkdir -p build && tectonic --synctex -Z search-path=src/shared --outdir build src/paper-notes/main.tex"
 env = { PATH = "$PIXI_PROJECT_ROOT/tools/biber:$PATH" }
 depends-on = ["get-biber"]
-
-[target.linux-64.tasks.build-notes]
-cmd = "mkdir -p build/paper-notes && tectonic --synctex -Z search-path=src/thesis --outdir build/paper-notes src/paper-notes/main.tex"
-env = { PATH = "$PIXI_PROJECT_ROOT/tools/biber:$PATH" }
-depends-on = ["get-biber"]
-
-[target.linux-64.tasks.vscode-build]
-cmd = "bash tools/vscode-tectonic.sh"
 
 [target.linux-64.tasks.sync]
 cmd = "bash tools/sync.sh"
