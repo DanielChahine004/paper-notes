@@ -1,0 +1,20 @@
+{
+ "paper": "Borghi2016",
+ "annotations": [
+  {
+   "id": "d7d00c",
+   "page": 20,
+   "kind": "quote",
+   "quote": {
+    "exact": "resulting in a CRT of 214 ps FWHM for two monolithic scintillator detectors in coincidence"
+   },
+   "value": {
+    "number": 214.0,
+    "unit": "ps",
+    "what": "CRT"
+   },
+   "note": "Headline CRT with MLITE: 32 x 32 x 22 mm LYSO:Ce on a digital photon counter (DPC) array (p.2). The 2021 monolithic review's Table II quotes this as 214 ps.",
+   "status": "verified"
+  }
+ ]
+}

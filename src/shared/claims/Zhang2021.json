@@ -1,0 +1,265 @@
+{
+ "paper": "Zhang2021",
+ "annotations": [
+  {
+   "id": "85bbeb",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "erythrocyte sedimentation rate foils of 0.065 mm thickness in between the slices. The SiPM"
+   },
+   "note": "Abstract expands ESR as erythrocyte sedimentation rate",
+   "status": "unchecked"
+  },
+  {
+   "id": "437b8c",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "20 mm thick long rectangular semi-monolithic scintillator PET detector"
+   },
+   "note": "20 mm thick to give high detection efficiency",
+   "status": "unchecked"
+  },
+  {
+   "id": "676951",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The 64 signals of each SiPM array were processed by using the TOFPET2 application-speciﬁc integrated circuit (ASIC) individually"
+   },
+   "note": "Every SiPM read individually by TOFPET2",
+   "status": "unchecked"
+  },
+  {
+   "id": "45e47e",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "coupled to two Hamamatsu SiPM arrays at both ends with a 1 mm glass light guide"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "light guide thickness"
+   },
+   "note": "1 mm glass light guide at each end",
+   "status": "unchecked"
+  },
+  {
+   "id": "f19964",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The two end faces of the scintillator detector (y direction) were painted black and wrapped in black tape"
+   },
+   "note": "Stack end faces black-painted and taped",
+   "status": "unchecked"
+  },
+  {
+   "id": "18812b",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "13 Y positions from 26.5 to 50.5 mm with a step size of 2 mm"
+   },
+   "note": "9 depths x 13 Y positions, 2 mm steps",
+   "status": "unchecked"
+  },
+  {
+   "id": "4856e3",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Only positions of half of the semi-monolithic scintillator detector were irradiated"
+   },
+   "note": "Only half the detector scanned",
+   "status": "unchecked"
+  },
+  {
+   "id": "80ca83",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the summed signal amplitude of the three SiPM columns with the top three biggest signals"
+   },
+   "note": "Depth per array = share of light in the three brightest columns",
+   "status": "unchecked"
+  },
+  {
+   "id": "eddb8d",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "was ﬁtted with a three-order polynomial function"
+   },
+   "note": "Measured depth mapped to mm through a cubic fit",
+   "status": "unchecked"
+  },
+  {
+   "id": "762f87",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The single-ended readout detector provides an average full width at half maximum (FWHM) Y (continuous direction) position resolution of 2.43 mm"
+   },
+   "value": {
+    "number": 2.43,
+    "unit": "mm",
+    "what": "y resolution FWHM"
+   },
+   "note": "Single-ended: Y 2.43 mm, Z 4.77 mm, energy 25.7%, timing 779 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "f33805",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Z (depth direction) position resolution of 4.77 mm"
+   },
+   "value": {
+    "number": 4.77,
+    "unit": "mm",
+    "what": "DOI resolution FWHM"
+   },
+   "note": "Single-ended depth resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "b54531",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "25.7% and timing resolution of 779 ps"
+   },
+   "value": {
+    "number": 779.0,
+    "unit": "ps",
+    "what": "timing resolution"
+   },
+   "note": "Single-ended energy 25.7%, timing 779 ps against reference",
+   "status": "unchecked"
+  },
+  {
+   "id": "afccb9",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "resolution of 1.97 mm, Z position resolution of 2.60 mm, energy resolution of 21.7% and timing resolution of 718 ps"
+   },
+   "value": {
+    "number": 2.6,
+    "unit": "mm",
+    "what": "DOI resolution FWHM"
+   },
+   "note": "Dual-ended: Y 1.97, Z 2.60 mm, energy 21.7%, timing 718 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "5094df",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "Top SiPM 26.5 2.42 4.98 778"
+   },
+   "note": "Table 1 per array: top 2.42/4.98, bottom 2.43/4.55, both 1.97/2.60",
+   "status": "unchecked"
+  },
+  {
+   "id": "a815ad",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "All but the edge slices can be clearly resolved from the ﬂood histograms"
+   },
+   "note": "All but the edge slices resolve",
+   "status": "unchecked"
+  },
+  {
+   "id": "f985f2",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "because the lower energy thresholds used for the PETsys electronics were high"
+   },
+   "note": "Edge slices smear into bright lines: thresholds too high, only some edge-row SiPMs cross them",
+   "status": "unchecked"
+  },
+  {
+   "id": "04cf77",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "The depth resolution is extremely bad for depths of more than 10 mm from the SiPM array"
+   },
+   "value": {
+    "number": 10.0,
+    "unit": "mm",
+    "what": "depth limit"
+   },
+   "note": "Single-ended depth resolution collapses beyond 10 mm from the array",
+   "status": "unchecked"
+  },
+  {
+   "id": "a7268b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "are worse than those of the segmented scintillator array detector and need to be further improved"
+   },
+   "note": "Authors concede energy and timing worse than segmented arrays",
+   "status": "unchecked"
+  },
+  {
+   "id": "436d3c",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "reduces costs as compared to the traditional segmented scintillator array detector and reduces the edge effect"
+   },
+   "note": "Claimed advantages: cost vs arrays, edge effect vs monolith",
+   "status": "unchecked"
+  },
+  {
+   "id": "eac2c2",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "The Y position resolution degrades from 1.44 to 2.43 mm and the Z position resolution degrades from 1.86 to 4.72 mm"
+   },
+   "value": {
+    "number": 4.72,
+    "unit": "mm",
+    "what": "DOI vs 10 mm detector"
+   },
+   "note": "Against the 10 mm detector of Zhang 2019: Y 1.44 to 2.43, Z 1.86 to 4.72 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "86ea9f",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "is worse than that of our previous work (18.8%)"
+   },
+   "value": {
+    "number": 18.8,
+    "unit": "%",
+    "what": "energy resolution of 10 mm detector"
+   },
+   "note": "25.7% vs 18.8% for the 10 mm detector",
+   "status": "unchecked"
+  },
+  {
+   "id": "cc7e35",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "SiPM signals below the threshold were not taken into account"
+   },
+   "note": "Energy loss attributed to TOFPET2 thresholds dropping small signals",
+   "status": "unchecked"
+  }
+ ]
+}

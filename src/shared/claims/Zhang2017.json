@@ -1,0 +1,290 @@
+{
+ "paper": "Zhang2017",
+ "annotations": [
+  {
+   "id": "85e083",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "consists of 11 polished LYSO slices measuring 1  ×  11.6  ×  10 mm3"
+   },
+   "value": {
+    "number": 11.0,
+    "unit": "slices",
+    "what": "slice count"
+   },
+   "note": "11 polished LYSO slices of 1x11.6x10 mm3",
+   "status": "unchecked"
+  },
+  {
+   "id": "b84c53",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The slices are glued together with enhanced specular reflector (ESR) in between and outside of the slices"
+   },
+   "note": "ESR glued between and outside the slices",
+   "status": "unchecked"
+  },
+  {
+   "id": "9aa882",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "coupled to a 4  ×  4 SiPM array with a 1 mm light guide"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "light guide thickness"
+   },
+   "note": "4x4 SiPM array through a 1 mm light guide",
+   "status": "unchecked"
+  },
+  {
+   "id": "93a9fd",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "No reflector is used on the top surface and two sides of the slices to reduce the scintillation photon reflection"
+   },
+   "note": "Top and two sides left bare to reduce reflections",
+   "status": "unchecked"
+  },
+  {
+   "id": "c2c73f",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "grouped along rows and columns separately into eight signals"
+   },
+   "note": "16 SiPM signals summed to 4 rows and 4 columns",
+   "status": "unchecked"
+  },
+  {
+   "id": "ebdb6b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Four SiPM row signals are used to estimate the y (monolithic direction) and z (depth of interaction) positions"
+   },
+   "note": "Columns identify slice; rows give y by COG and z by light-distribution width",
+   "status": "unchecked"
+  },
+  {
+   "id": "130959",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The detector was measured with 1 mm sampling interval in both the y and z directions with electronic collimation"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "scan step"
+   },
+   "note": "Electronic collimation: 0.25 mm 22Na source against a 1x1x20 mm3 LYSO crystal, 1 mm steps",
+   "status": "unchecked"
+  },
+  {
+   "id": "826c65",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "An average slice based energy resolution of 14.9% was obtained"
+   },
+   "value": {
+    "number": 14.9,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Average slice-based energy resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "b22af0",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "All slices of 1 mm thick were clearly resolved"
+   },
+   "note": "All 1 mm slices resolved",
+   "status": "unchecked"
+  },
+  {
+   "id": "675622",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "The timing resolution of the entire detector module is 575 ps"
+   },
+   "value": {
+    "number": 575.0,
+    "unit": "ps",
+    "what": "timing resolution"
+   },
+   "note": "Timing against a LYSO block on an R9800 PMT, NIM electronics",
+   "status": "unchecked"
+  },
+  {
+   "id": "351142",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "a reference detector consisting of a LYSO block coupled to a high timing performance Hamamatsu R9800 single chan"
+   },
+   "note": "Reference: LYSO block on single-channel R9800 PMT",
+   "status": "unchecked"
+  },
+  {
+   "id": "d1001e",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "FWHM is not a good measure of the positioning accuracy"
+   },
+   "note": "Positioning reported as MAE, not FWHM, since error distributions are non-Gaussian",
+   "status": "unchecked"
+  },
+  {
+   "id": "501097",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "An average MAE spatial resolution of ~1.15 mm was obtained in both y and z directions without rejection"
+   },
+   "value": {
+    "number": 1.15,
+    "unit": "mm",
+    "what": "MAE spatial resolution"
+   },
+   "note": "Average MAE in y and z without multiple-scatter rejection",
+   "status": "unchecked"
+  },
+  {
+   "id": "5657f6",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average MAE spatial resolution was ~0.7 mm in both y and z directions after the multiple scattering events were rejected"
+   },
+   "value": {
+    "number": 0.7,
+    "unit": "mm",
+    "what": "MAE spatial resolution"
+   },
+   "note": "Average MAE in y and z after multiple-scatter rejection",
+   "status": "unchecked"
+  },
+  {
+   "id": "c4d2d4",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The y positions calculated with the center of gravity method are different for interactions happening at the same y, but different z positions"
+   },
+   "note": "Depth-dependent edge effect in COG y",
+   "status": "unchecked"
+  },
+  {
+   "id": "30aa21",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "both methods improved the spatial resolution at the edges of the detector as compared with the center of gravity method"
+   },
+   "note": "LS and ML improve edge resolution over COG",
+   "status": "unchecked"
+  },
+  {
+   "id": "2f4bb8",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "LS 1.10 1.14 0.69 0.70"
+   },
+   "value": {
+    "number": 1.1,
+    "unit": "mm",
+    "what": "MAE y (LS, no mask)"
+   },
+   "note": "Table 2 LS: MAE y/z 1.10/1.14 without mask, 0.69/0.70 with mask",
+   "status": "unchecked"
+  },
+  {
+   "id": "55fab2",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "ML 1.13 1.17 0.68 0.67"
+   },
+   "value": {
+    "number": 1.13,
+    "unit": "mm",
+    "what": "MAE y (ML, no mask)"
+   },
+   "note": "Table 2 ML: MAE y/z 1.13/1.17 without mask, 0.68/0.67 with mask",
+   "status": "unchecked"
+  },
+  {
+   "id": "b9a8e3",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "Multiple scattering events only slightly degrade the FWHM spatial resolution"
+   },
+   "note": "Multiple scatter barely moves FWHM but strongly affects MAE",
+   "status": "unchecked"
+  },
+  {
+   "id": "13d2e8",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "a contour mask at 40% of the peak height of the 2D histogram was applied and events outside the mask were rejected"
+   },
+   "value": {
+    "number": 40.0,
+    "unit": "%",
+    "what": "contour mask level"
+   },
+   "note": "Multiple-scatter rejection: 40% contour on COGy-SD 2D histogram per position",
+   "status": "unchecked"
+  },
+  {
+   "id": "028c8c",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "This method was already used by Ling et al in monolithic detector"
+   },
+   "note": "Method from Ling et al 2007",
+   "status": "unchecked"
+  },
+  {
+   "id": "0d0bcb",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "70% of the events are used as the calibration data set"
+   },
+   "value": {
+    "number": 70.0,
+    "unit": "%",
+    "what": "calibration fraction"
+   },
+   "note": "70/30 calibration/test split of 18 000 events per position",
+   "status": "unchecked"
+  },
+  {
+   "id": "730b78",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "long rectangle detector will be built to reduce edge effects of the semi-monolithic detector, thick detector up to 20 mm will be explored"
+   },
+   "note": "Named next steps: longer slabs, 20 mm thickness, better positioning",
+   "status": "unchecked"
+  }
+ ]
+}

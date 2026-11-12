@@ -1,0 +1,95 @@
+{
+ "paper": "Wilson2019",
+ "annotations": [
+  {
+   "id": "2e471e",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "GLuGAG:Ce, and a LuF3:Ce-polystyrene nanocomposite"
+   },
+   "note": "Abstract names the nanocomposite LuF3:Ce-polystyrene",
+   "status": "unchecked"
+  },
+  {
+   "id": "4a9f2e",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "LaF3:Ce-PS is one of the best-performing nanocomposite scintillator materials"
+   },
+   "note": "Body and Tables I-II name the nanocomposite LaF3:Ce-PS",
+   "status": "unchecked"
+  },
+  {
+   "id": "08506b",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The localisation method is a cylindrical-shell extension to the methods introduced by Li et al."
+   },
+   "note": "Positioning extends Li et al.'s analytic optical-distribution fit to a cylindrical shell",
+   "status": "unchecked"
+  },
+  {
+   "id": "b03f16",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "minimising the error between (1) and (2) and the observed photon map using the Levenberg-Marquardt algorithm"
+   },
+   "note": "Model fitted to the photon maps by Levenberg-Marquardt",
+   "status": "unchecked"
+  },
+  {
+   "id": "595421",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "GATE 8.1/Geant4 10.4p02 are used for all simulations. GATE has been built with full optical photon tracking"
+   },
+   "note": "GATE 8.1 with full optical photon tracking",
+   "status": "unchecked"
+  },
+  {
+   "id": "ec61dd",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the median error in LoR placement increasing from 1.27 mm to 1.62 mm between the centre and 75% of the inner radius"
+   },
+   "value": {
+    "number": 1.27,
+    "unit": "mm",
+    "what": "median LOR error"
+   },
+   "note": "GLuGAG:Ce median LOR placement error, 1.27 mm at centre to 1.62 mm at 75% of inner radius",
+   "status": "unchecked"
+  },
+  {
+   "id": "097d21",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "and 3.12 mm to 4.13 mm in the case of LaF3:Ce-PS"
+   },
+   "value": {
+    "number": 3.12,
+    "unit": "mm",
+    "what": "median LOR error"
+   },
+   "note": "LaF3:Ce-PS median LOR placement error, 3.12 mm at centre to 4.13 mm at 75% of inner radius",
+   "status": "unchecked"
+  },
+  {
+   "id": "e136b6",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "To account for total internal reflection"
+   },
+   "note": "Optical model includes total-internal-reflection cut-offs",
+   "status": "unchecked"
+  }
+ ]
+}

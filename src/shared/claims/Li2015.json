@@ -1,0 +1,144 @@
+{
+ "paper": "Li2015",
+ "annotations": [
+  {
+   "id": "85e9a2",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Compression factors of 5× 107 and 2.5×107 are achieved using this methodology"
+   },
+   "value": {
+    "number": 50000000.0,
+    "what": "compression factor"
+   },
+   "note": "System-matrix compression factor: 5e7 for the geometric matrix, 2.5e7 for the Monte Carlo matrix (PETiPIX)",
+   "status": "unchecked"
+  },
+  {
+   "id": "56b49b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "requiring a total of 0.5-1.2 GB of memory-resident storage"
+   },
+   "value": {
+    "number": 1.2,
+    "unit": "GB",
+    "what": "matrix memory"
+   },
+   "note": "Memory for the compressed virtual-ring system matrices: 0.5 GB (geometric) to 1.2 GB (Monte Carlo)",
+   "status": "unchecked"
+  },
+  {
+   "id": "1cc519",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "a straightforward extension of the virtual ring method to a three dimensional virtual cylinder is demonstrated using a 3D DoI PET scanner"
+   },
+   "note": "3D extension: the virtual cylinder, demonstrated on a 3D DoI scanner",
+   "status": "unchecked"
+  },
+  {
+   "id": "29f54f",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "The virtual cylinder diameter and height are set to 35 mm and 30 mm respectively"
+   },
+   "value": {
+    "number": 35.0,
+    "unit": "mm",
+    "what": "virtual cylinder diameter"
+   },
+   "note": "Size of the virtual cylinder (35 mm diameter, 30 mm high), not of the scanner",
+   "status": "unchecked"
+  },
+  {
+   "id": "fdafa3",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "CMRPET3D has an inner diameter of 46 mm and an axial FoV of 31 mm"
+   },
+   "value": {
+    "number": 46.0,
+    "unit": "mm",
+    "what": "inner diameter"
+   },
+   "note": "The 3D DoI scanner used for the virtual-cylinder demonstration: 46 mm inner diameter, 31 mm axial FoV",
+   "status": "unchecked"
+  },
+  {
+   "id": "1d123f",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "PETiPIX utilises four high resolution Timepix pixellated silicon detectors in an edge-on configuration"
+   },
+   "note": "PETiPIX: four edge-on Timepix silicon pixel detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "581643",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "with pixel dimensions of 55µm×55µm×300 −1000µm"
+   },
+   "value": {
+    "number": 55.0,
+    "unit": "µm",
+    "what": "pixel pitch"
+   },
+   "note": "Timepix pixel size 55 x 55 µm, 300-1000 µm thick",
+   "status": "unchecked"
+  },
+  {
+   "id": "8d8431",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The complete scanner has a 15 mm wide square field of view"
+   },
+   "value": {
+    "number": 15.0,
+    "unit": "mm",
+    "what": "FOV"
+   },
+   "note": "PETiPIX field of view, 15 mm square",
+   "status": "unchecked"
+  },
+  {
+   "id": "3ba363",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "most interactions are detected by tracking the recoil electrons resulting from Compton scattering"
+   },
+   "note": "PETiPIX detects mostly by tracking Compton recoil electrons in silicon",
+   "status": "unchecked"
+  },
+  {
+   "id": "48402a",
+   "page": 26,
+   "kind": "quote",
+   "quote": {
+    "exact": "the PETiPIX scanner is able to resolve brain structures with sub-millimetre resolution"
+   },
+   "note": "MOBY mouse-brain structures resolved at sub-millimetre resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "bfab13",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The Monte Carlo-based system matrix is shown to provide the best image quality"
+   },
+   "note": "Monte Carlo system matrix gives the best images (CRC, CoV, CW-SSIM) at a large one-off computing cost",
+   "status": "unchecked"
+  }
+ ]
+}

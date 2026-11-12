@@ -1,0 +1,215 @@
+{
+ "paper": "Peng2019a",
+ "annotations": [
+  {
+   "id": "b50f7f",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Each slab had a dimension of 13.34 × 13.34 × 2.76 mm3"
+   },
+   "value": {
+    "number": 2.76,
+    "unit": "mm",
+    "what": "slab thickness"
+   },
+   "note": "Four LYSO slabs of 13.34 x 13.34 x 2.76 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "8d386e",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "stacked along the depth direction with a pitch of 3.36 mm"
+   },
+   "value": {
+    "number": 3.36,
+    "unit": "mm",
+    "what": "layer pitch"
+   },
+   "note": "Slab pitch along depth",
+   "status": "unchecked"
+  },
+  {
+   "id": "30aa3a",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "films were glued between the crystal slabs"
+   },
+   "note": "ESR glued between slabs",
+   "status": "unchecked"
+  },
+  {
+   "id": "e16a42",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "4 × 4 SensL ArrayJ-30035-16P"
+   },
+   "note": "Four 4x4 SensL SiPM arrays on the four sides",
+   "status": "unchecked"
+  },
+  {
+   "id": "631f20",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "individually using a 64-channel TOFPET-2 module"
+   },
+   "value": {
+    "number": 64.0,
+    "unit": "channels",
+    "what": "readout channels"
+   },
+   "note": "64 SiPM channels read out individually by TOFPET2",
+   "status": "unchecked"
+  },
+  {
+   "id": "1ef556",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "with only one convolutional layer"
+   },
+   "note": "Positioning network has one convolutional layer",
+   "status": "unchecked"
+  },
+  {
+   "id": "0c8b16",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "169 different positions (13 × 13 grid with 1 mm pitch"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "training grid pitch"
+   },
+   "note": "Training: 0.6 mm collimated beam, perpendicular, 13x13 grid at 1 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "60cd75",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the collimated beam was moved in 0.25 mm steps"
+   },
+   "value": {
+    "number": 0.25,
+    "unit": "mm",
+    "what": "test step"
+   },
+   "note": "Test regions scanned in 0.25 mm steps, positions not in training",
+   "status": "unchecked"
+  },
+  {
+   "id": "a59d2a",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "the average FWHM resolution for this detector is 1.1 ± 0.1 mm"
+   },
+   "value": {
+    "number": 1.1,
+    "unit": "mm",
+    "what": "spatial resolution"
+   },
+   "note": "Weighted average over centre, four edges and four corners",
+   "status": "unchecked"
+  },
+  {
+   "id": "5d9ee7",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "The FWHM energy resolution for the 511 keV photopeak was 10.3%"
+   },
+   "value": {
+    "number": 10.3,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "After SiPM nonlinearity and interaction-position calibration",
+   "status": "unchecked"
+  },
+  {
+   "id": "f31efc",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "After calibrating the pulse amplitudes for the SiPM nonlinearity and interaction position"
+   },
+   "note": "Energy calibration: SiPM saturation and position",
+   "status": "unchecked"
+  },
+  {
+   "id": "7856c4",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "the entire detector, which is 348 ps"
+   },
+   "value": {
+    "number": 348.0,
+    "unit": "ps",
+    "what": "timing resolution"
+   },
+   "note": "Module timing resolution vs reference detector, whole detector",
+   "status": "unchecked"
+  },
+  {
+   "id": "3a1ee3",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the weights were the ADC values from the corresponding channels"
+   },
+   "note": "Module time = ADC-weighted average of all 64 SiPM timestamps",
+   "status": "unchecked"
+  },
+  {
+   "id": "948cc5",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Table 1. The FWHM spatial resolution for all three testing regions"
+   },
+   "note": "Table 1: 1-layer 0.90-1.18 mm; 2-layer 1.07-1.49 mm; 2-layer share 13.7% centre, 7.2% edge, 4.8% corner",
+   "status": "unchecked"
+  },
+  {
+   "id": "d45c6f",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "because Compton scattered photons have a high chance of escaping the detector"
+   },
+   "note": "Fewer two-layer events at edges and corners: scattered photon escapes",
+   "status": "unchecked"
+  },
+  {
+   "id": "c7f6f3",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "shows wider tails than the histogram for the 1-layer events"
+   },
+   "note": "Two-layer events have wider position-error tails",
+   "status": "unchecked"
+  },
+  {
+   "id": "1519bd",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the strategy (3) gave the best result for spatial resolution"
+   },
+   "note": "Of closest, furthest and max-energy layer, max-energy positions best",
+   "status": "unchecked"
+  }
+ ]
+}

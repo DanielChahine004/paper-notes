@@ -1,0 +1,245 @@
+{
+ "paper": "Ilisie2018",
+ "annotations": [
+  {
+   "id": "f4dcf1",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "using PENELOPE 2014 [2–4] and GATE 8.0 [5]. We always find perfect agreement within an error less than 1%"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "%",
+    "what": "code agreement"
+   },
+   "note": "Monte Carlo with PENELOPE and GATE, agreeing within 1%",
+   "status": "unchecked"
+  },
+  {
+   "id": "d418d5",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "LYSO 45.5% 48.8%"
+   },
+   "value": {
+    "number": 48.8,
+    "unit": "%",
+    "what": "Compton probability LYSO"
+   },
+   "note": "Table 1: 511 keV in LYSO, photoelectric 45.5% vs Compton 48.8%",
+   "status": "unchecked"
+  },
+  {
+   "id": "a1f82b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "LaBr3 29.2% 65.2%"
+   },
+   "value": {
+    "number": 65.2,
+    "unit": "%",
+    "what": "Compton probability LaBr3"
+   },
+   "note": "Table 1: 511 keV in LaBr3, photoelectric 29.2% vs Compton 65.2%",
+   "status": "unchecked"
+  },
+  {
+   "id": "7154bb",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "then an energy-weighted centroid is the given output for the coordinates of the reconstructed interaction point"
+   },
+   "note": "Photopeak multi-Compton event reduced to an energy-weighted centroid",
+   "status": "unchecked"
+  },
+  {
+   "id": "02774d",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "assuming that the coordinates of the first interaction points are known"
+   },
+   "note": "Fig. 3: Derenzo with first-interaction coordinates known vs centroid method",
+   "status": "unchecked"
+  },
+  {
+   "id": "26a217",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Using a PET as a double Compton camera, by means of Compton cone matching"
+   },
+   "note": "Double Compton camera: cone matching",
+   "status": "unchecked"
+  },
+  {
+   "id": "73cf1a",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "algorithm is equivalent to comparing cosines of geometrical angles"
+   },
+   "note": "Cone matching reduces to comparing cosines of geometric and Compton angles",
+   "status": "unchecked"
+  },
+  {
+   "id": "f6a7d2",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "is applied to discard randoms, patient scattered events and also, to perform a correct matching among events with multiple coincidences"
+   },
+   "note": "Cone matching rejects randoms, patient scatter, wrong pairings in multiple coincidences",
+   "status": "unchecked"
+  },
+  {
+   "id": "ee9f0d",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "the distribution obviously does not follow a Gaussian distribution (it is much more peaked)"
+   },
+   "note": "Doppler-broadened Compton-angle error is non-Gaussian, sharply peaked",
+   "status": "unchecked"
+  },
+  {
+   "id": "a89b5c",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "by treating it as a Gaussian error we would be largely overestimating the error"
+   },
+   "note": "Gaussian treatment overstates the Doppler error",
+   "status": "unchecked"
+  },
+  {
+   "id": "7f08ea",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "not to treat this error as Gaussian but to propagate it with Monte Carlo simulation techniques"
+   },
+   "note": "Doppler error propagated by Monte Carlo",
+   "status": "unchecked"
+  },
+  {
+   "id": "a7a39a",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "one is not able to distinguish among several Compton interactions with enough precision"
+   },
+   "note": "Premise: monolithic blocks on SiPMs cannot separate several Compton interactions; hence multi-layer",
+   "status": "unchecked"
+  },
+  {
+   "id": "832202",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "32 × 32 × 3 mm3, and the thick (most outer) layers are composed by LYSO blocks of dimensions 32 × 32 × 20 mm3"
+   },
+   "value": {
+    "number": 20.0,
+    "unit": "mm",
+    "what": "LYSO absorber thickness"
+   },
+   "note": "Inner LaBr3 3 mm layers, outer 20 mm LYSO absorber",
+   "status": "unchecked"
+  },
+  {
+   "id": "6233cc",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Here we shall analyse three possible values for ℎ: 3, 4 and 5 mm"
+   },
+   "note": "LaBr3 layer thickness 3-5 mm studied",
+   "status": "unchecked"
+  },
+  {
+   "id": "a2ce6f",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "equal or greater than 3 cm in order to ensure a reasonable time-of-flight resolution (∼100 ps)"
+   },
+   "value": {
+    "number": 100.0,
+    "unit": "ps",
+    "what": "TOF resolution"
+   },
+   "note": "Inter-layer distance >= 3 cm so ~100 ps TOF can order hits",
+   "status": "unchecked"
+  },
+  {
+   "id": "e59875",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "3.0 21.2 41.5"
+   },
+   "value": {
+    "number": 21.2,
+    "unit": "%",
+    "what": "interaction fraction (3 mm)"
+   },
+   "note": "Table 2: 3 mm LaBr3: 21.2% interact; 41.5% of those a single forward Compton",
+   "status": "unchecked"
+  },
+  {
+   "id": "8850db",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "2.7 8.8"
+   },
+   "value": {
+    "number": 8.8,
+    "unit": "%",
+    "what": "useful fraction (3 mm)"
+   },
+   "note": "Table 2: 3 mm LaBr3: 8.8% of all photons are a single forward Compton",
+   "status": "unchecked"
+  },
+  {
+   "id": "b1e3d2",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "4.4 11.7"
+   },
+   "value": {
+    "number": 11.7,
+    "unit": "%",
+    "what": "useful fraction (5 mm)"
+   },
+   "note": "Table 2: 5 mm LaBr3: 11.7% of all photons a single forward Compton",
+   "status": "unchecked"
+  },
+  {
+   "id": "841e49",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the complete pairing algorithm will be presented in detail in a future publication"
+   },
+   "note": "Full pairing algorithm deferred",
+   "status": "unchecked"
+  },
+  {
+   "id": "fbcf76",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "We defer for a forthcoming publication the simulation of a full PET system"
+   },
+   "note": "Full system simulation deferred",
+   "status": "unchecked"
+  }
+ ]
+}

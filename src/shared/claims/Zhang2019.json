@@ -1,0 +1,240 @@
+{
+ "paper": "Zhang2019",
+ "annotations": [
+  {
+   "id": "08bffa",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "consists of 11 slices of polished LYSO crystals measuring 1 9 37.6 9 10 mm3"
+   },
+   "value": {
+    "number": 37.6,
+    "unit": "mm",
+    "what": "slab length"
+   },
+   "note": "11 polished LYSO slabs of 1x37.6x10 mm3",
+   "status": "unchecked"
+  },
+  {
+   "id": "8cf14c",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "glued together with the ESR on both cross-sectional surfaces of each crystal slice"
+   },
+   "note": "ESR glued between the slabs",
+   "status": "unchecked"
+  },
+  {
+   "id": "973ce8",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "coupled to a 4 9 12 SiPM array with a 1.5 mm light guide"
+   },
+   "value": {
+    "number": 1.5,
+    "unit": "mm",
+    "what": "light guide thickness"
+   },
+   "note": "Bottom face on a 4x12 SiPM array through a 1.5 mm light guide",
+   "status": "unchecked"
+  },
+  {
+   "id": "c4a713",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Four row signals are used to identify slices"
+   },
+   "note": "4 row signals identify the slab, 12 column signals give y and depth",
+   "status": "unchecked"
+  },
+  {
+   "id": "417e23",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "the three crystal faces are painted with black paint first and then are wrapped with black tape"
+   },
+   "note": "Detector 1: top and both end faces black-painted and taped; detector 2 bare",
+   "status": "unchecked"
+  },
+  {
+   "id": "ee3235",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The second one is that neither reflector nor black paint is used on the three crystal faces"
+   },
+   "note": "Detector 2: top and ends bare",
+   "status": "unchecked"
+  },
+  {
+   "id": "10fb1f",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The estimated width of the gamma beam is around 0.5 mm"
+   },
+   "value": {
+    "number": 0.5,
+    "unit": "mm",
+    "what": "beam width"
+   },
+   "note": "Electronically collimated 511 keV beam width",
+   "status": "unchecked"
+  },
+  {
+   "id": "0fc383",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average full width half maxima (FWHM) spatial resolution is improved from 1.77 to 1.07 mm in the y direction"
+   },
+   "value": {
+    "number": 1.07,
+    "unit": "mm",
+    "what": "y resolution FWHM"
+   },
+   "note": "y FWHM by squared COG: 1.77 mm bare, 1.07 mm black-painted",
+   "status": "unchecked"
+  },
+  {
+   "id": "25be96",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "from 2.71 to 1.55 mm in the z direction by using the standard deviation method"
+   },
+   "value": {
+    "number": 1.55,
+    "unit": "mm",
+    "what": "DOI resolution FWHM"
+   },
+   "note": "DOI FWHM by SD method: 2.71 mm bare, 1.55 mm painted",
+   "status": "unchecked"
+  },
+  {
+   "id": "c89ef1",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The slice-based average energy resolution degrades from 15.8% to 24.9%"
+   },
+   "value": {
+    "number": 24.9,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Slice-based energy resolution: 15.8% bare, 24.9% painted",
+   "status": "unchecked"
+  },
+  {
+   "id": "005c9d",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The timing resolution of the entire detector module degrades from 596 to 788 ps"
+   },
+   "value": {
+    "number": 788.0,
+    "unit": "ps",
+    "what": "timing resolution"
+   },
+   "note": "Timing against reference: 596 ps bare, 788 ps painted",
+   "status": "unchecked"
+  },
+  {
+   "id": "5fca50",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The reference detector consists of an LYSO block of 20 9 12 9 10 mm3 coupling to a Hamamatsu R9800 single channel PMT"
+   },
+   "note": "Timing reference: 20x12x10 mm3 LYSO block on single-channel PMT, NIM electronics, CFD pickoff",
+   "status": "unchecked"
+  },
+  {
+   "id": "88f809",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "measured by using standard NIM electronics"
+   },
+   "note": "Timing measured with NIM electronics",
+   "status": "unchecked"
+  },
+  {
+   "id": "231428",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Positions less than 5 mm from both ends of the detector were excluded for position resolution estimation"
+   },
+   "value": {
+    "number": 5.0,
+    "unit": "mm",
+    "what": "end exclusion"
+   },
+   "note": "Resolutions only for positions more than 5 mm from slab ends",
+   "status": "unchecked"
+  },
+  {
+   "id": "7aa530",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The estimated y positions roughly linearly change with the true positions at the middle of the detector until ~5 mm from both ends"
+   },
+   "note": "y linear until about 5 mm from the ends",
+   "status": "unchecked"
+  },
+  {
+   "id": "295a97",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "Detector 1 1.44"
+   },
+   "value": {
+    "number": 1.44,
+    "unit": "mm",
+    "what": "y FWHM (COG, painted)"
+   },
+   "note": "Table I detector 1 (painted): y 1.44 COG, 1.07 squared COG; z 1.55 SD, 1.86 Max/Sum, 1.69 SSPI",
+   "status": "unchecked"
+  },
+  {
+   "id": "40b13d",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "Detector 2 2.31"
+   },
+   "value": {
+    "number": 2.31,
+    "unit": "mm",
+    "what": "y FWHM (COG, bare)"
+   },
+   "note": "Table I detector 2 (bare): y 2.31 COG, 1.77 squared COG; z 2.71 SD, 2.48 Max/Sum, 2.80 SSPI",
+   "status": "unchecked"
+  },
+  {
+   "id": "6666be",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "are 18.8%"
+   },
+   "value": {
+    "number": 18.8,
+    "unit": "%",
+    "what": "energy resolution (per position)"
+   },
+   "note": "Average over 11x342 per-position spectra: 18.8% painted, 13.6% bare",
+   "status": "unchecked"
+  }
+ ]
+}

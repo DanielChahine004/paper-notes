@@ -1,0 +1,708 @@
+{
+ "paper": "Shen2025",
+ "annotations": [
+  {
+   "id": "c780a0",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "classifying the mode of photon interaction using an InceptionNet-based classifier"
+   },
+   "note": "InceptionNet classifier for interaction mode",
+   "status": "unchecked"
+  },
+  {
+   "id": "8566b1",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "using both CNN- and InceptionNet-based regression networks"
+   },
+   "note": "CNN and InceptionNet regressors for the first point of interaction",
+   "status": "unchecked"
+  },
+  {
+   "id": "1857f1",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "categorise single-energy deposition events with an accuracy ≥ 90.1%"
+   },
+   "value": {
+    "number": 90.1,
+    "unit": "%",
+    "what": "classification accuracy"
+   },
+   "note": "Abstract: single-deposition events classified at >=90.1%",
+   "status": "unchecked"
+  },
+  {
+   "id": "edc86c",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "two-deposition interactions with an accuracy ≥ 77.6%"
+   },
+   "value": {
+    "number": 77.6,
+    "unit": "%",
+    "what": "classification accuracy"
+   },
+   "note": "Abstract: two-deposition events classified at >=77.6%",
+   "status": "unchecked"
+  },
+  {
+   "id": "694cc8",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "three-plus deposition interactions with an accuracy ≥ 66.7%"
+   },
+   "value": {
+    "number": 66.7,
+    "unit": "%",
+    "what": "classification accuracy"
+   },
+   "note": "Abstract: three-plus-deposition events at >=66.7% (body and Table 8 give 66.4% minimum)",
+   "status": "unchecked"
+  },
+  {
+   "id": "2d0f31",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "median total localisation error ranged from 0.58 mm to 2.91 mm with the CNN"
+   },
+   "value": {
+    "number": 0.58,
+    "unit": "mm",
+    "what": "median localisation error"
+   },
+   "note": "CNN median FPoI error 0.58-2.91 mm across materials, 50% QE",
+   "status": "unchecked"
+  },
+  {
+   "id": "2f32b9",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "0.59 mm to 2.10 mm with InceptionNet"
+   },
+   "value": {
+    "number": 0.59,
+    "unit": "mm",
+    "what": "median localisation error"
+   },
+   "note": "InceptionNet median FPoI error 0.59-2.10 mm across materials, 50% QE",
+   "status": "unchecked"
+  },
+  {
+   "id": "50b3ac",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Five nanocomposite materials"
+   },
+   "note": "Nine materials: five nanocomposites and four ceramics",
+   "status": "unchecked"
+  },
+  {
+   "id": "985edc",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "an optimal thickness (z) of Topt for each material taken from Wilson et al., 2020"
+   },
+   "note": "Slab thickness per material is the optimum from Wilson et al. 2020",
+   "status": "unchecked"
+  },
+  {
+   "id": "892a73",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "coupled to an array of silicon photodetector pixels via a layer of Meltmount"
+   },
+   "note": "Both faces read out through Meltmount optical resin",
+   "status": "unchecked"
+  },
+  {
+   "id": "7babd9",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "data from this ideal detector is then used for training the neural networks"
+   },
+   "note": "Networks trained at 100% QE; evaluated by dropping photons down to 30% QE",
+   "status": "unchecked"
+  },
+  {
+   "id": "9dfe82",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "For each material, 50,000 primary particles are simulated"
+   },
+   "value": {
+    "number": 50000.0,
+    "what": "primaries per material"
+   },
+   "note": "50,000 gammas simulated per material",
+   "status": "unchecked"
+  },
+  {
+   "id": "b6f200",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "quantised into 20×20 pixel arrays"
+   },
+   "note": "Optical photon maps on front and back planes, 20x20 pixels each",
+   "status": "unchecked"
+  },
+  {
+   "id": "10e27f",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the time at which the interaction occurred, and the identity of the parent event are also recorded"
+   },
+   "note": "GATE records interaction time (not used as a network input)",
+   "status": "unchecked"
+  },
+  {
+   "id": "104c9b",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "three output classes corresponding to one, two or three or more energy depositions"
+   },
+   "note": "Classifier has three classes: one, two, three-plus deposits",
+   "status": "unchecked"
+  },
+  {
+   "id": "1d88f4",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "with an accuracy between 90.1% and 91.4%"
+   },
+   "value": {
+    "number": 90.1,
+    "unit": "%",
+    "what": "classification accuracy"
+   },
+   "note": "Single-deposition accuracy 90.1-91.4% across materials",
+   "status": "unchecked"
+  },
+  {
+   "id": "330b26",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "the classifier achieved an accuracy between 77.6% and 81.7%"
+   },
+   "value": {
+    "number": 77.6,
+    "unit": "%",
+    "what": "classification accuracy"
+   },
+   "note": "Two-deposition accuracy 77.6-81.7%",
+   "status": "unchecked"
+  },
+  {
+   "id": "c93794",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "the accuracy dropped to 66.4–68.4%, with most errors being misclassified as single-deposition events"
+   },
+   "value": {
+    "number": 66.4,
+    "unit": "%",
+    "what": "classification accuracy"
+   },
+   "note": "Three-plus accuracy 66.4-68.4%, errors mostly called single",
+   "status": "unchecked"
+  },
+  {
+   "id": "ab7717",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Misclassifications in this category were most often multi-deposition events mistaken for single-deposition events"
+   },
+   "note": "Two-deposition errors mostly called single",
+   "status": "unchecked"
+  },
+  {
+   "id": "6acd48",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "performance was largely independent of the scintillator type"
+   },
+   "note": "Classification nearly material-independent",
+   "status": "unchecked"
+  },
+  {
+   "id": "e6e0d8",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "InceptionNet achieved a median error of between 0.59 mm (LuAG:Pr) and 1.13. mm (GYGAG:Ce)"
+   },
+   "value": {
+    "number": 1.13,
+    "unit": "mm",
+    "what": "median localisation error"
+   },
+   "note": "Ceramics, 50% QE: InceptionNet median 0.59-1.13 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "a46a9f",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "For the CNN, median error was between 0.58 mm (LuAG:Pr) and 0.99 mm (GYGAG:Ce)"
+   },
+   "value": {
+    "number": 0.58,
+    "unit": "mm",
+    "what": "median localisation error"
+   },
+   "note": "Ceramics, 50% QE: CNN median 0.58-0.99 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "78a953",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "InceptionNet achieved a median error of between 0.87 mm (LaBr3:Ce/PS) and 2.10 mm (LaF3:CE/OA)"
+   },
+   "value": {
+    "number": 0.87,
+    "unit": "mm",
+    "what": "median localisation error"
+   },
+   "note": "Nanocomposites, 50% QE: InceptionNet median 0.87-2.10 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "ce6a69",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The CNN achieved errors in the range 1.18 mm (LaBr3:Ce/PS) to 2.91 mm(Gd2O3/PVT)"
+   },
+   "value": {
+    "number": 2.91,
+    "unit": "mm",
+    "what": "median localisation error"
+   },
+   "note": "Nanocomposites, 50% QE: CNN median 1.18-2.91 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "33c84d",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "InceptionNet offered an average 46% improvement in accuracy over the CNN"
+   },
+   "value": {
+    "number": 46.0,
+    "unit": "%",
+    "what": "improvement over CNN"
+   },
+   "note": "Nanocomposites: InceptionNet 46% better than CNN on average",
+   "status": "unchecked"
+  },
+  {
+   "id": "1cd249",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "the median and mean errors were 1.2 mm and 2.3 mm for LaBr3:Ce/PS (compared with 0.87 mm and 1.58 mm obtained here)"
+   },
+   "value": {
+    "number": 1.2,
+    "unit": "mm",
+    "what": "median localisation error"
+   },
+   "note": "Earlier least-squares fit (Wilson) LaBr3:Ce/PS median 1.2 mm vs 0.87 mm here",
+   "status": "unchecked"
+  },
+  {
+   "id": "ffd9fe",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "a PET sinogram to be weighted according to the number of energy depositions"
+   },
+   "note": "Proposed, not done: weight sinogram contributions by deposit count",
+   "status": "unchecked"
+  },
+  {
+   "id": "6e1181",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "useful direction-of-arrival information that would be discarded if we used a simple energy window"
+   },
+   "note": "Proposed: keep Compton events that an energy window would discard",
+   "status": "unchecked"
+  },
+  {
+   "id": "b8b780",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Filtering Single- Deposition Events for FPoI"
+   },
+   "note": "Fig. 1 flow chart: a single-deposition filtering step before FPoI estimation",
+   "status": "unchecked"
+  },
+  {
+   "id": "de293d",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "approaches for (1) classifying the mode of photon interaction using an InceptionNet-based classifier"
+   },
+   "note": "InceptionNet classifier for the mode of interaction",
+   "status": "unchecked"
+  },
+  {
+   "id": "89f517",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "using both CNN- and InceptionNet-based regression networks"
+   },
+   "note": "CNN and InceptionNet regressors for the first point of interaction",
+   "status": "unchecked"
+  },
+  {
+   "id": "8d85bb",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "single-energy deposition events with an accuracy ≥ 90.1%"
+   },
+   "value": {
+    "number": 90.1,
+    "unit": "%",
+    "what": "classification accuracy"
+   },
+   "note": "Abstract: single-deposition events classified at >=90.1%",
+   "status": "unchecked"
+  },
+  {
+   "id": "508852",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "two-deposition interactions with an accuracy ≥ 77.6%"
+   },
+   "value": {
+    "number": 77.6,
+    "unit": "%",
+    "what": "classification accuracy"
+   },
+   "note": "Abstract: two-deposition events classified at >=77.6%",
+   "status": "unchecked"
+  },
+  {
+   "id": "112e35",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "three-plus deposition interactions with an accuracy ≥ 66.7%"
+   },
+   "value": {
+    "number": 66.7,
+    "unit": "%",
+    "what": "classification accuracy"
+   },
+   "note": "Abstract: three-plus deposition events >=66.7% (text and Table 8 give 66.4% minimum)",
+   "status": "unchecked"
+  },
+  {
+   "id": "c10a82",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "median total localisation error ranged from 0.58 mm to 2.91 mm with the CNN"
+   },
+   "value": {
+    "number": 0.58,
+    "unit": "mm",
+    "what": "median localisation error"
+   },
+   "note": "CNN median FPoI error 0.58-2.91 mm across materials, 50% QE",
+   "status": "unchecked"
+  },
+  {
+   "id": "41c661",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "0.59 mm to 2.10 mm with InceptionNet"
+   },
+   "value": {
+    "number": 0.59,
+    "unit": "mm",
+    "what": "median localisation error"
+   },
+   "note": "InceptionNet median FPoI error 0.59-2.10 mm across materials, 50% QE",
+   "status": "unchecked"
+  },
+  {
+   "id": "4f8c38",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Five nanocomposite materials"
+   },
+   "note": "Five nanocomposites and four ceramics simulated",
+   "status": "unchecked"
+  },
+  {
+   "id": "672911",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "an optimal thickness (z) of Topt for each material taken from Wilson et al., 2020"
+   },
+   "note": "Slab thickness per material from Wilson et al. 2020's optimum",
+   "status": "unchecked"
+  },
+  {
+   "id": "215176",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "coupled to an array of silicon photodetector pixels via a layer of Meltmount"
+   },
+   "note": "Both faces read out through Meltmount",
+   "status": "unchecked"
+  },
+  {
+   "id": "47424a",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "For each material, 50,000 primary particles are simulated"
+   },
+   "value": {
+    "number": 50000.0,
+    "what": "primaries per material"
+   },
+   "note": "50,000 gammas per material",
+   "status": "unchecked"
+  },
+  {
+   "id": "b3371f",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "data from this ideal detector is then used for training the neural networks"
+   },
+   "note": "Trained at 100% QE; evaluated with photons removed, QE 100% down to 30%",
+   "status": "unchecked"
+  },
+  {
+   "id": "0c2d0a",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the time at which the interaction occurred, and the identity of the parent event are also recorded"
+   },
+   "note": "GATE records interaction time (ground truth), not a network input",
+   "status": "unchecked"
+  },
+  {
+   "id": "9b823f",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "a neural network classifier is designed with three output classes"
+   },
+   "note": "Classifier: one, two, three-plus energy depositions",
+   "status": "unchecked"
+  },
+  {
+   "id": "b80da5",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Filtering Single- Deposition Events for FPoI"
+   },
+   "note": "Fig. 1 flow chart: single-deposition events filtered before FPoI estimation",
+   "status": "unchecked"
+  },
+  {
+   "id": "9fc1a1",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "with an accuracy between 90.1% and 91.4%"
+   },
+   "value": {
+    "number": 90.1,
+    "unit": "%",
+    "what": "classification accuracy"
+   },
+   "note": "Single-deposition accuracy 90.1-91.4%",
+   "status": "unchecked"
+  },
+  {
+   "id": "c62f81",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "the classifier achieved an accuracy between 77.6% and 81.7%"
+   },
+   "value": {
+    "number": 77.6,
+    "unit": "%",
+    "what": "classification accuracy"
+   },
+   "note": "Two-deposition accuracy 77.6-81.7%",
+   "status": "unchecked"
+  },
+  {
+   "id": "fdee04",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "the accuracy dropped to 66.4–68.4%, with most errors being misclassified as single-deposition events"
+   },
+   "value": {
+    "number": 66.4,
+    "unit": "%",
+    "what": "classification accuracy"
+   },
+   "note": "Three-plus accuracy 66.4-68.4%, errors mostly called single",
+   "status": "unchecked"
+  },
+  {
+   "id": "0393db",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Misclassifications in this category were most often multi-deposition events mistaken for single-deposition events"
+   },
+   "note": "Two-deposition errors mostly called single",
+   "status": "unchecked"
+  },
+  {
+   "id": "03aca4",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "largely independent of the scintillator type"
+   },
+   "note": "Classification nearly material-independent",
+   "status": "unchecked"
+  },
+  {
+   "id": "38bd39",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "InceptionNet achieved a median error of between 0.59 mm (LuAG:Pr) and 1.13. mm (GYGAG:Ce)"
+   },
+   "value": {
+    "number": 1.13,
+    "unit": "mm",
+    "what": "median localisation error"
+   },
+   "note": "Ceramics, InceptionNet, 50% QE; CNN 0.58-0.99 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "899b4f",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "InceptionNet achieved a median error of between 0.87 mm (LaBr3:Ce/PS) and 2.10 mm"
+   },
+   "value": {
+    "number": 0.87,
+    "unit": "mm",
+    "what": "median localisation error"
+   },
+   "note": "Nanocomposites, InceptionNet, 50% QE",
+   "status": "unchecked"
+  },
+  {
+   "id": "c0786d",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The CNN achieved errors in the range 1.18 mm (LaBr3:Ce/PS) to 2.91 mm"
+   },
+   "value": {
+    "number": 2.91,
+    "unit": "mm",
+    "what": "median localisation error"
+   },
+   "note": "Nanocomposites, CNN, 50% QE",
+   "status": "unchecked"
+  },
+  {
+   "id": "53b4c3",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "InceptionNet offered an average 46% improvement in accuracy over the CNN"
+   },
+   "value": {
+    "number": 46.0,
+    "unit": "%",
+    "what": "improvement"
+   },
+   "note": "Nanocomposites: InceptionNet beats CNN by 46% on average",
+   "status": "unchecked"
+  },
+  {
+   "id": "43fda2",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "the median and mean errors were 1.2 mm and 2.3 mm for LaBr3:Ce/PS (compared with 0.87 mm and 1.58 mm obtained here)"
+   },
+   "value": {
+    "number": 1.2,
+    "unit": "mm",
+    "what": "median localisation error"
+   },
+   "note": "Earlier least-squares fit (Wilson) LaBr3:Ce/PS median 1.2 mm vs 0.87 mm here",
+   "status": "unchecked"
+  },
+  {
+   "id": "7a27b0",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "a PET sinogram to be weighted according to the number of energy depositions"
+   },
+   "note": "Proposed, future work: weight sinogram contributions by deposit count",
+   "status": "unchecked"
+  },
+  {
+   "id": "183217",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "would be discarded if we used a simple energy window to filter out only photoelectric events"
+   },
+   "note": "Proposed: keep Compton events an energy window would drop",
+   "status": "unchecked"
+  }
+ ]
+}

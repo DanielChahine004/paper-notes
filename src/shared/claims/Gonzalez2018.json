@@ -1,0 +1,205 @@
+{
+ "paper": "Gonzalez2018",
+ "annotations": [
+  {
+   "id": "7a2230",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "a small-animal PET scanner based on a single monolithic annulus-like scintillator"
+   },
+   "note": "Proposed design: a single monolithic annulus-like LYSO scintillator",
+   "status": "unchecked"
+  },
+  {
+   "id": "5819b7",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The system is composed from 3 rings of 8 of those described trapezoidal monolithic LYSO"
+   },
+   "note": "Bruker PET insert used for the experiment: 3 rings of 8 trapezoidal monolithic LYSO blocks",
+   "status": "unchecked"
+  },
+  {
+   "id": "fd10ec",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "also with LORs involving only the inner 60% of each block"
+   },
+   "value": {
+    "number": 60.0,
+    "unit": "%",
+    "what": "block region kept"
+   },
+   "note": "Filtered reconstruction keeps only LORs in the inner 60% of each block",
+   "status": "unchecked"
+  },
+  {
+   "id": "9a0ab6",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "the fitted Gaussian width was 1.45 mm FWHM on average for the original data set and 1.19 mm for the filtered data set"
+   },
+   "value": {
+    "number": 1.19,
+    "unit": "mm",
+    "what": "rod FWHM"
+   },
+   "note": "Measured mini-Derenzo, 1 mm rods: 1.45 mm FWHM with all events, 1.19 mm with inner-60% events",
+   "status": "unchecked"
+  },
+  {
+   "id": "d62d27",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "roughly a 25% increase in resolution"
+   },
+   "value": {
+    "number": 25.0,
+    "unit": "%",
+    "what": "resolution improvement"
+   },
+   "note": "Resolution improvement from removing edge events",
+   "status": "unchecked"
+  },
+  {
+   "id": "cd495b",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "We have implemented the described geometry in GATE (v7.2)"
+   },
+   "note": "Tube geometry simulated in GATE v7.2",
+   "status": "unchecked"
+  },
+  {
+   "id": "0ba95c",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "examined only the nuclear interactions"
+   },
+   "note": "Nuclear-only simulation; no light propagation",
+   "status": "unchecked"
+  },
+  {
+   "id": "a66b75",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "for two axial lengths 26 and 52 mm"
+   },
+   "note": "NECR simulated for axial lengths 26 and 52 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "cc8400",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "a system sensitivity of 5.3"
+   },
+   "value": {
+    "number": 5.3,
+    "unit": "%",
+    "what": "sensitivity"
+   },
+   "note": "Simulated sensitivity of the tube, 0.25 mm point source, 26 mm axial: 5.3%",
+   "status": "unchecked"
+  },
+  {
+   "id": "741c1d",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "the calculated sensitivities decrease to 3.7 and 2.0%, respectively (about 30% reduction)"
+   },
+   "value": {
+    "number": 3.7,
+    "unit": "%",
+    "what": "sensitivity"
+   },
+   "note": "Multi-module design: 3.7% (point) and 2.0% (line), described as about 30% reduction",
+   "status": "unchecked"
+  },
+  {
+   "id": "b3f0db",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "cylindrical-like shape but with ten facetted external exit faces"
+   },
+   "note": "Tube with ten facetted outer faces",
+   "status": "unchecked"
+  },
+  {
+   "id": "948a35",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Inner diameter was selected as about 60 mm"
+   },
+   "value": {
+    "number": 60.0,
+    "unit": "mm",
+    "what": "inner diameter"
+   },
+   "note": "Inner diameter ~60 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "b0793d",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "diameter of about 80 mm"
+   },
+   "value": {
+    "number": 80.0,
+    "unit": "mm",
+    "what": "outer diameter"
+   },
+   "note": "Largest outer diameter ~80 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "7d7be2",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Narrower distributions are observed at 0 and 26 mm, since these are the centers of the facetted faces"
+   },
+   "value": {
+    "number": 26.0,
+    "unit": "mm",
+    "what": "facet pitch"
+   },
+   "note": "Facet centres 26 mm apart (light simulation)",
+   "status": "unchecked"
+  },
+  {
+   "id": "adc898",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The axial projection would be used both to locate the impact coordinates and to provide DOI information"
+   },
+   "note": "Axial projection used for impact coordinates and DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "67aa8d",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "since both the sources and the smallest rods are clearly resolved"
+   },
+   "note": "Simulated Derenzo (rods 1-2.5 mm) and point sources reconstructed and resolved",
+   "status": "unchecked"
+  }
+ ]
+}

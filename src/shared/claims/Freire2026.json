@@ -1,0 +1,571 @@
+{
+ "paper": "Freire2026",
+ "annotations": [
+  {
+   "id": "87937f",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "composed of 14 curved LYSO monolithic scintillators of 12.5 mm thickness glued side-by-side"
+   },
+   "value": {
+    "number": 12.5,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "14 curved monolithic LYSO crystals, 12.5 mm thick, glued into one ring",
+   "status": "unchecked"
+  },
+  {
+   "id": "c3c5f4",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Meltmount from Cargille Labs (nMelt=1.7)"
+   },
+   "value": {
+    "number": 1.7,
+    "what": "glue refractive index"
+   },
+   "note": "Glue: Meltmount, refractive index 1.7",
+   "status": "unchecked"
+  },
+  {
+   "id": "94f9ac",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "14 curved LYSO crystals (nLYSO=1.8)"
+   },
+   "value": {
+    "number": 1.8,
+    "what": "LYSO refractive index"
+   },
+   "note": "LYSO refractive index 1.8",
+   "status": "unchecked"
+  },
+  {
+   "id": "545593",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "has inner and outer diameters of 200 mm and 225 mm"
+   },
+   "value": {
+    "number": 200.0,
+    "unit": "mm",
+    "what": "inner diameter"
+   },
+   "note": "Ring inner/outer diameter 200/225 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "7efb0a",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The system defines an axial length of 50 mm"
+   },
+   "value": {
+    "number": 50.0,
+    "unit": "mm",
+    "what": "axial length"
+   },
+   "note": "Axial length",
+   "status": "unchecked"
+  },
+  {
+   "id": "76a529",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "This defines a useful transaxial FOV of 160 mm"
+   },
+   "value": {
+    "number": 160.0,
+    "unit": "mm",
+    "what": "transaxial FOV"
+   },
+   "note": "Useful transaxial FOV (each module in coincidence with seven opposite)",
+   "status": "unchecked"
+  },
+  {
+   "id": "f6dc68",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "All crystal faces were polished, and both the inner face and top and bottom faces of the ring were black painted"
+   },
+   "note": "All faces polished; inner, top and bottom faces black painted",
+   "status": "unchecked"
+  },
+  {
+   "id": "412fa0",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "containing 12 × 12 SiPM elements (3 × 3 mm2 active area, 4.36 mm pitch)"
+   },
+   "value": {
+    "number": 4.36,
+    "unit": "mm",
+    "what": "SiPM pitch"
+   },
+   "note": "14 PCBs, each 12x12 onsemi J-series SiPMs at 4.36 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "befc2c",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "reducing the number of signals from 124 (12 × 12) to 24 (12 + 12)"
+   },
+   "value": {
+    "number": 24.0,
+    "what": "signals per board"
+   },
+   "note": "Row-and-column readout, 24 signals per board",
+   "status": "unchecked"
+  },
+  {
+   "id": "dddba6",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "so a total of 168 signal values are used"
+   },
+   "value": {
+    "number": 168.0,
+    "what": "transaxial inputs"
+   },
+   "note": "Transaxial input: rows of all 14 modules summed, 168 signals",
+   "status": "unchecked"
+  },
+  {
+   "id": "304299",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "summation of the column signals from the 3 involved modules"
+   },
+   "note": "Axial input: 12 column signals summed over the 3 involved modules",
+   "status": "unchecked"
+  },
+  {
+   "id": "984e9f",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Both MLPs are composed of 3 layers, with 64, 128, and 32 nodes"
+   },
+   "note": "Two MLPs (MLPX, MLPY) with 64-128-32 nodes",
+   "status": "unchecked"
+  },
+  {
+   "id": "50df92",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "a fan beam collimator composed of two tungsten collimators"
+   },
+   "note": "Training data from a tungsten fan-beam collimator on the mounted system (rotated transaxially, moved axially)",
+   "status": "unchecked"
+  },
+  {
+   "id": "cd4432",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "reduce the acquisition time from 11 days"
+   },
+   "value": {
+    "number": 3.6,
+    "unit": "days",
+    "what": "calibration acquisition time"
+   },
+   "note": "Training acquisition reduced from 11 days to 3.6 days",
+   "status": "unchecked"
+  },
+  {
+   "id": "dac2de",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "calculated as the ratio of the energy (E) to the maximum row value (Imax)"
+   },
+   "note": "DOI from E/Imax",
+   "status": "unchecked"
+  },
+  {
+   "id": "1de84a",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "The energy and DOI were calibrated into keV and mm units, respectively, using the Voronoi calibration methodology"
+   },
+   "note": "Energy and DOI calibrated with Voronoi regions",
+   "status": "unchecked"
+  },
+  {
+   "id": "9cc990",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "358–409 keV for scatter estimation and 408–613 keV for true coincidences"
+   },
+   "note": "Dual-energy-window scatter correction windows",
+   "status": "unchecked"
+  },
+  {
+   "id": "ae7977",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "a synthetic attenuation map based on the position of each phantom"
+   },
+   "note": "Attenuation from a synthetic map",
+   "status": "unchecked"
+  },
+  {
+   "id": "f07105",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Experimental data were acquired for 6 h"
+   },
+   "value": {
+    "number": 6.0,
+    "unit": "h",
+    "what": "normalisation scan"
+   },
+   "note": "Normalisation from a 6 h ring-phantom scan",
+   "status": "unchecked"
+  },
+  {
+   "id": "7fbd62",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Random, dead time and quantification corrections have not been implemented yet"
+   },
+   "note": "No randoms, dead-time or quantification correction",
+   "status": "unchecked"
+  },
+  {
+   "id": "a098f8",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "1.7 mm, 1.7 mm, and 1.3 mm FWHM were achieved at the cFOV for radial, tangential, and axial directions"
+   },
+   "value": {
+    "number": 1.7,
+    "unit": "mm",
+    "what": "radial spatial resolution"
+   },
+   "note": "OSEM spatial resolution at centre with DOI: 1.7 radial, 1.7 tangential, 1.3 axial mm FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "c6cd01",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "An average spatial resolution of 1.9 ± 0.1 mm, 1.9 ± 0.1 mm and 1.7 ± 0.1 mm FWHM was achieved at the center of the axial FOV"
+   },
+   "value": {
+    "number": 1.9,
+    "unit": "mm",
+    "what": "average radial resolution"
+   },
+   "note": "Average resolution over radial positions, axial centre: 1.9/1.9/1.7 mm radial/tangential/axial",
+   "status": "unchecked"
+  },
+  {
+   "id": "705bd2",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "the dispersion of the spatial resolution for each component (radial, tangential and axial) along the different radial positions is at most 10%"
+   },
+   "value": {
+    "number": 10.0,
+    "unit": "%",
+    "what": "resolution dispersion"
+   },
+   "note": "Resolution varies at most 10% across radial positions",
+   "status": "unchecked"
+  },
+  {
+   "id": "f741fd",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "all the hot spots from 4.8 to 2.4 mm can be resolved"
+   },
+   "value": {
+    "number": 2.4,
+    "unit": "mm",
+    "what": "smallest resolved rods"
+   },
+   "note": "Derenzo-like phantom resolved down to 2.4 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "d0bc9d",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "an average DOI resolution of 3.6 ± 0.1 mm"
+   },
+   "value": {
+    "number": 3.6,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Average detector-level DOI resolution over 14 modules",
+   "status": "unchecked"
+  },
+  {
+   "id": "7396d3",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "An average energy resolution of 19 ± 2%"
+   },
+   "value": {
+    "number": 19.0,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Average detector-level energy resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "5196d3",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "The energy resolution performance could be improved by using reflective coatings on the crystal sides instead of black paint"
+   },
+   "note": "Authors attribute energy resolution to black paint",
+   "status": "unchecked"
+  },
+  {
+   "id": "d3df4d",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "the peak sensitivity calculated for this energy window was 2.0%"
+   },
+   "value": {
+    "number": 2.0,
+    "unit": "%",
+    "what": "peak sensitivity"
+   },
+   "note": "Peak sensitivity at centre, 408-613 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "6e7970",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "An improvement of about 21% compared to a traditional design with 5 mm gaps was estimated using theoretical calculations"
+   },
+   "value": {
+    "number": 21.0,
+    "unit": "%",
+    "what": "efficiency gain"
+   },
+   "note": "Theoretical efficiency gain of the gapless ring vs 5 mm gaps",
+   "status": "unchecked"
+  },
+  {
+   "id": "a8944b",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "A maximum NECR of 15 kcps at 13.4 MBq"
+   },
+   "value": {
+    "number": 15.0,
+    "unit": "kcps",
+    "what": "NECR peak"
+   },
+   "note": "NECR peak, NEMA NU 4 rat-like phantom",
+   "status": "unchecked"
+  },
+  {
+   "id": "bdfbdc",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "approximately linear for activities lower than ∼7 MBq and worsens from ∼20 MBq"
+   },
+   "value": {
+    "number": 7.0,
+    "unit": "MBq",
+    "what": "linear range"
+   },
+   "note": "NECR linear below ~7 MBq, degrades from ~20 MBq (electronics saturation)",
+   "status": "unchecked"
+  },
+  {
+   "id": "3a8f1b",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "These electronics do not provide TOF capabilities"
+   },
+   "note": "No TOF",
+   "status": "unchecked"
+  },
+  {
+   "id": "9313fe",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "a trigger card with a coincidence time window of 5 ns"
+   },
+   "value": {
+    "number": 5.0,
+    "unit": "ns",
+    "what": "coincidence window"
+   },
+   "note": "Coincidence window",
+   "status": "unchecked"
+  },
+  {
+   "id": "96be06",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The ADCs were programmed with a 250 ns integration window"
+   },
+   "value": {
+    "number": 250.0,
+    "unit": "ns",
+    "what": "integration window"
+   },
+   "note": "ADC integration window",
+   "status": "unchecked"
+  },
+  {
+   "id": "da92ce",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "A uniformity value (STDbackground) of 5% was determined"
+   },
+   "value": {
+    "number": 5.0,
+    "unit": "%",
+    "what": "uniformity"
+   },
+   "note": "NEMA NU 4 IQ uniformity",
+   "status": "unchecked"
+  },
+  {
+   "id": "a27b29",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "SOR values of 6% and 23% were obtained for air and water"
+   },
+   "value": {
+    "number": 6.0,
+    "unit": "%",
+    "what": "SOR air"
+   },
+   "note": "Spill-over ratios air/water",
+   "status": "unchecked"
+  },
+  {
+   "id": "528814",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "percent contrast values of 27.9%, 28.8%, 56.8%, 72.5%, 87.2% and 84.2%"
+   },
+   "value": {
+    "number": 27.9,
+    "unit": "%",
+    "what": "contrast 4.5 mm"
+   },
+   "note": "Dedicated IQ (5:1) percent contrast for 4.5 to 20 mm inserts",
+   "status": "unchecked"
+  },
+  {
+   "id": "79c987",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "MAMMI LYSO monolithic Yes 170−40 1.8–7.0*** 1.6"
+   },
+   "value": {
+    "number": 1.6,
+    "unit": "%",
+    "what": "MAMMI sensitivity"
+   },
+   "note": "Table 2: MAMMI radial resolution 1.8-7.0 mm, sensitivity 1.6%",
+   "status": "unchecked"
+  },
+  {
+   "id": "dac0a5",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "Elmammo LGSO pixelated Yes 183−155 1.6–2.7* 11.2"
+   },
+   "value": {
+    "number": 11.2,
+    "unit": "%",
+    "what": "Elmammo sensitivity"
+   },
+   "note": "Table 2: Elmammo 1.6-2.7 mm, 11.2% sensitivity",
+   "status": "unchecked"
+  },
+  {
+   "id": "93f708",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "could not be applied to the DeepBreast because of limitations in the scintillation crystal growth process of LYSO"
+   },
+   "note": "Single-tube approach not applicable at DeepBreast size due to LYSO crystal growth limits (ref 60, J Cryst Growth 2013)",
+   "status": "unchecked"
+  },
+  {
+   "id": "29110b",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "of ∼ 100 ps would be required to achieve a substantial effect"
+   },
+   "value": {
+    "number": 100.0,
+    "unit": "ps",
+    "what": "CTR needed"
+   },
+   "note": "CTR needed for TOF to matter at ~200 mm bore",
+   "status": "unchecked"
+  },
+  {
+   "id": "13d827",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "at different radial distances ranging from 0 mm to 80 mm, in steps of 10 mm"
+   },
+   "value": {
+    "number": 80.0,
+    "unit": "mm",
+    "what": "max radial position"
+   },
+   "note": "Point source measured at radial positions 0-80 mm",
+   "status": "unchecked"
+  }
+ ]
+}

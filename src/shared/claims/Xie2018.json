@@ -1,0 +1,150 @@
+{
+ "paper": "Xie2018",
+ "annotations": [
+  {
+   "id": "8cae36",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "from a LYSO boule by using two diggers with different diameters"
+   },
+   "note": "Ring cut from the boule with two core drills",
+   "status": "unchecked"
+  },
+  {
+   "id": "7e0ccf",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "a polyurethane polishing pad and a CeO2 solution for the polishing"
+   },
+   "note": "Polished with polyurethane pad and CeO2",
+   "status": "unchecked"
+  },
+  {
+   "id": "1658ee",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The hollow LYSO scintillator ring is fragile and brittle"
+   },
+   "note": "Brittle hollow ring needs ultra-precision polishing",
+   "status": "unchecked"
+  },
+  {
+   "id": "5d847b",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "the roughness of the polished surfaces of the MSR detector ring using atomic force microscopy"
+   },
+   "note": "Roughness measured by AFM",
+   "status": "unchecked"
+  },
+  {
+   "id": "af5868",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "the top surface and outer surface being 1.50nm and 2.61nm"
+   },
+   "value": {
+    "number": 1.5,
+    "unit": "nm",
+    "what": "surface roughness Ra"
+   },
+   "note": "Ra 1.50 nm on the top (end) surface, 2.61 nm on the outer surface",
+   "status": "unchecked"
+  },
+  {
+   "id": "1ef096",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "intrinsic full width at half maximums (FWHMs) and MAEs across 19 positions were 0.94 mm"
+   },
+   "value": {
+    "number": 0.94,
+    "unit": "mm",
+    "what": "intrinsic angular FWHM"
+   },
+   "note": "Intrinsic theta FWHM over 19 positions",
+   "status": "unchecked"
+  },
+  {
+   "id": "f5f3da",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The mean and STD of the FWHMs and MAEs were 2.45"
+   },
+   "value": {
+    "number": 2.45,
+    "unit": "mm",
+    "what": "axial resolution FWHM"
+   },
+   "note": "Axial FWHM by ANN",
+   "status": "unchecked"
+  },
+  {
+   "id": "d998b0",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "an outstanding energy resolution of 10.7% at the peak of 511keV"
+   },
+   "value": {
+    "number": 10.7,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution at 511 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "e8b12c",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Twelve SMR were stacked axially together and separated by BaSO4"
+   },
+   "note": "Second generation: twelve 1 mm ring slices separated by BaSO4",
+   "status": "unchecked"
+  },
+  {
+   "id": "ee18f3",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The SiPM arrays were coupled to the outer surface of the SMR"
+   },
+   "note": "Second generation read on the outer surface",
+   "status": "unchecked"
+  },
+  {
+   "id": "248471",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "different diameters (1.0, 1.4, 1.8, 2.2, 2.6 and 3.0 mm"
+   },
+   "note": "Hot-rod phantom sectors 1.0-3.0 mm; no 1.2 mm sector",
+   "status": "unchecked"
+  },
+  {
+   "id": "b38141",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "rods with a diameter of as low as 1.4 mm can be resolved"
+   },
+   "value": {
+    "number": 1.4,
+    "unit": "mm",
+    "what": "Derenzo rods resolved"
+   },
+   "note": "Smallest resolved rods 1.4 mm",
+   "status": "unchecked"
+  }
+ ]
+}

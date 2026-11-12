@@ -1,0 +1,264 @@
+{
+ "paper": "Krishnamoorthy2018",
+ "annotations": [
+  {
+   "id": "f9cf39",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "an 8 mm thick monolithic LYSO scintillator read-out by an array of 3 mm × 3 mm Hamamatsu silicon photomultipliers"
+   },
+   "value": {
+    "number": 8.0,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "8 mm monolithic LYSO on 3x3 mm Hamamatsu SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "5b1627",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "25.4 mm × 25.4 mm × 8 mm thick monolithic LYSO scintillator block coupled to an array of 3.2 mm × 3.2 mm"
+   },
+   "value": {
+    "number": 3.2,
+    "unit": "mm",
+    "what": "SiPM pitch"
+   },
+   "note": "Detector: 25.4x25.4x8 mm LYSO block on 3.2x3.2 mm SiPM array",
+   "status": "unchecked"
+  },
+  {
+   "id": "33075c",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "A total of 45 PET detectors are arranged in five PET rings to provide a scanner diameter of 7.6 cm and an axial length of 13 cm"
+   },
+   "value": {
+    "number": 7.6,
+    "unit": "cm",
+    "what": "ring diameter"
+   },
+   "note": "45 detectors in five rings (9 per ring, Table 1); 7.6 cm diameter, 13 cm axial",
+   "status": "unchecked"
+  },
+  {
+   "id": "4eb99d",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Spatial resolution of 1 mm is measured with a filtered-back projection reconstruction algorithm at the center of the scanner"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "spatial resolution"
+   },
+   "note": "1 mm resolution at centre with FBP",
+   "status": "unchecked"
+  },
+  {
+   "id": "bd4776",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "radial spatial resolution of 1.06 mm (1.74 mm FWTM)"
+   },
+   "value": {
+    "number": 1.06,
+    "unit": "mm",
+    "what": "radial resolution"
+   },
+   "note": "Radial FWHM at centre, FBP",
+   "status": "unchecked"
+  },
+  {
+   "id": "e24d61",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "an average spatial resolution of 1.1 mm (1.97 mm FWTM)"
+   },
+   "value": {
+    "number": 1.1,
+    "unit": "mm",
+    "what": "average resolution"
+   },
+   "note": "Average resolution at the axial centre",
+   "status": "unchecked"
+  },
+  {
+   "id": "948954",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "the 1 mm3 volumetric resolution"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm3",
+    "what": "volumetric resolution"
+   },
+   "note": "Volumetric resolution 1 mm3",
+   "status": "unchecked"
+  },
+  {
+   "id": "9e4ea2",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "an average of 0.78 mm over the central 80% of the detector to 0.9 mm over the entire detector"
+   },
+   "value": {
+    "number": 0.78,
+    "unit": "mm",
+    "what": "detector resolution"
+   },
+   "note": "Detector resolution 0.78 mm (central 80%) to 0.9 mm (whole detector)",
+   "status": "unchecked"
+  },
+  {
+   "id": "c1bcd9",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "excellent energy resolution (12%)"
+   },
+   "value": {
+    "number": 12.0,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "011512",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "facilitates a 5-layer DOI measurement"
+   },
+   "value": {
+    "number": 5.0,
+    "what": "DOI layers"
+   },
+   "note": "Five DOI layers",
+   "status": "unchecked"
+  },
+  {
+   "id": "0e77f9",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "A DOI resolution of 1.6 mm"
+   },
+   "value": {
+    "number": 1.6,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "DOI resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "51fe1b",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "a maximum absolute sensitivity of 12.4% is measured at the center of the scanner with a 50% energy window (255–765 keV)"
+   },
+   "value": {
+    "number": 12.4,
+    "unit": "%",
+    "what": "peak sensitivity"
+   },
+   "note": "Peak absolute sensitivity, 255-765 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "b21599",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "an absolute peak sensitivity of 5.7% was measured"
+   },
+   "value": {
+    "number": 5.7,
+    "unit": "%",
+    "what": "peak sensitivity (15%)"
+   },
+   "note": "Peak sensitivity at default 15% window (435-588 keV)",
+   "status": "unchecked"
+  },
+  {
+   "id": "5cf08a",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "300 kcps and 160 kcps was measured at 900 µCi and with the default scanner energy window of ±15%"
+   },
+   "value": {
+    "number": 300.0,
+    "unit": "kcps",
+    "what": "peak NEC"
+   },
+   "note": "Peak NEC mouse 300 kcps, rat 160 kcps, default 15% window",
+   "status": "unchecked"
+  },
+  {
+   "id": "f4bf50",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "~70% CRC is measured for rods with 2 mm diameter"
+   },
+   "value": {
+    "number": 70.0,
+    "unit": "%",
+    "what": "CRC 2 mm"
+   },
+   "note": "CRC for 2 mm rods",
+   "status": "unchecked"
+  },
+  {
+   "id": "cdaf16",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "utilizes a maximum likelihood (ML) clustering algorithm to estimate the 3D location of each interaction"
+   },
+   "note": "Positioning by ML clustering",
+   "status": "unchecked"
+  },
+  {
+   "id": "af8ba8",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the light-spread model for each DOI layer and 2D location on the detector surface"
+   },
+   "note": "Light-spread model trained per DOI layer and 2D position",
+   "status": "unchecked"
+  },
+  {
+   "id": "d98ed8",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "with a 511 keV source that is collimated to 400 µm"
+   },
+   "value": {
+    "number": 400.0,
+    "unit": "um",
+    "what": "beam width"
+   },
+   "note": "Calibration with 400 um collimated 511 keV beam on a 3D robot stage",
+   "status": "unchecked"
+  }
+ ]
+}

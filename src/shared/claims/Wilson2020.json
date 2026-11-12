@@ -1,0 +1,60 @@
+{
+ "paper": "Wilson2020",
+ "annotations": [
+  {
+   "id": "ad805c",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "a method for optimising scintillator thickness to maximise the probability of locating the point of interaction of 511 keV photons"
+   },
+   "note": "Thickness chosen to maximise the probability of localising a 511 keV interaction within an error bound",
+   "status": "unchecked"
+  },
+  {
+   "id": "f249e7",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "five nanocomposite materials"
+   },
+   "note": "Five nanocomposites evaluated",
+   "status": "unchecked"
+  },
+  {
+   "id": "4de9c9",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "four ceramics (GAGG:Ce, GLuGAG:Ce, GYGAG:Ce and LuAG:Pr)"
+   },
+   "note": "Four ceramics evaluated",
+   "status": "unchecked"
+  },
+  {
+   "id": "6fd5e9",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "maximum sensitivities of 48.8% and 67.8% for 5 mm localisation accuracy"
+   },
+   "value": {
+    "number": 48.8,
+    "unit": "%",
+    "what": "sensitivity"
+   },
+   "note": "Max sensitivity at 5 mm localisation accuracy: 48.8% LaF3:Ce-PS (42.6 mm), 67.8% GLuGAG:Ce (27.5 mm)",
+   "status": "unchecked"
+  },
+  {
+   "id": "a53fe8",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "in this work, the simpler analytic model fitting approach is adopted since the retraining process can be avoided"
+   },
+   "note": "Positioning uses an analytic model fit, not a neural network",
+   "status": "unchecked"
+  }
+ ]
+}

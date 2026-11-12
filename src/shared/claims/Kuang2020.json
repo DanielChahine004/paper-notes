@@ -1,0 +1,195 @@
+{
+ "paper": "Kuang2020",
+ "annotations": [
+  {
+   "id": "f37a54",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The scanner consists of four detector rings with 12 detector modules per ring"
+   },
+   "value": {
+    "number": 48.0,
+    "unit": "modules",
+    "what": "detector modules"
+   },
+   "note": "Four rings of 12 modules: 48 dual-ended modules",
+   "status": "unchecked"
+  },
+  {
+   "id": "fc8d8e",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The detector module consists of one 23 × 23 LYSO array, read out by two 8 × 8 Hamamatsu SiPM arrays"
+   },
+   "note": "23x23 LYSO array read at both ends by 8x8 SiPM arrays",
+   "status": "unchecked"
+  },
+  {
+   "id": "d20afd",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The LYSO array consists of polished crystals of 1.0 × 1.0 × 20.0 mm3"
+   },
+   "value": {
+    "number": 20.0,
+    "unit": "mm",
+    "what": "crystal length"
+   },
+   "note": "Polished 1x1x20 mm3 LYSO crystals",
+   "status": "unchecked"
+  },
+  {
+   "id": "965e3d",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "read out by a resistor network circuit to produce four position encoding energy signals"
+   },
+   "note": "Each 64-pixel array multiplexed to four signals",
+   "status": "unchecked"
+  },
+  {
+   "id": "d16c97",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "the ring diameter is 111 mm and the axial field of view (FOV) is 105.6 mm"
+   },
+   "value": {
+    "number": 111.0,
+    "unit": "mm",
+    "what": "ring diameter"
+   },
+   "note": "Ring diameter 111 mm, axial FOV 105.6 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "1c3f78",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "E = E1 + E2, DOI = E1"
+   },
+   "note": "DOI from the ratio of one end's energy to the total",
+   "status": "unchecked"
+  },
+  {
+   "id": "835194",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "An average DOI resolution of 1.96 ± 0.25 mm, energy resolution of 19.1 ± 2.9% and timing"
+   },
+   "value": {
+    "number": 1.96,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Detector: DOI 1.96 mm, energy 19.1%, timing 1.20 ns",
+   "status": "unchecked"
+  },
+  {
+   "id": "ae455f",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "a high timing resolution reference detector consisting of a LYSO cylinder with a diameter of 20 mm"
+   },
+   "note": "Timing against a LYSO cylinder on a single-channel R13449 PMT",
+   "status": "unchecked"
+  },
+  {
+   "id": "e9884a",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Average spatial resolutions of 0.82 mm and 1.16 mm were obtained up to a distance of 30 mm radially"
+   },
+   "value": {
+    "number": 0.82,
+    "unit": "mm",
+    "what": "spatial resolution"
+   },
+   "note": "Average to 30 mm radius, 1% (0.82) and 10% (1.16) warm background, OSEM 16x10",
+   "status": "unchecked"
+  },
+  {
+   "id": "01296c",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "The point-spread function obtained from image of a point source scanned at the center of the FOV"
+   },
+   "note": "OSEM models a PSF from a centred point source",
+   "status": "unchecked"
+  },
+  {
+   "id": "4c565c",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "There is no obvious degradation of the spatial resolution as the radial offset increases"
+   },
+   "note": "Resolution flat with radial offset",
+   "status": "unchecked"
+  },
+  {
+   "id": "bdc53b",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Sensitivities of 16.0% and 11.9% were achieved at center of the scanner"
+   },
+   "value": {
+    "number": 16.0,
+    "unit": "%",
+    "what": "sensitivity"
+   },
+   "note": "Centre sensitivity 16.0% at 250-750 keV, 11.9% at 350-750 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "f31f20",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "a peak NECR of 324 kcps is obtained at an activity of 26.4 MBq"
+   },
+   "value": {
+    "number": 324.0,
+    "unit": "kcps",
+    "what": "peak NECR"
+   },
+   "note": "Mouse-sized phantom peak NECR",
+   "status": "unchecked"
+  },
+  {
+   "id": "c61455",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Rods with a diameter of 1.0 mm can be visually resolved"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "rods resolved"
+   },
+   "note": "Hot-rod phantom: 1.0 mm rods resolved",
+   "status": "unchecked"
+  },
+  {
+   "id": "e00e56",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "The sensitivity was obtained by correcting the 90.5% β+ decay branch ratio"
+   },
+   "note": "Sensitivity from a 22Na point source stepped axially, branch-ratio corrected, Lu background subtracted",
+   "status": "unchecked"
+  }
+ ]
+}

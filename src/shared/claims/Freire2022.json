@@ -1,0 +1,225 @@
+{
+ "paper": "Freire2022",
+ "annotations": [
+  {
+   "id": "801ad8",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "single LYSO:Ce annulus with an inner diameter of 62 mm"
+   },
+   "value": {
+    "number": 62.0,
+    "unit": "mm",
+    "what": "inner diameter"
+   },
+   "note": "Single LYSO:Ce annulus, 62 mm inner diameter, 10 outer facets of 26x52 mm2",
+   "status": "unchecked"
+  },
+  {
+   "id": "f1853e",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "cut to generate 10 flat faces"
+   },
+   "note": "Outer face of the annulus cut into 10 flat facets of 26x52 mm2",
+   "status": "unchecked"
+  },
+  {
+   "id": "9d926b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "with a maximum crystal diameter of 84.1"
+   },
+   "value": {
+    "number": 84.1,
+    "unit": "mm",
+    "what": "maximum diameter"
+   },
+   "note": "Maximum crystal diameter (across the facet corners)",
+   "status": "unchecked"
+  },
+  {
+   "id": "12d153",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "scintillator crystal that defines an axial length of 52 mm"
+   },
+   "value": {
+    "number": 52.0,
+    "unit": "mm",
+    "what": "axial length"
+   },
+   "note": "Crystal axial length",
+   "status": "unchecked"
+  },
+  {
+   "id": "3e60f4",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Our design is based on a single LYSO:Ce"
+   },
+   "note": "The tube is a single LYSO:Ce crystal (bolus fabricated by Proteus)",
+   "status": "unchecked"
+  },
+  {
+   "id": "d684ec",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "using a projection readout of the rows and columns signals"
+   },
+   "note": "Row-column projection readout of the SiPM arrays",
+   "status": "unchecked"
+  },
+  {
+   "id": "8eef9c",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The readout provides accurate Depth of Interaction"
+   },
+   "note": "The projection readout yields DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "d5e01a",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "the digitized SiPM values were raised to the power of 2"
+   },
+   "note": "Positioning: SiPM values raised to power 2 before centre of gravity (RTP method)",
+   "status": "unchecked"
+  },
+  {
+   "id": "2a74f7",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "a calibration that mitigates the DOI-dependency of the transaxial and axial impact coordinates"
+   },
+   "note": "Calibration corrects the DOI dependence of transaxial/axial coordinates and energy gain",
+   "status": "unchecked"
+  },
+  {
+   "id": "dded5a",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "based on a computational geometry technique named Voronoi diagrams"
+   },
+   "note": "Calibration based on Voronoi diagrams",
+   "status": "unchecked"
+  },
+  {
+   "id": "ba5be1",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Average spatial resolution of 1.4 ± 0.2 and 1.3 ± 0.4 mm FWHM were achieved for the radial and axial"
+   },
+   "value": {
+    "number": 1.4,
+    "unit": "mm",
+    "what": "radial spatial resolution"
+   },
+   "note": "Average system spatial resolution, radial 1.4 and axial 1.3 mm FWHM (from sinogram profiles)",
+   "status": "unchecked"
+  },
+  {
+   "id": "5bf387",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "We found a peak sensitivity of 3.8% at the system center"
+   },
+   "value": {
+    "number": 3.8,
+    "unit": "%",
+    "what": "peak sensitivity"
+   },
+   "note": "Peak sensitivity at the system centre",
+   "status": "unchecked"
+  },
+  {
+   "id": "a1abb0",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "these values are determined from sinogram profiles and not reconstructed images"
+   },
+   "note": "Resolution values come from sinogram profiles, not reconstructed images",
+   "status": "unchecked"
+  },
+  {
+   "id": "f3cfe8",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "assume the system resolution and point-source width added in quadrature"
+   },
+   "note": "Point-source width removed in quadrature from the resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "de1800",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "scintillator crystal growth process that constrains the maximum size of the piece"
+   },
+   "note": "Crystal growth limits the size of the single-piece annulus (ingots ~90 mm diameter)",
+   "status": "unchecked"
+  },
+  {
+   "id": "099574",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "and a pitch of 3.2 mm"
+   },
+   "value": {
+    "number": 3.2,
+    "unit": "mm",
+    "what": "SiPM pitch"
+   },
+   "note": "Hamamatsu S14161 8x8 SiPM arrays, 3x3 mm2 active area, 3.2 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "6806f1",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Thus, the axial Field of View (FOV) of the system is 25.8 mm"
+   },
+   "value": {
+    "number": 25.8,
+    "unit": "mm",
+    "what": "axial FOV"
+   },
+   "note": "Axial FOV 25.8 mm: only one 8x8 SiPM array per facet, mid-length of the 52 mm crystal",
+   "status": "unchecked"
+  },
+  {
+   "id": "2cc9ff",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Lutetium-based scintillator ingots have approximated maximum dimensions of ~90 mm diameter"
+   },
+   "value": {
+    "number": 90.0,
+    "unit": "mm",
+    "what": "max ingot diameter"
+   },
+   "note": "Ingot size limits the single-piece annulus to ~90 mm outer diameter",
+   "status": "unchecked"
+  }
+ ]
+}

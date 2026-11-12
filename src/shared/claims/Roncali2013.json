@@ -1,0 +1,302 @@
+{
+ "paper": "Roncali2013",
+ "annotations": [
+  {
+   "id": "aa51d2",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "90 μm × 90 μm areas were scanned in contact mode"
+   },
+   "value": {
+    "number": 90.0,
+    "unit": "μm",
+    "what": "AFM scan patch"
+   },
+   "note": "AFM scans of the LSO side faces covered 90 x 90 um areas, contact mode",
+   "status": "unchecked"
+  },
+  {
+   "id": "6129ed",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "a pixel size of 0.175 μm"
+   },
+   "value": {
+    "number": 0.175,
+    "unit": "μm",
+    "what": "AFM pixel size"
+   },
+   "note": "AFM pixel size of the surface scans",
+   "status": "unchecked"
+  },
+  {
+   "id": "38d441",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "very high spatial resolution (∼100 nm)"
+   },
+   "value": {
+    "number": 100.0,
+    "unit": "nm",
+    "what": "AFM resolution"
+   },
+   "note": "Spatial resolution of the standard AFM used to characterise the surfaces",
+   "status": "unchecked"
+  },
+  {
+   "id": "6dd942",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "saw cut then polished with a 30 μm grit paper"
+   },
+   "value": {
+    "number": 30.0,
+    "unit": "μm",
+    "what": "grit size"
+   },
+   "note": "Coarse ground ('rough') finish: saw cut then 30 um grit paper",
+   "status": "unchecked"
+  },
+  {
+   "id": "718fc0",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "All the four rough surfaces and two polished surfaces"
+   },
+   "note": "Two patches per rough crystal (four rough surfaces) plus two polished surfaces used to build the LUTs",
+   "status": "unchecked"
+  },
+  {
+   "id": "ecaf6a",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "between 0 (normal incidence) and 90◦with a sampling of 2.25◦"
+   },
+   "value": {
+    "number": 2.25,
+    "unit": "°",
+    "what": "incidence-angle step"
+   },
+   "note": "LUTs tabulated from 0 to 90 deg incidence in 2.25 deg steps",
+   "status": "unchecked"
+  },
+  {
+   "id": "29f8d6",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "collimated beam of ∼2000 incident photons"
+   },
+   "value": {
+    "number": 2000.0,
+    "unit": "photons",
+    "what": "photons per beam"
+   },
+   "note": "About 2000 photons per simulated collimated beam on the measured surface",
+   "status": "unchecked"
+  },
+  {
+   "id": "0ab16f",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "varying the azimuthal angle φ between 0 and 360◦in steps of 9◦"
+   },
+   "value": {
+    "number": 9.0,
+    "unit": "°",
+    "what": "azimuth step"
+   },
+   "note": "Beam rotated in azimuth in 9 deg steps; all azimuths then combined per incidence angle",
+   "status": "unchecked"
+  },
+  {
+   "id": "bbde5c",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The index of refraction of LSO was set at 1.82"
+   },
+   "value": {
+    "number": 1.82,
+    "what": "refractive index"
+   },
+   "note": "LSO refractive index used in the LUT ray tracing",
+   "status": "unchecked"
+  },
+  {
+   "id": "bc62a7",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "optical grease (index of refraction ∼1.5)"
+   },
+   "value": {
+    "number": 1.5,
+    "what": "refractive index"
+   },
+   "note": "Optical grease on the photodetector face",
+   "status": "unchecked"
+  },
+  {
+   "id": "fd8d27",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "external diffuse reflector was modelled by its reflection coefficient of 0.97"
+   },
+   "value": {
+    "number": 0.97,
+    "what": "reflector reflectance"
+   },
+   "note": "Teflon-like diffuse reflector, not attached, modelled as Lambertian with R = 0.97",
+   "status": "unchecked"
+  },
+  {
+   "id": "6fc435",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "with height varying between ∼−3 μm and 3 μm"
+   },
+   "value": {
+    "number": 3.0,
+    "unit": "μm",
+    "what": "surface height range"
+   },
+   "note": "Height variation of the rough (ground) LSO surface by AFM, about -3 to 3 um",
+   "status": "unchecked"
+  },
+  {
+   "id": "8d7f79",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average slope has a baseline at ∼18◦and increases with the incidence angle up to 35◦"
+   },
+   "value": {
+    "number": 18.0,
+    "unit": "°",
+    "what": "mean surface slope"
+   },
+   "note": "Rough surface: average slope about 18 deg, rising to 35 deg at high incidence",
+   "status": "unchecked"
+  },
+  {
+   "id": "86999c",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "a small sample of a crystal side (90 μm × 90 μm) accurately represents the whole surface roughness"
+   },
+   "note": "The two patches per crystal agree, so a 90 um patch represents the whole face",
+   "status": "unchecked"
+  },
+  {
+   "id": "9c1603",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "for 2 × 2 × 20 mm3 rough crystals overestimated the light output (+38%)"
+   },
+   "value": {
+    "number": 38.0,
+    "unit": "%",
+    "what": "UNIFIED light output error"
+   },
+   "note": "UNIFIED overestimates maximum light output of rough 2x2x20 mm crystals by 38% (no reflector)",
+   "status": "unchecked"
+  },
+  {
+   "id": "c5ea9b",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "This model showed better agreement for the 5 × 5 × 20 mm3 rough crystal (+20%)"
+   },
+   "value": {
+    "number": 20.0,
+    "unit": "%",
+    "what": "UNIFIED light output error"
+   },
+   "note": "UNIFIED overestimate for rough 5x5x20 mm crystals, no reflector",
+   "status": "unchecked"
+  },
+  {
+   "id": "ea7905",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "∼10% difference for 5 × 5 × 20 mm3 crystals and less than 2% for 2 × 2 × 20 mm3 crystals"
+   },
+   "value": {
+    "number": 2.0,
+    "unit": "%",
+    "what": "LUT light output error"
+   },
+   "note": "LUT simulations with reflector vs experiment: ~10% for 5x5x20, <2% for 2x2x20 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "f0c8b6",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "∼10% for 5 × 5 × 20 mm3 crystals and ∼30 % for 2 × 2 × 20 mm3 crystals"
+   },
+   "value": {
+    "number": 30.0,
+    "unit": "%",
+    "what": "UNIFIED light output error"
+   },
+   "note": "UNIFIED overestimate of maximum light output with reflector: ~10% (5x5x20), ~30% (2x2x20)",
+   "status": "unchecked"
+  },
+  {
+   "id": "5fad8a",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "2 × 2 × 20 mm3 rough crystals (24% and 22%, spectra not shown here)"
+   },
+   "value": {
+    "number": 24.0,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution of rough 2x2x20 mm crystals: 24% measured, 22% LUT-simulated",
+   "status": "unchecked"
+  },
+  {
+   "id": "57c9a3",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "(−10% for the 2 × 2 × 20 mm3 without reflector) compared to the UNIFED model"
+   },
+   "value": {
+    "number": -10.0,
+    "unit": "%",
+    "what": "computation time"
+   },
+   "note": "LUT model runs no slower than UNIFIED; 10% faster for the 2x2x20 mm crystal without reflector",
+   "status": "unchecked"
+  },
+  {
+   "id": "b7d1cb",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "2 × 2 × 20 mm3 crystals were used for both the surface 3D scans and experimental"
+   },
+   "note": "Only the 2x2x20 mm crystals were AFM-scanned",
+   "status": "unchecked"
+  }
+ ]
+}

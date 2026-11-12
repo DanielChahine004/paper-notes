@@ -47,10 +47,10 @@ git -C "$root" pull --rebase \
 # own changes come here; a clash stops the sync before anything is pushed
 uv run --quiet --python 3.12 --no-project python "$root/tools/papers.py" pull \
 	|| abort 'the bibliography merge stopped - see above'
-g add -- "$bib"
+g add -- "$bib" src/shared/claims
 if [ -n "$(g diff --cached --name-only)" ]; then
-	g commit -q -m 'references.bib from thesis-papers'
-	echo 'committed: references.bib from thesis-papers'
+	g commit -q -m 'references.bib and claims from thesis-papers'
+	echo 'committed: references.bib and claims from thesis-papers'
 fi
 
 # --- 4. push -------------------------------------------------------------

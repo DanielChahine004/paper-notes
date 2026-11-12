@@ -1,0 +1,158 @@
+{
+ "paper": "Espana2014",
+ "annotations": [
+  {
+   "id": "123257",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "32 × 32 mm2 detectors placed in a square arrangement with a distance of 34.5 mm"
+   },
+   "value": {
+    "number": 34.5,
+    "unit": "mm",
+    "what": "detector separation"
+   },
+   "note": "Four detectors in a square, 34.5 mm between opposite detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "bdc29e",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "with a size of 32 × 32 × 2 mm3 optically coupled"
+   },
+   "value": {
+    "number": 2.0,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "Thin monolithic LYSO 32 x 32 x 2 mm on a DPC-3200 dSiPM array",
+   "status": "unchecked"
+  },
+  {
+   "id": "a8814e",
+   "page": 5,
+   "kind": "area",
+   "label": "Fig. 1: DigiPET schematic with 34.5, 13 and 38.5 mm labels and cooling fans",
+   "note": "Fig. 1a: schematic labels 34.5 mm, 13 mm and 38.5 mm, and a cooling fan per detector",
+   "status": "unchecked"
+  },
+  {
+   "id": "60b069",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Event positioning within each detector was obtained using the maximum likelihood estimation (MLE) method"
+   },
+   "note": "Positioning by maximum likelihood estimation",
+   "status": "unchecked"
+  },
+  {
+   "id": "bbe7fc",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "intrinsic spatial resolution on the detector of 0.54 mm FWHM"
+   },
+   "value": {
+    "number": 0.54,
+    "unit": "mm",
+    "what": "intrinsic spatial resolution"
+   },
+   "note": "Average intrinsic detector resolution with MLE",
+   "status": "unchecked"
+  },
+  {
+   "id": "083409",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "6.0 cps kBq−1 and 0.7 mm, respectively"
+   },
+   "value": {
+    "number": 0.7,
+    "unit": "mm",
+    "what": "spatial resolution"
+   },
+   "note": "Sensitivity 6.0 cps/kBq and spatial resolution 0.7 mm at the centre of the FOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "e7451c",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "CRT of 680 ps and an energy resolution of 18% FWHM at 511 keV"
+   },
+   "value": {
+    "number": 680.0,
+    "unit": "ps",
+    "what": "CRT"
+   },
+   "note": "Coincidence resolving time",
+   "status": "unchecked"
+  },
+  {
+   "id": "4798e2",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "an energy resolution of 18% FWHM at 511 keV"
+   },
+   "value": {
+    "number": 18.0,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution at 511 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "3d1b79",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "fine pixels are difficult to produce and will render systems expensive"
+   },
+   "note": "Cost motivation: fine pixels expensive, thin monoliths low cost",
+   "status": "unchecked"
+  },
+  {
+   "id": "b7ca1f",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "superior spatial resolution at low-cost compared to systems based on pixelated"
+   },
+   "note": "Claim: superior spatial resolution at low cost vs pixelated systems",
+   "status": "unchecked"
+  },
+  {
+   "id": "faadd0",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The sensitivity obtained at CFOV was 0.3% and 0.6% for"
+   },
+   "value": {
+    "number": 0.3,
+    "unit": "%",
+    "what": "sensitivity"
+   },
+   "note": "Absolute sensitivity at CFOV: 0.3% (400-600 keV) and 0.6% (250-650 keV)",
+   "status": "unchecked"
+  },
+  {
+   "id": "59ecd8",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "there is no relevant DOI effect inside the 2 mm thick monolithic crystal"
+   },
+   "note": "No relevant DOI effect in the 2 mm crystal (inferred from uniform resolution across the FOV)",
+   "status": "unchecked"
+  }
+ ]
+}

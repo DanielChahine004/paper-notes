@@ -1,0 +1,295 @@
+{
+ "paper": "Cates2015",
+ "annotations": [
+  {
+   "id": "7cb6fc",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "incorporates an accurate, analytical probability density function (PDF) of optical transit time within the crystal"
+   },
+   "note": "The CRLB on timing uses an analytical PDF of optical transit time rather than Monte Carlo transport",
+   "status": "unchecked"
+  },
+  {
+   "id": "8151d2",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "where the influence of the variation in optical path length of scintillation light on achievable timing resolution is non-negligible"
+   },
+   "note": "Motivation: optical path-length spread is non-negligible in long (high-aspect-ratio) crystals",
+   "status": "unchecked"
+  },
+  {
+   "id": "f1d5df",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "LYSO:Ce crystals optically coupled to Hamamatsu S12572-50C silicon photomultipliers"
+   },
+   "note": "Measured detectors: 3x3x5 and 3x3x20 mm3 LYSO:Ce on Hamamatsu S12572-50C SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "0f9688",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Teflon tape, a diffuse reflector, was used for the measurement with the 5 mm long crystals and one of two measurements with the 20 mm long crystals"
+   },
+   "note": "Wrapping: 5 mm crystals in Teflon; 20 mm crystals in ESR or Teflon",
+   "status": "unchecked"
+  },
+  {
+   "id": "298be1",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "time-pickoff was performed off-line by leading edge discrimination"
+   },
+   "note": "Leading-edge timing on 20 GSa/s waveforms",
+   "status": "unchecked"
+  },
+  {
+   "id": "311c86",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The single photon timing resolution (SPTR), 250 ps (FWHM), was also taken from the sensor's data sheet"
+   },
+   "value": {
+    "number": 250.0,
+    "unit": "ps",
+    "what": "SPTR"
+   },
+   "note": "SPTR used in the bound: manufacturer's datasheet value",
+   "status": "unchecked"
+  },
+  {
+   "id": "66c1ca",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "± 152 8 ps was calculated for the"
+   },
+   "value": {
+    "number": 152.0,
+    "unit": "ps",
+    "what": "CRLB on CTR"
+   },
+   "note": "Calculated lower bound on CTR (152 ± 8 ps) for 3x3x20 mm3 LYSO:Ce",
+   "status": "unchecked"
+  },
+  {
+   "id": "5667ed",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "crystals was ± 125 8 ps"
+   },
+   "value": {
+    "number": 125.0,
+    "unit": "ps",
+    "what": "CRLB on CTR"
+   },
+   "note": "Calculated lower bound on CTR (125 ± 8 ps) for 3x3x5 mm3 LYSO:Ce",
+   "status": "unchecked"
+  },
+  {
+   "id": "0db8a7",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "± 162 1 ps (20 mm length + ESR)"
+   },
+   "value": {
+    "number": 162.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "Measured CTR 162 ± 1 ps FWHM, 3x3x20 mm3 LYSO:Ce wrapped in ESR",
+   "status": "unchecked"
+  },
+  {
+   "id": "c9b52c",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "± 165 1 ps (20 mm length + Teflon)"
+   },
+   "value": {
+    "number": 165.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "Measured CTR 165 ± 1 ps FWHM, 3x3x20 mm3 LYSO:Ce wrapped in Teflon",
+   "status": "unchecked"
+  },
+  {
+   "id": "cc862d",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "± 135 1 ps (5 mm length + Teflon)"
+   },
+   "value": {
+    "number": 135.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "Measured CTR 135 ± 1 ps FWHM, 3x3x5 mm3 LYSO:Ce wrapped in Teflon",
+   "status": "unchecked"
+  },
+  {
+   "id": "4aa58c",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "approached the calculated statistical limit within 10 ps (within 6.5%) and 13 ps (within 8.6%) for the ESR and Teflon wrapped measurements"
+   },
+   "note": "20 mm crystals: measured CTR within 10 ps (6.5%, ESR) and 13 ps (8.6%, Teflon) of the bound",
+   "status": "unchecked"
+  },
+  {
+   "id": "f8b907",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "This margin is consistent with the 10 ps (8%) margin between the calculated CRLB and measured CTR with the Teflon wrapped"
+   },
+   "value": {
+    "number": 10.0,
+    "unit": "ps",
+    "what": "CTR-CRLB margin"
+   },
+   "note": "5 mm crystals: measured CTR 10 ps (8%) above the bound, same margin as at 20 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "8f305d",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "the CRLB assumes the availability of timing information from every detected photon. This is not the case with the analogue SiPMs"
+   },
+   "note": "Authors attribute part of the margin to the bound assuming every detected photon is timestamped",
+   "status": "unchecked"
+  },
+  {
+   "id": "7929fe",
+   "page": 20,
+   "kind": "quote",
+   "quote": {
+    "exact": "Some of this margin is also attributed to processes unavoidable in experimental measurements such as noise"
+   },
+   "note": "Margin also put down to noise",
+   "status": "unchecked"
+  },
+  {
+   "id": "90459f",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "excellent agreement was found between the two"
+   },
+   "note": "Analytical optical transport PDF agrees with detailed light transport simulation",
+   "status": "unchecked"
+  },
+  {
+   "id": "667062",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The PDFs show a larger variance in the time of arrival of scintillation light at interaction locations"
+   },
+   "note": "Arrival-time variance is larger for interactions close to the photosensor, decreasing towards the top of the crystal",
+   "status": "unchecked"
+  },
+  {
+   "id": "176c25",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "showed a linear decrease below 20 mm until reaching 5 mm, where the influence of photosensor SPTR becomes dominant"
+   },
+   "note": "Bound vs crystal length: linear decrease from 20 to 5 mm, where SPTR dominates",
+   "status": "unchecked"
+  },
+  {
+   "id": "d204ae",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "precisely matches that calculated from Seifert's formalism of the CRLB"
+   },
+   "note": "At 5 mm the bound matches Seifert's no-transport CRLB to within 1%",
+   "status": "unchecked"
+  },
+  {
+   "id": "59a3dd",
+   "page": 20,
+   "kind": "quote",
+   "quote": {
+    "exact": "by a factor of 0.05–2 caused the statistical bound on CTR to fluctuate by as much as 600 ps"
+   },
+   "value": {
+    "number": 600.0,
+    "unit": "ps",
+    "what": "CRLB change"
+   },
+   "note": "Scaling detected photon number by 0.05-2 moves the bound by up to 600 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "9629d2",
+   "page": 20,
+   "kind": "quote",
+   "quote": {
+    "exact": "crystal length was varied from 3–40 mm only affected the lower timing bound by ∼20 ps"
+   },
+   "value": {
+    "number": 20.0,
+    "unit": "ps",
+    "what": "CRLB change"
+   },
+   "note": "Varying crystal length 3-40 mm at fixed photon statistics moves the bound by ~20 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "4e01a6",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "large variations in SPTR of 20–30% lead to ∼10–15 ps variations in the calculated CRLB"
+   },
+   "note": "20-30% SPTR variation moves the bound by ~10-15 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "d7c334",
+   "page": 20,
+   "kind": "quote",
+   "quote": {
+    "exact": "improvements in photosensor PDE toward 50%, timing performance approaching or below 100 ps is achievable with LYSO:Ce and single sided photosensor readout"
+   },
+   "value": {
+    "number": 100.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "With better light extraction and ~50% PDE, ~100 ps CTR is within the bound for HAR LYSO:Ce, single-sided readout",
+   "status": "unchecked"
+  },
+  {
+   "id": "0b4a2d",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "if optical photon transport is accurately incorporated into the calculation"
+   },
+   "note": "Equal CTR-CRLB margin at 5 and 20 mm is the stated test that optical transport is modelled correctly",
+   "status": "unchecked"
+  }
+ ]
+}

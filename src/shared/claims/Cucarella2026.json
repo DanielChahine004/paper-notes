@@ -1,0 +1,422 @@
+{
+ "paper": "Cucarella2026",
+ "annotations": [
+  {
+   "id": "e5f7aa",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Our PET system consists of 28 semi-monolithic modules arranged in a two-ring configuration"
+   },
+   "note": "Two rings of 14 semi-monolithic modules",
+   "status": "unchecked"
+  },
+  {
+   "id": "6d3fbc",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The separation between rings in the axial direction is 1.26 mm"
+   },
+   "value": {
+    "number": 1.26,
+    "unit": "mm",
+    "what": "ring gap"
+   },
+   "note": "Axial gap between the two rings",
+   "status": "unchecked"
+  },
+  {
+   "id": "d8fd17",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The inner diameter is 106 mm and the total axial length of the system is 52 mm"
+   },
+   "value": {
+    "number": 106.0,
+    "unit": "mm",
+    "what": "inner diameter"
+   },
+   "note": "Bore 106 mm, axial length 52 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "c4160b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "1 × 22 LYSO slabs of 0.97 mm × 25.6 mm × 12 mm each"
+   },
+   "value": {
+    "number": 12.0,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "Each block: 22 LYSO slabs of 0.97x25.6x12 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "212ffb",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The scintillator entrance face is covered with a retroreflector (RR) layer"
+   },
+   "note": "Retroreflector on the entrance face",
+   "status": "unchecked"
+  },
+  {
+   "id": "b2ba81",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "are unpolished and black painted"
+   },
+   "note": "Pixelated (narrow) faces unpolished and black painted; ESR on monolithic sides",
+   "status": "unchecked"
+  },
+  {
+   "id": "d0852e",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The slabs were placed parallel to the axial direction of the system"
+   },
+   "note": "Slab long side along the axial direction",
+   "status": "unchecked"
+  },
+  {
+   "id": "ff91ea",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "a 3.2-mm pitch"
+   },
+   "value": {
+    "number": 3.2,
+    "unit": "mm",
+    "what": "SiPM pitch"
+   },
+   "note": "Hamamatsu S13361-3075AE-08 8x8 SiPM arrays, 3.2 mm pitch, glued with Sylgard",
+   "status": "unchecked"
+  },
+  {
+   "id": "6d9394",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The system has a total of 1792 channels individually read out using the TOFPET2 ASIC"
+   },
+   "value": {
+    "number": 1792.0,
+    "what": "channels"
+   },
+   "note": "1792 channels, each read out by PETsys TOFPET2",
+   "status": "unchecked"
+  },
+  {
+   "id": "5d749c",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "was estimated using the center-of-gravity (CoG) algorithm"
+   },
+   "note": "Slab identification by centre of gravity",
+   "status": "unchecked"
+  },
+  {
+   "id": "b55cec",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The eight summed signals in the x-monolithic direction were used as the inputs for the MLP"
+   },
+   "note": "MLP input: eight summed signals along the monolithic direction",
+   "status": "unchecked"
+  },
+  {
+   "id": "5ba9b8",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "this unique NN was used to predict the events from all 28 detectors in the system"
+   },
+   "note": "One MLP trained on mod0 slit data, used for all 28 modules",
+   "status": "unchecked"
+  },
+  {
+   "id": "d0b6b0",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "A mean spatial resolution of 1.7 ± 0.2 mm FWHM along the monolithic direction was obtained"
+   },
+   "value": {
+    "number": 1.7,
+    "unit": "mm",
+    "what": "detector resolution (monolithic)"
+   },
+   "note": "Detector resolution along the monolithic direction",
+   "status": "unchecked"
+  },
+  {
+   "id": "6efc56",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "An average DOI resolution of 3.08 ± 0.13 mm FWHM was found for the four scanned detectors"
+   },
+   "value": {
+    "number": 3.08,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Detector-level DOI resolution, 12 mm slabs",
+   "status": "unchecked"
+  },
+  {
+   "id": "6dc8c5",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The mean PVR of these peaks was calculated, obtaining a value of 4.64"
+   },
+   "value": {
+    "number": 4.64,
+    "what": "peak-to-valley ratio"
+   },
+   "note": "All 22 slabs resolved, mean peak-to-valley 4.64",
+   "status": "unchecked"
+  },
+  {
+   "id": "d2643b",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "16.4 ± 0.7%, 13.5 ± 1.6%, and 15.8 ± 1.6% for the whole detector, center ROI, and edge ROI cases"
+   },
+   "value": {
+    "number": 16.4,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution: 16.4% whole detector, 13.5% centre ROI, 15.8% edge ROI",
+   "status": "unchecked"
+  },
+  {
+   "id": "2742e0",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "we have estimated a worsening of 30% in the energy resolution for the entire block after applying this correction"
+   },
+   "value": {
+    "number": 30.0,
+    "unit": "%",
+    "what": "estimated worsening"
+   },
+   "note": "No saturation correction applied; estimated 30% worsening with it",
+   "status": "unchecked"
+  },
+  {
+   "id": "bada52",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "A CTR value of 252 ps was estimated averaging the first five timestamps"
+   },
+   "value": {
+    "number": 252.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "Detector-level CTR with time skew and walk corrected",
+   "status": "unchecked"
+  },
+  {
+   "id": "007108",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "the time skew correction of the whole scanner will be calculated and applied"
+   },
+   "note": "System-wide time-skew correction not yet applied",
+   "status": "unchecked"
+  },
+  {
+   "id": "6d4e3d",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "1.61 ± 0.19 mm was obtained at the center of the field of view"
+   },
+   "value": {
+    "number": 1.61,
+    "unit": "mm",
+    "what": "mean spatial resolution"
+   },
+   "note": "Mean system spatial resolution at centre (radial/tangential/axial), MLEM",
+   "status": "unchecked"
+  },
+  {
+   "id": "1ff422",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "lutions of 1.2 ± 0.4 mm, 0.95 ± 0.10 mm, and 2.7 ± 0.4 mm"
+   },
+   "value": {
+    "number": 2.7,
+    "unit": "mm",
+    "what": "axial resolution at centre"
+   },
+   "note": "At cFOV: 1.2 radial, 0.95 transaxial, 2.7 axial mm (MLEM)",
+   "status": "unchecked"
+  },
+  {
+   "id": "5c2103",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "This physical gap between rings also produces a degradation of the spatial resolution at the cFOV along the axial direction"
+   },
+   "note": "Ring gap degrades the axial resolution at the centre",
+   "status": "unchecked"
+  },
+  {
+   "id": "f4a117",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "and 1.0 ± 0.1 mm, respectively, were achieved, using MLEM"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "mean resolution at 1/4 FOV"
+   },
+   "note": "Mean resolution at 1/4 axial FOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "88f16b",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "A peak sensitivity of 3.5% was obtained at the center of the scanner"
+   },
+   "value": {
+    "number": 3.5,
+    "unit": "%",
+    "what": "peak sensitivity"
+   },
+   "note": "Peak sensitivity, 358-664 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "47bd12",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "A peak NECR of 106.9 kcps @ 11.7 MBq was achieved"
+   },
+   "value": {
+    "number": 106.9,
+    "unit": "kcps",
+    "what": "NECR peak"
+   },
+   "note": "NECR peak, mouse phantom, 30% window",
+   "status": "unchecked"
+  },
+  {
+   "id": "b1916a",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "contrast recovery coefficients of 0.20, 0.62, 0.75, 0.81, and 0.85 were found for the 1, 2, 3, 4, and 5 mm"
+   },
+   "value": {
+    "number": 0.2,
+    "what": "CRC 1 mm"
+   },
+   "note": "IQ phantom CRC for 1-5 mm rods",
+   "status": "unchecked"
+  },
+  {
+   "id": "f6b29e",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "The 1.5, 1.2, and 1 mm rods reported average VPR values below the Rayleigh criterion"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "smallest resolved rods"
+   },
+   "note": "Micro-Derenzo resolved down to 1 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "abeda5",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "After this correction the spatial resolution values improve, but there is still some degradation for positions far from the center"
+   },
+   "note": "DOI improves off-centre radial resolution; residual degradation",
+   "status": "unchecked"
+  },
+  {
+   "id": "73fc68",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "This might be due to possible inaccuracies in the DOI calculation and/or calibration"
+   },
+   "note": "Residual degradation attributed to DOI calculation/calibration",
+   "status": "unchecked"
+  },
+  {
+   "id": "fc3d2a",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "The mean spatial resolution at the cFOV is equivalent to other systems"
+   },
+   "note": "Authors call resolution equivalent to other systems (Table IV)",
+   "status": "unchecked"
+  },
+  {
+   "id": "717998",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "we have presented the first study of the performance of a preclinical PET based on semi-monolithic detectors"
+   },
+   "note": "Authors claim first semi-monolithic preclinical PET study",
+   "status": "unchecked"
+  },
+  {
+   "id": "c64465",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "we aim to integrate this PET ring together with a formerly designed scatter detector"
+   },
+   "note": "Ring intended as absorber of a Compton-PET with a scatter detector",
+   "status": "unchecked"
+  },
+  {
+   "id": "b6bad8",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "For the DOI determination, the E/Imax estimator was used"
+   },
+   "note": "DOI from E/Imax, converted to mm by fitting its distribution in uniform (NECR phantom) data",
+   "status": "unchecked"
+  }
+ ]
+}

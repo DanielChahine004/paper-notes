@@ -1,0 +1,145 @@
+{
+ "paper": "EnriquezMierYTeran2024",
+ "annotations": [
+  {
+   "id": "ac4a05",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "an overlapping box-shaped PET scanner for awake animal imaging"
+   },
+   "note": "mousePET is a box-shaped scanner",
+   "status": "unchecked"
+  },
+  {
+   "id": "e78d1d",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The virtual cylinder condenses physical LORs stemming from various crystal pairs and DOI combinations"
+   },
+   "note": "Virtual cylinder condenses physical LORs over crystal pairs and DOI bins onto virtual detector pairs",
+   "status": "unchecked"
+  },
+  {
+   "id": "f70952",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "three virtual cylinder implementations with detector size 0.74 mm, 0.47 mm and 0.36 mm"
+   },
+   "value": {
+    "number": 0.47,
+    "unit": "mm",
+    "what": "virtual detector size"
+   },
+   "note": "Virtual detector sizes 0.74, 0.47, 0.36 mm (vPET1-3)",
+   "status": "unchecked"
+  },
+  {
+   "id": "7b199e",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Using GEANT4 Application for Tomographic Emission (GATE), we simulated the physical scanner"
+   },
+   "note": "GATE simulation",
+   "status": "unchecked"
+  },
+  {
+   "id": "4e2f55",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "All virtual cylinder implementations achieved LOR data compression of at least 50%"
+   },
+   "value": {
+    "number": 50.0,
+    "unit": "%",
+    "what": "LOR compression"
+   },
+   "note": "All virtual cylinders cut LORs by at least 50%",
+   "status": "unchecked"
+  },
+  {
+   "id": "a5566b",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "with an LOR compression factor of 86%"
+   },
+   "value": {
+    "number": 86.0,
+    "unit": "%",
+    "what": "LOR compression"
+   },
+   "note": "vPET2 (0.47 mm) with 6 DOI bins: 86% LOR compression, transaxial images nearly identical to physical",
+   "status": "unchecked"
+  },
+  {
+   "id": "b8a483",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "6-bin DOI reconstructions (3.3 mm DOI resolution)"
+   },
+   "value": {
+    "number": 3.3,
+    "unit": "mm",
+    "what": "DOI bin"
+   },
+   "note": "6 DOI bins, 3.3 mm DOI resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "617e5b",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "All virtual cylinders achieved sub-millimetre volumetric resolution across the FOV"
+   },
+   "note": "Sub-millimetre volumetric resolution across the FOV with 6 DOI bins",
+   "status": "unchecked"
+  },
+  {
+   "id": "166be3",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "PSF anisotropy in radial and tangential profiles was chiefly influenced by DOI resolution and only marginally by virtual detector size"
+   },
+   "note": "Radial/tangential anisotropy set by DOI resolution, not virtual detector size",
+   "status": "unchecked"
+  },
+  {
+   "id": "3cde26",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Spatial degradation introduced by virtual cylinders was most prominent in the axial profile"
+   },
+   "note": "Axial direction loses most",
+   "status": "unchecked"
+  },
+  {
+   "id": "96a8fd",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Resolution modelling significantly reduced the effects of the asymmetric PSF"
+   },
+   "note": "Resolution modelling reduces the anisotropy from the non-cylindrical geometry",
+   "status": "unchecked"
+  },
+  {
+   "id": "d6701b",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "or have been inconclusive (Li et al 2015)"
+   },
+   "note": "Calls Li et al 2015's full vs compressed comparison inconclusive",
+   "status": "unchecked"
+  }
+ ]
+}

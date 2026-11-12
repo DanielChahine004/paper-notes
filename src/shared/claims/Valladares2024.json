@@ -1,0 +1,255 @@
+{
+ "paper": "Valladares2024",
+ "annotations": [
+  {
+   "id": "dd0318",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The inner scatter subsystem is composed of four rectangular detectors, resulting in an aperture of 29-mm side"
+   },
+   "value": {
+    "number": 29.0,
+    "unit": "mm",
+    "what": "bore side"
+   },
+   "note": "Four flat detectors around a 29 mm square aperture, 50.8 mm axial",
+   "status": "unchecked"
+  },
+  {
+   "id": "30480a",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "There are therefore eight identical modules"
+   },
+   "note": "Eight modules",
+   "status": "unchecked"
+  },
+  {
+   "id": "18e19b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "an array of 24 × 24 LYSO calcium-doped scintillator crystals"
+   },
+   "note": "24x24 Ca-doped LYSO pixels per module",
+   "status": "unchecked"
+  },
+  {
+   "id": "9dfda1",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "0.95 mm × 0.95 mm × 3 mm, with all faces polished"
+   },
+   "value": {
+    "number": 3.0,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "Pixel 0.95x0.95x3 mm, polished, ESR",
+   "status": "unchecked"
+  },
+  {
+   "id": "501557",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "resulting in a 9-to-1 coupling scheme"
+   },
+   "note": "Nine pixels per 3x3 mm SiPM",
+   "status": "unchecked"
+  },
+  {
+   "id": "2e297f",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "edges of the detector can be easily identified without using a dedicated light guide"
+   },
+   "note": "No light guide needed to resolve pixels",
+   "status": "unchecked"
+  },
+  {
+   "id": "de12ef",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "commercial TOFPET2 BGA ASIC-based readout provided by PETsys Electronics"
+   },
+   "note": "Readout: PETsys TOFPET2",
+   "status": "unchecked"
+  },
+  {
+   "id": "2b33cf",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "After this correction, the achieved CTR was 229 ± 2 ps FWHM"
+   },
+   "value": {
+    "number": 229.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "CTR after time skew correction",
+   "status": "unchecked"
+  },
+  {
+   "id": "f16b67",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "improved from 229 ± 2 ps to 196 ± 1 ps FWHM"
+   },
+   "value": {
+    "number": 196.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "CTR after time walk correction",
+   "status": "unchecked"
+  },
+  {
+   "id": "80a03f",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "obtaining a CTR of 192 ± 1 ps for the entire system"
+   },
+   "value": {
+    "number": 192.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "CTR after transit-time-spread correction, whole subsystem",
+   "status": "unchecked"
+  },
+  {
+   "id": "2c9e1c",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "with values ranging from as low as 155 ps up to 240 ps"
+   },
+   "value": {
+    "number": 155.0,
+    "unit": "ps",
+    "what": "best pixel CTR"
+   },
+   "note": "Per-pixel CTR range",
+   "status": "unchecked"
+  },
+  {
+   "id": "f4c5e8",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average CTR found for these ranges were 286 ± 2 ps, 230 ± 3 ps, and 193 ± 1 ps"
+   },
+   "value": {
+    "number": 286.0,
+    "unit": "ps",
+    "what": "CTR 200-300 keV"
+   },
+   "note": "CTR by energy window: 286 ps [200,300], 230 ps [300,400], 193 ps [400,600] keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "8bd3d0",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "the time resolution degrades to values over 500 ps"
+   },
+   "value": {
+    "number": 500.0,
+    "unit": "ps",
+    "what": "CTR below 200 keV"
+   },
+   "note": "Below 200 keV timing degrades beyond 500 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "751286",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "it resulted in 10.8% ± 0.5%"
+   },
+   "value": {
+    "number": 10.8,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution after gain normalisation",
+   "status": "unchecked"
+  },
+  {
+   "id": "88cc22",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "after energy calibration into keV an average of 19.9 ± 0.9% was found"
+   },
+   "value": {
+    "number": 19.9,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution after calibration to keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "2d3e11",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "most likely related to the limited dynamic range of the SiPM sensor"
+   },
+   "note": "Poor keV energy resolution attributed to SiPM saturation (9 pixels per SiPM)",
+   "status": "unchecked"
+  },
+  {
+   "id": "77507c",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "determines a distance of 58.2 mm (192 ps)"
+   },
+   "value": {
+    "number": 58.2,
+    "unit": "mm",
+    "what": "required layer distance"
+   },
+   "note": "Layer separation needed to order interactions at 192 ps CTR",
+   "status": "unchecked"
+  },
+  {
+   "id": "db2ccc",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "the distance in between the two layers is 38.5 mm"
+   },
+   "value": {
+    "number": 38.5,
+    "unit": "mm",
+    "what": "layer distance"
+   },
+   "note": "Actual layer separation",
+   "status": "unchecked"
+  },
+  {
+   "id": "087e25",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "using it as a “magnifying ring.”"
+   },
+   "note": "Inner ring repurposed as magnifying ring",
+   "status": "unchecked"
+  }
+ ]
+}

@@ -69,10 +69,10 @@ if ($LASTEXITCODE -ne 0) {
 # own changes come here; a clash stops the sync before anything is pushed
 uv run --quiet --python 3.12 --no-project python (Join-Path $root 'tools\papers.py') pull
 if ($LASTEXITCODE -ne 0) { throw 'the bibliography merge stopped - see above' }
-Invoke-Git add -- $BibPath | Out-Null
+Invoke-Git add -- $BibPath src/shared/claims | Out-Null
 if (Invoke-Git diff --cached --name-only) {
-	Invoke-Git commit -m 'references.bib from thesis-papers' | Out-Null
-	Write-Host 'committed: references.bib from thesis-papers'
+	Invoke-Git commit -m 'references.bib and claims from thesis-papers' | Out-Null
+	Write-Host 'committed: references.bib and claims from thesis-papers'
 }
 
 # --- 4. push -------------------------------------------------------------

@@ -1,0 +1,145 @@
+{
+ "paper": "Freire2022a",
+ "annotations": [
+  {
+   "id": "c5f3c6",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "semi-monolithic detector suitable for total-body positron emission tomography"
+   },
+   "note": "Semi-monolithic detector aimed at total-body PET",
+   "status": "unchecked"
+  },
+  {
+   "id": "d865a7",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "An array of 1 × 8 lutetium yttrium oxyorthosilicate (LYSO) slabs of 25.8 × 3.1 × 20 mm3"
+   },
+   "value": {
+    "number": 20.0,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "Detector: 1x8 LYSO slabs of 25.8x3.1x20 mm3, ESR between slabs, 8x8 SiPM array",
+   "status": "unchecked"
+  },
+  {
+   "id": "909daf",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Three different treatments for the crystal were evaluated"
+   },
+   "note": "Three surface treatments: ESR+RR+B, ESR+RR, All ESR",
+   "status": "unchecked"
+  },
+  {
+   "id": "f4816b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "S13361-3050AE-08 (S13) and S14161-3050AS-08 (S14)"
+   },
+   "note": "Two Hamamatsu SiPM arrays compared",
+   "status": "unchecked"
+  },
+  {
+   "id": "7854f5",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "moving the detector under study in 1 mm steps"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "step"
+   },
+   "note": "22Na point source, pinhole collimator, reference detector; detector stepped in 1 mm in x and DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "b5b545",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "implementing a neural network (NN) technique for the impact position estimation in the x- (monolithic) and DOI directions"
+   },
+   "note": "Neural network estimates x (monolithic) and DOI positions",
+   "status": "unchecked"
+  },
+  {
+   "id": "2f5cef",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Energy resolution values of 16 ± 1%, 11 ± 1%, 16 ± 1%, 15 ± 1%, and 13 ± 1%"
+   },
+   "value": {
+    "number": 11.0,
+    "unit": "%",
+    "what": "energy resolution (best)"
+   },
+   "note": "Energy resolution for S13-ESR+B+RR, S13-All ESR, S14-ESR+B+RR, S14-ESR+RR, S14-All ESR (five configurations)",
+   "status": "unchecked"
+  },
+  {
+   "id": "760d38",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "1.7 ± 0.8, 2.0 ± 0.9 and 2.2 ± 1.0 for the DOI- direction"
+   },
+   "value": {
+    "number": 2.2,
+    "unit": "mm",
+    "what": "MAE DOI (worst)"
+   },
+   "note": "MAE in DOI for ESR+B+RR, ESR+RR, All ESR",
+   "status": "unchecked"
+  },
+  {
+   "id": "95da0b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "1.1 ± 0.5, 1.3 ± 0.5 and 1.3 ± 0.5 were estimated for the x- direction"
+   },
+   "value": {
+    "number": 1.3,
+    "unit": "mm",
+    "what": "MAE x (worst)"
+   },
+   "note": "MAE in x (monolithic) for ESR+B+RR, ESR+RR, All ESR",
+   "status": "unchecked"
+  },
+  {
+   "id": "45cd35",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "a MAEx value of 1.1 ± 0.5 mm and a MAEDOI value of 1.7 ± 0.8 mm was achieved for the crystal with ESR + B + RR"
+   },
+   "value": {
+    "number": 1.1,
+    "unit": "mm",
+    "what": "MAE x"
+   },
+   "note": "Best MAE: 1.1 mm in x (monolithic) and 1.7 mm in DOI, ESR+B+RR, independent of SiPM",
+   "status": "unchecked"
+  },
+  {
+   "id": "62be4c",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "there is almost no variation in the spatial parameters with the SiPM model"
+   },
+   "note": "SiPM model makes almost no difference to positioning",
+   "status": "unchecked"
+  }
+ ]
+}

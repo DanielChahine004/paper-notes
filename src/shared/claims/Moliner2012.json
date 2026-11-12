@@ -1,0 +1,530 @@
+{
+ "paper": "Moliner2012",
+ "annotations": [
+  {
+   "id": "51bb41",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "forming a dodecagon with a scanner aperture of 186 mm"
+   },
+   "value": {
+    "number": 186.0,
+    "unit": "mm",
+    "what": "aperture"
+   },
+   "note": "MAMMI ring: 12 removable monolithic modules in a dodecagon, 186 mm detector aperture",
+   "status": "unchecked"
+  },
+  {
+   "id": "d3bbab",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "use of a single monolithic crystal (10 mm thick) per module"
+   },
+   "value": {
+    "number": 10.0,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "One continuous LYSO crystal per module, 10 mm thick",
+   "status": "unchecked"
+  },
+  {
+   "id": "683d18",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "front face is 40 × 40 mm2. A 50 × 50 mm2 back face"
+   },
+   "note": "Truncated-pyramid LYSO crystal: 40x40 mm2 front face, 50x50 mm2 back face",
+   "status": "unchecked"
+  },
+  {
+   "id": "d713b4",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The use of trapezoidal crystals reduces the image compression effect"
+   },
+   "note": "Trapezoidal (truncated pyramid) shape chosen to reduce the edge image-compression effect",
+   "status": "unchecked"
+  },
+  {
+   "id": "ed0b2d",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "All the surfaces, except that coupled to the PSPMT, which is polished, are roughened and painted black"
+   },
+   "note": "Crystal surface treatment: all faces but the PSPMT-coupled one roughened and black painted",
+   "status": "unchecked"
+  },
+  {
+   "id": "25b729",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "optically coupled using a noncuring optical grease"
+   },
+   "note": "Crystal coupled to Hamamatsu H8500 PSPMT with noncuring optical grease",
+   "status": "unchecked"
+  },
+  {
+   "id": "a5be1e",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "has a 18% energy resolution at 511 keV"
+   },
+   "value": {
+    "number": 18.0,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Detector-level energy resolution at 511 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "3f0443",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "an intrinsic resolution of 1.6 mm"
+   },
+   "value": {
+    "number": 1.6,
+    "unit": "mm",
+    "what": "intrinsic resolution"
+   },
+   "note": "Detector-level intrinsic spatial resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "d661d2",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "a DOI resolution of 4 mm"
+   },
+   "value": {
+    "number": 4.0,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Detector-level DOI resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "0ba27e",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "reduces the 64 anode pad output signals of the PSPMT into five signals"
+   },
+   "note": "Modified Anger network reduces 64 anodes to five signals (zero, first, second moments)",
+   "status": "unchecked"
+  },
+  {
+   "id": "e1ea91",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The second moment, which gives information on the light spread"
+   },
+   "note": "Second moment (light spread) used as DOI estimator",
+   "status": "unchecked"
+  },
+  {
+   "id": "6f5cfe",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "the results shown in this paper do not include DOI improvement due to computing limitations"
+   },
+   "note": "DOI capability exists but is not used in the reported results",
+   "status": "unchecked"
+  },
+  {
+   "id": "54ba56",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Coincidences among a detector and its seven opposite detector modules are allowed"
+   },
+   "note": "Each module in coincidence with its seven opposite modules, giving 170 mm transaxial FOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "dbe164",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The timing window for coincidences was fixed at 5 ns"
+   },
+   "value": {
+    "number": 5.0,
+    "unit": "ns",
+    "what": "coincidence window"
+   },
+   "note": "Coincidence timing window",
+   "status": "unchecked"
+  },
+  {
+   "id": "e094c5",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "axial FOV length to 40 mm per frame"
+   },
+   "value": {
+    "number": 40.0,
+    "unit": "mm",
+    "what": "axial FOV"
+   },
+   "note": "Axial FOV per frame set by module size",
+   "status": "unchecked"
+  },
+  {
+   "id": "5de6fc",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The axial advance of the detector ring is 34 mm, which leads to a 6 mm overlap"
+   },
+   "value": {
+    "number": 34.0,
+    "unit": "mm",
+    "what": "axial step"
+   },
+   "note": "Ring steps axially 34 mm per frame with 6 mm overlap, covering 170 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "c426be",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "increase the axial FOV to 170 mm"
+   },
+   "value": {
+    "number": 170.0,
+    "unit": "mm",
+    "what": "axial FOV"
+   },
+   "note": "Total axial coverage with the elevator",
+   "status": "unchecked"
+  },
+  {
+   "id": "abe689",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "voxel size of 1 × 1 × 1 mm3"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "voxel size"
+   },
+   "note": "3D MLEM with 1 mm voxels",
+   "status": "unchecked"
+  },
+  {
+   "id": "761a90",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "calculation of the solid angle of every voxel with respect to the detection surface"
+   },
+   "note": "System matrix from solid angle of each voxel",
+   "status": "unchecked"
+  },
+  {
+   "id": "e0319c",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "discretizing the 40 × 40 mm2 crystal area into 2 × 2 mm2 pixels"
+   },
+   "value": {
+    "number": 2.0,
+    "unit": "mm",
+    "what": "pixel size"
+   },
+   "note": "Crystal binned into 2x2 mm2 pixels for reconstruction",
+   "status": "unchecked"
+  },
+  {
+   "id": "b43f91",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Dead time,36 scatter,37 and random38 events corrections were considered in the reconstruction"
+   },
+   "note": "Dead time, scatter and randoms corrected within reconstruction",
+   "status": "unchecked"
+  },
+  {
+   "id": "554195",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "our AC method identifies the breast shape by means of the segmentation of the PET image"
+   },
+   "note": "Attenuation correction from segmentation of the PET image (no transmission scan)",
+   "status": "unchecked"
+  },
+  {
+   "id": "ab6045",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "commercially available (MAMMI PET system, Oncovision GEM-Imaging S.A.)"
+   },
+   "note": "MAMMI to be commercialised by Oncovision GEM-Imaging",
+   "status": "unchecked"
+  },
+  {
+   "id": "34ee5d",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "The spatial resolution at the center of the FOV was 1.9, 1.8, and 1.6 mm FWHM in the tangential, radial, and axial directions"
+   },
+   "value": {
+    "number": 1.8,
+    "unit": "mm",
+    "what": "radial spatial resolution"
+   },
+   "note": "Spatial resolution at FOV centre, 12 MLEM iterations, no DOI: 1.9 tangential, 1.8 radial, 1.6 axial mm FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "bbce81",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Only the radial component of spatial resolution exceeds the 3 mm at radial positions larger than 60 mm"
+   },
+   "value": {
+    "number": 60.0,
+    "unit": "mm",
+    "what": "radius where radial > 3 mm"
+   },
+   "note": "Radial resolution exceeds 3 mm only beyond 60 mm radius",
+   "status": "unchecked"
+  },
+  {
+   "id": "1ba4f6",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Only at the FOV edge were spatial resolution values of 6 mm along radial direction measured"
+   },
+   "value": {
+    "number": 6.0,
+    "unit": "mm",
+    "what": "radial resolution at FOV edge"
+   },
+   "note": "Radial resolution reaches 6 mm at the FOV edge",
+   "status": "unchecked"
+  },
+  {
+   "id": "a3a1b8",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "spatial resolution values smaller than 3 mm along axial and tangential directions were obtained"
+   },
+   "value": {
+    "number": 3.0,
+    "unit": "mm",
+    "what": "axial/tangential resolution at edge"
+   },
+   "note": "Axial and tangential resolution stay under 3 mm even at the FOV edge",
+   "status": "unchecked"
+  },
+  {
+   "id": "7a8b5c",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "the absolute peak sensitivity measured using an energy window of (350 keV–650 keV) was 1.6%"
+   },
+   "value": {
+    "number": 1.6,
+    "unit": "%",
+    "what": "peak sensitivity"
+   },
+   "note": "Peak absolute sensitivity at FOV centre, 350-650 keV (clinical window), 22Na point source",
+   "status": "unchecked"
+  },
+  {
+   "id": "83c860",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "lute sensitivity increased up to 1.8%"
+   },
+   "value": {
+    "number": 1.8,
+    "unit": "%",
+    "what": "peak sensitivity"
+   },
+   "note": "Peak absolute sensitivity at centre, 250-750 keV window",
+   "status": "unchecked"
+  },
+  {
+   "id": "0b5b10",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Normalized total system absolute sensitivities of (0.8 ± 0.1)% (350 keV–650 keV energy window) and (1.0 ± 0.1)%"
+   },
+   "value": {
+    "number": 0.8,
+    "unit": "%",
+    "what": "normalised total sensitivity"
+   },
+   "note": "Normalised total system absolute sensitivity: 0.8% (350-650 keV), 1.0% (250-750 keV)",
+   "status": "unchecked"
+  },
+  {
+   "id": "76f1c6",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The MAMMI system sensitivity measured with the 18F line source was 0.7%"
+   },
+   "value": {
+    "number": 0.7,
+    "unit": "%",
+    "what": "system sensitivity"
+   },
+   "note": "NEMA NU 2 line-source system sensitivity, 250-750 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "a26a4d",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "A scatter fraction of (20.8 ± 0.9)% was obtained for the (250 keV–750 keV) energy window, and (18.2 ± 0.9)%"
+   },
+   "value": {
+    "number": 18.2,
+    "unit": "%",
+    "what": "scatter fraction"
+   },
+   "note": "Scatter fraction 20.8% (250-750 keV) and 18.2% (350-650 keV)",
+   "status": "unchecked"
+  },
+  {
+   "id": "4146a1",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "Maximum NEC rates of 25 kcps at 44 MBq (250 keV–750 keV) and 18 kcps at 38 MBq (350 keV–650 keV)"
+   },
+   "value": {
+    "number": 18.0,
+    "unit": "kcps",
+    "what": "NEC peak"
+   },
+   "note": "NEC peak 25 kcps at 44 MBq (250-750 keV) and 18 kcps at 38 MBq (350-650 keV)",
+   "status": "unchecked"
+  },
+  {
+   "id": "83ea0d",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The decline observed at ∼60 MBq is mainly caused by the saturation of the PMTs"
+   },
+   "value": {
+    "number": 60.0,
+    "unit": "MBq",
+    "what": "activity at NEC decline"
+   },
+   "note": "NEC decline from ~60 MBq due to PMT saturation",
+   "status": "unchecked"
+  },
+  {
+   "id": "ed2651",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "Measured Q values of (83 ± 11)% (high)"
+   },
+   "value": {
+    "number": 83.0,
+    "unit": "%",
+    "what": "contrast"
+   },
+   "note": "Percent contrast of 20 mm hot lesion (high activity), 12 MLEM iterations, AC-Phantom I",
+   "status": "unchecked"
+  },
+  {
+   "id": "2b5ae1",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "4.5 mm 17 ± 4"
+   },
+   "value": {
+    "number": 17.0,
+    "unit": "%",
+    "what": "contrast"
+   },
+   "note": "Table II: percent contrast of the 4.5 mm lesion after 12 MLEM iterations",
+   "status": "unchecked"
+  },
+  {
+   "id": "e77d77",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "a PET equipped with two rings and an axial FOV of 94 mm"
+   },
+   "value": {
+    "number": 94.0,
+    "unit": "mm",
+    "what": "axial FOV"
+   },
+   "note": "Next version: two rings, 94 mm axial FOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "bc846d",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "LYSO crystal thickness will increase from 10 to 12 mm"
+   },
+   "value": {
+    "number": 12.0,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "Next version: LYSO thickness 12 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "b3613c",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The expected activity in the breast during a scanning is approximately 4 MBq"
+   },
+   "value": {
+    "number": 4.0,
+    "unit": "MBq",
+    "what": "breast activity"
+   },
+   "note": "Expected breast activity during a scan",
+   "status": "unchecked"
+  }
+ ]
+}

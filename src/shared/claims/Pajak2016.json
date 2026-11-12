@@ -1,0 +1,292 @@
+{
+ "paper": "Pajak2016",
+ "annotations": [
+  {
+   "id": "595e6c",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "it is the only one that implements continuous lutetium-yttrium oxyorthosilicate (LYSO) crystals technology"
+   },
+   "note": "Albira: the only tri-modal scanner with continuous LYSO crystals and real-time DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "80038a",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Each ring of Albira PET contains eight detectors arranged as octagon"
+   },
+   "note": "Each ring: eight detectors in an octagon, single continuous LYSO crystal on a multi-anode PMT",
+   "status": "unchecked"
+  },
+  {
+   "id": "edd88a",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "has the shape of truncated pyramid with the base of 50×50 mm, 10 mm depth and 40×40 mm at the top"
+   },
+   "value": {
+    "number": 10.0,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "Crystal: truncated pyramid, 50x50 base, 40x40 top, 10 mm deep",
+   "status": "unchecked"
+  },
+  {
+   "id": "189e8c",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "virtually pixelated to a 300×300 grid"
+   },
+   "note": "Crystal virtually pixelated to 300x300",
+   "status": "unchecked"
+  },
+  {
+   "id": "dcdea3",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "true and real-time depth-of-interaction detection and correction"
+   },
+   "note": "Real-time continuous DOI detection and correction",
+   "status": "unchecked"
+  },
+  {
+   "id": "a0c0d4",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "111 mm"
+   },
+   "value": {
+    "number": 111.0,
+    "unit": "mm",
+    "what": "ring diameter"
+   },
+   "note": "Table 1: Albira ring diameter",
+   "status": "unchecked"
+  },
+  {
+   "id": "ecf38f",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "40 mm, 94.4 mm and 148.8 mm axial FOV coverage"
+   },
+   "value": {
+    "number": 94.4,
+    "unit": "mm",
+    "what": "axial FOV"
+   },
+   "note": "Axial FOV 94.4 mm for two rings",
+   "status": "unchecked"
+  },
+  {
+   "id": "c5e929",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "resulting in the gap of 14.4 mm in the front"
+   },
+   "value": {
+    "number": 14.4,
+    "unit": "mm",
+    "what": "ring gap"
+   },
+   "note": "14.4 mm gap between ring fronts",
+   "status": "unchecked"
+  },
+  {
+   "id": "985948",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "the gap between the rings encompasses the centre of the axial FOV"
+   },
+   "note": "Gap lies at the axial centre of the FOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "dbb749",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "1.72, 1.70 and 2.45 mm, respectively"
+   },
+   "value": {
+    "number": 1.72,
+    "unit": "mm",
+    "what": "radial resolution at centre"
+   },
+   "note": "Spatial resolution at axial centre (MLEM, 30% window): 1.72 radial, 1.70 tangential, 2.45 axial mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "efcea5",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "it is not possible to reconstruct images of a point source positioned along the axial centre of the FOV using single slice re-binning and FBP"
+   },
+   "note": "FBP impossible at the axial centre (ring gap)",
+   "status": "unchecked"
+  },
+  {
+   "id": "0a413b",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "4.18%"
+   },
+   "value": {
+    "number": 4.18,
+    "unit": "%",
+    "what": "peak sensitivity (30%)"
+   },
+   "note": "Figure 6 label: peak sensitivity in 358-664 keV window",
+   "status": "unchecked"
+  },
+  {
+   "id": "2f1d3f",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "peak at much lower activities (7.1 MBq and 11.8 MBq"
+   },
+   "value": {
+    "number": 7.1,
+    "unit": "MBq",
+    "what": "activity at NECR peak"
+   },
+   "note": "NECR peaks at low activity: 7.1 MBq mouse",
+   "status": "unchecked"
+  },
+  {
+   "id": "c2fd98",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The RNEC, peak is 72 kcps"
+   },
+   "value": {
+    "number": 72.0,
+    "unit": "kcps",
+    "what": "NECR peak"
+   },
+   "note": "NECR peak, mouse phantom",
+   "status": "unchecked"
+  },
+  {
+   "id": "b377e5",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "This is because of the common readout electronics used in the detector design, which cause them to saturate much quicker"
+   },
+   "note": "Early peak from shared readout electronics saturating",
+   "status": "unchecked"
+  },
+  {
+   "id": "b0cb27",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The %STD within the uniformity region is 4.9%"
+   },
+   "value": {
+    "number": 4.9,
+    "unit": "%",
+    "what": "uniformity"
+   },
+   "note": "IQ uniformity (%STD)",
+   "status": "unchecked"
+  },
+  {
+   "id": "193514",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The RCs for the different sized rods range from 0.05 to 0.90"
+   },
+   "value": {
+    "number": 0.9,
+    "what": "RC 5 mm"
+   },
+   "note": "RC range for 1-5 mm rods",
+   "status": "unchecked"
+  },
+  {
+   "id": "bc62c2",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Water-filled cylinder 0.219"
+   },
+   "value": {
+    "number": 0.219,
+    "what": "SOR water"
+   },
+   "note": "Spill-over ratio, water",
+   "status": "unchecked"
+  },
+  {
+   "id": "72c63b",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Air-filled cylinder 0.139"
+   },
+   "value": {
+    "number": 0.139,
+    "what": "SOR air"
+   },
+   "note": "Spill-over ratio, air",
+   "status": "unchecked"
+  },
+  {
+   "id": "0c16de",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "in 2-ring Bruker Albira PET the best spatial resolution can be achieved in the centre of the individual ring and not in the centre of the scanner"
+   },
+   "note": "NEMA assumes best resolution at scanner centre; for 2-ring Albira it is at each ring's centre",
+   "status": "unchecked"
+  },
+  {
+   "id": "9c088f",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "is 5.30% at 50% energy window"
+   },
+   "value": {
+    "number": 5.3,
+    "unit": "%",
+    "what": "peak sensitivity"
+   },
+   "note": "Peak absolute sensitivity at scanner centre, 255-767 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "e0c235",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The scatter fraction is 9.8% for the mouse"
+   },
+   "value": {
+    "number": 9.8,
+    "unit": "%",
+    "what": "scatter fraction"
+   },
+   "note": "Scatter fraction, mouse phantom",
+   "status": "unchecked"
+  }
+ ]
+}

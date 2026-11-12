@@ -1,0 +1,323 @@
+{
+ "paper": "Roncali2017",
+ "annotations": [
+  {
+   "id": "124feb",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "researchers have invested heavily in modelling the transport of ionizing radiation while light transport is often ignored or coarsely modelled"
+   },
+   "note": "Framing: ionising-radiation transport heavily modelled, light transport often ignored or coarse",
+   "status": "unchecked"
+  },
+  {
+   "id": "0bd284",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "light transport studies are seldom fully exploited"
+   },
+   "note": "Complexity of tools and breadth of custom user codes keep light transport studies from being fully exploited",
+   "status": "unchecked"
+  },
+  {
+   "id": "b582a4",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Self-absorption and bulk scattering should be limited to ensure high light output"
+   },
+   "note": "Bulk scattering treated as a loss to be limited",
+   "status": "unchecked"
+  },
+  {
+   "id": "9fbf34",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Bulk scattering is mainly due to changes in refractive index created by impurities"
+   },
+   "note": "Origin of bulk scattering: refractive-index changes from impurities",
+   "status": "unchecked"
+  },
+  {
+   "id": "758973",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Other types such as Rayleigh scattering by particles much smaller than the wavelength of the scintillation light are typically negligible"
+   },
+   "note": "Rayleigh scattering typically negligible in scintillators",
+   "status": "unchecked"
+  },
+  {
+   "id": "ab7bdc",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "The light transport is largely dominated by the interaction of the light with the phosphor grains"
+   },
+   "note": "Granular phosphor screens: light transport dominated by the grains",
+   "status": "unchecked"
+  },
+  {
+   "id": "c2e884",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "the light scattering and absorption can be described by the Mie theory"
+   },
+   "note": "Phosphor-grain scattering and absorption modelled with Mie theory",
+   "status": "unchecked"
+  },
+  {
+   "id": "51e1e3",
+   "page": 19,
+   "kind": "quote",
+   "quote": {
+    "exact": "Comparison between freely available open-source research simulation packages"
+   },
+   "note": "Table 2: MANTIS, hybridMANTIS, cartesianDETECT2, GEANT4 all model bulk absorption, surface reflection and roughness; Rayleigh, wavelength and polarisation only in MANTIS and GEANT4",
+   "status": "unchecked"
+  },
+  {
+   "id": "8b1ef3",
+   "page": 20,
+   "kind": "quote",
+   "quote": {
+    "exact": "hybridMANTIS achieves a speed-up factor of up to 627 when compared to MANTIS running in CPUs"
+   },
+   "value": {
+    "number": 627.0,
+    "what": "speed-up factor"
+   },
+   "note": "GPU hybridMANTIS speed-up over CPU MANTIS",
+   "status": "unchecked"
+  },
+  {
+   "id": "8a542d",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "More accurate models were developed and have being implemented in GEANT4"
+   },
+   "note": "Measured-reflectance surface models implemented in GEANT4 (Janecek and Moses) and GATE (Roncali and Cherry)",
+   "status": "unchecked"
+  },
+  {
+   "id": "317c8d",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "One of the main challenges to validate models of light transport in scintillators is the limited information that can be measured"
+   },
+   "note": "Validation in scintillators limited by what can be measured",
+   "status": "unchecked"
+  },
+  {
+   "id": "6a3add",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "Primary validation measurements include light output of single crystals of different sizes, orientation, surface treatment, and reflector type"
+   },
+   "note": "Primary validation quantities: light output vs size, orientation, surface treatment, reflector",
+   "status": "unchecked"
+  },
+  {
+   "id": "2f8467",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "Since most models include parameters that can be adjusted to match experimental results"
+   },
+   "note": "Adjustable-parameter warning, made in the x-ray imaging validation section",
+   "status": "unchecked"
+  },
+  {
+   "id": "a9e4a9",
+   "page": 24,
+   "kind": "quote",
+   "quote": {
+    "exact": "simulation packages such as GEANT4, GATE, seems to be the most promising approach"
+   },
+   "note": "Outlook: integrating optical codes into GEANT4/GATE is the most promising route",
+   "status": "unchecked"
+  },
+  {
+   "id": "94925a",
+   "page": 24,
+   "kind": "quote",
+   "quote": {
+    "exact": "a general method of defining geometry and outputs is one of the most important requirements"
+   },
+   "note": "Outlook: shared formats for geometry and output",
+   "status": "unchecked"
+  },
+  {
+   "id": "b74d2e",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "invested heavily in modelling the transport of ionizing radiation while light transport is often ignored or coarsely modelled"
+   },
+   "note": "Framing: ionising-radiation transport is modelled heavily, light transport often ignored or coarse",
+   "status": "unchecked"
+  },
+  {
+   "id": "4965c8",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "light transport studies are seldom fully exploited"
+   },
+   "note": "Tool complexity and custom user codes keep light transport studies from being fully exploited",
+   "status": "unchecked"
+  },
+  {
+   "id": "922ebb",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Self-absorption and bulk scattering should be limited to ensure high light output"
+   },
+   "note": "Bulk scattering treated as a loss to be limited in scintillators",
+   "status": "unchecked"
+  },
+  {
+   "id": "537b88",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Bulk scattering is mainly due to changes in refractive index created by impurities"
+   },
+   "note": "Origin of bulk scattering: refractive-index changes from impurities",
+   "status": "unchecked"
+  },
+  {
+   "id": "e32e23",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Rayleigh scattering by particles much smaller than the wavelength of the scintillation light are typically negligible"
+   },
+   "note": "Rayleigh scattering typically negligible in scintillators",
+   "status": "unchecked"
+  },
+  {
+   "id": "1a1ea1",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "The light transport is largely dominated by the interaction of the light with the phosphor grains"
+   },
+   "note": "Granular phosphor screens: light transport dominated by the grains",
+   "status": "unchecked"
+  },
+  {
+   "id": "8b82a4",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "the light scattering and absorption can be described by the Mie theory"
+   },
+   "note": "Phosphor-screen scattering and absorption modelled with Mie theory",
+   "status": "unchecked"
+  },
+  {
+   "id": "ece12b",
+   "page": 19,
+   "kind": "quote",
+   "quote": {
+    "exact": "Table 2. Comparison between freely available open-source research simulation packages"
+   },
+   "note": "Table 2: MANTIS, hybridMANTIS, cartesianDETECT2, GEANT4 all model bulk absorption, surface reflection, roughness; only MANTIS and GEANT4 model Rayleigh scattering, wavelength effects and polarisation",
+   "status": "unchecked"
+  },
+  {
+   "id": "d294ae",
+   "page": 20,
+   "kind": "quote",
+   "quote": {
+    "exact": "hybridMANTIS achieves a speed-up factor of up to 627 when compared to MANTIS running in CPUs"
+   },
+   "value": {
+    "number": 627.0,
+    "what": "speed-up factor"
+   },
+   "note": "GPU hybridMANTIS speed-up over CPU MANTIS",
+   "status": "unchecked"
+  },
+  {
+   "id": "117a59",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "More accurate models were developed and have being implemented in GEANT4"
+   },
+   "note": "Measured-reflectance surface models implemented in GEANT4 (Janecek and Moses) and GATE (Roncali and Cherry)",
+   "status": "unchecked"
+  },
+  {
+   "id": "25ddd1",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "the limited information that can be measured"
+   },
+   "note": "Validating scintillator light-transport models is limited by what can be measured",
+   "status": "unchecked"
+  },
+  {
+   "id": "66cfc7",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "Primary validation measurements include light output of single crystals of different sizes, orientation, surface treatment, and reflector type"
+   },
+   "note": "Validation quantities for scintillators: light output vs size, orientation, finish, reflector (plus timing)",
+   "status": "unchecked"
+  },
+  {
+   "id": "36a3e8",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "Inaccuracies will also be apparent when studying timing properties"
+   },
+   "note": "Timing studies also expose light-transport model inaccuracies",
+   "status": "unchecked"
+  },
+  {
+   "id": "a2414f",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "Since most models include parameters that can be adjusted to match experimental results"
+   },
+   "note": "X-ray imaging section: adjustable parameters make fitting to measurement weak validation",
+   "status": "unchecked"
+  },
+  {
+   "id": "2035c1",
+   "page": 24,
+   "kind": "quote",
+   "quote": {
+    "exact": "Integrating a major part of optical codes in popular simulation packages such as GEANT4, GATE, seems to be the most promising approach"
+   },
+   "note": "Outlook: fold optical codes into GEANT4/GATE",
+   "status": "unchecked"
+  },
+  {
+   "id": "8dedb9",
+   "page": 24,
+   "kind": "quote",
+   "quote": {
+    "exact": "a general method of defining geometry and outputs is one of the most important requirements"
+   },
+   "note": "Outlook: common formats for geometry and output",
+   "status": "unchecked"
+  }
+ ]
+}

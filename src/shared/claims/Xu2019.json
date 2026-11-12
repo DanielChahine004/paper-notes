@@ -1,0 +1,425 @@
+{
+ "paper": "Xu2019",
+ "annotations": [
+  {
+   "id": "c6be8f",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The inner diameter and outer diameter of the MSR detector are 48.5 mm and 58.5 mm"
+   },
+   "value": {
+    "number": 48.5,
+    "unit": "mm",
+    "what": "inner diameter"
+   },
+   "note": "Monolithic LYSO ring inner diameter 48.5 mm, outer 58.5 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "8c7709",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The thickness and axial length of the ring are 5 mm and 25.1 mm"
+   },
+   "value": {
+    "number": 25.1,
+    "unit": "mm",
+    "what": "axial length"
+   },
+   "note": "Ring wall 5 mm thick, 25.1 mm long",
+   "status": "unchecked"
+  },
+  {
+   "id": "a3971a",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The inner and outer surfaces of the cylindrical MSE were polished and attached with reflectors"
+   },
+   "note": "Inner and outer faces polished and covered with ESR",
+   "status": "unchecked"
+  },
+  {
+   "id": "bc096b",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Each ring has 46 evenly-distributed SiPM sensors"
+   },
+   "value": {
+    "number": 46.0,
+    "unit": "SiPMs",
+    "what": "SiPMs per end"
+   },
+   "note": "46 SiPMs air-coupled at each end of the ring",
+   "status": "unchecked"
+  },
+  {
+   "id": "44863e",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The angle and pitch between the adjacent SiPMs, measured from center to center, are 7.83°"
+   },
+   "value": {
+    "number": 7.83,
+    "unit": "°",
+    "what": "SiPM angular pitch"
+   },
+   "note": "Adjacent SiPMs 7.83° (3.7 mm) apart; 3x3 mm active area",
+   "status": "unchecked"
+  },
+  {
+   "id": "136f24",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "read out all 92 channels of SiPM signals in parallel"
+   },
+   "value": {
+    "number": 92.0,
+    "unit": "channels",
+    "what": "readout channels"
+   },
+   "note": "All 92 SiPM channels read individually",
+   "status": "unchecked"
+  },
+  {
+   "id": "239b74",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "Only 63% of the crystal surface on the two ends of the MSR detector was covered by SiPMs"
+   },
+   "value": {
+    "number": 63.0,
+    "unit": "%",
+    "what": "end-face coverage"
+   },
+   "note": "SiPM rings (3.16 mm wide) cover only 63% of the 5 mm end faces",
+   "status": "unchecked"
+  },
+  {
+   "id": "56f085",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "signals from nine SiPMs, including the SiPM with the maximum signal"
+   },
+   "note": "Angle by COG over nine SiPMs around the peak",
+   "status": "unchecked"
+  },
+  {
+   "id": "9710fd",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The angles calculated from the side-A and side-B rings of the SiPMs were averaged"
+   },
+   "note": "Angle is the average of the two ends' COG angles",
+   "status": "unchecked"
+  },
+  {
+   "id": "65dcc2",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the ANN had one input layer with 27 inputs, one hidden layer with 20 neurons"
+   },
+   "note": "Axial position by feedforward ANN, 27 inputs, one hidden layer of 20",
+   "status": "unchecked"
+  },
+  {
+   "id": "bd07eb",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "moved up at 1 mm per step for 25 steps"
+   },
+   "note": "Axial calibration scan in 1 mm steps over 1-25 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "40b2e3",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "It is unnecessary to measure the DOI in the radius direction in the prototype MSR detector since it is only 5 mm"
+   },
+   "note": "No DOI: authors judge it unnecessary at 5 mm wall",
+   "status": "unchecked"
+  },
+  {
+   "id": "714bad",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "The means and standard deviations (STD) of the 19 FWHMs and 19 MAEs were 1.44 mm"
+   },
+   "value": {
+    "number": 1.44,
+    "unit": "mm",
+    "what": "angular resolution FWHM"
+   },
+   "note": "Averaged-ends angular position, mean FWHM over 19 positions (MAE 0.65 mm), 0.5 mm slit not subtracted",
+   "status": "unchecked"
+  },
+  {
+   "id": "50d2cb",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "a 20 mm thick tungsten collimator with a 0.5 mm slit"
+   },
+   "value": {
+    "number": 0.5,
+    "unit": "mm",
+    "what": "slit width"
+   },
+   "note": "Circumferential collimator: 0.5 mm slit in 20 mm tungsten",
+   "status": "unchecked"
+  },
+  {
+   "id": "a1b436",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "half of the difference between the circumferential positions measured from the side-A and side-B rings"
+   },
+   "note": "Intrinsic theta resolution taken from theta_d = half the A-B difference",
+   "status": "unchecked"
+  },
+  {
+   "id": "8b54ff",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "It is reasonable to assume that σ2 int_A and σ2 int_B are independent of each other"
+   },
+   "note": "Assumes the two ends' intrinsic errors are independent",
+   "status": "unchecked"
+  },
+  {
+   "id": "8ae94e",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "were 0.94 mm  ±  0.05 mm"
+   },
+   "value": {
+    "number": 0.94,
+    "unit": "mm",
+    "what": "intrinsic angular FWHM"
+   },
+   "note": "Intrinsic theta FWHM from half-difference of the two ends, mean of 19 positions",
+   "status": "unchecked"
+  },
+  {
+   "id": "24f9e6",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "were 2.45 mm  ±  0.48 mm and 1.08 mm"
+   },
+   "value": {
+    "number": 2.45,
+    "unit": "mm",
+    "what": "axial resolution FWHM"
+   },
+   "note": "Axial (Z) FWHM by ANN, mean over 22 positions; MAE 1.08 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "7a743b",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "the mean of the measured positions were smaller than 0.8 mm"
+   },
+   "value": {
+    "number": 0.8,
+    "unit": "mm",
+    "what": "axial linearity"
+   },
+   "note": "Axial mean positions within 0.8 mm of collimator positions",
+   "status": "unchecked"
+  },
+  {
+   "id": "fcff4f",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "The energy resolution was 10.7% at 511 keV"
+   },
+   "value": {
+    "number": 10.7,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution, 22Na outside the ring",
+   "status": "unchecked"
+  },
+  {
+   "id": "9f31c1",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "the coincidence events (1022 keV) were 12.3% and 11.4%"
+   },
+   "value": {
+    "number": 12.3,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Phantom inside ring: 12.3% at 511 keV singles, 11.4% at the 1022 keV coincidence peak",
+   "status": "unchecked"
+  },
+  {
+   "id": "4da189",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The light distributions of single events A and B were combined to mimic the light distribution of the coincidence events"
+   },
+   "note": "Overlap simulated by summing two measured single events",
+   "status": "unchecked"
+  },
+  {
+   "id": "ab5752",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "When the Δθ was larger than 70°, there was no significant LOR error"
+   },
+   "value": {
+    "number": 70.0,
+    "unit": "°",
+    "what": "overlap threshold"
+   },
+   "note": "Above 70° separation no significant LOR error from overlapping light",
+   "status": "unchecked"
+  },
+  {
+   "id": "6da9ad",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "the extra FWHM errors ranged between 0.4 mm and 0.81 mm"
+   },
+   "value": {
+    "number": 0.65,
+    "unit": "mm",
+    "what": "extra FWHM from overlap"
+   },
+   "note": "Extra FWHM from overlap above 70°: 0.4-0.81 mm, mean 0.65 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "f3ae44",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "increased slightly to 1.14 mm"
+   },
+   "value": {
+    "number": 1.14,
+    "unit": "mm",
+    "what": "total angular FWHM with overlap"
+   },
+   "note": "0.94 mm intrinsic plus 0.65 mm overlap in quadrature",
+   "status": "unchecked"
+  },
+  {
+   "id": "f427ef",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The energy window was 950–1300 keV"
+   },
+   "value": {
+    "number": 950.0,
+    "unit": "keV",
+    "what": "energy window"
+   },
+   "note": "Derenzo image from the 1022 keV coincidence peak, 950-1300 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "2a0682",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The circumferential parallax errors were not compensated"
+   },
+   "note": "No overlap correction in the Derenzo reconstruction",
+   "status": "unchecked"
+  },
+  {
+   "id": "b70d2d",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The rods with a diameter of 1.2 mm or larger can be resolved"
+   },
+   "value": {
+    "number": 1.2,
+    "unit": "mm",
+    "what": "Derenzo rods resolved"
+   },
+   "note": "Rods of 1.2 mm and larger resolved",
+   "status": "unchecked"
+  },
+  {
+   "id": "0755cf",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "hollow MSR of up to about 80 mm in diameter, 10 mm in thickness and 240 mm in length"
+   },
+   "value": {
+    "number": 80.0,
+    "unit": "mm",
+    "what": "max ring diameter"
+   },
+   "note": "LYSO boule limits a ring to about 80 mm diameter, 10 mm thick, 240 mm long",
+   "status": "unchecked"
+  },
+  {
+   "id": "c13978",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "the MSCR of the MSR imager is a factor of N/2 lower"
+   },
+   "note": "Max single count rate N/2 lower than N block detectors of same volume",
+   "status": "unchecked"
+  },
+  {
+   "id": "86b785",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "their timing measurements may interfere with each other"
+   },
+   "note": "Overlapping light from separate events can interfere with timing",
+   "status": "unchecked"
+  },
+  {
+   "id": "b837c4",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The 1 mm rods are barely resolved"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "Derenzo rods barely resolved"
+   },
+   "note": "1.0 mm rods barely resolved (peak-valley ratio 1.95)",
+   "status": "unchecked"
+  }
+ ]
+}

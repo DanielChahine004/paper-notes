@@ -1,0 +1,597 @@
+{
+ "paper": "Xie2026",
+ "annotations": [
+  {
+   "id": "f8cc8b",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Each CRL PS-SiPM had an active area of 6.24 × 6.24 mm2"
+   },
+   "value": {
+    "number": 6.24,
+    "unit": "mm",
+    "what": "active area side"
+   },
+   "note": "Each CRL PS-SiPM active area 6.24 x 6.24 mm2 (section 2.1)",
+   "status": "unchecked"
+  },
+  {
+   "id": "cabe22",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "fabricated using epitaxial quenching resistor technology and 20 µm microcells"
+   },
+   "value": {
+    "number": 20.0,
+    "unit": "µm",
+    "what": "microcell pitch"
+   },
+   "note": "Epitaxial quenching resistors, 20 um microcells",
+   "status": "unchecked"
+  },
+  {
+   "id": "e61b96",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "had 97344 microcells"
+   },
+   "value": {
+    "number": 97344.0,
+    "what": "microcells"
+   },
+   "note": "Microcell count per 6.24 mm device (Fig. 1 caption)",
+   "status": "unchecked"
+  },
+  {
+   "id": "62d393",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "four anodes (Q1, Q2, Q3, and Q4) for position and energy information, and"
+   },
+   "value": {
+    "number": 4.0,
+    "what": "anodes"
+   },
+   "note": "Four anodes for position/energy plus one cathode for bias and timing",
+   "status": "unchecked"
+  },
+  {
+   "id": "621d57",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The breakdown voltage of the CRL PS-SiPM was 27.0 V at 25"
+   },
+   "value": {
+    "number": 27.0,
+    "unit": "V",
+    "what": "breakdown voltage"
+   },
+   "note": "Breakdown voltage at 25 C",
+   "status": "unchecked"
+  },
+  {
+   "id": "3f9d1d",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the PDE at 420 nm was approximately 40% at an overvolt"
+   },
+   "value": {
+    "number": 40.0,
+    "unit": "%",
+    "what": "PDE"
+   },
+   "note": "Text: PDE at 420 nm ~40% at 5 V OV (Table 1 lists 47%)",
+   "status": "unchecked"
+  },
+  {
+   "id": "a07171",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "6.24 × 6.24 20 64 47 105 This work"
+   },
+   "value": {
+    "number": 47.0,
+    "unit": "%",
+    "what": "PDE"
+   },
+   "note": "Table 1 'This work' row: 6.24 mm, 20 um, fill factor 64%, PDE 47% at 420 nm, gain 1e5",
+   "status": "unchecked"
+  },
+  {
+   "id": "77034c",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "CRL PS-SiPM 6.64 × 6.64"
+   },
+   "value": {
+    "number": 6.64,
+    "unit": "mm",
+    "what": "active area side"
+   },
+   "note": "Table 2 lists the CRL PS-SiPM size as 6.64 x 6.64 mm2, against 6.24 in the text",
+   "status": "unchecked"
+  },
+  {
+   "id": "852ab6",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "32-channel DT5740D digitizer (CAEN S.p.A.) at a sampling rate of 62.5 mega-samples per second"
+   },
+   "value": {
+    "number": 62.5,
+    "unit": "MSPS",
+    "what": "sampling rate"
+   },
+   "note": "Digitiser named in text: 32-ch CAEN DT5740D at 62.5 MSPS",
+   "status": "unchecked"
+  },
+  {
+   "id": "12e036",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "with a thickness of 50 µm were used as inter-crystal reflectors and were glued to"
+   },
+   "value": {
+    "number": 50.0,
+    "unit": "µm",
+    "what": "reflector thickness"
+   },
+   "note": "Toray E60 inter-crystal reflector 50 um, glued with 5 um optical glue; lateral sides wrapped",
+   "status": "unchecked"
+  },
+  {
+   "id": "c99552",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The refractive index of BC-630 was 1.41"
+   },
+   "value": {
+    "number": 1.41,
+    "what": "refractive index"
+   },
+   "note": "BC-630 grease coupling",
+   "status": "unchecked"
+  },
+  {
+   "id": "00e3b5",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "a 10 × 10 array of 0.44 × 0.44 × 20 mm3 polished LYSO elements was constructed"
+   },
+   "value": {
+    "number": 0.44,
+    "unit": "mm",
+    "what": "crystal width"
+   },
+   "note": "10 x 10 array of 0.44 x 0.44 x 20 mm LYSO, 0.5 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "f79c6d",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "resolution (CTR) was comprehensively evaluated at different bias voltages (30.0–33.0 V in 0.5 V steps)"
+   },
+   "note": "Bias sweep 30.0-33.0 V in 0.5 V steps at 3, 14, 24 C",
+   "status": "unchecked"
+  },
+  {
+   "id": "9e4400",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "4.23 ± 0.38, 4.30 ± 0.39, and 4.32 ± 0.37"
+   },
+   "value": {
+    "number": 4.32,
+    "what": "flood quality"
+   },
+   "note": "Flood histogram quality at optimal bias, 3/14/24 C",
+   "status": "unchecked"
+  },
+  {
+   "id": "9d9b4d",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The corresponding peak-to-valley ratios (PVRs) were 9.7 ± 1.3, 9.1 ± 1.1, and 9.1 ± 1.1"
+   },
+   "value": {
+    "number": 9.7,
+    "what": "PVR"
+   },
+   "note": "Peak-to-valley ratios at 3/14/24 C",
+   "status": "unchecked"
+  },
+  {
+   "id": "0adeac",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "All LYSO elements were clearly resolved"
+   },
+   "note": "All 100 crystals resolved in the flood histograms",
+   "status": "unchecked"
+  },
+  {
+   "id": "aa63b3",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "LG-SiPM 9.8 × 9.8 13 2.82"
+   },
+   "value": {
+    "number": 2.82,
+    "what": "flood quality"
+   },
+   "note": "Table 2: same-group LG-SiPM detector (Xie et al 2025a), 0.44 mm array, F.Q. 2.82, 17.5% energy res, 0.75 ns CTR",
+   "status": "unchecked"
+  },
+  {
+   "id": "cb694e",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "suggesting that LYSO arrays with even smaller pitch may also be resolv"
+   },
+   "note": "Authors infer sub-0.5 mm pitch arrays may be resolvable",
+   "status": "unchecked"
+  },
+  {
+   "id": "55b878",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "22.2 ± 4.0%, 21.9 ± 3.3%,"
+   },
+   "value": {
+    "number": 22.7,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Average energy resolution 22.2/21.9/22.7% at 3/14/24 C",
+   "status": "unchecked"
+  },
+  {
+   "id": "8c1dc3",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "were 1101 ± 38 ps, 1122 ± 43 ps, and 1152 ± 43 ps at 3"
+   },
+   "value": {
+    "number": 1152.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "Average CTR at optimal flood bias, 3/14/24 C",
+   "status": "unchecked"
+  },
+  {
+   "id": "ff41c1",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "1.77 ± 0.19 mm, and 1.78 ± 0.20 mm at 3"
+   },
+   "value": {
+    "number": 1.78,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Average DOI resolution 1.75/1.77/1.78 mm at 3/14/24 C",
+   "status": "unchecked"
+  },
+  {
+   "id": "b34d80",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "the noise of the CRL PS-SiPM was not a major factor limiting detector performance"
+   },
+   "note": "Inference: CRL PS-SiPM noise not the limiting factor",
+   "status": "unchecked"
+  },
+  {
+   "id": "5433c9",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "which have large capacitance, the fine-pitch LYSO array, which results in relatively low scintillation light collection"
+   },
+   "note": "CTR ~1 ns attributed to PS-SiPM capacitance, low light collection, unoptimised electronics",
+   "status": "unchecked"
+  },
+  {
+   "id": "96afa5",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "was not sufficient to provide a meaningful TOF benefit in small-animal imaging"
+   },
+   "note": "No meaningful TOF benefit; authors argue TOF matters less in mice",
+   "status": "unchecked"
+  },
+  {
+   "id": "c1d945",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "the variation in the timing peak position of the CRL PS-SiPM was significantly larger"
+   },
+   "note": "Timing peak spread larger than for the LG-SiPM",
+   "status": "unchecked"
+  },
+  {
+   "id": "8481a2",
+   "page": 11,
+   "kind": "area",
+   "label": "Fig. 13: timing-spectrum peak position per LYSO element",
+   "note": "Fig. 13: per-crystal timing peak offsets (colour scale read as roughly +/-2000 ps; not in text)",
+   "status": "unchecked"
+  },
+  {
+   "id": "4b2419",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "This component could dominate the summed timing signal, resulting in a better CTR despite the lower total collected scintillation light"
+   },
+   "note": "Claimed: edge crystals get better CTR from nearby fast anode despite less light",
+   "status": "unchecked"
+  },
+  {
+   "id": "531a2e",
+   "page": 11,
+   "kind": "area",
+   "label": "Fig. 12: CTR for each LYSO element at optimal flood bias",
+   "note": "Fig. 12: per-crystal CTR maps at three temperatures",
+   "status": "unchecked"
+  },
+  {
+   "id": "5b9ff6",
+   "page": 11,
+   "kind": "area",
+   "label": "Fig. 11: average CTR versus bias voltage and temperature",
+   "note": "Fig. 11: CTR vs bias, red star marks flood-quality optimum bias",
+   "status": "unchecked"
+  },
+  {
+   "id": "43400f",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "the divergence of the collimated beam increased with penetration depth"
+   },
+   "note": "Left/right DOI asymmetry from beam divergence; not corrected",
+   "status": "unchecked"
+  },
+  {
+   "id": "0f39ad",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "two timing signals were extracted from the cathode sides of the two CRL"
+   },
+   "note": "Timing from the two cathodes, summed, then ORTEC 584 CFD into a TAC",
+   "status": "unchecked"
+  },
+  {
+   "id": "d1cd90",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "DOI information was extracted using the energy ratio from the two CRL PS-SiPMs"
+   },
+   "note": "DOI from energy ratio (E1-E2)/(E1+E2), eq. 7",
+   "status": "unchecked"
+  },
+  {
+   "id": "7a4be3",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "calculated as the sum of the 8 anode signals"
+   },
+   "note": "Energy is the sum of the 8 anode signals",
+   "status": "unchecked"
+  },
+  {
+   "id": "f7ccc8",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "coupled to a 15 × 15 × 5 mm3 LYSO array was used to acquire coincidence events for timing"
+   },
+   "note": "CTR reference: Broadcom AFBR-S4N44P164M 4x4 array on 15x15x5 mm LYSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "13e0dc",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "consisted of a 20 × 50 × 0.5 mm3 LYSO slab coupled to a 1 × 16 MicroFJ-30035 SiPM array"
+   },
+   "note": "DOI reference: 20x50x0.5 mm LYSO slab on 1x16 MicroFJ-30035",
+   "status": "unchecked"
+  },
+  {
+   "id": "cbc6ee",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "All surfaces of the LYSO elements were mechanically polished"
+   },
+   "note": "LYSO (BOYA) all surfaces mechanically polished",
+   "status": "unchecked"
+  },
+  {
+   "id": "b15dd3",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "were 31.5 V, 32.0 V, and"
+   },
+   "note": "Optimal bias for flood quality: 31.5/32.0/32.5 V at 3/14/24 C",
+   "status": "unchecked"
+  },
+  {
+   "id": "902ca0",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "at nine depths (2 mm to 18 mm in 2 mm steps)"
+   },
+   "value": {
+    "number": 9.0,
+    "what": "depths"
+   },
+   "note": "DOI measured at nine depths, 2-18 mm in 2 mm steps",
+   "status": "unchecked"
+  },
+  {
+   "id": "764b24",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "A 100 µCi 22Na source with a 0.25 mm active diameter"
+   },
+   "value": {
+    "number": 0.25,
+    "unit": "mm",
+    "what": "source diameter"
+   },
+   "note": "100 uCi Na-22 point source",
+   "status": "unchecked"
+  },
+  {
+   "id": "9bc414",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "a wide energy window of 200–1000 keV was applied to each crystal"
+   },
+   "note": "Energy window 200-1000 keV per crystal, via flood-histogram LUT",
+   "status": "unchecked"
+  },
+  {
+   "id": "b91982",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "all inter-crystal scattering (ICS) events were included in the data analysis"
+   },
+   "note": "All ICS events retained for sensitivity",
+   "status": "unchecked"
+  },
+  {
+   "id": "542013",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "SiPM saturation correction was not performed"
+   },
+   "note": "No saturation correction; argued negligible",
+   "status": "unchecked"
+  },
+  {
+   "id": "0cc04a",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "the 0.2 mm thick SiPM protective windows"
+   },
+   "note": "0.2 mm protective windows cited among saturation arguments",
+   "status": "unchecked"
+  },
+  {
+   "id": "33a226",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "the known CTR of two identical reference detectors, which was 370 ps"
+   },
+   "value": {
+    "number": 370.0,
+    "unit": "ps",
+    "what": "reference CTR"
+   },
+   "note": "Eq. 6 reference CTR is for two identical reference detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "7e8778",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "This work was supported by NIH Grant R01 EB031961"
+   },
+   "note": "Funding; devices from Prof. Dejun Han, NDL",
+   "status": "unchecked"
+  },
+  {
+   "id": "40dce2",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "The effect of temperature on detector performance was minimal and could be considered negligible"
+   },
+   "note": "Temperature effect negligible",
+   "status": "unchecked"
+  },
+  {
+   "id": "6fa137",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The timing peak position was position-dependent due to the RC constant between the"
+   },
+   "note": "Position-dependent timing peak from RC constant varying with microcell position",
+   "status": "unchecked"
+  },
+  {
+   "id": "5a9b29",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "indicating that timing offset calibration is required"
+   },
+   "note": "Timing offset calibration required",
+   "status": "unchecked"
+  },
+  {
+   "id": "d979b8",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "The obtained DOI resolution was also slightly better than that reported for other detectors"
+   },
+   "note": "DOI slightly better than comparable dual-ended detectors in Table 2",
+   "status": "unchecked"
+  },
+  {
+   "id": "f174d9",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "indicating that the energy resolution was mainly dominated by the LYSO array rather than by the CRL PS-SiPM performance"
+   },
+   "note": "Claim: energy resolution dominated by the LYSO array",
+   "status": "unchecked"
+  }
+ ]
+}

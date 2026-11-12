@@ -1,0 +1,355 @@
+{
+ "paper": "Kinyanjui2026",
+ "annotations": [
+  {
+   "id": "de1f3b",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Received: 2 July 2024"
+   },
+   "note": "Submitted July 2024, published March 2026",
+   "status": "unchecked"
+  },
+  {
+   "id": "d55b6d",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "read out by a 4 × 16 SiPM array coupled to the bottom of the LYSO array"
+   },
+   "note": "4x16 SiPM array, S14160-3050HS, 3.65 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "2759e6",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The lightguide was made of 1.5 mm-thick k9 glass"
+   },
+   "value": {
+    "number": 1.5,
+    "unit": "mm",
+    "what": "light guide thickness"
+   },
+   "note": "1.5 mm glass light guide",
+   "status": "unchecked"
+  },
+  {
+   "id": "32e369",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "aggregated by a row-column summing circuit to form four row and 16 column signals"
+   },
+   "note": "Row-and-column summing: 4 rows + 16 columns",
+   "status": "unchecked"
+  },
+  {
+   "id": "566cdf",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Four long semi-monolithic detectors consisting of lutetium yttrium oxyorthosilicate (LYSO) slabs of 0.96 mm × 56 mm × 10 mm"
+   },
+   "note": "Four detectors: 0.96x56x10 and 0.81x56x10 mm3 slabs",
+   "status": "unchecked"
+  },
+  {
+   "id": "8dad65",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The reflector between the individual slabs of detectors 1, 2, and 4 was barium sulfate"
+   },
+   "note": "BaSO4 in detectors 1, 2, 4; ESR in detector 3",
+   "status": "unchecked"
+  },
+  {
+   "id": "2b02d5",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The two end and front surfaces of detectors 1, 3, and 4 were unpolished and painted with a black marker pen"
+   },
+   "note": "Ends and front black-painted on 1, 3, 4; detector 2 left bare",
+   "status": "unchecked"
+  },
+  {
+   "id": "849bcc",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "a single LYSO crystal of 1 mm × 1 mm × 20 mm wrapped with Teflon"
+   },
+   "note": "Reference: single 1x1x20 mm3 LYSO on one SiPM",
+   "status": "unchecked"
+  },
+  {
+   "id": "28262a",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "a 5 mm-thick tungsten collimator with a 1 mm-diameter drilled hole"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "collimator hole"
+   },
+   "note": "1 mm hole in 5 mm tungsten",
+   "status": "unchecked"
+  },
+  {
+   "id": "7bba58",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "the operating temperature of the detectors was 14 ◦ C"
+   },
+   "value": {
+    "number": 14.0,
+    "unit": "°C",
+    "what": "temperature"
+   },
+   "note": "Operated at 14 °C",
+   "status": "unchecked"
+  },
+  {
+   "id": "c403f0",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The irradiation time for each position was 2200 s"
+   },
+   "value": {
+    "number": 2200.0,
+    "unit": "s",
+    "what": "time per position"
+   },
+   "note": "2200 s per position",
+   "status": "unchecked"
+  },
+  {
+   "id": "a41bb6",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "which was estimated to be ~1 mm, was not subtracted from the y and DOI resolutions"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "beam width"
+   },
+   "note": "~1 mm beam width not subtracted",
+   "status": "unchecked"
+  },
+  {
+   "id": "aabb24",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "All slabs were clearly resolved for detectors 1–3 using 0.96 mm-thick slabs"
+   },
+   "note": "All 0.96 mm slabs resolved",
+   "status": "unchecked"
+  },
+  {
+   "id": "3a015c",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "The second and third slabs near the edges could not be clearly resolved for detector 4"
+   },
+   "note": "0.81 mm: second and third slabs from the edges unresolved",
+   "status": "unchecked"
+  },
+  {
+   "id": "7743df",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "the y spatial resolutions averaged over the entire detectors were 1.68 ± 0.29 and 1.67 ± 0.27 mm"
+   },
+   "value": {
+    "number": 1.68,
+    "unit": "mm",
+    "what": "y resolution FWHM"
+   },
+   "note": "Whole-detector y FWHM by squared COG, detectors 1 and 4",
+   "status": "unchecked"
+  },
+  {
+   "id": "1bde28",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "improved the spatial resolution in the monolithic direction by ~30% compared with the COG method"
+   },
+   "value": {
+    "number": 30.0,
+    "unit": "%",
+    "what": "squared-COG gain"
+   },
+   "note": "Squared COG ~30% better than COG",
+   "status": "unchecked"
+  },
+  {
+   "id": "4f8f7e",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "y resolution, COG (mm) 2.15 ± 0.57 2.12 ± 0.50"
+   },
+   "value": {
+    "number": 2.15,
+    "unit": "mm",
+    "what": "y resolution COG"
+   },
+   "note": "Table 2: whole-detector COG y 2.15 (det 1), 2.12 (det 4)",
+   "status": "unchecked"
+  },
+  {
+   "id": "d10f52",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The DOI resolutions averaged over the entire detectors were 2.14 ± 0.76 and 2.28 ± 0.67 mm"
+   },
+   "value": {
+    "number": 2.14,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Whole-detector DOI FWHM, detectors 1 and 4",
+   "status": "unchecked"
+  },
+  {
+   "id": "eba123",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Average energy resolutions of 17.4% and 17.6% were achieved"
+   },
+   "value": {
+    "number": 17.4,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Whole-detector energy resolution, detectors 1 and 4",
+   "status": "unchecked"
+  },
+  {
+   "id": "632c51",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "Timing resolution (ns) 3.34 ± 0.49 3.47 ± 0.45"
+   },
+   "value": {
+    "number": 3.34,
+    "unit": "ns",
+    "what": "timing resolution"
+   },
+   "note": "Table 2: timing vs reference, 3.34 ns (det 1), 3.47 ns (det 4)",
+   "status": "unchecked"
+  },
+  {
+   "id": "247338",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "resulted from the unoptimized timing pick-off circuit rather than the semi-monolithic scintillator detector"
+   },
+   "note": "Poor timing blamed on pick-off circuit",
+   "status": "unchecked"
+  },
+  {
+   "id": "4baedb",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "The energy resolution degraded from 14.7% to 15.8%"
+   },
+   "value": {
+    "number": 15.8,
+    "unit": "%",
+    "what": "energy resolution (painted)"
+   },
+   "note": "Black paint: energy 14.7% to 15.8%",
+   "status": "unchecked"
+  },
+  {
+   "id": "37b928",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "from 1.87 to 1.66 mm for the squared COG method"
+   },
+   "value": {
+    "number": 1.66,
+    "unit": "mm",
+    "what": "y resolution (painted)"
+   },
+   "note": "Black paint: y 1.87 to 1.66 mm (squared COG, centre DOI line)",
+   "status": "unchecked"
+  },
+  {
+   "id": "07adfe",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "The DOI resolution improved from 3.41 to 1.92 mm"
+   },
+   "value": {
+    "number": 1.92,
+    "unit": "mm",
+    "what": "DOI resolution (painted)"
+   },
+   "note": "Black paint: DOI 3.41 to 1.92 mm along centre y",
+   "status": "unchecked"
+  },
+  {
+   "id": "cf2c4a",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Detector 3, which used a specular ESR reflector, had the lowest light output; however, the photopeak amplitudes did not change with the depth"
+   },
+   "note": "ESR: lowest light output but photopeak flat with depth",
+   "status": "unchecked"
+  },
+  {
+   "id": "2c4c51",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "slab identification was best achieved in detector 3, which used the ESR reflector"
+   },
+   "note": "ESR gives clearest flood",
+   "status": "unchecked"
+  },
+  {
+   "id": "c39de9",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "these are the longest (56 mm) and thinnest (0.81 mm) semi-monolithic scintillator PET detectors measured to date"
+   },
+   "note": "Claimed longest and thinnest semi-monolithic detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "f4afe9",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "openly available in Science Data Bank"
+   },
+   "note": "Data on Science Data Bank, doi 10.57760/sciencedb.35988",
+   "status": "unchecked"
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "paper": "Yang2020",
+ "annotations": [
+  {
+   "id": "6dd117",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "System type of both PET systems were set to OpticalSystem provided in GATE"
+   },
+   "note": "GATE optical simulation",
+   "status": "unchecked"
+  },
+  {
+   "id": "2ae03b",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "uniformly coupled with 46 SiPMs on the upper and lower surfaces"
+   },
+   "note": "Dual-ended readout: 46 SiPMs on each end",
+   "status": "unchecked"
+  },
+  {
+   "id": "e0e7a3",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "eight rings containing 46 SiPMs are coupled to the inner surface"
+   },
+   "note": "Inner-surface readout: eight rings of 46 SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "e01ee2",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "the COG method was adapted to decode both circumferential and axial direction of ISRD"
+   },
+   "note": "COG for angle in both; NN axial for DERD, COG axial for ISRD",
+   "status": "unchecked"
+  },
+  {
+   "id": "c2d78b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "FWHMs of circumferential direction decoding accuracies of DERD and ISRD are 1.02mm and 0.61 mm"
+   },
+   "value": {
+    "number": 1.02,
+    "unit": "mm",
+    "what": "angular resolution FWHM"
+   },
+   "note": "Simulated circumferential FWHM: 1.02 mm dual-ended, 0.61 mm inner surface",
+   "status": "unchecked"
+  },
+  {
+   "id": "0e1b68",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "ISRD are 0.68±0.23mm and 0.38±0.26mm respectively"
+   },
+   "value": {
+    "number": 0.68,
+    "unit": "mm",
+    "what": "axial resolution"
+   },
+   "note": "Axial 0.68 mm DERD, 0.38 mm ISRD; text says 'FWHMs and MAEs' without saying which",
+   "status": "unchecked"
+  },
+  {
+   "id": "8c541d",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "550 million Lines-of-Response were extracted"
+   },
+   "value": {
+    "number": 550.0,
+    "unit": "million",
+    "what": "LORs"
+   },
+   "note": "Simulated Derenzo: 550 million LORs",
+   "status": "unchecked"
+  },
+  {
+   "id": "8476da",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Rods with 0.5 mm can be clearly distinguished"
+   },
+   "value": {
+    "number": 0.5,
+    "unit": "mm",
+    "what": "Derenzo rods resolved"
+   },
+   "note": "Simulated Derenzo: 0.5 mm rods distinguished (sectors listed by radius 0.4-0.9 mm)",
+   "status": "unchecked"
+  },
+  {
+   "id": "51a2ce",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "with radius of 0.4mm, 0.5mm, 0.6mm, 0.7mm, 0.8mm, 0.9mm"
+   },
+   "note": "Phantom openings given as radii 0.4-0.9 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "088d5a",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Finally, the design method of dual-end coupling is chosen"
+   },
+   "note": "Dual-ended chosen, citing cost, manufacturing, assembly and electronics",
+   "status": "unchecked"
+  }
+ ]
+}

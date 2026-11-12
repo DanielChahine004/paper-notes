@@ -1,0 +1,444 @@
+{
+ "paper": "Ren2014",
+ "annotations": [
+  {
+   "id": "67460f",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Five LSO arrays consisting of 5 × 5 crystals (1.5 × 1.5 × 20 mm3)"
+   },
+   "value": {
+    "number": 1.5,
+    "unit": "mm",
+    "what": "crystal pitch"
+   },
+   "note": "Five 5x5 LSO arrays of 1.5 x 1.5 x 20 mm crystals",
+   "status": "unchecked"
+  },
+  {
+   "id": "f756f2",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "two 8 × 8 mm2 position-sensitive avalanche photodiodes (PSAPDs) coupled at each end"
+   },
+   "note": "Dual-ended readout by PSAPDs at both ends",
+   "status": "unchecked"
+  },
+  {
+   "id": "504162",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The maximum variations from peak to valley of the polished and unpolished crystal surfaces are about 0.1 μm and 4 μm"
+   },
+   "value": {
+    "number": 4.0,
+    "unit": "μm",
+    "what": "surface peak-to-valley"
+   },
+   "note": "AFM peak-to-valley: polished ~0.1 um, unpolished (saw-cut) ~4 um",
+   "status": "unchecked"
+  },
+  {
+   "id": "cb609b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "unpolished crystal surfaces were left as saw-cut"
+   },
+   "note": "Unpolished = saw-cut finish",
+   "status": "unchecked"
+  },
+  {
+   "id": "40ba58",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Toray lumirror E60 film"
+   },
+   "note": "Second reflector: Toray Lumirror E60",
+   "status": "unchecked"
+  },
+  {
+   "id": "e1aa31",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Tetratex ePTFE Crystal Wrap"
+   },
+   "note": "Third reflector: Tetratex ePTFE Crystal Wrap",
+   "status": "unchecked"
+  },
+  {
+   "id": "9f5cbe",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Five depths of 2, 6, 10, 14, and 18 mm were selectively irradiated"
+   },
+   "value": {
+    "number": 5.0,
+    "what": "number of depths"
+   },
+   "note": "DOI measured at five depths",
+   "status": "unchecked"
+  },
+  {
+   "id": "3cbd1f",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "the width of the radiation beam width on the LSO array was ∼0.6 mm"
+   },
+   "value": {
+    "number": 0.6,
+    "unit": "mm",
+    "what": "beam width"
+   },
+   "note": "Width of the slab-collimated beam on the array",
+   "status": "unchecked"
+  },
+  {
+   "id": "519e00",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The two polished arrays were also measured in singles mode with a PSAPD coupled at one end"
+   },
+   "note": "Polished arrays also read single-ended for comparison",
+   "status": "unchecked"
+  },
+  {
+   "id": "2f47d4",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Array 3 provided the worst DOI resolution of 16.4 mm"
+   },
+   "value": {
+    "number": 16.4,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Polished ESR array (detector 3): essentially no DOI information",
+   "status": "unchecked"
+  },
+  {
+   "id": "c9d711",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "All other arrays provided good DOI resolution ranging from 1.9 mm to 2.9 mm"
+   },
+   "value": {
+    "number": 1.9,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "DOI resolution range of the four arrays other than polished ESR",
+   "status": "unchecked"
+  },
+  {
+   "id": "72bec9",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "0.023"
+   },
+   "value": {
+    "number": 0.023,
+    "what": "GLCED"
+   },
+   "note": "GLCED of detector 3, polished ESR (Table II)",
+   "status": "unchecked"
+  },
+  {
+   "id": "d056ad",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "0.172"
+   },
+   "value": {
+    "number": 0.172,
+    "what": "GLCED"
+   },
+   "note": "GLCED of detector 1, unpolished ESR (Table II)",
+   "status": "unchecked"
+  },
+  {
+   "id": "ed0962",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "0.231"
+   },
+   "value": {
+    "number": 0.231,
+    "what": "GLCED"
+   },
+   "note": "GLCED of detector 4, polished Toray (Table II)",
+   "status": "unchecked"
+  },
+  {
+   "id": "e101e6",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "0.328"
+   },
+   "value": {
+    "number": 0.328,
+    "what": "GLCED"
+   },
+   "note": "GLCED of detector 2, unpolished Toray (Table II)",
+   "status": "unchecked"
+  },
+  {
+   "id": "57ff0f",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "0.470"
+   },
+   "value": {
+    "number": 0.47,
+    "what": "GLCED"
+   },
+   "note": "GLCED of detector 5, unpolished Crystal Wrap (Table II)",
+   "status": "unchecked"
+  },
+  {
+   "id": "2e1b6d",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "The detector DOI resolution then improves to 2.9 mm"
+   },
+   "value": {
+    "number": 2.9,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Unpolished ESR array DOI resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "c7a4bf",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "This array provides a DOI resolution of 2.3 mm"
+   },
+   "value": {
+    "number": 2.3,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Polished Toray array DOI resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "ed56a5",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "GLCED and provides an excellent DOI resolution of 1.9 mm"
+   },
+   "value": {
+    "number": 1.9,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Unpolished Toray array DOI resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "2f3136",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "highest GLCED, and also provides excellent DOI resolution of 1.9 mm"
+   },
+   "value": {
+    "number": 1.9,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Unpolished Crystal Wrap array: highest GLCED, DOI resolution 1.9 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "d85910",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "DOI resolution improved as the gradient in light collection efficiency with depth (GLCED) increased"
+   },
+   "note": "DOI resolution improves with GLCED",
+   "status": "unchecked"
+  },
+  {
+   "id": "ca9093",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Detectors 1 and 3, which were made with ESR reflector, provided the best energy resolution"
+   },
+   "note": "ESR arrays best energy resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "5bb468",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Detector 5, which was used the Crystal Wrap reflector, provided the worst energy resolution"
+   },
+   "note": "Crystal Wrap worst energy resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "b1ec16",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The flood histograms of the detectors based on the Toray reflector are similar to those based on ESR reflector"
+   },
+   "note": "Toray and ESR give similar flood histograms",
+   "status": "unchecked"
+  },
+  {
+   "id": "2970f5",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "the polished array provides better energy resolution (16.5% vs19.4%)"
+   },
+   "value": {
+    "number": 16.5,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Summed energy resolution, polished vs unpolished ESR",
+   "status": "unchecked"
+  },
+  {
+   "id": "33e684",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "30.4 ± 7.0"
+   },
+   "value": {
+    "number": 30.4,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Summed-energy resolution, unpolished Toray (Table II)",
+   "status": "unchecked"
+  },
+  {
+   "id": "6e3989",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "29.5 ± 5.7"
+   },
+   "value": {
+    "number": 29.5,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Summed-energy resolution, polished Toray (Table II)",
+   "status": "unchecked"
+  },
+  {
+   "id": "6af0af",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "54.6 ± 9.4"
+   },
+   "value": {
+    "number": 54.6,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Summed-energy resolution, unpolished Crystal Wrap (Table II)",
+   "status": "unchecked"
+  },
+  {
+   "id": "d38076",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "22.0 ± 2.7"
+   },
+   "value": {
+    "number": 22.0,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Geometric-mean energy resolution, unpolished Toray (Table II)",
+   "status": "unchecked"
+  },
+  {
+   "id": "3c271d",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "20.7 ± 3.8"
+   },
+   "value": {
+    "number": 20.7,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Geometric-mean energy resolution, polished Toray (Table II)",
+   "status": "unchecked"
+  },
+  {
+   "id": "4d3e9c",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "allowing a fixed energy window for event selection, independent of interaction depth"
+   },
+   "note": "Geometric mean energy gives depth-independent photopeak, so a fixed energy window",
+   "status": "unchecked"
+  },
+  {
+   "id": "62605c",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Detectors with Toray reflector and unpolished crystal surfaces (detector #2) can be used"
+   },
+   "note": "Recommendation for small-animal PET: unpolished Toray",
+   "status": "unchecked"
+  },
+  {
+   "id": "09500f",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "detectors with ESR reflector and unpolished crystal surfaces (detector #1) can be used"
+   },
+   "note": "Recommendation for breast and brain: unpolished ESR",
+   "status": "unchecked"
+  },
+  {
+   "id": "45e898",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The best array configuration for single-ended PET detectors of this size is an array using ESR reflector and with polished crystal surfaces"
+   },
+   "note": "Recommendation for single-ended readout: polished ESR",
+   "status": "unchecked"
+  }
+ ]
+}

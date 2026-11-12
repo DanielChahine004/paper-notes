@@ -1,0 +1,219 @@
+{
+ "paper": "Gsell2020",
+ "annotations": [
+  {
+   "id": "284736",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "insert is made of 3 rings of 8 monolithic LYSO crystals"
+   },
+   "note": "Eight blocks per ring",
+   "status": "unchecked"
+  },
+  {
+   "id": "c34cc4",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "with the same average FWHM of 0.92 mm"
+   },
+   "value": {
+    "number": 0.92,
+    "unit": "mm",
+    "what": "average spatial resolution"
+   },
+   "note": "Average FWHM 0.92 mm at axial centre, 37.5 mm axial offset and 35 mm radial offset",
+   "status": "unchecked"
+  },
+  {
+   "id": "8995ea",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "allows one to reach accurate DOI information and, thus, correcting for the parallax error"
+   },
+   "note": "Authors credit homogeneous resolution to DOI/parallax correction",
+   "status": "unchecked"
+  },
+  {
+   "id": "e2bd7a",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "leading to a DOI FWHM around 1.6 mm in all conditions"
+   },
+   "value": {
+    "number": 1.6,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "DOI FWHM from fitted DOI histograms (uniform/raw data), 10 mm crystal",
+   "status": "unchecked"
+  },
+  {
+   "id": "9862d9",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "except for the FLASH sequence for module 0 and 10, of 2.2 and 2.1 mm, respectively"
+   },
+   "value": {
+    "number": 2.2,
+    "unit": "mm",
+    "what": "DOI resolution under FLASH"
+   },
+   "note": "DOI worsens to 2.2/2.1 mm only under FLASH (modules 0, 10)",
+   "status": "unchecked"
+  },
+  {
+   "id": "777d71",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "energy resolution of 18.5 ± 1.5% vs 16.6 ± 0.4% for high and low activity conditions respectively) probably due to pile-up effect"
+   },
+   "value": {
+    "number": 16.6,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution 16.6% at low activity, 18.5% at high, attributed to pile-up",
+   "status": "unchecked"
+  },
+  {
+   "id": "634d6d",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "We determined a PET sensitivity of 11.0% at the center of the FOV"
+   },
+   "value": {
+    "number": 11.0,
+    "unit": "%",
+    "what": "peak sensitivity"
+   },
+   "note": "Peak sensitivity at centre (window not stated)",
+   "status": "unchecked"
+  },
+  {
+   "id": "d0413e",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "486 kcps at 23 MBq"
+   },
+   "value": {
+    "number": 486.0,
+    "unit": "kcps",
+    "what": "NECR peak"
+   },
+   "note": "NECR peak, mouse phantom",
+   "status": "unchecked"
+  },
+  {
+   "id": "5212d1",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "rods as small as 0.7 mm can be resolved"
+   },
+   "value": {
+    "number": 0.7,
+    "unit": "mm",
+    "what": "smallest resolved rods"
+   },
+   "note": "Derenzo rods resolved down to 0.7 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "7311f2",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "We found a respective uniformity of 6.50"
+   },
+   "value": {
+    "number": 6.5,
+    "unit": "%",
+    "what": "uniformity"
+   },
+   "note": "IQ uniformity without MRI",
+   "status": "unchecked"
+  },
+  {
+   "id": "787a22",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "EPI and RARE sequences had no effect on the resolution measurements"
+   },
+   "note": "MRI sequences do not affect resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "97000c",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The PET insert is made of 3 rings of detector blocks including a monolithic LYSO crystal"
+   },
+   "note": "Three rings of 50x50x10 mm3 monolithic LYSO blocks",
+   "status": "unchecked"
+  },
+  {
+   "id": "f206e3",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "(4.2 mm pitch)"
+   },
+   "value": {
+    "number": 4.2,
+    "unit": "mm",
+    "what": "SiPM pitch"
+   },
+   "note": "12x12 SiPM array, 4.2 mm pitch, projection readout (González et al 2016)",
+   "status": "unchecked"
+  },
+  {
+   "id": "5f6fae",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The system has a transaxial field of view (FOV) of 80 mm and an axial FOV of 150 mm"
+   },
+   "value": {
+    "number": 150.0,
+    "unit": "mm",
+    "what": "axial FOV"
+   },
+   "note": "Transaxial FOV 80 mm, axial FOV 150 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "a4e811",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The DOI histograms were fitted to a function well suited for the measured profiles"
+   },
+   "note": "DOI from fitting histograms of raw data (no collimated beam)",
+   "status": "unchecked"
+  },
+  {
+   "id": "c225f1",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "1 mm 0.14 15.88"
+   },
+   "value": {
+    "number": 0.14,
+    "what": "RC 1 mm"
+   },
+   "note": "Table 3: RC of 1 mm rod, MRI off",
+   "status": "unchecked"
+  }
+ ]
+}

@@ -1,0 +1,526 @@
+{
+ "paper": "Carra2022",
+ "annotations": [
+  {
+   "id": "b0623d",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Both algorithms are implemented in a low-cost field-programmable gate array"
+   },
+   "note": "Abstract claim: both algorithms implemented in a low-cost FPGA integrable in the detector",
+   "status": "unchecked"
+  },
+  {
+   "id": "801187",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "can process more than 1 million events per second in real-time"
+   },
+   "value": {
+    "number": 1000000.0,
+    "unit": "events/s",
+    "what": "event rate"
+   },
+   "note": "Abstract claim: FPGA implementation processes over 1e6 events per second in real time",
+   "status": "unchecked"
+  },
+  {
+   "id": "9e58a8",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "would require from 10% to 90% of the resources of a modern medium-sized FPGA"
+   },
+   "note": "Estimate only: proposed architectures would need 10-90% of a medium-sized FPGA at 1 Mcps",
+   "status": "unchecked"
+  },
+  {
+   "id": "f4a4e0",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "approximately 8 h on an NVIDIA 1080 Ti GPU"
+   },
+   "value": {
+    "number": 8.0,
+    "unit": "h",
+    "what": "training time"
+   },
+   "note": "Training for 500 epochs took about 8 h on a GPU",
+   "status": "unchecked"
+  },
+  {
+   "id": "136cfe",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "based on Geant4 and uses the LUT Davis model"
+   },
+   "note": "Optical simulation is Geant4 with the LUT Davis reflection model",
+   "status": "unchecked"
+  },
+  {
+   "id": "954836",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The SiPM simulation is performed in custom Monte Carlo code"
+   },
+   "note": "SiPM response simulated in custom Monte Carlo code",
+   "status": "unchecked"
+  },
+  {
+   "id": "0b8618",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "It includes Compton scattering and Cherenkov emission"
+   },
+   "note": "Simulation includes Compton scattering",
+   "status": "unchecked"
+  },
+  {
+   "id": "438528",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "the HRFlexToT ASIC used in this study has a maximum count-rate of 750 kHz"
+   },
+   "value": {
+    "number": 750.0,
+    "unit": "kHz",
+    "what": "max count rate"
+   },
+   "note": "Readout ASIC (HRFlexToT) maximum count rate",
+   "status": "unchecked"
+  },
+  {
+   "id": "cb4ad5",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "LYSO monolithic scintillator coupled to 64 Hamamatsu S14160-3050"
+   },
+   "note": "Experimental setup: 25.6 x 25.6 x 8 mm LYSO monolith read by 64 S14160-3050 MPPCs",
+   "status": "unchecked"
+  },
+  {
+   "id": "bbef76",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average 2D FWHM at 12 OV goes from 0.88 to 0.78"
+   },
+   "value": {
+    "number": 0.78,
+    "unit": "mm",
+    "what": "2D spatial resolution"
+   },
+   "note": "Experimental T+P 2D FWHM at 12 V OV, training on exp.+sim. data (Table 9)",
+   "status": "unchecked"
+  },
+  {
+   "id": "7a9cfc",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average 2D FWHM at 12 OV goes from 0.88"
+   },
+   "value": {
+    "number": 0.88,
+    "unit": "mm",
+    "what": "2D spatial resolution"
+   },
+   "note": "Experimental T+P 2D FWHM at 12 V OV, training on experimental data only (Table 9)",
+   "status": "unchecked"
+  },
+  {
+   "id": "d4f48e",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "DOI FWHM in the corners worsens by 0.1 (1.45 to 1.55)"
+   },
+   "value": {
+    "number": 1.55,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Experimental corner DOI FWHM of T+P at 12 V (exp.+sim. training), vs 1.45 mm in simulation",
+   "status": "unchecked"
+  },
+  {
+   "id": "84da8c",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "The CTR goes from 194 to 156"
+   },
+   "value": {
+    "number": 156.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "Experimental T+P CTR at 12 V OV with exp.+sim. training (194 ps with experimental data only)",
+   "status": "unchecked"
+  },
+  {
+   "id": "a3a3f1",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "The CTR goes from 194"
+   },
+   "value": {
+    "number": 194.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "Experimental T+P CTR at 12 V OV, training on experimental data only",
+   "status": "unchecked"
+  },
+  {
+   "id": "093e39",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "1.2 depth-of-interaction FWHM and 156 coincidence time resolution"
+   },
+   "value": {
+    "number": 1.2,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "Abstract pairs 1.2 mm DOI (Table 9: 1.25 mm at 3 V OV) with 156 ps CTR (12 V OV)",
+   "status": "unchecked"
+  },
+  {
+   "id": "29b2f8",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "positioning and timestamping have conflicting requirements both in terms of SiPM overvoltage and crystal coating"
+   },
+   "note": "Fig. 7: positioning and timing want different overvoltage and coating",
+   "status": "unchecked"
+  },
+  {
+   "id": "b226c4",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "an energy resolution of 11%"
+   },
+   "value": {
+    "number": 11.0,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution at 12 V OV (Fig. 11b); Table 9 gives 10% at 3-9 V",
+   "status": "unchecked"
+  },
+  {
+   "id": "dd4a0c",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "This setup has a CTR of about 130"
+   },
+   "value": {
+    "number": 130.0,
+    "unit": "ps",
+    "what": "reference CTR"
+   },
+   "note": "CTR of the single-crystal LYSO reference setup",
+   "status": "unchecked"
+  },
+  {
+   "id": "d23700",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "subtracting in quadrature the contribution of the reference detector and multiplying"
+   },
+   "note": "Reference contribution removed in quadrature, then scaled by sqrt(2) to two identical detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "2a2281",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "a 10 000 events irradiation at 100 random points throughout the crystal resulted in a CTR of 155"
+   },
+   "value": {
+    "number": 155.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "Overfitting check at 100 random points: CTR 155 ps, 2D FWHM 0.80 mm, DOI FWHM 1.52 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "a9d34d",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "we identified that a network with a total of 8000 parameters is optimal"
+   },
+   "value": {
+    "number": 8000.0,
+    "what": "parameters"
+   },
+   "note": "Position network size: about 8000 parameters (6 layers, 128/40/30/15/10/3 neurons, Table 1)",
+   "status": "unchecked"
+  },
+  {
+   "id": "3dd750",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the weights are represented in a compressed format with 16-bit precision"
+   },
+   "value": {
+    "number": 16.0,
+    "unit": "bit",
+    "what": "weight precision"
+   },
+   "note": "Position network weights in 16-bit precision",
+   "status": "unchecked"
+  },
+  {
+   "id": "04845b",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The first layer is instead a locally connected layer where each neuron is connected only to a"
+   },
+   "note": "First layer locally connected over 2 x 2 SiPM regions",
+   "status": "unchecked"
+  },
+  {
+   "id": "ba7283",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "A single fully-connected layer with 20 neurons"
+   },
+   "value": {
+    "number": 20.0,
+    "what": "neurons"
+   },
+   "note": "Joining layer for T+P: one 20-neuron dense layer, outputs (x, y, z, t)",
+   "status": "unchecked"
+  },
+  {
+   "id": "8713e0",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "first the individual positioning and timestamping networks are trained, then the final joining layer is trained separately"
+   },
+   "note": "Two-step training: subnetworks trained and fixed, then joining layer trained",
+   "status": "unchecked"
+  },
+  {
+   "id": "4410dd",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "A significant improvement in the 2D FWHM across the three coatings can be seen (between 10% and 20%)"
+   },
+   "note": "Table 8: T+P improves corner 2D FWHM by 10-20% over position-only network",
+   "status": "unchecked"
+  },
+  {
+   "id": "1c05c0",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "by over 30% at the lower overvoltages"
+   },
+   "note": "Table 8: T+P improves DOI FWHM by over 30% at low OV",
+   "status": "unchecked"
+  },
+  {
+   "id": "91dab5",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the number of SiPMs that read more than 5% of the total charge and the variance of the charge"
+   },
+   "note": "Engineered DOI features: SiPMs above 5% of charge and charge variance",
+   "status": "unchecked"
+  },
+  {
+   "id": "d246a7",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The engineered features are added as inputs at the last layer"
+   },
+   "note": "Engineered features injected at the last layer",
+   "status": "unchecked"
+  },
+  {
+   "id": "c80b37",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The charges are normalized so that their total sum is 1"
+   },
+   "note": "Inputs: 8 x 8 charges normalised to sum to one",
+   "status": "unchecked"
+  },
+  {
+   "id": "5ccd91",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "the reference crystal is first oriented perpendicularly to the monolith, then at an angle of"
+   },
+   "note": "Collimated calibration: perpendicular, then 45 degree run to label DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "0bf69a",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "4000 events per position are acquired in a grid spaced about 1.2 apart, for a total of"
+   },
+   "value": {
+    "number": 1.2,
+    "unit": "mm",
+    "what": "calibration grid pitch"
+   },
+   "note": "Experimental calibration: 4000 events at each of 400 points on a ~1.2 mm grid",
+   "status": "unchecked"
+  },
+  {
+   "id": "a58c68",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "80% of these events is used for training and the remaining 20%"
+   },
+   "note": "80/20 train/test split of calibration events",
+   "status": "unchecked"
+  },
+  {
+   "id": "253092",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "in roughly 2500 different points"
+   },
+   "value": {
+    "number": 2500.0,
+    "what": "points"
+   },
+   "note": "Simulated training data: about 20 000 events per position at roughly 2500 points",
+   "status": "unchecked"
+  },
+  {
+   "id": "0d0ab8",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "the FWHM remains stable with as low as 64 experimental points in the dataset"
+   },
+   "value": {
+    "number": 64.0,
+    "what": "points"
+   },
+   "note": "With simulated data added, 64 measured calibration points suffice",
+   "status": "unchecked"
+  },
+  {
+   "id": "966d8e",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The cost function minimized during the training phase is the Euclidean distance"
+   },
+   "note": "Position loss is Euclidean distance; point estimates only",
+   "status": "unchecked"
+  },
+  {
+   "id": "3f1f56",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "how resilient our algorithm is to pile-up in the scintillator"
+   },
+   "note": "Pile-up resilience left to future work",
+   "status": "unchecked"
+  },
+  {
+   "id": "f694c3",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "our results have been obtained with an 8 thick crystal"
+   },
+   "value": {
+    "number": 8.0,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "Authors note results are for an 8 mm thick crystal vs ~20 mm clinical",
+   "status": "unchecked"
+  },
+  {
+   "id": "285b54",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "monolithic crystals combined with artificial intelligence can rival pixellated crystals performance"
+   },
+   "note": "Stated significance: monolithic + AI rival pixellated timing with better spatial and DOI resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "e7abb9",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "algorithm trained with experimental data only, and with experimental and simulated data"
+   },
+   "value": {
+    "number": 290.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "Table 9, Exp.+sim. at OV=3 V: CTR 290 ps with DOI FWHM 1.25 mm; at 12 V: 156 ps with 1.55 mm (cells carry a private-use +/- glyph, so quoted by caption)",
+   "status": "unchecked"
+  },
+  {
+   "id": "010fde",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "algorithm trained with experimental data only, and with experimental and simulated data"
+   },
+   "value": {
+    "number": 290.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "Table 9, Exp.+sim. at OV=3 V: CTR 290 ps with DOI FWHM 1.25 mm; at 12 V: 156 ps with 1.55 mm (table cells carry a private-use +/- glyph, so quoted by caption)",
+   "status": "unchecked"
+  },
+  {
+   "id": "ab297f",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "the best results on spatial resolution have been obtained with algorithms"
+   },
+   "note": "Motivation: best monolithic positioning algorithms cannot operate in real time in a PET detector",
+   "status": "unchecked"
+  }
+ ]
+}

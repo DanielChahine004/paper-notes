@@ -55,6 +55,36 @@ def pull():
     print(f"{len(pdfs())} PDFs in papers/")
     if EXPORT.exists():
         merge_bib()
+    export_claims()
+
+
+# --- the claims the notes cite ------------------------------------------------
+# The map is published from this public repo, papers/ is private, so the
+# annotations a \claim names are copied out trimmed to what the map shows: the
+# page for the chip, the quote for its hover, the value and note.
+
+CLAIMS = REPO / "src" / "shared" / "claims"
+KEEP = ("id", "page", "kind", "quote", "label", "value", "note", "status")
+
+
+def export_claims():
+    src = PAPERS / "annotations"
+    if not src.is_dir():
+        return
+    CLAIMS.mkdir(parents=True, exist_ok=True)
+    keys = set()
+    for f in sorted(src.glob("*.json")):
+        notes = json.loads(f.read_text(encoding="utf-8"))["annotations"]
+        out = [{k: ({"exact": n["quote"]["exact"]} if k == "quote" else n[k]) for k in KEEP if k in n} for n in notes]
+        text = json.dumps({"paper": f.stem, "annotations": out}, indent=1, ensure_ascii=False) + "\n"
+        dest = CLAIMS / f.name
+        if not dest.exists() or dest.read_text(encoding="utf-8") != text:
+            dest.write_text(text, encoding="utf-8", newline="\n")
+        keys.add(f.name)
+    for stale in CLAIMS.glob("*.json"):
+        if stale.name not in keys:
+            stale.unlink()
+    print(f"{len(keys)} papers' claims copied to src/shared/claims/")
 
 
 # --- the bibliography copy ---------------------------------------------------

@@ -1,0 +1,334 @@
+{
+ "paper": "Cates2024",
+ "annotations": [
+  {
+   "id": "8c713c",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "12 × 12 × 15 mm3 BGO scintillator (Shanghai Project Crystal, Ltd) with mechanically polished surfaces, wrapped in Teflon tape"
+   },
+   "value": {
+    "number": 15.0,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "Prototype: 12x12x15 mm3 BGO monolith, polished, Teflon-wrapped",
+   "status": "unchecked"
+  },
+  {
+   "id": "348427",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "4 × 4 array of 3 × 3 mm2 Broadcom AFBR-S4N33C013 SiPMs"
+   },
+   "note": "Photosensor: 4x4 array of 3x3 mm2 Broadcom AFBR-S4N33C013 SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "1670b2",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "digitized detector waveforms at 5 Giga-Samples-per-second"
+   },
+   "value": {
+    "number": 5.0,
+    "unit": "GSa/s",
+    "what": "sampling rate"
+   },
+   "note": "Sixteen LNHF channels digitised by a CAEN V1742 at 5 GSa/s",
+   "status": "unchecked"
+  },
+  {
+   "id": "fc21e9",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "a 2 ns FWHM was achieved for single photon pluses"
+   },
+   "value": {
+    "number": 2.0,
+    "unit": "ns",
+    "what": "single-photon pulse width"
+   },
+   "note": "Digital shaping gives 2 ns FWHM single-photon pulses",
+   "status": "unchecked"
+  },
+  {
+   "id": "d055f6",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "1mm thick Schott BG40 optical glass filter"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "filter thickness"
+   },
+   "note": "1 mm BG40 bandpass filter between BGO and SiPM array to absorb external crosstalk",
+   "status": "unchecked"
+  },
+  {
+   "id": "bc464c",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "we apply this approach, for the first time, with a monolithic scintillation detector"
+   },
+   "note": "Authors claim the first use of a crosstalk-absorbing bandpass filter on a monolith",
+   "status": "unchecked"
+  },
+  {
+   "id": "95536a",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "where weights were squared in the calculation"
+   },
+   "note": "x,y from squared-weight (raise-to-a-power) centroid; relative positions only",
+   "status": "unchecked"
+  },
+  {
+   "id": "9d00e6",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Relative depth-of-interaction (DOI) was calculated from the sum of the squared number of photons at each pixel"
+   },
+   "note": "Relative DOI from the sum of squared per-pixel photon counts",
+   "status": "unchecked"
+  },
+  {
+   "id": "10bd1d",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "into 18 voxels (3 × 3 × 2 in the x, y, and depth directions, respectively)"
+   },
+   "note": "Corrections binned into 3x3x2 voxels",
+   "status": "unchecked"
+  },
+  {
+   "id": "892343",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "incorporate prompt emissions, such as Cherenkov light, in a Dirac function"
+   },
+   "note": "First-photon delay model includes a Dirac term for prompt (Cherenkov) emission",
+   "status": "unchecked"
+  },
+  {
+   "id": "591a0a",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "These distributions create a correction for transit skew"
+   },
+   "note": "Per-voxel, per-pixel first-photon distributions give the timing correction",
+   "status": "unchecked"
+  },
+  {
+   "id": "85dcf2",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "66% of all optical photon pulses were single photons, 21% had two optical photon equivalent amplitudes, and 13% had an amplitude equivalent to three or more photons"
+   },
+   "value": {
+    "number": 66.0,
+    "unit": "%",
+    "what": "single-photon pulse fraction"
+   },
+   "note": "Photon counting statistics of optical pulses: 66% single, 21% two, 13% three or more",
+   "status": "unchecked"
+  },
+  {
+   "id": "1cf663",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "every single photon and photon 'bunch' has a unique timestamp"
+   },
+   "note": "Every photon counted; a multi-photon bunch shares one timestamp",
+   "status": "unchecked"
+  },
+  {
+   "id": "5d2f77",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "the optical glass filter virtually eliminates external crosstalk in this detector configuration"
+   },
+   "note": "With the filter, the false-trigger rate follows the datasheet DCR x internal crosstalk estimate",
+   "status": "unchecked"
+  },
+  {
+   "id": "b1073b",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average SPTR at the operating voltage for the remainder of the experimental studies (34 V, or Vbr + 7 V) was 133 ± 1 ps"
+   },
+   "value": {
+    "number": 133.0,
+    "unit": "ps",
+    "what": "SPTR"
+   },
+   "note": "Average SPTR at the operating voltage (Vbr+7 V)",
+   "status": "unchecked"
+  },
+  {
+   "id": "7747c2",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The best average SPTR was 117 ± 1 ps at 37 V"
+   },
+   "value": {
+    "number": 117.0,
+    "unit": "ps",
+    "what": "SPTR"
+   },
+   "note": "Best average SPTR, at Vbr+10 V",
+   "status": "unchecked"
+  },
+  {
+   "id": "ab7d2e",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "This operating voltage was limited by the 1 V dynamic range of the digitizer"
+   },
+   "note": "Operating voltage limited by the digitiser's 1 V range",
+   "status": "unchecked"
+  },
+  {
+   "id": "f29bcc",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "for the fast distribution was 237 ± 10 ps FWHM"
+   },
+   "value": {
+    "number": 237.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "CTR vs 3x3x3 mm3 LYSO reference, fast (Cherenkov-led) component",
+   "status": "unchecked"
+  },
+  {
+   "id": "f9175b",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "The percentage of events comprising the fast distribution (rc) was 51 ± 4%"
+   },
+   "value": {
+    "number": 51.0,
+    "unit": "%",
+    "what": "fast-component fraction"
+   },
+   "note": "Share of events in the fast CTR component",
+   "status": "unchecked"
+  },
+  {
+   "id": "fc35c7",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "would be 315 ps and 1.09 ns for the fast and slow distributions"
+   },
+   "value": {
+    "number": 315.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "Expected CTR between two identical prototypes after removing the reference, fast component",
+   "status": "unchecked"
+  },
+  {
+   "id": "092f1e",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The achieved energy resolution was 17.6%"
+   },
+   "value": {
+    "number": 17.6,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution from counted photons after per-voxel light-collection correction (18.1% uncorrected)",
+   "status": "unchecked"
+  },
+  {
+   "id": "4c0c17",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "the estimated number of Cherenkov photons produced is 18.5"
+   },
+   "value": {
+    "number": 18.5,
+    "what": "Cherenkov photons"
+   },
+   "note": "Cherenkov yield estimated from the fitted prompt component, PDE-corrected",
+   "status": "unchecked"
+  },
+  {
+   "id": "2dd73b",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Here, we calculate a relative estimate for 3D position of interaction"
+   },
+   "note": "Positioning is relative only; no collimated calibration",
+   "status": "unchecked"
+  },
+  {
+   "id": "40e312",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "could be sufficient for achieving optical sparsity with an LYSO:Ce monolith"
+   },
+   "value": {
+    "number": 2.0,
+    "unit": "ns",
+    "what": "impulse response width"
+   },
+   "note": "Sizing estimate: ~13x13 array with 2 ns FWHM response for an LYSO:Ce monolith",
+   "status": "unchecked"
+  },
+  {
+   "id": "1928df",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "within the 1 V dynamic range of our CAEN V1742 digitizer"
+   },
+   "note": "SPTR held back: amplifier gain lowered to fit the digitiser's 1 V range, band-limiting the signal",
+   "status": "unchecked"
+  },
+  {
+   "id": "160ef1",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "typical 4 × 4 SiPM array should be appropriate for BGO"
+   },
+   "value": {
+    "number": 4.0,
+    "unit": "ns",
+    "what": "impulse response width"
+   },
+   "note": "Sizing estimate: a 4x4 SiPM array suffices for BGO with a 4 ns FWHM single-photon response (sentence continues 'when an electronic readout achieves 4 ns FWHM impulse response width')",
+   "status": "unchecked"
+  }
+ ]
+}

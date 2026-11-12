@@ -1,0 +1,285 @@
+{
+ "paper": "Kinyanjui2025",
+ "annotations": [
+  {
+   "id": "828bc9",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Two long semi-monolithic scintillator detectors consisting of 12 lutetium yttrium oxyorthosilicate (LYSO) slabs"
+   },
+   "note": "12 slabs of 0.96x56x10 and 14 of 0.81x56x10 mm3 LYSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "05d123",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "active area of 3 × 3 mm2 and a pitch of 3.65 mm"
+   },
+   "value": {
+    "number": 3.65,
+    "unit": "mm",
+    "what": "SiPM pitch"
+   },
+   "note": "4x16 S14160-3050HS SiPMs, 3x3 mm2 active, 3.65 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "828719",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "A k9 glass lightguide of 1.5 mm thick"
+   },
+   "value": {
+    "number": 1.5,
+    "unit": "mm",
+    "what": "light guide thickness"
+   },
+   "note": "1.5 mm glass light guide",
+   "status": "unchecked"
+  },
+  {
+   "id": "800a31",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "aggregate the 64 signals of the SiPM array into 20 signals"
+   },
+   "note": "Row-column summing to 4 rows and 16 columns",
+   "status": "unchecked"
+  },
+  {
+   "id": "0f6efa",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "irradiated at 27 × 5 (y, z) positions starting from a position of (2 mm, 1 mm) with a stepping size of 2 mm"
+   },
+   "note": "27x5 positions, 2 mm steps in y and z",
+   "status": "unchecked"
+  },
+  {
+   "id": "b89316",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "a pencil beam of 22Na of ∼1 mm"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "beam width"
+   },
+   "note": "Collimated 22Na pencil beam about 1 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "c6e19b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Extreme gradient boosting (XGBoost) machine learning model was used to predict the interaction positions"
+   },
+   "note": "XGBoost predicts y and z",
+   "status": "unchecked"
+  },
+  {
+   "id": "3ea115",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The genetic algorithm (GA) or particle swarm optimization (PSO) algorithm was used to optimize hyperparameters"
+   },
+   "note": "Hyperparameters by GA or PSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "e148c0",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The 16-column energy values of the SiPM array were used as the input features"
+   },
+   "note": "Inputs: 16 column energies",
+   "status": "unchecked"
+  },
+  {
+   "id": "3aad0e",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "the 16 column signals were normalized"
+   },
+   "note": "Inputs normalised to [0,1]",
+   "status": "unchecked"
+  },
+  {
+   "id": "b53a64",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "The models were trained separately for predicting y and z coordinates"
+   },
+   "note": "Separate models for y and z",
+   "status": "unchecked"
+  },
+  {
+   "id": "ebe86d",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "predict the y and z coordinates using the test data of each irradiation position"
+   },
+   "note": "Tested on held-out events at the same calibration positions",
+   "status": "unchecked"
+  },
+  {
+   "id": "46c4cc",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average y spatial resolutions using the machine learning positioning methods were 0.92 ± 0.41 mm and 0.94 ± 0.44 mm"
+   },
+   "value": {
+    "number": 0.92,
+    "unit": "mm",
+    "what": "y resolution FWHM (ML)"
+   },
+   "note": "ML y FWHM 0.92 / 0.94 mm vs squared COG 1.38 / 1.39 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "35a66d",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "squared center of gravity method of 1.38 ± 0.23 mm and 1.39 ± 0.25 mm"
+   },
+   "value": {
+    "number": 1.38,
+    "unit": "mm",
+    "what": "y resolution FWHM (squared COG)"
+   },
+   "note": "Squared COG baseline, detectors 1 and 2",
+   "status": "unchecked"
+  },
+  {
+   "id": "dd18df",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average z spatial resolutions obtained with the machine learning positioning methods were 1.67 ± 0.41 mm and 1.68 ± 0.45 mm"
+   },
+   "value": {
+    "number": 1.67,
+    "unit": "mm",
+    "what": "DOI resolution FWHM (ML)"
+   },
+   "note": "ML z FWHM 1.67 / 1.68 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "2655d5",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "standard deviation method of 2.09 ± 0.82 mm and 2.14 ± 0.81 mm"
+   },
+   "value": {
+    "number": 2.09,
+    "unit": "mm",
+    "what": "DOI resolution FWHM (inverse SD)"
+   },
+   "note": "Inverse-SD baseline, detectors 1 and 2",
+   "status": "unchecked"
+  },
+  {
+   "id": "17d3df",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "the machine learning positioning methods improved both y and z spatial resolutions especially at both ends of the detectors"
+   },
+   "note": "Gain largest at the slab ends",
+   "status": "unchecked"
+  },
+  {
+   "id": "de8e59",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The machine learning methods reduce the biases to less than 0.1 mm"
+   },
+   "value": {
+    "number": 0.1,
+    "unit": "mm",
+    "what": "y bias (ML)"
+   },
+   "note": "y bias 0.24/0.22 mm with squared COG, under 0.1 mm with ML",
+   "status": "unchecked"
+  },
+  {
+   "id": "0854bb",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "average absolute z bias from ∼0.54 mm obtained with the inverse standard deviation method to ∼0.40 mm"
+   },
+   "value": {
+    "number": 0.4,
+    "unit": "mm",
+    "what": "z bias (ML)"
+   },
+   "note": "z bias 0.54 to 0.40 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "865aac",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The GA and PSO algorithms provided similar results"
+   },
+   "note": "GA and PSO equivalent",
+   "status": "unchecked"
+  },
+  {
+   "id": "ae2118",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "The inter-crystal scattering events are not considered for the comparison"
+   },
+   "note": "Inter-crystal scatter not considered",
+   "status": "unchecked"
+  },
+  {
+   "id": "d60976",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "Future work will be performed to evaluate in what extent the inter-crystal scattering events can be recovered"
+   },
+   "note": "Recovering scattered events is future work; cites Gillam 2014, Zhang 2019a, Lee and Lee 2021",
+   "status": "unchecked"
+  },
+  {
+   "id": "9f9a6f",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average FWHM y spatial resolution was improved by ∼30%"
+   },
+   "value": {
+    "number": 30.0,
+    "unit": "%",
+    "what": "y improvement"
+   },
+   "note": "y improved ~30% (1.38 to ~0.93 mm)",
+   "status": "unchecked"
+  }
+ ]
+}

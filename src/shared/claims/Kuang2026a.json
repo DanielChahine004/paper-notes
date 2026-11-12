@@ -1,0 +1,310 @@
+{
+ "paper": "Kuang2026a",
+ "annotations": [
+  {
+   "id": "118976",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The enhanced specular reflector film (ESR) and BaSO4 were used as the reflectors of the two detectors"
+   },
+   "note": "Two detectors of 12 LYSO slabs 0.96x56x10 mm3, one ESR, one BaSO4",
+   "status": "unchecked"
+  },
+  {
+   "id": "c1ddd8",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The distance between the front faces of the two detectors was 83 mm"
+   },
+   "value": {
+    "number": 83.0,
+    "unit": "mm",
+    "what": "detector separation"
+   },
+   "note": "Detectors 83 mm apart",
+   "status": "unchecked"
+  },
+  {
+   "id": "06d6ac",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "a 0.3 mm diameter 22Na point source with an activity of 128 kBq was placed on the rotation platform"
+   },
+   "note": "0.3 mm 22Na point source on rotation platform",
+   "status": "unchecked"
+  },
+  {
+   "id": "551db0",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the point source was measured for 10 angles with an interval of 18 degrees"
+   },
+   "value": {
+    "number": 18.0,
+    "unit": "°",
+    "what": "angular step"
+   },
+   "note": "Ten angles 18° apart, 120 s each",
+   "status": "unchecked"
+  },
+  {
+   "id": "1adab6",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The data acquisition time at each angle was 120 s"
+   },
+   "value": {
+    "number": 120.0,
+    "unit": "s",
+    "what": "time per angle"
+   },
+   "note": "120 s per angle",
+   "status": "unchecked"
+  },
+  {
+   "id": "22b68f",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "the transverse FOV of the prototype scanner was only 12.4 mm"
+   },
+   "value": {
+    "number": 12.4,
+    "unit": "mm",
+    "what": "transverse FOV"
+   },
+   "note": "Transverse FOV only 12.4 mm, so offsets 0 and 5 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "7e12a7",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The scanner featured an 83 mm detector ring diameter and a 56 mm axial FOV"
+   },
+   "note": "Simulated ring of 20 detectors, 83 mm diameter, 56 mm axial",
+   "status": "unchecked"
+  },
+  {
+   "id": "cb38c0",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the detector calibration data were acquired using the 176Lu background in the LYSO scintillator for 30 min"
+   },
+   "value": {
+    "number": 30.0,
+    "unit": "min",
+    "what": "calibration time"
+   },
+   "note": "Calibration from 30 min of 176Lu background",
+   "status": "unchecked"
+  },
+  {
+   "id": "f789ec",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "assuming that the number of events of the 176Lu background was uniform in the detector volume"
+   },
+   "note": "Assumes 176Lu events uniform in the volume",
+   "status": "unchecked"
+  },
+  {
+   "id": "227eaf",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "a slab could still be easily divided into 56 different y segments of 1 mm and 8 different DOI segments of 1.25 mm"
+   },
+   "note": "Equal-count bins: 56 of 1 mm in y, 8 of 1.25 mm in depth",
+   "status": "unchecked"
+  },
+  {
+   "id": "67dd4d",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The PSF parameters were obtained from the image of the point source placed at the center and reconstructed without PSF modeling"
+   },
+   "note": "PSF from the centred point source",
+   "status": "unchecked"
+  },
+  {
+   "id": "3f8439",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Gaussian noise with FWHMs of 1.7 mm and 2.1 mm was added to the coordinates"
+   },
+   "value": {
+    "number": 1.7,
+    "unit": "mm",
+    "what": "simulated y blur"
+   },
+   "note": "Simulation blurs GATE positions by 1.7 mm (y) and 2.1 mm (DOI) Gaussians",
+   "status": "unchecked"
+  },
+  {
+   "id": "39f81e",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The energy resolution of the detector was set to 15% at 511 keV"
+   },
+   "value": {
+    "number": 15.0,
+    "unit": "%",
+    "what": "simulated energy resolution"
+   },
+   "note": "Simulated energy resolution 15%",
+   "status": "unchecked"
+  },
+  {
+   "id": "8f5051",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Without PSF 1.14 ± 0.009 1.10 ± 0.012 1.40 ± 0.014"
+   },
+   "value": {
+    "number": 1.14,
+    "unit": "mm",
+    "what": "radial resolution, no PSF, centre"
+   },
+   "note": "Table 1 centre, no PSF: 1.14/1.10/1.40 mm radial/tangential/axial",
+   "status": "unchecked"
+  },
+  {
+   "id": "ad70ec",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Without PSF 1.08 ± 0.009 1.06 ± 0.004 1.35 ± 0.008"
+   },
+   "value": {
+    "number": 1.08,
+    "unit": "mm",
+    "what": "radial resolution, no PSF, 5 mm"
+   },
+   "note": "Table 1 5 mm offset, no PSF: 1.08/1.06/1.35 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "0d88a9",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "With PSF 0.63 ± 0.001 0.60 ± 0.001 0.61 ± 0.002"
+   },
+   "value": {
+    "number": 0.63,
+    "unit": "mm",
+    "what": "radial resolution, PSF, centre"
+   },
+   "note": "Table 1 centre, PSF: 0.63/0.60/0.61 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "a51d9e",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "With PSF 0.60 ± 0.001 0.54 ± 0.001 0.60 ± 0.001"
+   },
+   "value": {
+    "number": 0.6,
+    "unit": "mm",
+    "what": "radial resolution, PSF, 5 mm"
+   },
+   "note": "Table 1 5 mm offset, PSF: 0.60/0.54/0.60 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "c39d03",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "should be regarded as a best-case (upper-bound) estimate"
+   },
+   "note": "Authors call the PSF result a best case / upper bound",
+   "status": "unchecked"
+  },
+  {
+   "id": "020f1a",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "A peak sensitivity of 5.45% was achieved with an energy window of 350–650 keV"
+   },
+   "value": {
+    "number": 5.45,
+    "unit": "%",
+    "what": "peak sensitivity (simulated)"
+   },
+   "note": "Simulated full-ring peak sensitivity",
+   "status": "unchecked"
+  },
+  {
+   "id": "0cf91d",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Rods as small as 0.75 mm were clearly resolved in both the center and the 15 mm radial offset positions"
+   },
+   "value": {
+    "number": 0.75,
+    "unit": "mm",
+    "what": "rods resolved (simulated)"
+   },
+   "note": "Simulated hot-rod phantom, PSF modelling",
+   "status": "unchecked"
+  },
+  {
+   "id": "1051a2",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "achieved spatial resolutions of 0.81/0.86/2.43 mm"
+   },
+   "value": {
+    "number": 2.43,
+    "unit": "mm",
+    "what": "axial resolution (previous scanner)"
+   },
+   "note": "Previous semi-monolithic scanner (25.6 mm slabs) as quoted",
+   "status": "unchecked"
+  },
+  {
+   "id": "e1d890",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The previous scanner achieved a peak sensitivity of 3.5%"
+   },
+   "value": {
+    "number": 3.5,
+    "unit": "%",
+    "what": "sensitivity (previous scanner)"
+   },
+   "note": "Previous scanner sensitivity as quoted",
+   "status": "unchecked"
+  },
+  {
+   "id": "eb3b0c",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "semi-monolithic detectors have only been implemented in one small animal PET scanner to date"
+   },
+   "note": "Authors: only one other semi-monolithic small-animal scanner",
+   "status": "unchecked"
+  }
+ ]
+}

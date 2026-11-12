@@ -1,0 +1,370 @@
+{
+ "paper": "Wilson2020a",
+ "annotations": [
+  {
+   "id": "bdb52c",
+   "page": 163,
+   "kind": "quote",
+   "quote": {
+    "exact": "which we defined as the thickness which enables the greatest fraction of incident photons to be localised to within a specified distance"
+   },
+   "note": "Definition of optimal thickness: most photons localised within a set distance",
+   "status": "unchecked"
+  },
+  {
+   "id": "6c6aeb",
+   "page": 90,
+   "kind": "quote",
+   "quote": {
+    "exact": "an optimal thickness for GLuGAG:Ce would be approximately 20 mm, yielding detection of about 46% of photons to within 1 mm"
+   },
+   "value": {
+    "number": 46.0,
+    "unit": "%",
+    "what": "fraction within 1 mm"
+   },
+   "note": "GLuGAG:Ce at ~20 mm (accuracy-optimised): ~46% of photons localised within 1 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "56a430",
+   "page": 90,
+   "kind": "quote",
+   "quote": {
+    "exact": "and 62.5% of photons within 5 mm"
+   },
+   "value": {
+    "number": 62.5,
+    "unit": "%",
+    "what": "fraction within 5 mm"
+   },
+   "note": "GLuGAG:Ce at ~20 mm: 62.5% of photons localised within 5 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "21dc05",
+   "page": 90,
+   "kind": "quote",
+   "quote": {
+    "exact": "increasing the scintillator thickness to around 27.5 mm will increase the latter figure of merit to 67.5%"
+   },
+   "value": {
+    "number": 27.5,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "GLuGAG:Ce sensitivity-optimised thickness ~27.5 mm (67.5% within 5 mm)",
+   "status": "unchecked"
+  },
+  {
+   "id": "56706e",
+   "page": 163,
+   "kind": "quote",
+   "quote": {
+    "exact": "GLuGAG:Ce stood out as having the best overall characteristics"
+   },
+   "note": "GLuGAG:Ce best overall material",
+   "status": "unchecked"
+  },
+  {
+   "id": "5b9776",
+   "page": 163,
+   "kind": "quote",
+   "quote": {
+    "exact": "LaF3:Ce with a polystyrene matrix was the best performing nanocomposite"
+   },
+   "note": "LaF3:Ce-PS best nanocomposite",
+   "status": "unchecked"
+  },
+  {
+   "id": "7d0e8d",
+   "page": 163,
+   "kind": "quote",
+   "quote": {
+    "exact": "it was necessary to introduce a scattering term to correctly model the photon distribution"
+   },
+   "note": "Position fit needs an added optical-scattering term for these materials",
+   "status": "unchecked"
+  },
+  {
+   "id": "cd8ebb",
+   "page": 111,
+   "kind": "quote",
+   "quote": {
+    "exact": "Length (mm) 296 296 Inner radius rin(mm) 233.3145"
+   },
+   "value": {
+    "number": 296.0,
+    "unit": "mm",
+    "what": "axial length"
+   },
+   "note": "Shell length 296 mm, inner radius 233.3 mm (Table 4.2)",
+   "status": "unchecked"
+  },
+  {
+   "id": "7cc922",
+   "page": 111,
+   "kind": "quote",
+   "quote": {
+    "exact": "Average thickness (mm) 24.919 42.874"
+   },
+   "value": {
+    "number": 24.919,
+    "unit": "mm",
+    "what": "shell thickness"
+   },
+   "note": "Average shell thickness: 24.9 mm GLuGAG:Ce, 42.9 mm LaF3:Ce-PS (Table 4.2)",
+   "status": "unchecked"
+  },
+  {
+   "id": "7d6792",
+   "page": 111,
+   "kind": "quote",
+   "quote": {
+    "exact": "Outer faces 116 124 Outer face width 14.2"
+   },
+   "note": "104 inner faces (14.44 mm wide); 116 (GLuGAG) / 124 (LaF3) outer faces of 14.2 mm (Table 4.2)",
+   "status": "unchecked"
+  },
+  {
+   "id": "8b689b",
+   "page": 111,
+   "kind": "quote",
+   "quote": {
+    "exact": "Detection efficiency (%) 67.82 48.83"
+   },
+   "value": {
+    "number": 67.82,
+    "unit": "%",
+    "what": "detection efficiency"
+   },
+   "note": "Detection efficiency 67.82% GLuGAG:Ce, 48.83% LaF3:Ce-PS (Table 4.2)",
+   "status": "unchecked"
+  },
+  {
+   "id": "09faba",
+   "page": 164,
+   "kind": "quote",
+   "quote": {
+    "exact": "The median error of the LOR position was 1.27-1.62 mm for GLuGAG:Ce"
+   },
+   "value": {
+    "number": 1.27,
+    "unit": "mm",
+    "what": "median LOR error"
+   },
+   "note": "Median LOR error 1.27-1.62 mm GLuGAG:Ce, depending on source position",
+   "status": "unchecked"
+  },
+  {
+   "id": "c409bd",
+   "page": 164,
+   "kind": "quote",
+   "quote": {
+    "exact": "3.12-4.13 mm for LaF3:Ce / polystyrene"
+   },
+   "value": {
+    "number": 3.12,
+    "unit": "mm",
+    "what": "median LOR error"
+   },
+   "note": "Median LOR error 3.12-4.13 mm LaF3:Ce-PS",
+   "status": "unchecked"
+  },
+  {
+   "id": "e7bc2f",
+   "page": 164,
+   "kind": "quote",
+   "quote": {
+    "exact": "pixels are first grouped spatially to produce a reduced number of time-domain optical flux signals"
+   },
+   "note": "Ch.5: pixels grouped into regions, one optical-flux signal each",
+   "status": "unchecked"
+  },
+  {
+   "id": "0c0d12",
+   "page": 164,
+   "kind": "quote",
+   "quote": {
+    "exact": "temporally deconvolved by the impulse response of the scintillator, resulting in an impulse train"
+   },
+   "note": "Flux deconvolved by the scintillator impulse response into an impulse train of event onsets",
+   "status": "unchecked"
+  },
+  {
+   "id": "830c49",
+   "page": 130,
+   "kind": "quote",
+   "quote": {
+    "exact": "little variation is observed between photoelectric impulse responses at different depths"
+   },
+   "note": "Impulse responses made for five depth bins differ little; a mean impulse response is the kernel",
+   "status": "unchecked"
+  },
+  {
+   "id": "4cf433",
+   "page": 164,
+   "kind": "quote",
+   "quote": {
+    "exact": "Coincidences were identified when two of these impulses occurred in the same timing bin and different spatial regions"
+   },
+   "note": "Coincidence = two impulses in one timing bin and different regions",
+   "status": "unchecked"
+  },
+  {
+   "id": "d40ce2",
+   "page": 164,
+   "kind": "quote",
+   "quote": {
+    "exact": "The percentage of events able to be detected by the scanner architecture was 32.79%"
+   },
+   "value": {
+    "number": 32.79,
+    "unit": "%",
+    "what": "geometrically detectable"
+   },
+   "note": "Share of annihilations geometrically detectable",
+   "status": "unchecked"
+  },
+  {
+   "id": "6f8e0f",
+   "page": 164,
+   "kind": "quote",
+   "quote": {
+    "exact": "actually able to be detected was 17.42%"
+   },
+   "value": {
+    "number": 17.42,
+    "unit": "%",
+    "what": "detected"
+   },
+   "note": "Share of annihilations found by the coincidence algorithm",
+   "status": "unchecked"
+  },
+  {
+   "id": "e09976",
+   "page": 164,
+   "kind": "quote",
+   "quote": {
+    "exact": "the percentage of missed detections (false negatives, typically due to insufficient energy deposition leading to a weak optical signal) was 15.37%"
+   },
+   "value": {
+    "number": 15.37,
+    "unit": "%",
+    "what": "missed"
+   },
+   "note": "Missed detections, mostly weak optical signals",
+   "status": "unchecked"
+  },
+  {
+   "id": "4b95b4",
+   "page": 164,
+   "kind": "quote",
+   "quote": {
+    "exact": "the percentage of randoms (false positives) was 2.08%"
+   },
+   "value": {
+    "number": 2.08,
+    "unit": "%",
+    "what": "randoms"
+   },
+   "note": "False positives (randoms) added",
+   "status": "unchecked"
+  },
+  {
+   "id": "894103",
+   "page": 165,
+   "kind": "quote",
+   "quote": {
+    "exact": "two analytic algorithms (2D filtered backprojection and 3D FBP with reprojection (3DFBPRP)) and one iterative algorithm (OSEM)"
+   },
+   "note": "Ch.6 reconstruction in STIR: 2D FBP, 3DFBPRP, OSEM",
+   "status": "unchecked"
+  },
+  {
+   "id": "db408d",
+   "page": 165,
+   "kind": "quote",
+   "quote": {
+    "exact": "2 mm diameter sources was measured to be less than 4 mm in almost all cases for OSEM"
+   },
+   "value": {
+    "number": 4.0,
+    "unit": "mm",
+    "what": "spatial resolution"
+   },
+   "note": "OSEM FWHM of 2 mm sources under 4 mm in almost all cases (x, y, z)",
+   "status": "unchecked"
+  },
+  {
+   "id": "08a12c",
+   "page": 165,
+   "kind": "quote",
+   "quote": {
+    "exact": "are essentially a product of only 3 seconds of simulated scan time"
+   },
+   "value": {
+    "number": 3.0,
+    "unit": "s",
+    "what": "scan time"
+   },
+   "note": "Ch.6 images from only 3 s of simulated data, limited by full optical tracking cost",
+   "status": "unchecked"
+  },
+  {
+   "id": "04352c",
+   "page": 165,
+   "kind": "quote",
+   "quote": {
+    "exact": "This could potentially be achieved using a statistical model of the localisation al"
+   },
+   "note": "Future work: NEMA testing via a statistical model of localisation error",
+   "status": "unchecked"
+  },
+  {
+   "id": "dc105b",
+   "page": 166,
+   "kind": "quote",
+   "quote": {
+    "exact": "improve timing capability to sub-nanosecond resolution (and therefore become TOF capable)"
+   },
+   "note": "Future work: sub-ns TOF timing via joint spatial-temporal pulse analysis",
+   "status": "unchecked"
+  },
+  {
+   "id": "9e41d1",
+   "page": 166,
+   "kind": "quote",
+   "quote": {
+    "exact": "might be a partially truncated spherical shell system"
+   },
+   "note": "Future work: truncated spherical shell for brain imaging",
+   "status": "unchecked"
+  },
+  {
+   "id": "c2ee45",
+   "page": 166,
+   "kind": "quote",
+   "quote": {
+    "exact": "Evaluation of simulated scanners optimised to use other evaluated materials would also be of great value"
+   },
+   "note": "Future work: other materials",
+   "status": "unchecked"
+  },
+  {
+   "id": "3139ea",
+   "page": 166,
+   "kind": "quote",
+   "quote": {
+    "exact": "with a relatively course 10 ns resolution"
+   },
+   "value": {
+    "number": 10.0,
+    "unit": "ns",
+    "what": "timing sampling"
+   },
+   "note": "Ch.5 coincidence timing sampled at 10 ns, so not TOF-capable",
+   "status": "unchecked"
+  }
+ ]
+}

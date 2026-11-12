@@ -1,0 +1,274 @@
+{
+ "paper": "Peng2019",
+ "annotations": [
+  {
+   "id": "9b9019",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "giving 64 signals in total"
+   },
+   "value": {
+    "number": 64.0,
+    "what": "channels"
+   },
+   "note": "Four 4x4 SiPM arrays on the four sides, 64 signals",
+   "status": "unchecked"
+  },
+  {
+   "id": "6ded79",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The DOI resolution is the layer thickness"
+   },
+   "note": "Layers optically isolated, so DOI resolution equals the layer thickness",
+   "status": "unchecked"
+  },
+  {
+   "id": "bf5957",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the light that is reflected on one side of the crystal due to total reflection will be able to be collected at its next incident position"
+   },
+   "note": "Four-side readout collects light totally reflected at the first side",
+   "status": "unchecked"
+  },
+  {
+   "id": "92af8f",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "GATE v7.2 (Geant4 Application for Tomographic Emission) was used to simulate"
+   },
+   "note": "Simulation in GATE v7.2 including optical scattering and absorption",
+   "status": "unchecked"
+  },
+  {
+   "id": "3e218e",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "This set of simulated events was used for testing the trained neural network"
+   },
+   "note": "Testing: isotropic point source at the same 625 positions",
+   "status": "unchecked"
+  },
+  {
+   "id": "62ab07",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "81.89% (one layer case)"
+   },
+   "value": {
+    "number": 81.89,
+    "unit": "%",
+    "what": "one-layer fraction"
+   },
+   "note": "Photopeak events by layers hit: 81.89% one, 17.13% two, 0.96% three, 0.02% four",
+   "status": "unchecked"
+  },
+  {
+   "id": "ec1740",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "we only use the energy information to get the z value (FIL)"
+   },
+   "note": "First interaction layer from energies only",
+   "status": "unchecked"
+  },
+  {
+   "id": "2a53f4",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "there are cases where forward scatter and backward scatter give the same interaction positions and energies"
+   },
+   "note": "Reason positions are not used: forward and backward scatter can give same positions and energies",
+   "status": "unchecked"
+  },
+  {
+   "id": "f1b169",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "The success rate for the ‘closest layer scheme’ was 69.2%"
+   },
+   "value": {
+    "number": 69.2,
+    "unit": "%",
+    "what": "FIL success, two layers"
+   },
+   "note": "Closest-layer rule correct for 69.2% of two-layer events",
+   "status": "unchecked"
+  },
+  {
+   "id": "b43680",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "in the energy window between 162 keV and 238 keV, 65% of the events were backward scattered events"
+   },
+   "value": {
+    "number": 65.0,
+    "unit": "%",
+    "what": "backscatter fraction"
+   },
+   "note": "Near-layer energy 162-238 keV: 65% backscatter, so the FIL call is swapped there",
+   "status": "unchecked"
+  },
+  {
+   "id": "98bd50",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "the success rate for FIL prediction was improved from 69.2% to 81.3%"
+   },
+   "value": {
+    "number": 81.3,
+    "unit": "%",
+    "what": "FIL success, two layers"
+   },
+   "note": "Revised closest-layer scheme for two-layer events",
+   "status": "unchecked"
+  },
+  {
+   "id": "0fbf0e",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "with success rates of 93.4% and 96.8%"
+   },
+   "value": {
+    "number": 93.4,
+    "unit": "%",
+    "what": "FIL success, three/four layers"
+   },
+   "note": "Closest-layer rule for three- and four-layer events: 93.4% and 96.8%",
+   "status": "unchecked"
+  },
+  {
+   "id": "4a78e1",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "the FWHM energy resolution improved from 11.7% to 9.3%"
+   },
+   "value": {
+    "number": 9.3,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Simulated energy resolution after position calibration",
+   "status": "unchecked"
+  },
+  {
+   "id": "419786",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "average FWHM spatial resolution (x direction, y direction) for the entire detector was (0.40 mm, 0.39 mm)"
+   },
+   "value": {
+    "number": 0.4,
+    "unit": "mm",
+    "what": "spatial resolution"
+   },
+   "note": "Average FWHM positioning over the module, isotropic test source",
+   "status": "unchecked"
+  },
+  {
+   "id": "8e9105",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "edge region (0.26 mm, 0.29 mm), and corner region (0.31 mm, 0.28 mm)"
+   },
+   "value": {
+    "number": 0.31,
+    "unit": "mm",
+    "what": "spatial resolution"
+   },
+   "note": "Local-region FWHM: centre 0.28/0.27, edge 0.26/0.29, corner 0.31/0.28 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "5acd11",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "maximum bias is 0.2 mm for the testing region at the edge of the crystal"
+   },
+   "value": {
+    "number": 0.2,
+    "unit": "mm",
+    "what": "position bias"
+   },
+   "note": "Edge bias from the interpolation boundary and oblique incidence",
+   "status": "unchecked"
+  },
+  {
+   "id": "f223fc",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "For 96.6% of all the events, the difference was within ±1.68 mm"
+   },
+   "value": {
+    "number": 96.6,
+    "unit": "%",
+    "what": "correct layer"
+   },
+   "note": "Fraction of events assigned to the correct 3.36 mm layer",
+   "status": "unchecked"
+  },
+  {
+   "id": "ae9dec",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "only degraded the overall positioning by 0.07 mm"
+   },
+   "value": {
+    "number": 0.07,
+    "unit": "mm",
+    "what": "noise penalty"
+   },
+   "note": "5% Gaussian noise per element costs 0.07 mm positioning",
+   "status": "unchecked"
+  },
+  {
+   "id": "6523b0",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "The timing resolution is not studied in this paper"
+   },
+   "note": "Timing not studied",
+   "status": "unchecked"
+  },
+  {
+   "id": "669cdf",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "this includes events that Compton scattering within that layer"
+   },
+   "note": "One-layer events include in-layer Compton scatter, which is not separated",
+   "status": "unchecked"
+  },
+  {
+   "id": "79f0eb",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "only one convolution layer with 200 nodes was used"
+   },
+   "note": "Network: a single convolution layer, classification onto the 625 positions",
+   "status": "unchecked"
+  }
+ ]
+}

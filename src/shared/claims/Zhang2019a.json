@@ -1,0 +1,150 @@
+{
+ "paper": "Zhang2019a",
+ "annotations": [
+  {
+   "id": "1b52de",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "12 continuous LYSO slices"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "mm",
+    "what": "slice length"
+   },
+   "note": "12 LYSO ring slices, 48.5/58.5 mm diameter, 5 mm wall, 1 mm long",
+   "status": "unchecked"
+  },
+  {
+   "id": "7b76e2",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "the thickness of the BaSO4 reflectors is 0.1 mm"
+   },
+   "value": {
+    "number": 0.1,
+    "unit": "mm",
+    "what": "reflector thickness"
+   },
+   "note": "Slices bonded with BaSO4 in optical glue, 0.1 mm thick",
+   "status": "unchecked"
+  },
+  {
+   "id": "050aad",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The inner surface and two end surfaces are covered with Aluminum foil"
+   },
+   "note": "Inner surface and ends under aluminium foil",
+   "status": "unchecked"
+  },
+  {
+   "id": "9751e7",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "25 2×4 SiPM arrays was implemented to read out the light distribution of outer surface"
+   },
+   "note": "Outer surface read by 25 2x4 SiPM arrays",
+   "status": "unchecked"
+  },
+  {
+   "id": "222500",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The total channel number is 98"
+   },
+   "value": {
+    "number": 98.0,
+    "unit": "channels",
+    "what": "readout channels"
+   },
+   "note": "98 channels after channel reduction",
+   "status": "unchecked"
+  },
+  {
+   "id": "1e95ec",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The propagation distance is about 3-4 SiPM width (9.48-12.64 mm), similar to the first-generation"
+   },
+   "value": {
+    "number": 12.64,
+    "unit": "mm",
+    "what": "circumferential light spread"
+   },
+   "note": "Light spreads 9.48-12.64 mm around the ring, as in the first generation",
+   "status": "unchecked"
+  },
+  {
+   "id": "63c90d",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "are received by 1-2 SiPMs intensively"
+   },
+   "note": "Light stays within 1-2 SiPMs in the axial (height) direction",
+   "status": "unchecked"
+  },
+  {
+   "id": "e3cef3",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The energy resolution is 10.6%"
+   },
+   "value": {
+    "number": 10.6,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution for a 3x3x20 mm Teflon-wrapped test strip on one SiPM",
+   "status": "unchecked"
+  },
+  {
+   "id": "d0e5f5",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "the 12 crystal slices are not clearly resolved, especially in the two end"
+   },
+   "note": "Twelve slices not clearly resolved in the flood map, worst at the ends",
+   "status": "unchecked"
+  },
+  {
+   "id": "a211ed",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "which results from the SiPMs assembly nonuniformity"
+   },
+   "note": "Bent lines attributed to nonuniform SiPM assembly",
+   "status": "unchecked"
+  },
+  {
+   "id": "80d2eb",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The first step to improve decoding performance is to increase the diffusion of light"
+   },
+   "note": "Too little light spread named as a cause",
+   "status": "unchecked"
+  },
+  {
+   "id": "8afbc7",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "insert light guide between the SiPM and crystal"
+   },
+   "note": "Proposed fix: a light guide between SiPMs and crystal",
+   "status": "unchecked"
+  }
+ ]
+}

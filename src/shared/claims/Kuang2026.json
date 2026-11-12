@@ -1,0 +1,523 @@
+{
+ "paper": "Kuang2026",
+ "annotations": [
+  {
+   "id": "088361",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Each semi-monolithic scintillator array consisted of 12 GAGG slabs"
+   },
+   "note": "12 GAGG slabs of 0.96x56x10 mm3",
+   "status": "unchecked"
+  },
+  {
+   "id": "7458f5",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "output of ~ 54,000 photons/MeV (GAGG-HL, Epic Crystal Co., Shanghai, China)"
+   },
+   "value": {
+    "number": 54000.0,
+    "unit": "ph/MeV",
+    "what": "light yield"
+   },
+   "note": "Epic GAGG-HL, ~54 000 photons/MeV",
+   "status": "unchecked"
+  },
+  {
+   "id": "31aa1c",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "with one using BaSO4 (detector 1) and the other using ESR (detector 2)"
+   },
+   "note": "BaSO4 (detector 1) or ESR (detector 2) between slabs",
+   "status": "unchecked"
+  },
+  {
+   "id": "b61028",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The total thickness of each reflector layer, including the optical glue, was 0.08 mm"
+   },
+   "value": {
+    "number": 0.08,
+    "unit": "mm",
+    "what": "reflector layer thickness"
+   },
+   "note": "0.08 mm per reflector layer with glue",
+   "status": "unchecked"
+  },
+  {
+   "id": "fd9824",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the scintillator slabs were polished on the two large surfaces and on the bottom surface"
+   },
+   "note": "Large faces and SiPM face polished",
+   "status": "unchecked"
+  },
+  {
+   "id": "36b59d",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the front and two end surfaces of the scintillator slabs of both detectors were unpolished and painted with black ink"
+   },
+   "note": "Front and ends rough and black-inked",
+   "status": "unchecked"
+  },
+  {
+   "id": "a01451",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "glass light guide with two 0.2 mm wide and 1 mm deep cuts located 2.05 mm from the two long edges"
+   },
+   "value": {
+    "number": 1.5,
+    "unit": "mm",
+    "what": "light guide thickness"
+   },
+   "note": "1.5 mm glass light guide with two cuts near the long edges",
+   "status": "unchecked"
+  },
+  {
+   "id": "bea860",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "an active pixel area of 3×3 mm2 and a pitch of 3.65 mm"
+   },
+   "value": {
+    "number": 3.65,
+    "unit": "mm",
+    "what": "SiPM pitch"
+   },
+   "note": "4x16 S14160-3050HS, 3x3 mm2 active, 3.65 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "a574a4",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "compress the 64 SiPM outputs into 4 row and 16 column signals"
+   },
+   "note": "Row-column summing to 4+16 signals",
+   "status": "unchecked"
+  },
+  {
+   "id": "028733",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "fed into three high-speed comparators to produce three differential timing signal pairs"
+   },
+   "note": "Summed-row timing signal with 50 mV threshold into three comparators",
+   "status": "unchecked"
+  },
+  {
+   "id": "cbc8ae",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the temperature around the detector maintained at approximately 14 °C"
+   },
+   "value": {
+    "number": 14.0,
+    "unit": "°C",
+    "what": "temperature"
+   },
+   "note": "Measured at about 14 °C",
+   "status": "unchecked"
+  },
+  {
+   "id": "0a53d1",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The electronic collimation is realized by using a 0.3 mm diameter 22Na point source"
+   },
+   "note": "0.3 mm 22Na source with 1x1x20 mm3 LYSO reference",
+   "status": "unchecked"
+  },
+  {
+   "id": "c67fea",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The mechanical collimation is realized by using a 5 mm thick tungsten block with a 1 mm diameter hole drilled"
+   },
+   "note": "1 mm hole in 5 mm tungsten",
+   "status": "unchecked"
+  },
+  {
+   "id": "448146",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "with a step size of 2 mm in both the y and z direc"
+   },
+   "note": "27x5 grid from (2,1) mm, 2 mm steps",
+   "status": "unchecked"
+  },
+  {
+   "id": "1f1cf2",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "For every position, the acquisition time was set to 600 s"
+   },
+   "value": {
+    "number": 600.0,
+    "unit": "s",
+    "what": "time per position"
+   },
+   "note": "600 s per position",
+   "status": "unchecked"
+  },
+  {
+   "id": "ac7f8a",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The DOI (z) was obtained from the inverse standard deviation of the 16 column sig"
+   },
+   "note": "Depth from inverse SD of normalised columns",
+   "status": "unchecked"
+  },
+  {
+   "id": "7063e5",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "fitted with a seventh-order or a cubic polynomial func"
+   },
+   "note": "y and z calibrated to mm with polynomial fits",
+   "status": "unchecked"
+  },
+  {
+   "id": "9784b1",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the energy window for all results in this work was 350–650 keV"
+   },
+   "note": "Energy window 350-650 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "366679",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "the events falling in below 5% of the peak count of each profile are rejected when the MAE value is calculated"
+   },
+   "note": "Scatter trimmed below 5% of peak, for MAE only",
+   "status": "unchecked"
+  },
+  {
+   "id": "f509e1",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "4.08 ± 1.50 and 3.54 ± 0.68 for detectors 1 and 2"
+   },
+   "value": {
+    "number": 4.08,
+    "what": "peak-to-valley ratio"
+   },
+   "note": "PVR 4.08 (BaSO4), 3.54 (ESR); abstract gives 3.96 and 3.55",
+   "status": "unchecked"
+  },
+  {
+   "id": "90551b",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "are 3.96 and 3.55 for detectors 1 and 2, respectively"
+   },
+   "value": {
+    "number": 3.96,
+    "what": "peak-to-valley ratio (abstract)"
+   },
+   "note": "Abstract PVR values differ from body",
+   "status": "unchecked"
+  },
+  {
+   "id": "45b10e",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "All slabs are clearly identifiable from the flood histograms of both detec"
+   },
+   "note": "All 0.96 mm slabs resolved",
+   "status": "unchecked"
+  },
+  {
+   "id": "449149",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "the COG method provides y-position resolutions of 2.21 ± 0.77 mm for detector 1 and 2.16 ± 0.55 mm"
+   },
+   "value": {
+    "number": 2.21,
+    "unit": "mm",
+    "what": "y resolution FWHM (COG)"
+   },
+   "note": "COG y FWHM 2.21 / 2.16 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "b765b3",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "resolutions of 1.60 ± 0.32 mm for detector 1 and 1.59 ± 0.26 mm for detector 2"
+   },
+   "value": {
+    "number": 1.6,
+    "unit": "mm",
+    "what": "y resolution FWHM (squared COG)"
+   },
+   "note": "Squared COG y FWHM 1.60 / 1.59 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "9985ab",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "age MAE y-position resolutions of 0.79 ± 0.15 mm for detector 1 and 0.77 ± 0.11 mm"
+   },
+   "value": {
+    "number": 0.79,
+    "unit": "mm",
+    "what": "y MAE (squared COG)"
+   },
+   "note": "Squared COG y MAE 0.79 / 0.77 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "06cbb5",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The y-position resolution degrades toward both ends and depths farther away from the SiPM array"
+   },
+   "note": "y worse at ends and far from SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "1f85c5",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "2.33 ± 0.68 mm for detector 1 and 2.37 ± 0.58 mm for detector 2"
+   },
+   "value": {
+    "number": 2.33,
+    "unit": "mm",
+    "what": "DOI resolution FWHM"
+   },
+   "note": "DOI FWHM 2.33 / 2.37 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "b30a0c",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average MAE DOI resolutions are 1.13 ± 0.24 mm for detector 1 and 1.16 ± 0.21 mm"
+   },
+   "value": {
+    "number": 1.13,
+    "unit": "mm",
+    "what": "DOI MAE"
+   },
+   "note": "DOI MAE 1.13 / 1.16 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "8d414e",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "is also better at the middle depths than at both large and small depths"
+   },
+   "note": "DOI best mid-slab and mid-depth",
+   "status": "unchecked"
+  },
+  {
+   "id": "c4be4f",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "are 15.6 ± 1.8% for detector 1 and 14.7 ± 1.2% for detector 2"
+   },
+   "value": {
+    "number": 15.6,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy 15.6% BaSO4, 14.7% ESR",
+   "status": "unchecked"
+  },
+  {
+   "id": "7de50b",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "The detector using the ESR reflector exhibited a 30% lower but more uniform photopeak amplitude"
+   },
+   "value": {
+    "number": 30.0,
+    "unit": "%",
+    "what": "photopeak reduction (ESR)"
+   },
+   "note": "ESR photopeak 30% lower but uniform",
+   "status": "unchecked"
+  },
+  {
+   "id": "065c0e",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "making depth-dependent energy calibration of the detector no longer necessary"
+   },
+   "note": "ESR photopeak flat with depth; BaSO4 depth dependent",
+   "status": "unchecked"
+  },
+  {
+   "id": "cc0044",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "semi-monolithic scintillator detectors using the ESR reflector may be preferred for use in PET scanners"
+   },
+   "note": "Authors prefer ESR for scanners",
+   "status": "unchecked"
+  },
+  {
+   "id": "d14f3b",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average CTRs are 4.30 ± 0.57 ns for detector 1 and 4.76 ± 0.56 ns"
+   },
+   "value": {
+    "number": 4.3,
+    "unit": "ns",
+    "what": "CTR"
+   },
+   "note": "CTR vs reference 4.30 / 4.76 ns",
+   "status": "unchecked"
+  },
+  {
+   "id": "b16d42",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "resulted from the unoptimized timing pick-off circuit and the row/column summing readout method used in this work."
+   },
+   "note": "Poor CTR blamed on pick-off and summed readout",
+   "status": "unchecked"
+  },
+  {
+   "id": "3a9189",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "the GAGG scintillator is not suitable for TOF PET detectors due to its long decay time"
+   },
+   "note": "GAGG ~150 ns decay rules out TOF",
+   "status": "unchecked"
+  },
+  {
+   "id": "2b3af5",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "Compared to the LYSO detector with the same slab dimensions, slab surface treatment, and reflector"
+   },
+   "note": "GAGG vs LYSO: similar y and DOI, better energy and PVR, worse CTR",
+   "status": "unchecked"
+  },
+  {
+   "id": "7d7dcd",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "Squared COG method, FWHM 1.60 ± 0.32 1.59 ± 0.26 1.68 ± 0.29"
+   },
+   "value": {
+    "number": 1.68,
+    "unit": "mm",
+    "what": "LYSO y FWHM (squared COG)"
+   },
+   "note": "Table 3 LYSO reference: y 1.68, DOI 2.14, energy 17.4%, CTR 3.34 ns",
+   "status": "unchecked"
+  },
+  {
+   "id": "7edbe5",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "CTR (ns) 4.30 ± 0.57 4.76 ± 0.56 3.34 ± 0.49"
+   },
+   "value": {
+    "number": 3.34,
+    "unit": "ns",
+    "what": "LYSO CTR"
+   },
+   "note": "Table 3 CTR GAGG 4.30/4.76, LYSO 3.34 ns",
+   "status": "unchecked"
+  },
+  {
+   "id": "ef2dc8",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "which is ~ 80% higher than that of the LYSO scintillator"
+   },
+   "value": {
+    "number": 80.0,
+    "unit": "%",
+    "what": "light yield excess"
+   },
+   "note": "GAGG light output ~80% above LYSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "0acedb",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "the higher light output of the GAGG scintillator did not translate to better detector performance"
+   },
+   "note": "PDE mismatch at GAGG wavelength cancels the light gain",
+   "status": "unchecked"
+  },
+  {
+   "id": "bf0eb5",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Peak emission (nm) 530 420"
+   },
+   "value": {
+    "number": 530.0,
+    "unit": "nm",
+    "what": "GAGG peak emission"
+   },
+   "note": "Table 1: GAGG 530 nm, LYSO 420 nm; decay 150 vs 40 ns",
+   "status": "unchecked"
+  }
+ ]
+}
