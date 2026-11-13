@@ -41,12 +41,12 @@ loose_key = "machinery"
 loose_title = "Machinery (no programme)"
 
 [pdfs]
-# a paper card links to its PDF when papers/<Key>.pdf exists. papers/ is a clone
+# a paper card links to its PDF when papers/pdfs/<Key>.pdf exists. papers/ is a clone
 # of the private thesis-papers repo (pixi run papers-pull), and the link opens
 # the paperstore viewer, which reads the PDF and its annotations from that repo
 # after a GitHub sign-in: the repo's collaborators see the paper, anyone else is
 # refused, so the public board publishes no paper
-dir = "papers"
+dir = "papers/pdfs"
 url = "https://danielchahine004.github.io/paperstore/#/{key}"
 
 [claims]
