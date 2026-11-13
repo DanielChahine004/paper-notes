@@ -1,0 +1,145 @@
+{
+ "paper": "Vandenberghe2020",
+ "annotations": [
+  {
+   "id": "e3b788",
+   "page": 33,
+   "kind": "quote",
+   "quote": {
+    "exact": "Pet20.0: a cost efficient, 2 mm spatial resolution total body PET"
+   },
+   "note": "PET20.0 design cited as ref 69 (EANM 2017 abstract)",
+   "status": "unchecked"
+  },
+  {
+   "id": "26009b",
+   "page": 28,
+   "kind": "quote",
+   "quote": {
+    "exact": "a compact total body PET design with only 3–4 times the detector material of a current PET-CT scanner has been proposed"
+   },
+   "note": "Compact TB-PET with 3-4x detector material of PET-CT",
+   "status": "unchecked"
+  },
+  {
+   "id": "6b5ae2",
+   "page": 28,
+   "kind": "quote",
+   "quote": {
+    "exact": "take a large step in spatial resolution (approaching the limits of clinical PET) by using high-resolution monolithic detector technology"
+   },
+   "note": "Large step in spatial resolution via monolithic detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "b8d7ec",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "For single organ, all systems have a very comparable gain"
+   },
+   "note": "Single-organ gain 2.5-3.5x",
+   "status": "unchecked"
+  },
+  {
+   "id": "3fa9ed",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "the optimum is reached with a 70-cm system"
+   },
+   "note": "Single-organ gain saturates at 70 cm",
+   "status": "unchecked"
+  },
+  {
+   "id": "171c60",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "For a 2-m-long object, there is consistent clear gain up to 40"
+   },
+   "note": "Up to 40x for 2 m object",
+   "status": "unchecked"
+  },
+  {
+   "id": "e616b4",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "The cost of a PET system is mostly dominated by the volume of crystals, the area of photodetectors and the required electronics"
+   },
+   "note": "Cost dominated by crystal volume, photodetector area, electronics",
+   "status": "unchecked"
+  },
+  {
+   "id": "fd464d",
+   "page": 28,
+   "kind": "quote",
+   "quote": {
+    "exact": "The cost of monolithic detectors is comparable to pixelated detectors when built as blocks with pixel sizes (2–4 mm) used in current clinical systems"
+   },
+   "note": "Monolithic cost comparable to pixelated at 2-4 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "fdf100",
+   "page": 28,
+   "kind": "quote",
+   "quote": {
+    "exact": "The readout and positioning in this type of detectors is however more complex and costly than pixelated detectors"
+   },
+   "note": "Readout/positioning more complex and costly",
+   "status": "unchecked"
+  },
+  {
+   "id": "1cccd8",
+   "page": 28,
+   "kind": "quote",
+   "quote": {
+    "exact": "This may be a major limitation for building full total body PET systems based on monolithic detectors"
+   },
+   "note": "Major limitation for TB systems",
+   "status": "unchecked"
+  },
+  {
+   "id": "bc20ce",
+   "page": 28,
+   "kind": "quote",
+   "quote": {
+    "exact": "the availability of more advanced Field-Programmable Gate Arrays (FPGAs) can lead to a fast development for these systems"
+   },
+   "note": "Hope that FPGAs help",
+   "status": "unchecked"
+  },
+  {
+   "id": "4fb8b9",
+   "page": 28,
+   "kind": "quote",
+   "quote": {
+    "exact": "Very good TOF may be the most challenging parameter for this technology as the light is spread over a larger area of photodetectors"
+   },
+   "note": "TOF hardest for monolithic: light spread",
+   "status": "unchecked"
+  },
+  {
+   "id": "f87124",
+   "page": 28,
+   "kind": "quote",
+   "quote": {
+    "exact": "New fast algorithms for fast and accurate TOF estimation should be developed to exploit the full potential of these detectors"
+   },
+   "note": "Fast TOF estimators still needed",
+   "status": "unchecked"
+  },
+  {
+   "id": "7ab408",
+   "page": 28,
+   "kind": "quote",
+   "quote": {
+    "exact": "Very good results have been shown for detectors in a lab setup, but have not yet been realised in full systems"
+   },
+   "note": "Lab results not yet in full systems",
+   "status": "unchecked"
+  }
+ ]
+}

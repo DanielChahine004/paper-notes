@@ -1,0 +1,295 @@
+{
+ "paper": "Gillam2014",
+ "annotations": [
+  {
+   "id": "d05e0d",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "is a system composed of two detection modules based on the AX-PET concept"
+   },
+   "note": "AX-PET demonstrator: two detection modules (heads)",
+   "status": "unchecked"
+  },
+  {
+   "id": "d2602b",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "is composed of 48 axially oriented LYSO scintillation crystals of dimension 3 × 3 × 100 mm3 (six layers with eight crystals per layer)"
+   },
+   "note": "Each head: 48 axial LYSO crystals 3x3x100 mm3, six layers of eight",
+   "status": "unchecked"
+  },
+  {
+   "id": "84b3b9",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "The crystal layers are interleaved with orthogonal wave length shifting (WLS) plastic strips"
+   },
+   "note": "Crystal layers interleaved with orthogonal WLS strips",
+   "status": "unchecked"
+  },
+  {
+   "id": "cc17fd",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "For all elements light output was measured using Geiger-mode avalanche photo-diodes, also referred to as silicon photo multipliers (SiPMs)"
+   },
+   "note": "All elements (crystals and WLS) read by SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "581c06",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "single crystal energy resolution was 11.8% (FWHM) at 511 keV"
+   },
+   "value": {
+    "number": 11.8,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Single-crystal energy resolution 11.8% FWHM at 511 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "77bc7b",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Triple interactions are those for which there are three measurements in total (at least one measurement per head) with no event ambiguity"
+   },
+   "note": "Triples: three resolved interactions, at least one per head",
+   "status": "unchecked"
+  },
+  {
+   "id": "80d14f",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "triple interaction measurements with multiplicity [1, 2] or [2, 1] will provide only two candidate LoRs"
+   },
+   "note": "Triples (two hits in one head) give two candidate LoRs",
+   "status": "unchecked"
+  },
+  {
+   "id": "110e87",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "List-mode MLEM reconstruction"
+   },
+   "note": "List-mode MLEM reconstruction",
+   "status": "unchecked"
+  },
+  {
+   "id": "70270d",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Separation and incorporation (with weighting where appropriate) of each possible LoR into the data set"
+   },
+   "note": "Method 1: separation - each candidate LoR as a separate event",
+   "status": "unchecked"
+  },
+  {
+   "id": "007a41",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "most probable LoR alternative was selected using the differential Klein–Nishina cross-section"
+   },
+   "note": "Method: selection by Klein-Nishina cross-section",
+   "status": "unchecked"
+  },
+  {
+   "id": "eb11b4",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Randomized selection for which selection is performed randomly at each iteration"
+   },
+   "note": "Method: randomized selection",
+   "status": "unchecked"
+  },
+  {
+   "id": "73a1c2",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "Inclusion composes a new row of the system matrix to represent the full ICS measurement—termed a V-projection due to its shape"
+   },
+   "note": "Method: inclusion - one system-matrix row, the V-projection",
+   "status": "unchecked"
+  },
+  {
+   "id": "2f3059",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "ηt may be taken to be 0.5 for both LoR candidates"
+   },
+   "note": "Uninformative eta = 0.5 per candidate (half-and-half sum in inclusion)",
+   "status": "unchecked"
+  },
+  {
+   "id": "6353b4",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "each of which considered all possible candidate LoRs during image reconstruction"
+   },
+   "note": "Methods keep all candidate LoRs instead of determining the first interaction",
+   "status": "unchecked"
+  },
+  {
+   "id": "2f12a3",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The investigation assumed that no information other than interaction locations was available to distinguish between candidates"
+   },
+   "note": "No attempt to determine order beyond interaction locations",
+   "status": "unchecked"
+  },
+  {
+   "id": "59c194",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Experimental data was taken using the AX-PET prototype and a NEMA phantom"
+   },
+   "note": "Measured data with a NEMA phantom",
+   "status": "unchecked"
+  },
+  {
+   "id": "8f4589",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "two small animals, juvenile rats, were imaged"
+   },
+   "note": "Two juvenile rats imaged",
+   "status": "unchecked"
+  },
+  {
+   "id": "89cad4",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "The percentage of triples in the acquired data changes slightly (varying between 21.4% and 23.2%)"
+   },
+   "note": "Triples 21.4-23.2% of acquired data",
+   "status": "unchecked"
+  },
+  {
+   "id": "eebf95",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "the relative proportions of ICS events to Golden events was similar to that observed in the phantom study (∼22.5%)"
+   },
+   "value": {
+    "number": 22.5,
+    "unit": "%",
+    "what": "ICS fraction"
+   },
+   "note": "ICS proportion ~22.5%",
+   "status": "unchecked"
+  },
+  {
+   "id": "2efa1d",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "The method of selection using the Klein–Nishina cross-section was shown to have no advantage over either separation or random selection"
+   },
+   "note": "Klein-Nishina selection no better than random selection",
+   "status": "unchecked"
+  },
+  {
+   "id": "306fae",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "provided enhancement in all ﬁgures of merit assessed in this investigation"
+   },
+   "note": "Only inclusion (V-projection) improved all figures of merit",
+   "status": "unchecked"
+  },
+  {
+   "id": "293a70",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "NEMA ﬁgures of merit at iteration 75."
+   },
+   "note": "Table 2: SNR 12.7 -> 13.3, SOR 89.8 -> 82.9 (1e-3) Golden vs Golden+inclusion; inclusion(90%) SNR 12.9, SOR 83.5",
+   "status": "unchecked"
+  },
+  {
+   "id": "c941cd",
+   "page": 19,
+   "kind": "quote",
+   "quote": {
+    "exact": "only the inclusion approach using V-projections did not measurably degrade the image resolution"
+   },
+   "note": "Inclusion: resolution not degraded",
+   "status": "unchecked"
+  },
+  {
+   "id": "921f37",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "similar image quality to be achieved using fewer counts, simulating reduced scan time or activity"
+   },
+   "note": "Inclusion with 90% of data matches full Golden-only quality",
+   "status": "unchecked"
+  },
+  {
+   "id": "0ca033",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "However, a 5–10% enhancement in non-resolution metrics were observed"
+   },
+   "note": "5-10% enhancement in non-resolution metrics",
+   "status": "unchecked"
+  },
+  {
+   "id": "349f77",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "means that the SNR enhancement is less than expected for an additional Golden event"
+   },
+   "note": "SNR gain less than from extra Golden (clean) events",
+   "status": "unchecked"
+  },
+  {
+   "id": "872e4b",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "The triple measurement response estimated via inclusion is approximately twice as long in the image space as a regular LoR"
+   },
+   "note": "V-projection ~2x as long as an LoR",
+   "status": "unchecked"
+  },
+  {
+   "id": "fa196a",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "approaches that attempt to identify the primary interaction do poorly with identiﬁcation rates generally lower than 70%"
+   },
+   "note": "Cited literature: first-interaction identification below 70%",
+   "status": "unchecked"
+  }
+ ]
+}

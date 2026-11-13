@@ -1,0 +1,565 @@
+{
+ "paper": "Vervenne2026",
+ "annotations": [
+  {
+   "id": "066905",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Manuscript version: Accepted Manuscript"
+   },
+   "note": "Accepted manuscript, in press",
+   "status": "unchecked"
+  },
+  {
+   "id": "ebda17",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "published on a gold open access basis under a CC BY 4.0 licence"
+   },
+   "note": "Open access CC BY 4.0",
+   "status": "unchecked"
+  },
+  {
+   "id": "5a009f",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Medical Imaging and Signal Processing (MEDISIP), Department of Electronics and Information Systems, Ghent"
+   },
+   "note": "Affiliation: Ghent MEDISIP",
+   "status": "unchecked"
+  },
+  {
+   "id": "8ec035",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "Both system geometries were defined in GATE version 9.2"
+   },
+   "note": "Simulated in GATE 9.2",
+   "status": "unchecked"
+  },
+  {
+   "id": "ddad2a",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "No optical simulation was performed within the scintillation crystals."
+   },
+   "note": "No optical simulation",
+   "status": "unchecked"
+  },
+  {
+   "id": "cddae9",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Each panel is composed of 20 rows of 14 monolithic detectors"
+   },
+   "note": "Panels of 20 rows x 14 detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "513cef",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "each detector is assembled out of a 50x50x16 mm3 BGO crystal"
+   },
+   "note": "50x50x16 mm3 BGO detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "7b3aff",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "separated by a 50-cm-wide gap"
+   },
+   "note": "Panels 50 cm apart",
+   "status": "unchecked"
+  },
+  {
+   "id": "6cdc60",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The monolithic detectors provide an average in-plane spatial resolution of 1.3 mm and a DOI resolution of 2 mm, along with a CTR of 327 ps"
+   },
+   "note": "Panel detector: 1.3 mm in-plane, 2 mm DOI, 327 ps CTR",
+   "status": "unchecked"
+  },
+  {
+   "id": "73aac5",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The cylindrical system, based on the Siemens Biograph Vision Quadra,"
+   },
+   "note": "Cylinder modelled on Biograph Vision Quadra",
+   "status": "unchecked"
+  },
+  {
+   "id": "8d000d",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "3.2x3.2x20 mm3 LSO crystal"
+   },
+   "note": "3.2 mm LSO pixels",
+   "status": "unchecked"
+  },
+  {
+   "id": "111502",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The cylindrical system has a CTR of 228 ps, and no DOI information is provided by the detector"
+   },
+   "note": "Cylinder 228 ps, no DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "e84bd1",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "A large dual flat-panel system and cylindrical system with the same axial FOV were simulated"
+   },
+   "note": "Same axial FOV for both systems",
+   "status": "unchecked"
+  },
+  {
+   "id": "240954",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "consists of 32 detector rings that provide a total AFOV of 106 cm"
+   },
+   "note": "Cylinder AFOV 106 cm",
+   "status": "unchecked"
+  },
+  {
+   "id": "078ad4",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "calculated as the energy-weighted interaction point"
+   },
+   "note": "Interaction position = energy-weighted point",
+   "status": "unchecked"
+  },
+  {
+   "id": "0e32e6",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "the exact LOR endpoints obtained after simulation were resampled using a 2D Gaussian with a constant width"
+   },
+   "note": "Monolith: constant-width 2D Gaussian blur",
+   "status": "unchecked"
+  },
+  {
+   "id": "d2a7ab",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "This was modeled by uniformly randomizing the interaction position within the transverse plane of the pixel."
+   },
+   "note": "Pixel: uniform randomisation within the pixel",
+   "status": "unchecked"
+  },
+  {
+   "id": "ec62e3",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "the depth information was resampled using a 1D Gaussian kernel"
+   },
+   "note": "DOI: 1D Gaussian in depth",
+   "status": "unchecked"
+  },
+  {
+   "id": "8b5088",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "all LOR endpoints were shifted to the central plane of the scintillation crystal"
+   },
+   "note": "No DOI: endpoints moved to crystal midplane",
+   "status": "unchecked"
+  },
+  {
+   "id": "0eda01",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "This way, a single simulation provided data for different CTRs."
+   },
+   "note": "TOF resampled post hoc, one simulation for all CTRs",
+   "status": "unchecked"
+  },
+  {
+   "id": "c659d9",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "only the true coincidences were retained"
+   },
+   "note": "Trues only",
+   "status": "unchecked"
+  },
+  {
+   "id": "426dbf",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "All acquisitions were reconstructed using Maximum Likelihood Expectation Maximization (MLEM)"
+   },
+   "note": "MLEM reconstruction",
+   "status": "unchecked"
+  },
+  {
+   "id": "0f1dc2",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "(PSF) modeling was applied"
+   },
+   "note": "No PSF modelling",
+   "status": "unchecked"
+  },
+  {
+   "id": "969efd",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Data were generated for point sources and spheres spanning 1-50 mm radius at multiple FOV positions"
+   },
+   "note": "Point sources and 1-50 mm radius spheres",
+   "status": "unchecked"
+  },
+  {
+   "id": "10ab74",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "Images of 25-mm-diameter sphere grids"
+   },
+   "note": "Sphere grids",
+   "status": "unchecked"
+  },
+  {
+   "id": "c6f22d",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Findings were validated using the more clinically relevant NEMA IQ and XCAT phantoms"
+   },
+   "note": "NEMA IQ and XCAT phantoms",
+   "status": "unchecked"
+  },
+  {
+   "id": "c704c6",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "each position in the FOV is associated with a certain image blur regardless of object size"
+   },
+   "note": "Parallax blur set by position, independent of object size",
+   "status": "unchecked"
+  },
+  {
+   "id": "04d10d",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "the extent of parallax error is bounded by crystal thickness"
+   },
+   "note": "Parallax bounded by crystal thickness",
+   "status": "unchecked"
+  },
+  {
+   "id": "eafcb0",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "in the dual flat-panel system, parallax-blur was also present at the center of the FOV"
+   },
+   "note": "Panels: parallax blur also at FOV centre",
+   "status": "unchecked"
+  },
+  {
+   "id": "5b58b8",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "the dual flat-panel system measures many oblique LORs and thus shows clear PSF elongations"
+   },
+   "note": "Centre of panel FOV sees many oblique LORs",
+   "status": "unchecked"
+  },
+  {
+   "id": "eaaed3",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "It distinguishes between parallax error, resolved by DOI information, and limited-angle blurring, resolved by TOF information."
+   },
+   "note": "DOI fixes parallax, TOF fixes limited angle",
+   "status": "unchecked"
+  },
+  {
+   "id": "58c23b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Elongations due to limited angular coverage in the flat-panel system grew with object size"
+   },
+   "note": "Limited-angle elongation grows with object size",
+   "status": "unchecked"
+  },
+  {
+   "id": "03d2a8",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "the transition between both occurs for structures with a radius of 0.5-1 cm"
+   },
+   "note": "Transition at radius 0.5-1 cm",
+   "status": "unchecked"
+  },
+  {
+   "id": "b9dad0",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "These are bounded by the lines drawn from the panel edges tangent to the object boundary."
+   },
+   "note": "Shadow zones bounded by tangent lines from panel edges",
+   "status": "unchecked"
+  },
+  {
+   "id": "036ee1",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "a CTR of 327 ps limits the spillover to roughly 10-15 mm (for the FW5M definition), and artifacts become minimal at a CTR of 50 ps"
+   },
+   "note": "327 ps limits spillover to 10-15 mm (FW5M); minimal at 50 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "6630ca",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "appears severely elongated when the flat-panel system does not provide TOF information"
+   },
+   "note": "IQ phantom severely elongated without TOF",
+   "status": "unchecked"
+  },
+  {
+   "id": "c54b99",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "the general outline of the body becomes hard to delineate"
+   },
+   "note": "XCAT body outline hard to delineate without TOF",
+   "status": "unchecked"
+  },
+  {
+   "id": "4752a3",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "confirm that the appearance of the point sources depends mainly on the DOI and hardly on the CTR"
+   },
+   "note": "Point sources depend on DOI, hardly on CTR",
+   "status": "unchecked"
+  },
+  {
+   "id": "5ec062",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Elongations are strongly reduced when switching from non-DOI to 2 mm DOI, but further improvement to 0.005 mm (corresponding to near-exact depth localization) only results in marginal gains, especially for the cylindrical system"
+   },
+   "note": "DOI saturates at 2 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "20d0d7",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "The two smallest spheres are an exception, only appearing truly spherical if DOI information is included."
+   },
+   "note": "Two smallest IQ spheres round only with DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "1500aa",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "oblique LORs along the axial direction peek into the transverse shadow zones and consequently reduce limited-angle artifacts"
+   },
+   "note": "Axially oblique LORs peek into transverse shadow zones",
+   "status": "unchecked"
+  },
+  {
+   "id": "1beaa3",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "phantoms extend further along the z-direction, blocking these oblique views"
+   },
+   "note": "Long objects block the oblique views",
+   "status": "unchecked"
+  },
+  {
+   "id": "c83196",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "Image quality in a certain plane thus depends on the entire 3D activity distribution"
+   },
+   "note": "In-plane quality depends on full 3D activity",
+   "status": "unchecked"
+  },
+  {
+   "id": "b0a434",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "the number of detector rows is reduced from 20 to 1"
+   },
+   "note": "Rows reduced from 20 to 1",
+   "status": "unchecked"
+  },
+  {
+   "id": "ac634f",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "increases strongly with offsets parallel to the panels, and exceeds the blurring due to parallax"
+   },
+   "note": "Short panels: lateral blur exceeds parallax",
+   "status": "unchecked"
+  },
+  {
+   "id": "e8ac64",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "even a CTR of 50 ps is insufficient to fully eliminate the elongations at the very edge of the FOV for the shortest systems"
+   },
+   "note": "50 ps insufficient at FOV edge for short systems",
+   "status": "unchecked"
+  },
+  {
+   "id": "343c6e",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "Square-like panels seem preferable over elongated ones"
+   },
+   "note": "Square panels preferred",
+   "status": "unchecked"
+  },
+  {
+   "id": "e24a9c",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "although the latter still shows good delineation of the organs and spherical lesions"
+   },
+   "note": "At 327 ps panels still delineate organs and lesions well",
+   "status": "unchecked"
+  },
+  {
+   "id": "abf013",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "with realistic CTR values demonstrate that dual flat-panel systems have become a viable system setup"
+   },
+   "note": "Realistic CTR: panels viable",
+   "status": "unchecked"
+  },
+  {
+   "id": "01c148",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "demonstrate better overall image quality for the 228 ps CTR cylindrical system than the 327 ps CTR dual flat-panel system"
+   },
+   "note": "Cylinder (228 ps) better overall XCAT quality than panels (327 ps)",
+   "status": "unchecked"
+  },
+  {
+   "id": "f81766",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "At 50 ps CTR, the monolithic flat-panel system outperforms the pixelated cylindrical system as fine details such as the ribs are more clearly outlined"
+   },
+   "note": "At 50 ps panels beat cylinder on fine detail",
+   "status": "unchecked"
+  },
+  {
+   "id": "b210c5",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "the scintillation material for the current design of the WT-PET was changed from BGO, used in this study, to LYSO"
+   },
+   "note": "WT-PET moved from BGO to LYSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "9a5807",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "some concerns remain about reaching this value on a system level"
+   },
+   "note": "Doubts BGO 327 ps holds at system level",
+   "status": "unchecked"
+  },
+  {
+   "id": "68e6aa",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "PSF kernels are typically measured for point sources, whose elongations are dominated by parallax rather than limited-angle effects"
+   },
+   "note": "PSF modelling targets parallax, not limited-angle distortion",
+   "status": "unchecked"
+  },
+  {
+   "id": "716b1d",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "Inclusion of prior information to regularize the reconstruction has proven to work well"
+   },
+   "note": "Prior-based regularisation proposed",
+   "status": "unchecked"
+  },
+  {
+   "id": "4c2524",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "Deep-learning approaches trained on paired artifact/artifact-free images have shown better ability"
+   },
+   "note": "Learned approaches proposed",
+   "status": "unchecked"
+  }
+ ]
+}

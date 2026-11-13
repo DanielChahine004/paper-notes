@@ -1,0 +1,150 @@
+{
+ "paper": "Dadgar2023",
+ "annotations": [
+  {
+   "id": "9d2221",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The spatial resolution, sensitivity, count rate performance, scatter fractions, and image quality of both scanners are simulated in the GATE simulation toolkit for comparison"
+   },
+   "note": "GATE comparison of SR, sensitivity, count rate, SF, IQ",
+   "status": "unchecked"
+  },
+  {
+   "id": "ea2cc1",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "which is constructed with pixelated LSO scintillation crystals"
+   },
+   "note": "Quadra-like comparator uses pixelated LSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "e187c9",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "the values of the spatial resolution of this scanner were all below 2 mm along directions parallel to the panels, and reached a maximum of 3.36 mm in the direction perpendicular to the panels"
+   },
+   "value": {
+    "number": 3.36,
+    "unit": "mm",
+    "what": "worst FWHM perpendicular to panels"
+   },
+   "note": "<2 mm parallel, max 3.36 mm perpendicular",
+   "status": "unchecked"
+  },
+  {
+   "id": "bdf452",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The walk-through total-body PET uses its maximum sensitivity (154 cps/kBq) for data acquisition and image reconstruction"
+   },
+   "value": {
+    "number": 154.0,
+    "unit": "cps/kBq",
+    "what": "sensitivity"
+   },
+   "note": "Max sensitivity 154 cps/kBq",
+   "status": "unchecked"
+  },
+  {
+   "id": "5c46bc",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "This resolution is a large improvement compared to the values of the Quadra-like TB-PET"
+   },
+   "note": "Quadra-like coarser resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "de14d1",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The Quadra-like TB-PET (applying no MRD cut) reaches a higher sensitivity for both source positions than the WT-PET"
+   },
+   "note": "Quadra-like more sensitive without MRD cut",
+   "status": "unchecked"
+  },
+  {
+   "id": "baf3e9",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "70 cm (center) 154.0 87.0 179.7"
+   },
+   "note": "Table 3: WT 154.0, Quadra 87.0 (85 MRD), 179.7 (322 MRD)",
+   "status": "unchecked"
+  },
+  {
+   "id": "b3c54a",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "(0, 20, 39.75) 1.65 3.36"
+   },
+   "note": "Table 2: 3.36 mm at (0,20,39.75) cm, near panel at 3/8 AFOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "efad40",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "This is likely due the limited projection angles"
+   },
+   "note": "Y degradation attributed to limited projection angles",
+   "status": "unchecked"
+  },
+  {
+   "id": "9b1a4d",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the interaction point of the gamma photon within the BGO scintillation crystal is smeared with a Gaussian in 3D"
+   },
+   "note": "DOI as Gaussian smearing",
+   "status": "unchecked"
+  },
+  {
+   "id": "726936",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "σz = 0.85 mm (DOI resolution of ∼ 2 mm)"
+   },
+   "value": {
+    "number": 2.0,
+    "unit": "mm",
+    "what": "DOI FWHM"
+   },
+   "note": "DOI ~2 mm FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "343474",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Meysam Dadgar and Jens Maebe contributed equally to this work"
+   },
+   "note": "Joint first authors",
+   "status": "unchecked"
+  },
+  {
+   "id": "7d2567",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Maya Abi Akl1,2, Boris Vervenne1 and Stefaan Vandenberghe1"
+   },
+   "note": "Vervenne is fourth author",
+   "status": "unchecked"
+  }
+ ]
+}

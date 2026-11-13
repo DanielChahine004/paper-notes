@@ -1,0 +1,150 @@
+{
+ "paper": "vanSluis2019",
+ "annotations": [
+  {
+   "id": "944d2f",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Department of Nuclear Medicine and Molecular Imaging, University Medical Center Groningen, University of Groningen"
+   },
+   "note": "Affiliation: UMC Groningen",
+   "status": "unchecked"
+  },
+  {
+   "id": "f48f54",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Each mini block consists of a 5 · 5 lutetium oxyorthosilicate array of 3.2 · 3.2 · 20 mm crystals coupled to a silicon photomultiplier array of 16 · 16 mm, resulting in an axial ﬁeld of view of 26.1 cm"
+   },
+   "note": "5x5 LSO mini block of 3.2x3.2x20 mm on 16x16 mm SiPM array; 26.1 cm AFOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "dfe6f9",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The design of the detector is based on a square array of small crystals whose area is fully covered by SiPM detector elements"
+   },
+   "note": "Crystal area fully covered by SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "bca4f5",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The PET components incorporate 8 rings of 38 detector blocks"
+   },
+   "note": "8 rings of 38 blocks",
+   "status": "unchecked"
+  },
+  {
+   "id": "eed1f4",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The system has a 78-cm bore and 227-kg table capacity"
+   },
+   "note": "78 cm bore",
+   "status": "unchecked"
+  },
+  {
+   "id": "cf4468",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "PET/CT system performance was evaluated for conformation with the NEMA NU 2-2012 standard, with additional measurements described in the new NEMA NU 2-2018 standard"
+   },
+   "note": "Measured to NEMA NU 2-2012 plus NU 2-2018 additions",
+   "status": "unchecked"
+  },
+  {
+   "id": "92cf4e",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Measurements were directly compared with results from its predecessor, the Biograph mCT Flow, using existing literature"
+   },
+   "note": "Compared with predecessor Biograph mCT Flow",
+   "status": "unchecked"
+  },
+  {
+   "id": "195110",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The Biograph Vision outperforms the analog Biograph mCT Flow"
+   },
+   "note": "mCT Flow is analog (PMT)",
+   "status": "unchecked"
+  },
+  {
+   "id": "9b3206",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The Biograph Vision showed a transverse and axial spatial resolution of 3.6 and 3.5 mm, respectively, in full width at half maximum at a 1-cm offset from the center"
+   },
+   "note": "Spatial resolution 3.6/3.5 mm transverse/axial at 1 cm",
+   "status": "unchecked"
+  },
+  {
+   "id": "7d9465",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "a NEMA sensitivity of 16.4 kcps/MBq"
+   },
+   "value": {
+    "number": 16.4,
+    "unit": "kcps/MBq",
+    "what": "sensitivity"
+   },
+   "note": "Sensitivity 16.4 kcps/MBq",
+   "status": "unchecked"
+  },
+  {
+   "id": "266b13",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Peak NECR 306 at 32.6"
+   },
+   "note": "Table 1: peak NECR 306 kcps at 32.6 kBq/mL",
+   "status": "unchecked"
+  },
+  {
+   "id": "9466b7",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Scatter fraction (%) At peak NECR 38.7"
+   },
+   "note": "Table 1: scatter fraction 38.7% at peak NECR",
+   "status": "unchecked"
+  },
+  {
+   "id": "e811a7",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Time-of-ﬂight resolution varied from 210 to 215 as count-rate increased up to the peak noise-equivalent count-rate"
+   },
+   "note": "TOF 210 ps rising to 215 ps at peak NECR",
+   "status": "unchecked"
+  },
+  {
+   "id": "b09cb2",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "TOF resolution (ps) 210 540"
+   },
+   "note": "Table 1: TOF 210 ps (Vision) vs 540 ps (mCT Flow)",
+   "status": "unchecked"
+  }
+ ]
+}

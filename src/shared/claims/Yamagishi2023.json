@@ -1,0 +1,165 @@
+{
+ "paper": "Yamagishi2023",
+ "annotations": [
+  {
+   "id": "405773",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Center of Radiology and Diagnostic Imaging, Aizawa Hospital, Nagano, Japan"
+   },
+   "note": "Affiliation: Aizawa Hospital",
+   "status": "unchecked"
+  },
+  {
+   "id": "e26477",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Department of Radiological Sciences, School of Health Sciences, Fukushima Medical University, Fukushima, Japan"
+   },
+   "note": "Affiliation: Fukushima Medical University",
+   "status": "unchecked"
+  },
+  {
+   "id": "3b11a7",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "PET/CT system (GE Healthcare) includes a new digital BGO detection technology that combines BGO crystals with SiPM technology"
+   },
+   "note": "GE HealthCare digital BGO (BGO + SiPM)",
+   "status": "unchecked"
+  },
+  {
+   "id": "3df77a",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "each block comprises an array of 63 12 crystals (4.13 4.13 30mm each) coupled to 33 6 SiPMs (63 6mm each)"
+   },
+   "note": "Block: 6x12 = 72 BGO crystals 4.1x4.1x30 mm on 3x6 = 18 SiPMs of 6x6 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "fef7cd",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The PET scanner has a detector consisting of 22 modules with 24 blocks each"
+   },
+   "note": "22 modules",
+   "status": "unchecked"
+  },
+  {
+   "id": "b8befc",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "covering axial and transaxial FOVs of 32 and 70cm, respectively"
+   },
+   "note": "32 cm axial FOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "c32707",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The face-to-face distance of the detectors is 725.4mm"
+   },
+   "note": "Ring face-to-face 725.4 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "603558",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "the energy window is 435–580keV"
+   },
+   "note": "Energy window 435-580 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "864fbb",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "the timing performance of BGO crystals is unsuitable for use in PET systems that incorporate TOF information"
+   },
+   "note": "BGO timing unsuitable for TOF",
+   "status": "unchecked"
+  },
+  {
+   "id": "cfe381",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "algorithm using deep learning called Precision DL (GE Healthcare) can mimic subjective image quality obtained with a TOF-based system"
+   },
+   "note": "Precision DL mimics TOF image quality",
+   "status": "unchecked"
+  },
+  {
+   "id": "655cf6",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The NEMA sensitivity was 47.30 and 47.05cps/kBq at the axial center of the FOV"
+   },
+   "note": "Sensitivity 47.30 cps/kBq",
+   "status": "unchecked"
+  },
+  {
+   "id": "41d991",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the peak NECR was 501.7 kcps at 15.7 kBq/mL"
+   },
+   "note": "Peak NECR 501.7 kcps at 15.7 kBq/mL",
+   "status": "unchecked"
+  },
+  {
+   "id": "b875ef",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The scatter fraction at peak NECR was 35.4%"
+   },
+   "note": "Scatter fraction 35.4%",
+   "status": "unchecked"
+  },
+  {
+   "id": "58b289",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "This ﬁnding can be explained by the good energy resolution (9.8%) of the Omni Legend"
+   },
+   "note": "Energy resolution 9.8%, cited in discussion (not a measurement in this paper)",
+   "status": "unchecked"
+  },
+  {
+   "id": "bd1848",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The high stopping power and detection efﬁciency of BGO crystals, as well as their relatively low production costs"
+   },
+   "note": "BGO chosen for stopping power and low cost",
+   "status": "unchecked"
+  },
+  {
+   "id": "108aae",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average spatial resolution at 1, 10, and 20 cm from the central axis was 4.3, 5.3, and 6.2mm, respectively, for ﬁltered backprojection and 3.7, 4.3, and 5.1mm, respectively, for ordered-subset expectation maximization"
+   },
+   "note": "Spatial resolution 4.3/5.3/6.2 mm FBP, 3.7/4.3/5.1 mm OSEM at 1/10/20 cm",
+   "status": "unchecked"
+  }
+ ]
+}

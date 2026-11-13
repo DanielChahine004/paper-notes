@@ -1,0 +1,295 @@
+{
+ "paper": "Dhaenens2026",
+ "annotations": [
+  {
+   "id": "5bdaf1",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "These authors have contributed equally to this work and share first authorship"
+   },
+   "note": "Dhaenens and Vervenne joint first authors",
+   "status": "unchecked"
+  },
+  {
+   "id": "af01ec",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Department of Electronics and Information Systems, Medical Image and Signal Processing (MEDISIP)"
+   },
+   "note": "Affiliation: Ghent MEDISIP",
+   "status": "unchecked"
+  },
+  {
+   "id": "63347b",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The two vertical detector panels are spaced 50 cm apart"
+   },
+   "note": "Two vertical panels 50 cm apart",
+   "status": "unchecked"
+  },
+  {
+   "id": "bdfd1c",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Each vertical panel has a length of 190.5 cm and consist of a 20.9-cm-wide top part for scanning the torso, and a 10.3-cm-wide bottom part to image the legs"
+   },
+   "note": "Panels 190.5 cm long, 20.9 cm wide top (torso), 10.3 cm bottom (legs)",
+   "status": "unchecked"
+  },
+  {
+   "id": "a6b4d9",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The panels translate laterally relative to a standing patient to cover a 73.9 cm-wide field of view"
+   },
+   "note": "Lateral translation covers 73.9 cm FOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "aae90d",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The system comprises a total of 224 detector modules"
+   },
+   "note": "224 detector modules",
+   "status": "unchecked"
+  },
+  {
+   "id": "60cbfd",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "consisting of a 50 × 50 × 16 mm3 LYSO crystal coupled to an 8 × 8 array of 6 × 6 mm2 SiPMs"
+   },
+   "note": "Detector: 50x50x16 mm3 LYSO on 8x8 array of 6x6 mm2 SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "5ffef4",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Values for the detector resolution were adopted from Stockhoff et al."
+   },
+   "note": "Detector resolution values taken from Stockhoff et al.",
+   "status": "unchecked"
+  },
+  {
+   "id": "3b6580",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Emission (GATE) v9.4"
+   },
+   "note": "Simulated in GATE v9.4",
+   "status": "unchecked"
+  },
+  {
+   "id": "7fda5c",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "compared with two reference designs: a cylindrical PET system, and a wide static flat-panel PET"
+   },
+   "note": "Two references: cylinder and wide static flat panel",
+   "status": "unchecked"
+  },
+  {
+   "id": "69dd7f",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "All systems are based on the same monolithic detectors"
+   },
+   "note": "References use the same detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "c2c41a",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Illustration of the three panel motion strategies investigated for the Slide-Through PET system."
+   },
+   "note": "Three motion strategies: parallel, opposite, single panel",
+   "status": "unchecked"
+  },
+  {
+   "id": "e717fe",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "image quality using NEMA image quality and anthropomorphic XCAT phantoms"
+   },
+   "note": "Assessed with NEMA IQ and XCAT phantoms",
+   "status": "unchecked"
+  },
+  {
+   "id": "eb538a",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Parallel motion of the panels ensured complete anatomical coverage, whereas other motion strategies provided focused but incomplete sampling"
+   },
+   "note": "Only parallel motion gives full coverage",
+   "status": "unchecked"
+  },
+  {
+   "id": "fc110a",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Sensitivity for a whole-body water phantom was 1.66 cps/kBq in the upper region and 0.52 cps/kBq in the lower region"
+   },
+   "note": "Sensitivity 1.66 (upper) and 0.52 (lower) cps/kBq",
+   "status": "unchecked"
+  },
+  {
+   "id": "b8ec74",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "whereas the cylindrical reference system provided 1.05 cps/kBq in both regions"
+   },
+   "value": {
+    "number": 1.05,
+    "unit": "cps/kBq",
+    "what": "ReferenceCYL sensitivity"
+   },
+   "note": "Cylinder 1.05 cps/kBq",
+   "status": "unchecked"
+  },
+  {
+   "id": "c47ead",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The ST-PET system achieved sub-3 mm spatial resolution in the center of the field of view"
+   },
+   "note": "Sub-3 mm resolution at FOV centre",
+   "status": "unchecked"
+  },
+  {
+   "id": "09e307",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "a scan time of 4 min suffices for the ST-PET to obtain similar noise in the torso as a 9.15 min scan on the ReferenceCYL system"
+   },
+   "note": "4 min ST-PET matches 9.15 min cylinder on torso noise",
+   "status": "unchecked"
+  },
+  {
+   "id": "a10d13",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Mild elongation artifacts are observed in the IQ and XCAT images for both flat-panel systems"
+   },
+   "note": "Mild elongation artifacts in both flat-panel systems",
+   "status": "unchecked"
+  },
+  {
+   "id": "faa74a",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "introduces characteristic elongation artifacts towards the panels"
+   },
+   "note": "Limited angular coverage causes elongation artifacts",
+   "status": "unchecked"
+  },
+  {
+   "id": "50be0b",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Additional improvements in TOF resolution are needed to mitigate limited"
+   },
+   "note": "Conclusion: better TOF needed to mitigate limited-angle artifacts",
+   "status": "unchecked"
+  },
+  {
+   "id": "53db71",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The ReferenceCYL system consists of a similar number of detectors (225)"
+   },
+   "note": "Reference cylinder: 225 detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "c80af6",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "It incorporates 1008 detector modules"
+   },
+   "note": "Reference flat panel: 1008 detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "3f03c5",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "detectors each (560 in total)"
+   },
+   "note": "Original WT-PET: 560 detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "f2b74f",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "achieving a 190-cm-long axial coverage using just 224 detectors"
+   },
+   "note": "190 cm coverage with 224 detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "aa05f8",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "conventional SAFOV PET systems at a slightly reduced component"
+   },
+   "note": "Conclusion: slightly reduced component cost",
+   "status": "unchecked"
+  },
+  {
+   "id": "f4f64c",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The TOF was set to 300 ps as in our other simulation models"
+   },
+   "value": {
+    "number": 300.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "TOF/CTR 300 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "7a1bee",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "DOI resolution of 2.67 mm FWHM"
+   },
+   "note": "DOI resolution 2.67 mm FWHM (from Stockhoff)",
+   "status": "unchecked"
+  }
+ ]
+}

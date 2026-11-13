@@ -1,0 +1,140 @@
+{
+ "paper": "EnriquezMierYTeran2025",
+ "annotations": [
+  {
+   "id": "70c5ed",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The PET detector was constructed with a 23 × 23 array of LYSO crystals (0.785 × 0.785 × 20 mm3)"
+   },
+   "note": "Detector: 23x23 array of 0.785x0.785x20 mm3 LYSO crystals",
+   "status": "unchecked"
+  },
+  {
+   "id": "e44420",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "of dimension 0.785 mm × 0.785 mm × 20 mm (pitch = 0.85 mm), optically isolated using Lumirror Toray reﬂector"
+   },
+   "note": "Crystal size 0.785x0.785x20 mm, 0.85 mm pitch, Lumirror Toray reflector",
+   "status": "unchecked"
+  },
+  {
+   "id": "f14bbf",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Both ends of the crystal array are optically coupled to a 6 × 6 array of SiPMs"
+   },
+   "note": "Dual-ended: both ends read by 6x6 SiPM arrays",
+   "status": "unchecked"
+  },
+  {
+   "id": "20c4ac",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "coupled to 6 × 6 SiPM arrays (pitch = 3.3 mm) via 1.2 mm PMMA sheets"
+   },
+   "note": "6x6 SiPM arrays at 3.3 mm pitch via 1.2 mm PMMA light guides",
+   "status": "unchecked"
+  },
+  {
+   "id": "a8ce90",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Custom boards reduced 72 SiPM signals to eight (four per end) before feeding into TOFPET2 channels"
+   },
+   "note": "72 SiPM signals reduced to eight (four per end) before TOFPET2",
+   "status": "unchecked"
+  },
+  {
+   "id": "4c6420",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "ASIC for signal readout in a dual-ended PET detector with a 9:1 multiplexing ratio"
+   },
+   "note": "9:1 multiplexing ratio",
+   "status": "unchecked"
+  },
+  {
+   "id": "a26d18",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "with ASIC discriminator thresholds optimized based on ﬂood map quality"
+   },
+   "note": "Bias voltages and ASIC thresholds optimized on flood map quality",
+   "status": "unchecked"
+  },
+  {
+   "id": "79593a",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Optimal ﬂood maps were obtained at 27.5 V"
+   },
+   "value": {
+    "number": 27.5,
+    "unit": "V",
+    "what": "optimal bias voltage"
+   },
+   "note": "Best flood maps at 27.5 V bias",
+   "status": "unchecked"
+  },
+  {
+   "id": "62341d",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The mean energy and DOI resolution were 10.5 ± 1.6% and 2.3 ± 0.3 mm, respectively"
+   },
+   "value": {
+    "number": 10.5,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Mean energy resolution 10.5 +- 1.6%, DOI resolution 2.3 +- 0.3 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "d5ecce",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "with a coincidence time resolution (CTR) of 1.3 ns between two detectors"
+   },
+   "value": {
+    "number": 1.3,
+    "unit": "ns",
+    "what": "CTR"
+   },
+   "note": "CTR 1.3 ns between two detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "a553c3",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "is a low-cost, multichannel application-speciﬁc integrated circuit (ASIC) designed for individual silicon photomultiplier (SiPM) readout"
+   },
+   "note": "TOFPET2: low-cost ASIC designed for individual SiPM readout",
+   "status": "unchecked"
+  },
+  {
+   "id": "19ff37",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "This work demonstrates the feasibility of employing TOFPET2 to achieve high spatial, energy, and DOI resolution in a 9:1 multiplexed system"
+   },
+   "note": "Conclusion: TOFPET2 works in a 9:1 multiplexed configuration",
+   "status": "unchecked"
+  }
+ ]
+}

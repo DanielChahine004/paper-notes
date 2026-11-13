@@ -1,0 +1,125 @@
+{
+ "paper": "EnriquezMierYTeran2026",
+ "annotations": [
+  {
+   "id": "19b970",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "using a previously characterised dual-ended readout PET detector"
+   },
+   "note": "Uses the previously characterised dual-ended detector (Enriquez-Mier-y-Teran 2025)",
+   "status": "unchecked"
+  },
+  {
+   "id": "99d391",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The 22Na source was centred with respect to the detector front face"
+   },
+   "note": "22Na source facing the detector front face",
+   "status": "unchecked"
+  },
+  {
+   "id": "b6d029",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "in which gamma rays are incident parallel, or nearly parallel, to the crystal depth direction"
+   },
+   "note": "Uncollimated front-face irradiation: gamma rays along the depth axis",
+   "status": "unchecked"
+  },
+  {
+   "id": "897866",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "dependent photopeak location obtained using collimated and uncollimated irradiation was 1%"
+   },
+   "value": {
+    "number": 1.0,
+    "unit": "%",
+    "what": "median relative RMSE photopeak location"
+   },
+   "note": "Median relative RMSE 1% between depth-dependent photopeak fits from collimated vs uncollimated irradiation",
+   "status": "unchecked"
+  },
+  {
+   "id": "01ba81",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Two DOI calibration approaches based on uncollimated irradiation—a physics-informed model and a multilayer perceptron (MLP)—were compared against the gold-standard calibration"
+   },
+   "note": "Two uncollimated calibrations: physics-informed model and MLP, vs gold standard",
+   "status": "unchecked"
+  },
+  {
+   "id": "38ea61",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "physics-informed and MLP-based approaches ranged from 0.38 to 0.58 mm and 0.36–0.61 mm, respectively, with no statistically significant difference"
+   },
+   "note": "RMSE vs gold standard 0.38-0.58 mm (physics) and 0.36-0.61 mm (MLP), no significant difference",
+   "status": "unchecked"
+  },
+  {
+   "id": "645de4",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "However, DOI resolution estimates from the MLP-based approach outperformed those of the physics-informed model"
+   },
+   "note": "MLP gives better DOI resolution estimates than the physics-informed model",
+   "status": "unchecked"
+  },
+  {
+   "id": "abd533",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "A 4 × 4 dual-ended readout PET detector panel was then assembled"
+   },
+   "note": "4x4 dual-ended detector panel",
+   "status": "unchecked"
+  },
+  {
+   "id": "cbf2a4",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "After saturation correction, the detector panel achieved a mean energy resolution of 15.6% and a DOI resolution of 2.0 mm"
+   },
+   "value": {
+    "number": 15.6,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Panel: 15.6% energy resolution after saturation correction, 2.0 mm DOI resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "0026f8",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "based calibration requires only a single uniform 511 keV source irradiation"
+   },
+   "note": "MLP calibration needs only one uniform 511 keV source irradiation",
+   "status": "unchecked"
+  },
+  {
+   "id": "f9f2cb",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Gold-standard irradiation using a slab detector for electronic collimation"
+   },
+   "note": "Gold standard: electronically collimated irradiation using a slab detector",
+   "status": "unchecked"
+  }
+ ]
+}

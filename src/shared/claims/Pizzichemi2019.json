@@ -1,0 +1,320 @@
+{
+ "paper": "Pizzichemi2019",
+ "annotations": [
+  {
+   "id": "87400f",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Phys. Med. Biol. 64 (2019) 155008 (16pp)"
+   },
+   "note": "Journal reference PMB 64 155008",
+   "status": "unchecked"
+  },
+  {
+   "id": "6e9978",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The performance of a light sharing and recirculation mechanism that allows the extraction of depth of interaction (DOI) are investigated in this paper, with a particular focus on timing."
+   },
+   "note": "Same light sharing/recirculation mechanism, timing focus",
+   "status": "unchecked"
+  },
+  {
+   "id": "afbb97",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "a method to optimize the coincidence time resolution (CTR) of PET detectors by use of the DOI information is proposed and tested"
+   },
+   "note": "DOI used to optimise CTR",
+   "status": "unchecked"
+  },
+  {
+   "id": "040415",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "a dedicated 64-channels readout setup has been developed with intrinsic timing resolution of 16 ps FWHM"
+   },
+   "value": {
+    "number": 16.0,
+    "unit": "ps",
+    "what": "readout timing resolution"
+   },
+   "note": "64-channel readout, 16 ps FWHM intrinsic",
+   "status": "unchecked"
+  },
+  {
+   "id": "52c5b5",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "A total of eight modules have been assembled for testing in this work."
+   },
+   "note": "Eight modules",
+   "status": "unchecked"
+  },
+  {
+   "id": "d48cef",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "The two structures differ only in the presence of a light guide, and the depolished surface finishing in the DOI modules."
+   },
+   "note": "DOI modules: depolished + glass light guide; references polished",
+   "status": "unchecked"
+  },
+  {
+   "id": "1757bc",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "In DOI modules, a light guide made of glass"
+   },
+   "note": "Glass light guide in DOI modules",
+   "status": "unchecked"
+  },
+  {
+   "id": "36d46a",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "with 15 mm long crystals of section 1.53 × 1.53 mm2 and 3.1 × 3.1 mm2"
+   },
+   "note": "1.53 and 3.1 mm crystals, 15 mm long",
+   "status": "unchecked"
+  },
+  {
+   "id": "9effd3",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "Table 1. Type, structure and relevant characteristics of the eight modules investigated in this work."
+   },
+   "note": "Table 1: 8x8 of 1.53 mm and 4x4 of 3.1 mm, DOI and reference versions",
+   "status": "unchecked"
+  },
+  {
+   "id": "afce09",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "made of 16 multipixel photon counters (MPPCs), each with 3 × 3 mm2 active area"
+   },
+   "note": "4x4 arrays of 3 mm SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "de81a6",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "The other is routed to one input channel of a NINO-32 amplifier-discriminator board"
+   },
+   "note": "Timing through NINO32",
+   "status": "unchecked"
+  },
+  {
+   "id": "3f8a46",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "As a result, in general the timestamps of these photo-detectors will be seen as delayed with respect to t1."
+   },
+   "note": "Other SiPMs see delayed light",
+   "status": "unchecked"
+  },
+  {
+   "id": "ba71f1",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "it is reasonable to expect that this delay depends on the DOI position"
+   },
+   "note": "Delay depends on depth",
+   "status": "unchecked"
+  },
+  {
+   "id": "e858a8",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "between the average delay of the ith photo-detector with respect to D1 and the DOI coordinate w exists, for each Di"
+   },
+   "note": "g_i(w) relation calibrated against w",
+   "status": "unchecked"
+  },
+  {
+   "id": "10609e",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "it is possible to obtain K independent estimations of t1, simply subtracting from ti the expected delay from D1, calculated at the w of that specific event"
+   },
+   "note": "Each SiPM gives its own t1 estimate",
+   "status": "unchecked"
+  },
+  {
+   "id": "8a48f6",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "where the weights σi are obtained from the width of the histograms of the t(i)"
+   },
+   "note": "Estimates combined with 1/sigma_i^2 weights",
+   "status": "unchecked"
+  },
+  {
+   "id": "cac099",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Example of the scatter plot of the delay (t2 −t1) versus w, between two photo-detectors D1 and D2"
+   },
+   "note": "Figure 2: delay vs w (thumbnail)",
+   "status": "unchecked"
+  },
+  {
+   "id": "c0b209",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The results show the possibility to achieve a timing resolution of 157 ps FWHM, combined with the already demonstrated spatial resolution of 1.5 mm FWHM, DOI resolution of 3 mm FWHM, and energy resolution of 9% FWHM at 511 keV"
+   },
+   "value": {
+    "number": 157.0,
+    "unit": "ps",
+    "what": "CTR FWHM"
+   },
+   "note": "Abstract headline: 157 ps, 1.5 mm, 3 mm DOI, 9% energy",
+   "status": "unchecked"
+  },
+  {
+   "id": "c2ece8",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "the extraction of the DOI coordinate has been demonstrated not to deteriorate the timing performance of the PET module"
+   },
+   "note": "DOI extraction does not deteriorate timing",
+   "status": "unchecked"
+  },
+  {
+   "id": "755625",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "was 307 ± 3 ps FWHM for all the scintillators, and 308 ± 3 ps FWHM on central scintillators, and it improved to 166 ± 2 ps FWHM, and 157 ± 2 ps FWHM, respectively, after timing correction"
+   },
+   "note": "8x8: 307 ps before, 166 (all) / 157 (central) after",
+   "status": "unchecked"
+  },
+  {
+   "id": "1d024f",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "was measured in 233 ± 2 ps FWHM before timing correction, and 165 ± 2 ps FWHM after timing correction"
+   },
+   "note": "4x4: 233 ps before, 165 ps after (all)",
+   "status": "unchecked"
+  },
+  {
+   "id": "a52506",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "the values were 234 ± 2 ps FWHM and 159 ± 2"
+   },
+   "note": "4x4 central: 159 ps after",
+   "status": "unchecked"
+  },
+  {
+   "id": "108060",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "age CTRstd was evaluated in 158 ± 2 ps and 154 ± 2 ps for all and central scintillators, respectively"
+   },
+   "note": "8x8 references 158/154 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "a40ece",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "reference modules was 162 ± 2 ps FWHM for all crystals, and 158 ± 2 for the four central ones"
+   },
+   "note": "4x4 references 162/158 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "0f03c1",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "the contribution to CTR of the acquisition system can be considered negligible and will not be subtracted from the final results"
+   },
+   "note": "Readout contribution negligible",
+   "status": "unchecked"
+  },
+  {
+   "id": "ba3782",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "this averages become (127 ± 3) × 103 ADC channels, and 8.9% ± 0.2% FWHM"
+   },
+   "value": {
+    "number": 8.9,
+    "unit": "%",
+    "what": "energy resolution FWHM"
+   },
+   "note": "Energy resolution 8.9% for central crystals (8x8 DOI)",
+   "status": "unchecked"
+  },
+  {
+   "id": "13a5a4",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "already demonstrated DOI resolution of 3 mm FWHM (Stringhini et al 2016)"
+   },
+   "note": "3 mm DOI cited from Stringhini 2016",
+   "status": "unchecked"
+  },
+  {
+   "id": "af744d",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "is considered sufficient to provide an homogeneous spatial resolution at the level of the physical limits imposed by positron range (i.e. in the order of 1.5 mm FWHM"
+   },
+   "note": "1.5 mm is positron-range limit argued, not measured",
+   "status": "unchecked"
+  },
+  {
+   "id": "a4d6c5",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "the contribution to CTR of the reference crystal is subtracted and the result multiplied by"
+   },
+   "note": "Reference subtracted and scaled by sqrt2",
+   "status": "unchecked"
+  },
+  {
+   "id": "3f8818",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "Both values are compatible with the ones obtained with reference modules."
+   },
+   "note": "Corrected CTR matches polished references",
+   "status": "unchecked"
+  }
+ ]
+}

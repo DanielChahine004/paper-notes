@@ -1,0 +1,195 @@
+{
+ "paper": "Lee2021",
+ "annotations": [
+  {
+   "id": "757840",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "We performed GATE Monte Carlo simulations with optical photon tracking"
+   },
+   "note": "Simulation study: GATE with optical photon tracking",
+   "status": "unchecked"
+  },
+  {
+   "id": "1a487e",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The crystal length was 20 mm in all cases. Each crystal array was coupled with the same photosensor array."
+   },
+   "note": "All LSO arrays 20 mm long, coupled to the same photosensor array",
+   "status": "unchecked"
+  },
+  {
+   "id": "f0c657",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Geometries of the tested crystal arrays."
+   },
+   "note": "Table 1: 8x8/12x12/16x16/21x21 arrays, pitch 3.2/2.1/1.6/1.2 mm, CSR 1:1, 1.5:1, 2:1, 2.625:1",
+   "status": "unchecked"
+  },
+  {
+   "id": "7b3d04",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Otherwise, the event was classiﬁed as ICS, and crystals with E1 and E2 were selected as the interacted crystals"
+   },
+   "note": "eNet output: picks crystal(s) with largest E1 (and E2) via E1/E2 threshold -> one or two crystals",
+   "status": "unchecked"
+  },
+  {
+   "id": "4d6c7a",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "we summed the energy depositions within each crystal"
+   },
+   "note": "Multiple hits within one crystal summed (intra-crystal scatter neglected)",
+   "status": "unchecked"
+  },
+  {
+   "id": "e61681",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Occurrence rates of PE and ICS events among all events"
+   },
+   "note": "Table 2: PE 66.3/60.8/58.1/56.5%; two-crystal ICS 28.6/31.8/33.0/33.5% for 8x8..21x21",
+   "status": "unchecked"
+  },
+  {
+   "id": "2423ff",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The occurrence of ICS was more signiﬁcant in higher-CSR detectors"
+   },
+   "note": "ICS occurrence grows with crystal-to-sensor ratio (smaller crystals)",
+   "status": "unchecked"
+  },
+  {
+   "id": "620670",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Event classiﬁcation and crystal selection accuracy of ICS-eNet."
+   },
+   "note": "Table 3: eNet event classification 97/92/90/77%, ICS crystal-pair selection 91/78/62/35% (CVX 97/93/80/65 and 96/85/57/25)",
+   "status": "unchecked"
+  },
+  {
+   "id": "ea8642",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "the accuracy of ICS-cNet in selecting the ﬁrst-interacted crystal of the ICS events was approximately twice that for the method with no recovery"
+   },
+   "note": "cNet first-crystal accuracy for ICS events ~2x no recovery",
+   "status": "unchecked"
+  },
+  {
+   "id": "ba3a2b",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "Radial, tangential, and axial FWHM resolutions of the prototype PET ring composed of each detector design."
+   },
+   "note": "Table 6: centre radial FWHM no recovery -> ICS-eNet 1.88 -> 1.69 mm (8x8), 0.94 -> 0.73 mm (21x21)",
+   "status": "unchecked"
+  },
+  {
+   "id": "4c11ed",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "The impact of the networks was the smallest in the radial direction at a 4 cm offset where the parallax error of depth-of-interaction was dominant compared with the ICS blurring"
+   },
+   "note": "Off centre (4 cm), parallax dominates radial resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "e68034",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "Training ICS-eNet is challenging because the exact energy depositions are unknown"
+   },
+   "note": "eNet cannot be trained directly on measured data: true per-crystal energies unknown",
+   "status": "unchecked"
+  },
+  {
+   "id": "bfd4d2",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "A possible approach is to transfer the network trained by the Monte Carlo simulation to actual data"
+   },
+   "note": "Authors suggest transfer from simulation to real data",
+   "status": "unchecked"
+  },
+  {
+   "id": "6d46f0",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "photosensitive pixels in a 3.2 mm pitch as illustrated in"
+   },
+   "note": "Photosensor: 8x8 array of 3x3 mm2 pixels, 3.2 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "0cc2ad",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "of the photosensor array served as a light guide to distribute the optical photons"
+   },
+   "note": "Glass entrance window of the photosensor acts as light guide",
+   "status": "unchecked"
+  },
+  {
+   "id": "9044fc",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "we could justify the selection of only two crystals of ICS events to simplify the recovery with ICS-eNet"
+   },
+   "note": "Events in 3+ crystals <10% (Table 2: 5.1-9.9%); only two crystals recovered",
+   "status": "unchecked"
+  },
+  {
+   "id": "32a917",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Compared with ICS-eNet, the CVX method exhibited higher crystal selection accuracies of ICS events"
+   },
+   "note": "Constrained-optimisation (CVX) baseline: better at coarse pitch, worse at fine pitch for ICS crystal selection",
+   "status": "unchecked"
+  },
+  {
+   "id": "25944e",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Using the signal distribution of a photosensor array as input"
+   },
+   "note": "Networks take the 8x8 photosensor signal map as input",
+   "status": "unchecked"
+  },
+  {
+   "id": "a51ab1",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "one network estimates the energy deposition in each crystal (ICS-eNet) and another network chooses the"
+   },
+   "note": "Two CNNs on the sensor signal map: ICS-eNet regresses per-crystal energy, ICS-cNet classifies first-interacted crystal",
+   "status": "unchecked"
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "paper": "AbiAkl2025",
+ "annotations": [
+  {
+   "id": "f61e37",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "These detectors, arranged in a vertical flat-panel geometry"
+   },
+   "note": "Detectors arranged in vertical flat panels",
+   "status": "unchecked"
+  },
+  {
+   "id": "f0e154",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Both configurations consist of two monolithic LYSO-based flat panels placed 50 cm apart"
+   },
+   "note": "Two monolithic LYSO flat panels 50 cm apart",
+   "status": "unchecked"
+  },
+  {
+   "id": "d80974",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Each panel has 20 rows of monolithic LYSO detectors"
+   },
+   "note": "L-FP: 20 detector rows",
+   "status": "unchecked"
+  },
+  {
+   "id": "d1ab13",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "bringing the AFOV to 106 cm"
+   },
+   "note": "L-FP axial FOV 106 cm",
+   "status": "unchecked"
+  },
+  {
+   "id": "6c0372",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "features axially eight rows of detectors with 28-mm gaps between consecutive rows, achieving an AFOV of 60 cm"
+   },
+   "note": "SpM-FP: 8 rows, 28 mm gaps, 60 cm AFOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "f8a900",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "additional 25 mm, equivalent to half the size of a detector"
+   },
+   "note": "Gap is about half a detector width",
+   "status": "unchecked"
+  },
+  {
+   "id": "e95ab7",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "A translation of the panels of half a detector module will smooth out the SpM-FP profile"
+   },
+   "note": "Gaps covered by translating panels half a module",
+   "status": "unchecked"
+  },
+  {
+   "id": "47153f",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The panels of the SpM-FP design move vertically relative to the patient"
+   },
+   "note": "SpM-FP panels move vertically",
+   "status": "unchecked"
+  },
+  {
+   "id": "d36fbb",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "monolithic LYSO detectors with depth-of-interaction capabilities"
+   },
+   "note": "Monolithic LYSO with DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "9ddfbc",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "We used a coincidence timing resolution of 300 ps full-width-at-half-maximum (FWHM)"
+   },
+   "value": {
+    "number": 300.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "CTR 300 ps FWHM assumed",
+   "status": "unchecked"
+  },
+  {
+   "id": "b9224b",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average total NEMA sensitivity of the system is then 26 kcps/MBq"
+   },
+   "value": {
+    "number": 26.0,
+    "unit": "kcps/MBq",
+    "what": "SpM-FP NEMA sensitivity"
+   },
+   "note": "SpM-FP average NEMA sensitivity 26 kcps/MBq",
+   "status": "unchecked"
+  },
+  {
+   "id": "94b759",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "This is 4.6 times less than the NEMA sensitivity of the L-FP design"
+   },
+   "value": {
+    "number": 4.6,
+    "unit": "x",
+    "what": "sensitivity ratio L-FP/SpM-FP"
+   },
+   "note": "SpM-FP 4.6x less sensitive than L-FP",
+   "status": "unchecked"
+  },
+  {
+   "id": "3baee0",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Both configurations achieved uniform spatial resolution below 2 mm in the two directions parallel to the panels and an average of 3–3.5 mm in the direction towards the panels"
+   },
+   "note": "Sub-2 mm parallel, 3-3.5 mm perpendicular",
+   "status": "unchecked"
+  },
+  {
+   "id": "413720",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "requiring an acquisition time of 2–3 min to match the image quality achieved by the L-FP in 30 s"
+   },
+   "note": "SpM-FP needs 2-3 min to match L-FP 30 s",
+   "status": "unchecked"
+  },
+  {
+   "id": "fbfea8",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "monolithic LYSO detectors of 50 × 50 × 16 ­mm3"
+   },
+   "note": "Detector: 50x50x16 mm3 monolithic LYSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "5a9377",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "1.14  mm FWHM parallel to the detector face and 2.67 mm FWHM along the depth"
+   },
+   "note": "Detector blurring 1.14 mm parallel, 2.67 mm depth",
+   "status": "unchecked"
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "paper": "Zeng2023",
+ "annotations": [
+  {
+   "id": "ed933b",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The decagon-shaped prototype scanner has a long diameter of 38.5 cm, a short diameter of 29.1 cm, and an axial ﬁeld-of-view (FOV) of 25.5 mm with a single ring of 40 Prism-PET detector modules."
+   },
+   "note": "Decagon single-ring scanner, 40 modules, 38.5/29.1 cm diameters, 25.5 mm axial FOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "da17a8",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "evaluated by measuring depth-of-interaction (DOI) resolution, energy resolution, timing resolution, spatial resolution, sensitivity, and image quality of ultra-micro Derenzo and three-dimensional (3D) Hoffman brain phantoms"
+   },
+   "note": "Evaluation: DOI, energy, timing, spatial resolution, sensitivity, Derenzo and Hoffman phantoms",
+   "status": "unchecked"
+  },
+  {
+   "id": "d8c463",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "consists of a 16 × 16 array of 1.5 × 1.5 × 20 mm3 lutetium yttrium oxyorthosillicate (LYSO) scintillator crystals"
+   },
+   "note": "Module: 16x16 array of 1.5x1.5x20 mm3 LYSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "6d17c7",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "coupled 4-to-1 to an 8 × 8 array of 3-mm silicon photomultiplier (SiPM) pixels (Hamamatsu Photonics, Japan) on one side and to a prismatoid light guide array on the opposite side"
+   },
+   "note": "4-to-1 onto 8x8 SiPM array, prismatoid guide on opposite side",
+   "status": "unchecked"
+  },
+  {
+   "id": "27ff28",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average DOI resolution across all crystals and DOI-corrected energy resolution of the scanner are 2.85-mm FWHM and 12.6% (corrected for saturation effects)"
+   },
+   "value": {
+    "number": 2.85,
+    "unit": "mm",
+    "what": "DOI FWHM"
+   },
+   "note": "DOI 2.85 mm FWHM, DOI-corrected energy resolution 12.6%",
+   "status": "unchecked"
+  },
+  {
+   "id": "47a3e2",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The intrinsic spatial resolution ranges from 0.89 to 1.40 mm with an average value of 1.22-mm FWHM."
+   },
+   "value": {
+    "number": 1.22,
+    "unit": "mm",
+    "what": "intrinsic spatial resolution FWHM"
+   },
+   "note": "Intrinsic spatial resolution 0.89-1.40 mm, average 1.22 mm FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "6b0e13",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Point source images reconstructed with 3D ﬁltered back-projection (FBP) show an average spatial resolution of 1.53-mm FWHM across the entire FOV."
+   },
+   "value": {
+    "number": 1.53,
+    "unit": "mm",
+    "what": "reconstructed spatial resolution FWHM"
+   },
+   "note": "Reconstructed (3D FBP) spatial resolution 1.53 mm FWHM across FOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "b19522",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The peak absolute sensitivity is 1.2% at the center of the FOV with an energy window of 400–650 keV."
+   },
+   "value": {
+    "number": 1.2,
+    "unit": "%",
+    "what": "peak absolute sensitivity"
+   },
+   "note": "Peak absolute sensitivity 1.2% (400-650 keV)",
+   "status": "unchecked"
+  },
+  {
+   "id": "8979b1",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "all hot-spots with a diameter of 1.00 mm or larger can be clearly resolved across the entire FOV for the Phantech phantom"
+   },
+   "note": "1.00 mm rods resolved (Phantech Derenzo)",
+   "status": "unchecked"
+  },
+  {
+   "id": "5bf055",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The inter-crystal scatter (ICS) events were identiﬁed and rejected based on the characteristic energy pattern between the neighboring SiPMs that under the same prismatoid mirror."
+   },
+   "note": "ICS identified by energy pattern under one prismatoid and rejected",
+   "status": "unchecked"
+  },
+  {
+   "id": "722507",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "the event was re-assigned to the pair of crystals with their gamma photon entrance surface intersecting the LOR"
+   },
+   "note": "DOI rebinning reassigns LOR using continuous DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "e07894",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "would signiﬁcantly reduce the sensitivity as ∼50% of singles are Compton scattered given the small crystal cross section"
+   },
+   "note": "~50% of singles Compton scatter; rejection costs sensitivity",
+   "status": "unchecked"
+  },
+  {
+   "id": "9f826e",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Med Phys. 2023;50:3401–3417."
+   },
+   "note": "Published Med Phys 50:3401-3417 (2023)",
+   "status": "unchecked"
+  },
+  {
+   "id": "6b89ca",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The timing resolutions of 491, 330, and 271 ps FWHM are obtained"
+   },
+   "value": {
+    "number": 271.0,
+    "unit": "ps",
+    "what": "CTR FWHM"
+   },
+   "note": "Timing resolution down to 271 ps FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "718e7c",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The ultra-micro Derenzo phantom study demonstrates the highest reported spatial resolution performance for a human brain PET scanner"
+   },
+   "note": "Claim: highest reported spatial resolution for a human brain PET scanner",
+   "status": "unchecked"
+  },
+  {
+   "id": "505be2",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "This suggests submillimeter geometrical misalignment of detector positions in the radial and tangential directions"
+   },
+   "note": "Gap between intrinsic and reconstructed resolution attributed to detector misalignment",
+   "status": "unchecked"
+  },
+  {
+   "id": "50b991",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "would signiﬁcantly reduce the sensitivity as ∼50% of singles are Compton scattered given the small crystal cross section"
+   },
+   "note": "~50% of singles Compton scatter; rejection costs sensitivity",
+   "status": "unchecked"
+  },
+  {
+   "id": "1234b9",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "This capability allows the accurate recovery of the primary interaction site"
+   },
+   "note": "Claim: overlapping patterns can be decomposed to recover first interaction",
+   "status": "unchecked"
+  }
+ ]
+}

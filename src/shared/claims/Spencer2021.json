@@ -1,0 +1,185 @@
+{
+ "paper": "Spencer2021",
+ "annotations": [
+  {
+   "id": "bbd7ce",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Department of Biomedical Engineering, University of California–Davis, Davis, California"
+   },
+   "note": "Affiliation: UC Davis",
+   "status": "unchecked"
+  },
+  {
+   "id": "da8185",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "United Imaging Healthcare, Houston, Texas"
+   },
+   "note": "Affiliation: United Imaging Healthcare",
+   "status": "unchecked"
+  },
+  {
+   "id": "9ab456",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "8 PET units along the axial direction; each unit is 24.02 cm in axial length and 78.6 cm in diameter"
+   },
+   "note": "8 PET units, 78.6 cm diameter",
+   "status": "unchecked"
+  },
+  {
+   "id": "6acc58",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "forming the system’s total axial length of 194.0 cm"
+   },
+   "note": "194 cm axial length",
+   "status": "unchecked"
+  },
+  {
+   "id": "cb2cae",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The detector blocks comprise a 7 3 6 array of pixelated lutetium-yttrium oxyorthosilicate (LYSO) crystals, each 2.76 3 2.76 3 18.1 mm, that are read out using four 6 3 6 mm silicon photomultipliers"
+   },
+   "note": "7x6 LYSO 2.76x2.76x18.1 mm read by four 6x6 mm SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "67bc63",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "An integrated light-guide design is used to encode the crystal position among the 4 silicon photomultiplier signals, achieving an Anger multiplexing of 10.5:1"
+   },
+   "note": "Light guide, Anger multiplexing 10.5:1",
+   "status": "unchecked"
+  },
+  {
+   "id": "7b57f0",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "with a total of 564,480 LYSO crystals and 53,760 silicon photomultiplier channels"
+   },
+   "note": "564,480 crystals, 53,760 SiPM channels",
+   "status": "unchecked"
+  },
+  {
+   "id": "31504a",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Detectors along the transaxial direction of the module share energy information so that Compton-scattered photons from edge crystals can be recovered; axial blocks are not in communication for Compton scatter recovery"
+   },
+   "note": "Transaxial blocks share energy to recover Compton scatter from edge crystals; axial blocks do not",
+   "status": "unchecked"
+  },
+  {
+   "id": "c8802a",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The scanner uses an energy window of 430–645 keV"
+   },
+   "note": "Energy window 430-645 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "2dce69",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "was 174 kcps/MBq at the center of the ﬁeld of view"
+   },
+   "value": {
+    "number": 174.0,
+    "unit": "kcps/MBq",
+    "what": "sensitivity"
+   },
+   "note": "Sensitivity 174 kcps/MBq at center",
+   "status": "unchecked"
+  },
+  {
+   "id": "813fa6",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Peak NECR with the 70-cm-long scatter phantom was 1,524 kcps at a 17.3 kBq/mL activity concentration, with a corresponding average scatter fraction of 36.3%"
+   },
+   "note": "Peak NECR 1524 kcps at 17.3 kBq/mL, SF 36.3%",
+   "status": "unchecked"
+  },
+  {
+   "id": "cf8f79",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "With the 175-cm-long scatter phantom, peak NECR increased to 1,855 kcps"
+   },
+   "note": "Peak NECR 1855 kcps with 175 cm phantom",
+   "status": "unchecked"
+  },
+  {
+   "id": "8ed784",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "provides spatial resolution of about 3 mm in full width at half maximum"
+   },
+   "note": "Spatial resolution about 3 mm FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "7922ca",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Fourier-rebinned ﬁltered backprojection reconstruction is summarized in Table 1"
+   },
+   "note": "Spatial resolution reconstructed with FORE+FBP",
+   "status": "unchecked"
+  },
+  {
+   "id": "6de7ee",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "TOF resolution of 505 ps at 5.3 kBq/mL was obtained"
+   },
+   "value": {
+    "number": 505.0,
+    "unit": "ps",
+    "what": "TOF resolution"
+   },
+   "note": "System TOF 505 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "290e36",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The discrepancy between the global TOF resolution (505 ps) and the average TOF resolution calculated from individual LOR TOF histograms (412 ps) likely indicates an incomplete TOF calibration"
+   },
+   "note": "412 ps per-LOR average vs 505 ps global; attributed to incomplete TOF calibration",
+   "status": "unchecked"
+  },
+  {
+   "id": "e68f1a",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "With more than 500,000 crystals forming almost 100 billion LORs, accurately calibrating the TOF offsets in the uEXPLORER is challenging"
+   },
+   "note": "TOF calibration across >500,000 crystals is challenging",
+   "status": "unchecked"
+  }
+ ]
+}

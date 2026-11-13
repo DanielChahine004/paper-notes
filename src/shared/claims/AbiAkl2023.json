@@ -1,0 +1,165 @@
+{
+ "paper": "AbiAkl2023",
+ "annotations": [
+  {
+   "id": "5c8d13",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Medical Image and Signal Processing, Ghent University"
+   },
+   "note": "Affiliation: Ghent University, ELIS MEDISIP",
+   "status": "unchecked"
+  },
+  {
+   "id": "b97b34",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Texas A&M University at Qatar"
+   },
+   "note": "Affiliation: Texas A&M University at Qatar",
+   "status": "unchecked"
+  },
+  {
+   "id": "03964b",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Geant4 Application for Tomographic Emission (GATE) v9.1 was used to perform the simulations"
+   },
+   "note": "Simulation done in GATE v9.1",
+   "status": "unchecked"
+  },
+  {
+   "id": "309537",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Each module is a 50 × 50 × 16 ­mm3 monolithic LYSO crystal"
+   },
+   "note": "Detector module: 50x50x16 mm3 monolithic LYSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "b41ef6",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "monolithic detectors have intrinsic DOI"
+   },
+   "note": "Monolithic detectors provide intrinsic DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "65fff1",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Both designs consist of 40 detector modules per ring, resulting in a bore diameter of 70 cm"
+   },
+   "note": "40 modules per ring, 70 cm bore",
+   "status": "unchecked"
+  },
+  {
+   "id": "f36952",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Scanner designs A and B have an aFOV of 36.2 cm (7 rings) and 72.6 cm (14 rings)"
+   },
+   "note": "Design A 36.2 cm aFOV (7 rings), design B 72.6 cm (14 rings)",
+   "status": "unchecked"
+  },
+  {
+   "id": "670951",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "the values for the point sources were below 2 mm for the radial, tangential, and axial full width half maximum"
+   },
+   "note": "Point-source FWHM below 2 mm radial, tangential and axial",
+   "status": "unchecked"
+  },
+  {
+   "id": "d5be96",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The sensitivity of design A was calculated to be 29.2 kcps/MBq at the centre"
+   },
+   "value": {
+    "number": 29.2,
+    "unit": "kcps/MBq",
+    "what": "sensitivity design A centre"
+   },
+   "note": "Design A centre sensitivity 29.2 kcps/MBq",
+   "status": "unchecked"
+  },
+  {
+   "id": "e59176",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "the sensitivity of design B was found to be 106.8 kcps/MBq"
+   },
+   "value": {
+    "number": 106.8,
+    "unit": "kcps/MBq",
+    "what": "sensitivity design B centre"
+   },
+   "note": "Design B centre sensitivity 106.8 kcps/MBq",
+   "status": "unchecked"
+  },
+  {
+   "id": "a65d26",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "The peaks NECR are 716 kcps for design A and 1235 kcps for design B"
+   },
+   "note": "Peak NECR 716 kcps (A) and 1235 kcps (B)",
+   "status": "unchecked"
+  },
+  {
+   "id": "cde534",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "The calculated scatter fraction is 32% for both designs"
+   },
+   "value": {
+    "number": 32.0,
+    "unit": "%",
+    "what": "scatter fraction"
+   },
+   "note": "Scatter fraction 32% for both designs",
+   "status": "unchecked"
+  },
+  {
+   "id": "be15e4",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The scanners were modelled with a 200 ps CTR"
+   },
+   "value": {
+    "number": 200.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "Simulated CTR 200 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "167f9f",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The FWHM values show a flat sub-2 mm spatial resolution across the axial/transverse FOV"
+   },
+   "note": "Flat sub-2 mm resolution across the FOV",
+   "status": "unchecked"
+  }
+ ]
+}

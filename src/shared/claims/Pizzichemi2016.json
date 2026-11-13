@@ -1,0 +1,430 @@
+{
+ "paper": "Pizzichemi2016",
+ "annotations": [
+  {
+   "id": "bb26b3",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Phys. Med. Biol. 61 (2016) 4679–4698"
+   },
+   "note": "Journal reference PMB 61 4679-4698",
+   "status": "unchecked"
+  },
+  {
+   "id": "5ee9e2",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "based on sharing and redirection of scintillation light among multiple detectors, together with attenuation of light over the length of the crystals"
+   },
+   "note": "DOI from light sharing/redirection plus attenuation along crystal",
+   "status": "unchecked"
+  },
+  {
+   "id": "f35ab7",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "A prototype module has been produced and characterized to test the proposed method, coupling a LYSO scintillator matrix to a commercial SiPMs array."
+   },
+   "note": "Prototype: LYSO matrix on commercial SiPM array",
+   "status": "unchecked"
+  },
+  {
+   "id": "683be0",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "has been optically polished, while the remaining lateral faces are depolished"
+   },
+   "note": "Ends polished, lateral faces depolished",
+   "status": "unchecked"
+  },
+  {
+   "id": "d91607",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Foils of Enhanced Specular Reflector (ESR, by 3M), 70 μm thickness, inserted between the crystals"
+   },
+   "note": "70 um ESR between crystals",
+   "status": "unchecked"
+  },
+  {
+   "id": "052a08",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The reflectors are not bonded to the scintillators, and therefore a thin air gap remains between ESR and crystals."
+   },
+   "note": "ESR not bonded; air gap",
+   "status": "unchecked"
+  },
+  {
+   "id": "323cea",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the pitch between crystals is 1.6 mm"
+   },
+   "value": {
+    "number": 1.6,
+    "unit": "mm",
+    "what": "crystal pitch"
+   },
+   "note": "1.6 mm crystal pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "034f80",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "is such that 4 crystals are coupled to each individual SiPM"
+   },
+   "note": "Four crystals per SiPM",
+   "status": "unchecked"
+  },
+  {
+   "id": "ff73e5",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "is inserted as a light guide between the matrix itself and a ESR foil"
+   },
+   "note": "1 mm glass light guide backed by ESR on far face",
+   "status": "unchecked"
+  },
+  {
+   "id": "03499f",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the light emitted from the side of the crystal opposite to the detector and reflected back into the matrix by the mirror (black line) will spread over all the detectors"
+   },
+   "note": "Far-end light reflected back, spreads over all SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "9eab53",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "with the exact same geometry and structure of the test module, but with fully polished crystals"
+   },
+   "note": "Reference module: identical but fully polished",
+   "status": "unchecked"
+  },
+  {
+   "id": "e7a243",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the crystal of interaction can be reconstructed making use of a anger-logic scheme (Anger 1958) to compute the weighted average coordinates u and v"
+   },
+   "note": "Crystal from Anger logic (u,v)",
+   "status": "unchecked"
+  },
+  {
+   "id": "dc49ef",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The detector collecting the maximum charge pmax is the one directly coupled to the crystal where the interaction occurred"
+   },
+   "note": "w = pmax/P, light on directly coupled SiPM over total",
+   "status": "unchecked"
+  },
+  {
+   "id": "064e0b",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "because of the optical depolishing of the lateral surfaces of the crystal, the ratio of the amount of light at both ends depends on the gamma interaction position along the crystal"
+   },
+   "note": "Depolishing makes end-to-end light ratio depth dependent",
+   "status": "unchecked"
+  },
+  {
+   "id": "c8b959",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "A linear relation between the values of w calculated for scintillation events and the position of the excitation spot was found for all the scintillators."
+   },
+   "note": "w linear in depth for every crystal",
+   "status": "unchecked"
+  },
+  {
+   "id": "4ee704",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "In order to demonstrate the possibility to obtain DOI information, an electronic tagging bench has also been developed."
+   },
+   "note": "DOI calibrated via electronic tagging",
+   "status": "unchecked"
+  },
+  {
+   "id": "96ae45",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Events for which energy has been deposited in multiple crystals, instead, are reconstructed far from these accumulation volumes and can be discarded since they would not be useful in a realistic PET system."
+   },
+   "note": "Multi-crystal events discarded",
+   "status": "unchecked"
+  },
+  {
+   "id": "38a778",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The mean DOI resolution achieved is 4.1 mm FWHM on a 15 mm long crystal"
+   },
+   "value": {
+    "number": 4.1,
+    "unit": "mm",
+    "what": "DOI FWHM"
+   },
+   "note": "Mean DOI resolution 4.1 mm FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "c76c2e",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "does not seem to have a dependence on the position of the crystal in the array"
+   },
+   "note": "DOI resolution uniform across array",
+   "status": "unchecked"
+  },
+  {
+   "id": "715812",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "In the following discussion the performance of these 16 crystals will be therefore highlighted."
+   },
+   "note": "Results averaged over 16 central crystals",
+   "status": "unchecked"
+  },
+  {
+   "id": "a0d006",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "light loss due to depolishing is found to be negligible"
+   },
+   "note": "Abstract: negligible light loss",
+   "status": "unchecked"
+  },
+  {
+   "id": "ab5ab5",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "Given the linear relation between the w variable and the position of gamma excitation along the main crystal axis, it is possible to apply a correction, event by event, to the total charge"
+   },
+   "note": "Depth-dependent gain correction using w",
+   "status": "unchecked"
+  },
+  {
+   "id": "9ac65b",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "Good crystal separation can be obtained for all the 64 crystals of the scintillator array"
+   },
+   "note": "All crystals separated",
+   "status": "unchecked"
+  },
+  {
+   "id": "42896b",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "While the separation capability of the module is excellent for the 16 crystals coupled to the 4 central SiPMs, it becomes less efficient for the scintillators closer to the edge of the module."
+   },
+   "note": "Excellent in centre, less efficient near edges",
+   "status": "unchecked"
+  },
+  {
+   "id": "b0b1e9",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Excellent crystal separation is obtained for all the scintillators in the array"
+   },
+   "note": "Abstract says all",
+   "status": "unchecked"
+  },
+  {
+   "id": "b23a25",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "only the channel directly connected to the reference crystal and one channel on the MPPC of the test module are biased"
+   },
+   "note": "Only one SiPM channel biased",
+   "status": "unchecked"
+  },
+  {
+   "id": "b7fa61",
+   "page": 19,
+   "kind": "quote",
+   "quote": {
+    "exact": "A linear relation can be derived, as show for one channel in figure 31, and used to correct, event by event, the values of time difference between the reference crystal and the test module."
+   },
+   "note": "Time corrected via ToT-DOI relation",
+   "status": "unchecked"
+  },
+  {
+   "id": "55c6c0",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "The CTR of two identical modules is then derived by multiplying this value by 2."
+   },
+   "note": "Single-module resolution scaled (by sqrt2) to module-module CTR",
+   "status": "unchecked"
+  },
+  {
+   "id": "709fbf",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The aim is to obtain continuous DOI encoding with single side readout"
+   },
+   "note": "Continuous DOI, single-side readout, no one-to-one coupling",
+   "status": "unchecked"
+  },
+  {
+   "id": "ffdbca",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "For the test module, an average of ± 8800 200 ADC channels was found, while for the reference module ± 9100 200 ADC channels."
+   },
+   "note": "Light output 8800 vs 9100 ADC channels",
+   "status": "unchecked"
+  },
+  {
+   "id": "ce3df6",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "show an energy resolution FWHM of ± 16.1% 0.6%"
+   },
+   "value": {
+    "number": 16.1,
+    "unit": "%",
+    "what": "energy resolution FWHM"
+   },
+   "note": "Raw energy resolution 16.1% (central 16)",
+   "status": "unchecked"
+  },
+  {
+   "id": "b97686",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "found for the reference matrix, and can be explained by a combination of the effect of depolishing and the increased light absorption due to the presence of the light guide"
+   },
+   "note": "Reference 11.2% +- 0.3%; difference blamed on depolishing and light-guide absorption",
+   "status": "unchecked"
+  },
+  {
+   "id": "43af0e",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "the average energy resolution FWHM is improved from the ± 16.1% 0.6% value previously found to ± 12.7% 0.2%"
+   },
+   "value": {
+    "number": 12.7,
+    "unit": "%",
+    "what": "energy resolution FWHM"
+   },
+   "note": "12.7% after w-based correction",
+   "status": "unchecked"
+  },
+  {
+   "id": "c43bae",
+   "page": 19,
+   "kind": "quote",
+   "quote": {
+    "exact": "the CTR of two identical test modules can be estimated in ± 353 7 ps FWHM, with a degradation of about 30 ps compared to the reference module"
+   },
+   "value": {
+    "number": 353.0,
+    "unit": "ps",
+    "what": "CTR FWHM"
+   },
+   "note": "CTR 353 ps, ~30 ps worse than reference",
+   "status": "unchecked"
+  },
+  {
+   "id": "d4c623",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "has been divided by 2 to get the reference crystal timing resolution of ± 155 3 ps FWHM"
+   },
+   "value": {
+    "number": 155.0,
+    "unit": "ps",
+    "what": "reference crystal time resolution"
+   },
+   "note": "Reference crystal 155 ps subtracted (219/sqrt2)",
+   "status": "unchecked"
+  },
+  {
+   "id": "01ac25",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "± 11.2% 0.3% found for the reference matrix"
+   },
+   "value": {
+    "number": 11.2,
+    "unit": "%",
+    "what": "energy resolution FWHM"
+   },
+   "note": "Reference (polished, no guide) energy resolution 11.2%",
+   "status": "unchecked"
+  },
+  {
+   "id": "63c66a",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "consisting in 64 LYSO crystals, each × × 1.53 1.53 15 mm3, arranged in a × 8 8 array"
+   },
+   "note": "8x8 matrix of 1.53x1.53x15 mm3 LYSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "3e0e20",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "made of 16 SiPMs, each with × 3 3 mm active area. The pitch between individual SiPMs is 3.2 mm."
+   },
+   "note": "16 SiPMs of 3x3 mm at 3.2 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "fea187",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The photodetector (figure 3) is an Hamamatsu TSV MPPC array (S12642-0404PB-50)"
+   },
+   "note": "Hamamatsu TSV MPPC 4x4 array",
+   "status": "unchecked"
+  }
+ ]
+}

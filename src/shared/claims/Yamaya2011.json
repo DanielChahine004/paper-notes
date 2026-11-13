@@ -1,0 +1,270 @@
+{
+ "paper": "Yamaya2011",
+ "annotations": [
+  {
+   "id": "281d41",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Molecular Imaging Center, National Institute of Radiological Sciences"
+   },
+   "note": "Affiliation: NIRS",
+   "status": "unchecked"
+  },
+  {
+   "id": "20e546",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Chiba University, 1-33 Yayoicho"
+   },
+   "note": "Affiliation: Chiba University",
+   "status": "unchecked"
+  },
+  {
+   "id": "4de0de",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Central Research Laboratory, Hamamatsu Photonics K.K."
+   },
+   "note": "Affiliation: Hamamatsu Photonics",
+   "status": "unchecked"
+  },
+  {
+   "id": "01c098",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The crystal block was composed of a 16 × 16 × 16 array of LYSO (Proteus Inc., OH) polished on all six faces of dimensions 0.993 × 0.993 × 0.993 mm3"
+   },
+   "note": "16x16x16 array of 0.993 mm LYSO cubes, polished",
+   "status": "unchecked"
+  },
+  {
+   "id": "d1105b",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "with Dymax-type OP20 UV-cure optical adhesive without inserting any reflector inside"
+   },
+   "note": "Crystals glued with no reflector inside",
+   "status": "unchecked"
+  },
+  {
+   "id": "b35317",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "96 MPPCs (S10931-50P, Hamamatsu Photonics K.K., Japan; i.e. six faces each with a 4 × 4 array of MPPCs) were optically coupled to the surface of the crystal block"
+   },
+   "note": "96 Hamamatsu MPPCs, 4x4 per face on six faces",
+   "status": "unchecked"
+  },
+  {
+   "id": "71919a",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "MPPC had a sensitive area of 3.0 × 3.0 mm2"
+   },
+   "note": "MPPC sensitive area 3x3 mm2",
+   "status": "unchecked"
+  },
+  {
+   "id": "806470",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "so that the crystal pitch became 1.0 mm"
+   },
+   "note": "Crystal pitch 1.0 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "d77ec4",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "For the position calculation, we extended the Anger-type calculation to 3D"
+   },
+   "note": "Position by 3D Anger centroid",
+   "status": "unchecked"
+  },
+  {
+   "id": "dbe32b",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "where N is the total number of MPPCs (i.e. 96)"
+   },
+   "note": "Centroid sums over all 96 MPPC signals",
+   "status": "unchecked"
+  },
+  {
+   "id": "27af66",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "Each spot corresponds to a separate segmented crystal"
+   },
+   "note": "Each spot in the 3D flood is a crystal",
+   "status": "unchecked"
+  },
+  {
+   "id": "2024a4",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Therefore, we concluded that the type-LR was the optimal structure for the 1.0 mm3 cubic crystals"
+   },
+   "note": "Chosen design: type-LR (light guides + reflector belt)",
+   "status": "unchecked"
+  },
+  {
+   "id": "171381",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Each light guide was a trapezoidal shape made of acrylic (1.0 mm thick)"
+   },
+   "note": "1 mm acrylic light guides",
+   "status": "unchecked"
+  },
+  {
+   "id": "2e2639",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The additional reflector sheets (reflector-2) formed the belt of 0.5 mm width"
+   },
+   "note": "Thin reflector belt (0.5 mm) near edges",
+   "status": "unchecked"
+  },
+  {
+   "id": "9c6b79",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "× 16 × 16 array of lutetium gadolinium oxyorthosilicate (LGSO) crystals"
+   },
+   "note": "Abstract names LGSO, while methods/tables say LYSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "deeff0",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "almost all 4096 crystals could be identified simply through the Anger-type calculation with 96 MPPCs"
+   },
+   "note": "Almost all 4096 crystals identified",
+   "status": "unchecked"
+  },
+  {
+   "id": "d2ed5e",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The first and second planes were displayed in the same image because of the distortion of the 3D flood histogram"
+   },
+   "note": "Edge planes k=1,2 not separated in the flood (distortion)",
+   "status": "unchecked"
+  },
+  {
+   "id": "7570e4",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Averaged energy resolution for these 16 crystal segments is 12.7 ± 1.2% full width at half maximum (FWHM)"
+   },
+   "value": {
+    "number": 12.7,
+    "unit": "%",
+    "what": "energy resolution FWHM"
+   },
+   "note": "Energy resolution 12.7% FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "238fd3",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "Timing measurement is one of our next priority tasks"
+   },
+   "note": "No timing measured",
+   "status": "unchecked"
+  },
+  {
+   "id": "2f0ffd",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "we found that the ratio of the ICS events which will cause mispositioning is 43.6%"
+   },
+   "value": {
+    "number": 43.6,
+    "unit": "%",
+    "what": "ICS fraction"
+   },
+   "note": "43.6% ICS events causing mispositioning (simulation, 425 keV threshold)",
+   "status": "unchecked"
+  },
+  {
+   "id": "ecbc65",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "an averaged error distance is defined as the distance between the position of the first interaction and the center position of the estimated crystal segments and is 1.49 mm"
+   },
+   "value": {
+    "number": 1.49,
+    "unit": "mm",
+    "what": "mean positioning error"
+   },
+   "note": "Mean positioning error over all events 1.49 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "3401ff",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "we are expecting that a maximum-likelihood estimation"
+   },
+   "note": "ML estimation proposed for ICS, not done",
+   "status": "unchecked"
+  },
+  {
+   "id": "deefe2",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "which can be used to fabricate 3D grids into a monolithic crystal block"
+   },
+   "note": "Next: sub-surface laser engraved grids in a monolithic block",
+   "status": "unchecked"
+  },
+  {
+   "id": "e794b1",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "Modification toward practical use is also important in terms of assembling efficiency and production costs"
+   },
+   "note": "Motivation: assembly efficiency and cost",
+   "status": "unchecked"
+  },
+  {
+   "id": "834e41",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "removing the light guides and reducing the number of faces to be connected to the MPPCs might be possible"
+   },
+   "note": "Laser-processed block could reduce faces read out",
+   "status": "unchecked"
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "paper": "Kang2023",
+ "annotations": [
+  {
+   "id": "3dd2f2",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Immediate Open Access: Creative Commons Attribution 4.0 International License (CC BY)"
+   },
+   "note": "Open access (CC BY)",
+   "status": "unchecked"
+  },
+  {
+   "id": "838a82",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "has 4 rings of 16 DOI detectors each, resulting in a 52.5-mm inner diameter and a 51.5-mm axial field of view (FOV)"
+   },
+   "note": "SR-PET: 4 rings x 16 = 64 DOI detectors, 52.5 mm bore",
+   "status": "unchecked"
+  },
+  {
+   "id": "874bcf",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "stacked in a staggered configuration with an offset of crystal half pitch in the radial and axial directions to encode the DOI information in the crystal map"
+   },
+   "note": "Three staggered layers offset by half pitch; DOI encoded in the crystal map",
+   "status": "unchecked"
+  },
+  {
+   "id": "74d37a",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The crystal thicknesses of the first, second, and third layers are 4, 4, and 7 mm, respectively"
+   },
+   "note": "Layer thicknesses 4, 4, 7 mm (15 mm total)",
+   "status": "unchecked"
+  },
+  {
+   "id": "171504",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The LYSO crystals (0.9 3 0.9 mm cross section) are optically isolated using a 0.1-mm-thick BaSO4 powder layer"
+   },
+   "note": "0.9 x 0.9 mm LYSO crystals, 1 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "fcc3e6",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Sixteen anode signals of each SiPM are reduced into 4 positional signals using a resistive network"
+   },
+   "note": "Four positional signals per SiPM array",
+   "status": "unchecked"
+  },
+  {
+   "id": "b7ada6",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The system coincidence timing resolution was 9.5 ns, and the system energy resolution was 24.3%"
+   },
+   "note": "System timing 9.5 ns, energy resolution 24.3%",
+   "status": "unchecked"
+  },
+  {
+   "id": "df8f58",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average radial resolutions from center to the 10-mm radial offset position for the axial offset positions of center and 6.25, 13.5, and 19.75 mm were 1.00"
+   },
+   "note": "Radial resolution averaged over 0-10 mm radial offset: ~1.0 mm FBP, ~0.6 mm OSEM",
+   "status": "unchecked"
+  },
+  {
+   "id": "4cdf51",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "with FBP (Supplemental Table 3) and 0.58"
+   },
+   "value": {
+    "number": 0.58,
+    "unit": "mm",
+    "what": "radial resolution FWHM (OSEM)"
+   },
+   "note": "OSEM average radial resolution 0.58 mm at axial centre",
+   "status": "unchecked"
+  },
+  {
+   "id": "aa0ff0",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "To resolve structures smaller than 0.6 mm, 50 iterations were used for the PET mouse phantom"
+   },
+   "note": "0.55 mm rods resolved with 50 iterations",
+   "status": "unchecked"
+  },
+  {
+   "id": "0abcfc",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "resolving the 0.55-mm rod pattern with an average VPR of 0.527"
+   },
+   "note": "0.55 mm rods resolved, 100% resolvability",
+   "status": "unchecked"
+  },
+  {
+   "id": "a764fd",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Image reconstruction used 10 iterations, a 0.5-mm IDB kernel size, and a 440- to 560-keV energy window"
+   },
+   "note": "Hot spot phantom (0.75 mm rods) reconstructed with 10 iterations",
+   "status": "unchecked"
+  },
+  {
+   "id": "19ac9e",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The 0.75-mm rod structures of the modified Ultra-Micro Hot Spot Phantom were resolved"
+   },
+   "note": "0.75 mm rods resolved",
+   "status": "unchecked"
+  },
+  {
+   "id": "e65cce",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the Inveon PET could not resolve the 0.75-mm rod structure of the same phantom"
+   },
+   "note": "Inveon fails 0.75 mm rods",
+   "status": "unchecked"
+  },
+  {
+   "id": "8956c4",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "with peak axial sensitivities of 8.66%, 4.39%, 2.84%, and 1.56% for energy windows of 250–750, 350–650, 400–600, and 440–560 keV, respectively"
+   },
+   "value": {
+    "number": 8.66,
+    "unit": "%",
+    "what": "peak sensitivity 250-750 keV"
+   },
+   "note": "Peak sensitivity 8.66% (250-750), 2.84% (400-600), 1.56% (440-560 keV)",
+   "status": "unchecked"
+  },
+  {
+   "id": "130f7e",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "ICS events could be rejected with the narrow energy window of 440–560 keV"
+   },
+   "note": "ICS rejected by narrowing the energy window",
+   "status": "unchecked"
+  },
+  {
+   "id": "d833b8",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "because of decreased ICS events at the expense of sensitivity"
+   },
+   "note": "Narrow window: fewer ICS at the cost of sensitivity",
+   "status": "unchecked"
+  },
+  {
+   "id": "508ddf",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the radial resolution improvement for the radial offset of 10 and 15 mm was less dramatic than the radial offsets of within 5 mm because of parallax error"
+   },
+   "note": "Parallax still degrades radial resolution at 10-15 mm offset",
+   "status": "unchecked"
+  },
+  {
+   "id": "df44ba",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "generated by summing all energy spectra of 64 DOI detectors after photopeak alignment for individual crystals"
+   },
+   "note": "Per-crystal calibration (photopeak alignment)",
+   "status": "unchecked"
+  },
+  {
+   "id": "3002e1",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The normalization data are obtained for 72 h"
+   },
+   "note": "72-hour normalisation scan",
+   "status": "unchecked"
+  }
+ ]
+}

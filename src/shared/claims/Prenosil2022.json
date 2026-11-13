@@ -1,0 +1,225 @@
+{
+ "paper": "Prenosil2022",
+ "annotations": [
+  {
+   "id": "50918c",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Department of Nuclear Medicine, Bern University Hospital, University of Bern, Bern, Switzerland"
+   },
+   "note": "Affiliation: Bern University Hospital",
+   "status": "unchecked"
+  },
+  {
+   "id": "bcd54a",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Advanced Clinical Imaging Technology, Siemens Healthcare AG, Lausanne, Switzerland"
+   },
+   "note": "Affiliation: Siemens Healthcare AG",
+   "status": "unchecked"
+  },
+  {
+   "id": "e4df72",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "This new system is based on the Biograph Vision 600, using the same silicon photomultiplier–based detectors with 3.2 3 3.2 3 20 mm lutetium-oxoorthosilicate crystals"
+   },
+   "note": "Quadra uses the Vision 600's SiPM detectors with 3.2x3.2x20 mm LSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "e8fdf3",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Crystals per SiPM (mini block) 5 3 5"
+   },
+   "note": "Table 1: 5x5 crystals per SiPM array (mini block)",
+   "status": "unchecked"
+  },
+  {
+   "id": "87954c",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "SiPM array size 16 3 16 mm"
+   },
+   "note": "Table 1: SiPM array 16x16 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "1bff0b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Eight mini blocks form a detector block"
+   },
+   "note": "8 mini blocks per detector block",
+   "status": "unchecked"
+  },
+  {
+   "id": "b63761",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Detector blocks per ring 38"
+   },
+   "note": "Table 1: 38 detector blocks per ring",
+   "status": "unchecked"
+  },
+  {
+   "id": "af9faa",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The 32 detector rings of the Quadra provide a 4-fold larger axial ﬁeld of view (AFOV) of 106 cm"
+   },
+   "note": "32 detector rings, 106 cm AFOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "c792dd",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "with a total axial span of 320 crystals"
+   },
+   "note": "Axial span of 320 crystals",
+   "status": "unchecked"
+  },
+  {
+   "id": "3c5bb5",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "data were acquired using the maximum ring distance of 322 crystals (MRD 322), whereas image reconstructions could be performed with a maximum ring distance of only 85 crystals (MRD 85)"
+   },
+   "note": "Acquired at MRD 322, reconstructed at MRD 85",
+   "status": "unchecked"
+  },
+  {
+   "id": "708d36",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The spatial resolution at full width at half maximum in the radial, tangential, and axial directions was 3.3, 3.4, and 3.8 mm, respectively"
+   },
+   "note": "Spatial resolution FWHM 3.3/3.4/3.8 mm radial/tangential/axial",
+   "status": "unchecked"
+  },
+  {
+   "id": "7b4078",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The sensitivity was 83 cps/kBq for MRD 85 and 176 cps/kBq for MRD 322"
+   },
+   "note": "Sensitivity 83 (MRD 85) and 176 cps/kBq (MRD 322)",
+   "status": "unchecked"
+  },
+  {
+   "id": "2a8287",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The noise-equivalent count rates (NECRs) at peak were 1,613 kcps for MRD 85 and 2,956 kcps for MRD 322, both at 27.49 kBq/mL"
+   },
+   "note": "Peak NECR 1613 / 2956 kcps at 27.49 kBq/mL",
+   "status": "unchecked"
+  },
+  {
+   "id": "8d606c",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The respective scatter fractions at peak NECR equaled 36% and 37%"
+   },
+   "note": "Scatter fraction at peak NECR 36% / 37%",
+   "status": "unchecked"
+  },
+  {
+   "id": "83bc8b",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "At a low (background) activity concertation of 5.3 kBq/mL, the TOF resolutions were 225 and 228 ps, respectively"
+   },
+   "value": {
+    "number": 225.0,
+    "unit": "ps",
+    "what": "TOF resolution"
+   },
+   "note": "TOF 225 ps (MRD 85) at low activity",
+   "status": "unchecked"
+  },
+  {
+   "id": "ca13a8",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "The TOF resolution at peak NECR was 228 ps for MRD 85 and 230 ps for MRD 322"
+   },
+   "note": "TOF 228 ps (MRD 85) at peak NECR",
+   "status": "unchecked"
+  },
+  {
+   "id": "ceaa72",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "Calculated energy resolution in MRD 85 mode was 10.1% at peak NECR and 9.8% at 5.30 kBq/mL"
+   },
+   "value": {
+    "number": 9.8,
+    "unit": "%",
+    "what": "energy resolution"
+   },
+   "note": "Energy resolution 9.8% low activity, 10.1% at peak NECR",
+   "status": "unchecked"
+  },
+  {
+   "id": "ea8cb6",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "When measured using the 68Ge line source, energy resolution was 8.9% at peak NECR, slightly better because of the absence of scattered photons"
+   },
+   "note": "Energy resolution 8.9% with 68Ge source, no scatter",
+   "status": "unchecked"
+  },
+  {
+   "id": "be2fea",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Image contrast recovery ranged from 69.6% to 86.9% for 4:1 contrast ratios and from 77.7% to 92.6% for 8:1 contrast ratios reconstructed using point-spread function time of ﬂight"
+   },
+   "note": "Abstract: contrast recovery 69.6-86.9% (4:1), 77.7-92.6% (8:1), PSF-TOF",
+   "status": "unchecked"
+  },
+  {
+   "id": "9da541",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "69.56 1.93 74.81 1.90"
+   },
+   "note": "Table 6 (PSF-TOF 8it/5s) 13 mm sphere: CR 69.56% (4:1), 74.81% (8:1) - the minima of both ranges",
+   "status": "unchecked"
+  },
+  {
+   "id": "61b75f",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Thirty-second frames provided readable lesion detectability and acceptable noise levels in clinical images"
+   },
+   "note": "30 s frames gave readable clinical images",
+   "status": "unchecked"
+  }
+ ]
+}

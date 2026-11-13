@@ -1,0 +1,243 @@
+{
+ "paper": "LaBella2021",
+ "annotations": [
+  {
+   "id": "a873c2",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "a 16×16 array of1.4×1.4×20 mm3 fully polished LYSO crystals"
+   },
+   "note": "Module: 16x16 array of 1.4x1.4x20 mm3 fully polished LYSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "1e7138",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Med Phys. 2021 March ; 48(3): 1019–1025"
+   },
+   "note": "Published Med Phys 48(3):1019-1025 (2021)",
+   "status": "unchecked"
+  },
+  {
+   "id": "a5bc1b",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "coupled 4-to-1 to an 8×8 array of 3×3 mm2 silicon photomultiplier (SiPM) readout pixels"
+   },
+   "note": "4-to-1 coupling onto 8x8 array of 3x3 mm2 SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "565dab",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Barium sulfate (BaSO4) was inserted between crystals (0.2 mm thickness)"
+   },
+   "note": "BaSO4 reflector between crystals, 0.2 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "b24d85",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "We used a slightly modified version of a shallow CNN we previously developed"
+   },
+   "note": "Shallow CNN used for DOI estimation",
+   "status": "unchecked"
+  },
+  {
+   "id": "896277",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "exposed at 19 different depths from DOI = 1−19 mm with 1 mm step size"
+   },
+   "note": "Depth collimation at 19 depths, 1 mm steps",
+   "status": "unchecked"
+  },
+  {
+   "id": "6fbefe",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "lead collimation (1 mm diameter pinhole)"
+   },
+   "note": "1 mm pinhole collimation",
+   "status": "unchecked"
+  },
+  {
+   "id": "4c0f25",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "using TOFPET2 ASICs and a FEB/D_v2 readout board from PETsys Electronics"
+   },
+   "note": "Readout with PETsys TOFPET2 ASICs",
+   "status": "unchecked"
+  },
+  {
+   "id": "cf5c25",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "the highest signal was greater than twice the second highest signal, and (b) had a second highest signal that was within 1.2 times the third highest signal"
+   },
+   "note": "Compton rejection cut: highest > 2x second, second within 1.2x third",
+   "status": "unchecked"
+  },
+  {
+   "id": "507584",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "resulting in a total of ~60% of photopeak events being used"
+   },
+   "value": {
+    "number": 60.0,
+    "unit": "%",
+    "what": "fraction of photopeak events kept"
+   },
+   "note": "~60% of photopeak events survive the Compton cut",
+   "status": "unchecked"
+  },
+  {
+   "id": "f9eb2c",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "CNN testing was performed on data from crystals not included in CNN training."
+   },
+   "note": "CNN tested on crystals not used in training",
+   "status": "unchecked"
+  },
+  {
+   "id": "a621c5",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "when using the entire 8×8 array with an 80%/20% train/test split, as well as when testing on a separate crystal not included in CNN training, was 1.84 mm FWHM in both cases"
+   },
+   "value": {
+    "number": 1.84,
+    "unit": "mm",
+    "what": "DOI FWHM (CNN, 8x8)"
+   },
+   "note": "Average DOI 1.84 mm FWHM with all 64 signals",
+   "status": "unchecked"
+  },
+  {
+   "id": "24b49f",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "we get an average DOI error of 3.04 mm FWHM using classical methods"
+   },
+   "value": {
+    "number": 3.04,
+    "unit": "mm",
+    "what": "DOI FWHM (classical)"
+   },
+   "note": "Classical estimator: 3.04 mm FWHM average DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "d77af3",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "DOI is estimated based on the ratio between the maximum signal read out by a single pixel vs the sum of the signals across all readout pixels for a single event"
+   },
+   "note": "Classical estimator is max-over-sum ratio",
+   "status": "unchecked"
+  },
+  {
+   "id": "d1f81d",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "When using only the 4 highest signals per event, an average DOI resolution of 1.92 mm FWHM was achieved"
+   },
+   "value": {
+    "number": 1.92,
+    "unit": "mm",
+    "what": "DOI FWHM (CNN, 4 signals)"
+   },
+   "note": "4 highest signals: 1.92 mm FWHM average DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "b2cb79",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the DOI estimation errors using our CNN with a 4×1 input and testing on a single crystal were 1.84, 2.14, and 2.55 mm FWHM"
+   },
+   "note": "CNN 4x1: centre 1.84, edge 2.14, corner 2.55 mm FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "92c5b1",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average DOI errors for center, edge, and corner crystals using classical estimation methods were 2.59, 4.51, and 4.38 mm FWHM"
+   },
+   "note": "Classical: centre 2.59, edge 4.51, corner 4.38 mm FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "f664e9",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The CNN provided the best performance at the top and bottom ends of the crystals"
+   },
+   "note": "CNN best at both crystal ends",
+   "status": "unchecked"
+  },
+  {
+   "id": "e6188a",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "these results were obtained without performing SiPM saturation correction"
+   },
+   "note": "No SiPM saturation correction applied",
+   "status": "unchecked"
+  },
+  {
+   "id": "0d820c",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "suggesting our CNN detects saturation and intrinsically corrects for it"
+   },
+   "note": "Authors suggest the CNN learns saturation correction",
+   "status": "unchecked"
+  },
+  {
+   "id": "7908fe",
+   "page": 11,
+   "kind": "area",
+   "label": "Fig. 2(a) energy spectra",
+   "note": "Fig 2(a): DOI module 8.7% FWHM energy resolution, reference module 10% FWHM (figure labels only)",
+   "status": "unchecked"
+  },
+  {
+   "id": "34d32e",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Our CNN-based DOI estimation algorithm provides the best reported DOI resolution in a single-ended readout module"
+   },
+   "note": "Claimed best reported single-ended DOI resolution",
+   "status": "unchecked"
+  }
+ ]
+}

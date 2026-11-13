@@ -1,0 +1,414 @@
+{
+ "paper": "LoignonHoule2021",
+ "annotations": [
+  {
+   "id": "48ac63",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Phys. Med. Biol. 66 (2021) 095015"
+   },
+   "note": "Journal reference PMB 66 095015",
+   "status": "unchecked"
+  },
+  {
+   "id": "bca279",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "extracting features of the detected signal time distribution could uncover the spatial origin of the interaction and in return, provide enhancement on the timing precision of detectors"
+   },
+   "note": "Arrival-time features estimate DOI and improve timing",
+   "status": "unchecked"
+  },
+  {
+   "id": "d7e961",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "We demonstrate the validity of a time-based DOI estimation concept in two steps."
+   },
+   "note": "Two-step argument",
+   "status": "unchecked"
+  },
+  {
+   "id": "68c8e9",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "experimental measurements were carried out with current LSO:Ce:Ca crystals coupled to FBK NUV-HD SiPMs read out by fast high-frequency electronics to provide new evidence of a distinct DOI effect on CTR not observable before with slower electronics"
+   },
+   "note": "LSO:Ce:Ca on FBK NUV-HD, HF readout; DOI effect on CTR not seen with slower electronics",
+   "status": "unchecked"
+  },
+  {
+   "id": "25bfe2",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "a DOI discrimination using a double-threshold scheme on the analog timing signal together with the signal intensity information was also developed without any complex readout or detector modiﬁcation"
+   },
+   "note": "Double-threshold DOI discrimination with intensity, no modification",
+   "status": "unchecked"
+  },
+  {
+   "id": "6e7407",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "we explored by simulation the anticipated performance requirements of future detectors to efﬁciently estimate the DOI and we proposed four estimators"
+   },
+   "note": "Simulation study of four estimators",
+   "status": "unchecked"
+  },
+  {
+   "id": "7cf1be",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "a DOI collimation along a 2 × 2 × 20 mm3 LSO:Ce:0.2%Ca crystal was performed. This crystal was in coincidence with a 2 × 2 × 3 mm3 LSO:Ce:0.4%Ca reference crystal"
+   },
+   "note": "2x2x20 mm3 crystal vs 2x2x3 mm3 reference",
+   "status": "unchecked"
+  },
+  {
+   "id": "0c808e",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "both read out by 4 × 4 mm2 FBK NUV-HD SiPMs"
+   },
+   "note": "4x4 mm2 FBK NUV-HD SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "5c596e",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "moving the long crystal along its axis, at six positions"
+   },
+   "value": {
+    "number": 6.0,
+    "what": "DOI positions"
+   },
+   "note": "Six depths",
+   "status": "unchecked"
+  },
+  {
+   "id": "196195",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "Higher measured CTR values are observed for DOI positions closer to the crystal center, although a light output increase is observed with respect to the DOI."
+   },
+   "note": "CTR worst mid-crystal despite rising light output",
+   "status": "unchecked"
+  },
+  {
+   "id": "b758ea",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "If only the light output (signal integral) effect on CTR is considered, the DOI-wise CTR should scale inversely with the square root of the light output"
+   },
+   "note": "1/sqrt(N) expectation from light alone",
+   "status": "unchecked"
+  },
+  {
+   "id": "04a4c0",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "dependence of CTR performance, not apparent before with slower electronics (Brown et al 2014), now becomes observable with the newly improved readout electronics"
+   },
+   "note": "Effect observable only with HF readout",
+   "status": "unchecked"
+  },
+  {
+   "id": "442426",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "giving a DOI resolution of 8.5 ± 0.4 mm"
+   },
+   "value": {
+    "number": 8.5,
+    "unit": "mm",
+    "what": "DOI resolution"
+   },
+   "note": "DOI resolution 8.5 +- 0.4 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "1226fd",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "representing a classiﬁcation accuracy of ∼90%"
+   },
+   "value": {
+    "number": 90.0,
+    "unit": "%",
+    "what": "classification accuracy"
+   },
+   "note": "~90% two-region classification",
+   "status": "unchecked"
+  },
+  {
+   "id": "288033",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "dividing the crystal in two 10 mm regions"
+   },
+   "note": "Top/bottom half split",
+   "status": "unchecked"
+  },
+  {
+   "id": "0658b4",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "A simple estimator using the time difference between two timestamps provided enhanced CTR. Additional improvements were achieved with estimators using multiple timestamps (e.g. kernel density estimation and neural network) converging to the Cramér–Rao lower bound developed in this work"
+   },
+   "note": "Two-timestamp estimator improves CTR; KDE and NN converge to the CRLB derived here",
+   "status": "unchecked"
+  },
+  {
+   "id": "ca0fc6",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "Finding a better DOI estimator would provide only a minor gain for the considered detectors since the tested methods are rather close to the CRLB limit, notably the KDE method."
+   },
+   "note": "KDE close to CRLB; better estimator gains little",
+   "status": "unchecked"
+  },
+  {
+   "id": "2e6756",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "Detectors presenting a strongly structured time proﬁle as a function of the DOI would yield better CRLB on DOI positioning through an increased Fisher information."
+   },
+   "note": "Larger gain needs time profile that changes more with depth",
+   "status": "unchecked"
+  },
+  {
+   "id": "8eff15",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "even with high ρph the CTR saturates around 60–70 ps because of the effect of DOI variability on timing"
+   },
+   "note": "Uncorrected CTR saturates at 60-70 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "f0ef48",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Cramér–Rao lower bound (CRLB) on DOI positioning"
+   },
+   "note": "Section 2.2.8",
+   "status": "unchecked"
+  },
+  {
+   "id": "296de4",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "as the scintillation signal PDF, obtained from the convolution of the scintillation emission, transport at DOI d and photodetector response"
+   },
+   "note": "p_tot = convolution of emission, transport at depth d, SiPM response",
+   "status": "unchecked"
+  },
+  {
+   "id": "f4f2d4",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the scintillation emission PDF was modeled as a single bi-exponential function"
+   },
+   "note": "One bi-exponential emission",
+   "status": "unchecked"
+  },
+  {
+   "id": "1af92d",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the SiPM response PDF was modeled as a Gaussian function with standard deviation given by the SiPM SPTR"
+   },
+   "note": "Gaussian SiPM response",
+   "status": "unchecked"
+  },
+  {
+   "id": "3a506e",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The Fisher information about d is deﬁned as:"
+   },
+   "note": "Fisher information along d (eq. 12)",
+   "status": "unchecked"
+  },
+  {
+   "id": "cdf193",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "and Nd being the expected number of scintillation photons detected from an annihilation photon interacting at DOI d"
+   },
+   "note": "Bound Var >= 1/(N_d I(d)); N_d expected count",
+   "status": "unchecked"
+  },
+  {
+   "id": "a1abcd",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The DOI in both detectors for every coincidence was simulated using a random number extracted from a normal distribution having a variance based on equation (13) and a mean centered on the true DOI."
+   },
+   "note": "CRLB turned into CTR by drawing depth from normal with bound variance",
+   "status": "unchecked"
+  },
+  {
+   "id": "e5745c",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "the DOI-induced time bias corresponding to the combination of estimated DOIs in both detectors was removed from the coincidence time estimate"
+   },
+   "note": "Same time-bias correction as estimators",
+   "status": "unchecked"
+  },
+  {
+   "id": "8b19ea",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "This ensures that the DOI-wise PDFs all start at the same time to correctly represent the information available in practice where the ﬁrst trigger alone should provide no information on d."
+   },
+   "note": "Densities shifted to common onset; first trigger says nothing about depth",
+   "status": "unchecked"
+  },
+  {
+   "id": "74dac5",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "θ applies the same translation"
+   },
+   "note": "theta removed: same translation for all DOIs, no effect on Fisher information",
+   "status": "unchecked"
+  },
+  {
+   "id": "545780",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "along a polished 20 mm crystal (n = 1.82) with 98% reﬂectivity specular reﬂectors were obtained with Geant4"
+   },
+   "note": "Simulated: 20 mm polished, 98% specular; estimator transport from Geant4",
+   "status": "unchecked"
+  },
+  {
+   "id": "029fee",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "a multi-digital SiPM was assumed so that every trigger comes with a digital timestamp"
+   },
+   "note": "Digital SiPM timestamps every photon",
+   "status": "unchecked"
+  },
+  {
+   "id": "3ec4be",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the PDE was kept ﬁxed at 55%"
+   },
+   "value": {
+    "number": 55.0,
+    "unit": "%",
+    "what": "PDE"
+   },
+   "note": "PDE 55%",
+   "status": "unchecked"
+  },
+  {
+   "id": "95b463",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "noise sources such as dark counts, which can induce a less precise time estimation, were not included in the simulations"
+   },
+   "note": "No dark counts",
+   "status": "unchecked"
+  },
+  {
+   "id": "3dc8c1",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "was obtained with the analytical light propagation model detailed in Cates et al (2015)"
+   },
+   "note": "Bound's transport from analytic Cates 2015 model",
+   "status": "unchecked"
+  },
+  {
+   "id": "684852",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "The present work focused on achieving the best DOI-corrected CTR by only keeping photoelectric events and discarding scattered events"
+   },
+   "note": "Only photoelectric events kept",
+   "status": "unchecked"
+  },
+  {
+   "id": "a440fe",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "Multi-interaction events (e.g. Compton interaction followed by a photoelectric interaction in the same crystal) also constitute a complex problem worthy of future investigation, especially for monolithic crystals."
+   },
+   "note": "Multi-interaction events named as open problem",
+   "status": "unchecked"
+  },
+  {
+   "id": "b6b7d4",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "A low-energy/large-DOI could have similar timestamp distribution as a high-energy/small-DOI event, therefore prompting event intermixing."
+   },
+   "note": "Energy and depth confounded in timestamps",
+   "status": "unchecked"
+  },
+  {
+   "id": "033920",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "fast timing signals intrinsically carry DOI information"
+   },
+   "note": "Timing signals carry DOI even with single-ended readout",
+   "status": "unchecked"
+  },
+  {
+   "id": "20d11d",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "reaching ∼10 ps with the DOI estimation methods"
+   },
+   "note": "10 ps SPTR case reaches ~10 ps DOI-corrected CTR",
+   "status": "unchecked"
+  }
+ ]
+}

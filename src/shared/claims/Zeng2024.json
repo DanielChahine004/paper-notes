@@ -1,0 +1,320 @@
+{
+ "paper": "Zeng2024",
+ "annotations": [
+  {
+   "id": "c8fd19",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Med Phys. 2024;51:4044–4055."
+   },
+   "note": "Published Med Phys 51:4044-4055 (2024)",
+   "status": "unchecked"
+  },
+  {
+   "id": "aec68c",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "PET detector modules that utilize light sharing can inherently carry DOI information from the multiple timestamps that are generated per gamma event."
+   },
+   "note": "Light-sharing modules give several timestamps per event",
+   "status": "unchecked"
+  },
+  {
+   "id": "96cd70",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The difference between two timestamps that are triggered by scintillation photons traveling in opposite directions signiﬁes the event’s depth-dependent optical photon TOF (oTOF)."
+   },
+   "note": "oTOF definition: timestamp difference of opposite-travelling photons",
+   "status": "unchecked"
+  },
+  {
+   "id": "360fd5",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "However, light leak at the crystal-readout interface substantially degrades the resolution of this oTOF-based depth encoding."
+   },
+   "note": "Light leak at readout interface degrades oTOF depth encoding",
+   "status": "unchecked"
+  },
+  {
+   "id": "5656f9",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "We demonstrate the feasibility of oTOF-based depth encoding by mitigating light leak in single-ended-readout Prism-PET detector modules using tapered crystals."
+   },
+   "note": "Tapering mitigates light leak and recovers oTOF depth encoding",
+   "status": "unchecked"
+  },
+  {
+   "id": "f1ce5b",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "which are tapered down to 1.2 × 1.2 mm2 at the crystal-readout interface"
+   },
+   "note": "16x16 array of 1.5x1.5x20 mm3 LYSO tapered to 1.2x1.2 mm2 at readout",
+   "status": "unchecked"
+  },
+  {
+   "id": "dfc7d4",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The LYSO array couples 4-to-1 to an 8 × 8 array of 3 × 3 mm2 silicon photomultiplier (SiPM) pixels on the tapered end and to a segmented prismatoid light guide array on the opposite end."
+   },
+   "note": "4-to-1 onto 8x8 3x3 mm2 SiPMs, prismatoid guide opposite",
+   "status": "unchecked"
+  },
+  {
+   "id": "60464f",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "It also enabled the utilization of thinner (i.e., 0.1 mm) inter-crystal spacing with barium sulfate as the reﬂector"
+   },
+   "note": "0.1 mm BaSO4 inter-crystal spacing",
+   "status": "unchecked"
+  },
+  {
+   "id": "be4bf0",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Sensitivities of scanners using different Prism-PET detector designs were simulated using Geant4 application for tomographic emission (GATE)."
+   },
+   "note": "Scanner sensitivities simulated in GATE",
+   "status": "unchecked"
+  },
+  {
+   "id": "55e7dc",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The corresponding average wTOF DOI resolutions were 6.45 ± 0.51 mm, 13.87 ± 0.87 mm, and 5.42 ± 0.49 mm FWHM, respectively."
+   },
+   "note": "oTOF DOI: 1.4 cuboid 6.45, 1.5 cuboid 13.87, tapered 5.42 mm FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "78eac0",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "enabled the ﬁrst experimental report of oTOF-based depth encoding at the detector module level"
+   },
+   "note": "First experimental oTOF depth encoding at module level",
+   "status": "unchecked"
+  },
+  {
+   "id": "7656bd",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The average wE DOI resolutions across ﬁve depths were 2.59 ± 0.36 mm, 3.18 ± 0.23 mm, and 2.35 ± 0.19 mm FWHM for the center crystals in 1.4-mm cuboid, 1.5-mm cuboid, and 1.5-mm tapered Prism-PET modules, respectively."
+   },
+   "note": "Energy DOI (centre): 1.4 cuboid 2.59, 1.5 cuboid 3.18, tapered 2.35 mm FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "36dee7",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The DOI resolutions using the classical wE method were 2.35 ± 0.19 mm, 3.70 ± 0.19 mm, and 4.76 ± 0.23 mm FWHM for center,edge,and corner crystals,respectively."
+   },
+   "note": "Tapered energy DOI: centre 2.35, edge 3.70, corner 4.76 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "e0a8c6",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "averaged DOIwE and DOIwTOF resolutions of 2.68 and 6.18 mm FWHM were achieved for tapered Prism-PET module"
+   },
+   "value": {
+    "number": 2.68,
+    "unit": "mm",
+    "what": "weighted energy-based DOI FWHM"
+   },
+   "note": "Module-weighted energy DOI 2.68 mm FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "2953ee",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Minimizing light leak also improved both energy-based DOI and coincidence timing resolutions."
+   },
+   "note": "Tapering improves energy-based DOI and timing too",
+   "status": "unchecked"
+  },
+  {
+   "id": "9c8c31",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "8.88 ± 1.03%, respectively (uncorrected for saturation)"
+   },
+   "note": "Energy resolutions uncorrected for saturation",
+   "status": "unchecked"
+  },
+  {
+   "id": "b74cda",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "modules were 10.94 ± 1.21%, 11.18 ± 1.37%, and 8.88 ± 1.03%"
+   },
+   "note": "Energy resolution: 1.5 cuboid 11.18%, tapered 8.88%",
+   "status": "unchecked"
+  },
+  {
+   "id": "d69244",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The timing resolutions were 254, 286, and 243 ps FWHM"
+   },
+   "note": "CTR: 1.4 cuboid 254, 1.5 cuboid 286, tapered 243 ps FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "a37066",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The scanner sensitivities using non-tapered and tapered crystals, and 10 rings of detector modules, were simulated to be 30.9 and 29.5 kcps/MBq, respectively."
+   },
+   "note": "Simulated 10-ring sensitivity 30.9 (non-tapered) vs 29.5 kcps/MBq (tapered)",
+   "status": "unchecked"
+  },
+  {
+   "id": "c827c4",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "the degradation in DE due to tapered crystals is very small"
+   },
+   "note": "Detection-efficiency cost of tapering is very small",
+   "status": "unchecked"
+  },
+  {
+   "id": "1d5aba",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "we changed the design to a crystal CSA and inter-crystal reﬂector thickness of 1.5 × 1.5 mm2 and 0.1 mm, respectively"
+   },
+   "note": "1.5 mm cuboid design uses 0.1 mm reflector",
+   "status": "unchecked"
+  },
+  {
+   "id": "dcbdfa",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "this new design caused each crystal to exceed the pixel’s active area on two perpendicular sides by 0.05 mm which exacerbated the scintillation light leak"
+   },
+   "note": "1.5 mm cuboid crystals overhang SiPM active area by 0.05 mm on two sides, worsening leak",
+   "status": "unchecked"
+  },
+  {
+   "id": "853aaa",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Originally, we used a crystal cross-sectional area (CSA) and inter-crystal reﬂector thickness of 1.4 × 1.4 mm2 and 0.2 mm, respectively."
+   },
+   "note": "Older 1.4 mm design: 0.2 mm reflector",
+   "status": "unchecked"
+  },
+  {
+   "id": "9cbd98",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The correlations were 0.80 for the 1.4-mm cuboid module, 0.43 for the 1.5-mm cuboid module, and 0.83 for the tapered module."
+   },
+   "note": "wE-wTOF correlation 0.80 / 0.43 / 0.83",
+   "status": "unchecked"
+  },
+  {
+   "id": "cce46d",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "estimate DOI using the optical photon TOF (oTOF) which is the difference between the primary and secondary timestamps"
+   },
+   "note": "oTOF = primary minus nearest-neighbour (secondary) timestamps",
+   "status": "unchecked"
+  },
+  {
+   "id": "b6c318",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "The best DOI resolution of 5.42 ± 0.49 mm FWHM was obtained using (oTOF1 + oTOF2 + oTOF3)∕3 for the center scenario incorporating three nearest-neighbor SiPM pixels."
+   },
+   "note": "Averaging three neighbour oTOFs gives 5.42 mm (centre)",
+   "status": "unchecked"
+  },
+  {
+   "id": "932271",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "An optimal DOI resolution of 2.25 ± 0.14 mm was achieved when employing r = 0.2/0.8 for the center crystal."
+   },
+   "value": {
+    "number": 2.25,
+    "unit": "mm",
+    "what": "combined DOI FWHM (centre)"
+   },
+   "note": "Combined DOI 2.25 mm at 0.2/0.8 for centre crystals",
+   "status": "unchecked"
+  },
+  {
+   "id": "71c8ed",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "At r = 0.3/0.7, the edge and corner crystals demonstrated their best DOI resolutions"
+   },
+   "note": "0.3/0.7 best for edge and corner",
+   "status": "unchecked"
+  },
+  {
+   "id": "b6e1c7",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "the average DOI resolution of the tapered module was 2.52 mm"
+   },
+   "value": {
+    "number": 2.52,
+    "unit": "mm",
+    "what": "weighted combined DOI FWHM"
+   },
+   "note": "Module-weighted combined DOI 2.52 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "703ab3",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "a coincidence time window of 15 ns, and inter-crystal scatter (ICS) rejection"
+   },
+   "note": "ICS rejection applied to all data",
+   "status": "unchecked"
+  }
+ ]
+}

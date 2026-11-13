@@ -1,0 +1,75 @@
+{
+ "paper": "Vandenberghe2023",
+ "annotations": [
+  {
+   "id": "acd30f",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The WT-TB-PET is composed of two flat panels; each is 70 cm wide and 106 cm high"
+   },
+   "note": "Two flat panels 70 x 106 cm",
+   "status": "unchecked"
+  },
+  {
+   "id": "345c6e",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "with a 50-cm gap between both panels"
+   },
+   "note": "50 cm gap between panels",
+   "status": "unchecked"
+  },
+  {
+   "id": "745656",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "allows patients to stand upright between two flat panels"
+   },
+   "note": "Patient stands upright",
+   "status": "unchecked"
+  },
+  {
+   "id": "5df7e8",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "panel consists of 14 × 20 monolithic BGO detector blocks that are 50 × 50 × 16 mm in size"
+   },
+   "note": "14 x 20 blocks of 50x50x16 mm per panel",
+   "status": "unchecked"
+  },
+  {
+   "id": "b21926",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The chosen detector for the WT-TB-PET is a 16-mm thick 50 × 50 ­mm2 (BGO or LYSO) detector read out by an 8 × 8 array of 6 × 6 mm SiPMs with a 6-layer DOI measurement"
+   },
+   "note": "16 mm BGO/LYSO 50x50, 8x8 of 6x6 mm SiPMs, 6-layer DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "fb4e51",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "the detector surface is reduced by a factor of 1.9 and the scintillator volume by a factor of 2.2 compared to LAFOV PET systems, while demonstrating comparable sensitivity"
+   },
+   "note": "1.9x less surface, 2.2x less volume vs LAFOV at comparable sensitivity",
+   "status": "unchecked"
+  },
+  {
+   "id": "686749",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "developed in the UTOFPET project (University of Pisa and Ghent University)"
+   },
+   "note": "Detector from UTOFPET project",
+   "status": "unchecked"
+  }
+ ]
+}

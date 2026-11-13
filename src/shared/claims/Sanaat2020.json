@@ -1,0 +1,290 @@
+{
+ "paper": "Sanaat2020",
+ "annotations": [
+  {
+   "id": "35daf5",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "We propose a small-animal PET scanner design combining two sets of monolithic crystals with two different thicknesses"
+   },
+   "note": "Design: one ring mixing thin and thick monolithic crystals",
+   "status": "unchecked"
+  },
+  {
+   "id": "075517",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The detectors with thinner crystals serve for high resolution imaging while the thicker crystals retain the detection efficiency"
+   },
+   "note": "Thin (2 mm) blocks for resolution, thick (10 mm) for sensitivity",
+   "status": "unchecked"
+  },
+  {
+   "id": "8c9f3c",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "(i) the detector blocks with the same crystal thickness are set face-to-face, and (ii) the detector blocks are arranged such that the detectors with different thicknesses face each other"
+   },
+   "note": "Two arrangements: same thickness facing, or thin facing thick",
+   "status": "unchecked"
+  },
+  {
+   "id": "18e44e",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The rotating configuration is proposed to render the spatial resolution uniform in the image domain"
+   },
+   "note": "Rotating variants to even out resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "a0db22",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "These models are designed using 10 and 12 detector blocks of monolithic Lutetium-Yttrium Oxyorthosilicate doped with cerium (LYSO:Ce) crystals"
+   },
+   "note": "Rings of 10 or 12 monolithic LYSO blocks",
+   "status": "unchecked"
+  },
+  {
+   "id": "50c49f",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "Ring diameter 154 mm 187 mm"
+   },
+   "note": "Ring diameters 154 mm (10 blocks) and 187 mm (12 blocks), Table 1",
+   "status": "unchecked"
+  },
+  {
+   "id": "ed90eb",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "consisted of monolithic LYSO crystals with 50.2 × 50.2 mm2 entrance area, coupled to a Silicon photomultiplier SiPM (Sensl ArrayC-30035-144P-PCB) with 12 × 12 array size and 4.2 mm pixel pitch"
+   },
+   "note": "50.2 x 50.2 mm2 LYSO monolith on 12x12 SiPM array, 4.2 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "287564",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "A barium sulfate (BaSO4) reflector material with a thickness of 0.1 mm was used to warp the crystal"
+   },
+   "note": "BaSO4 reflector, 0.1 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "3627e0",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "Moreover, optical transport was also taken into account for a more realistic simulation"
+   },
+   "note": "GEANT4 simulation with optical photon transport",
+   "status": "unchecked"
+  },
+  {
+   "id": "959487",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "all photons are reflected with a reflectivity of 97% on the surface of the reflector based on the employed"
+   },
+   "value": {
+    "number": 97.0,
+    "unit": "%",
+    "what": "reflector reflectivity"
+   },
+   "note": "Paint reflector model, 97% reflectivity",
+   "status": "unchecked"
+  },
+  {
+   "id": "bda652",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "were accurately modeled using the UNIFIED model in GEANT4"
+   },
+   "note": "UNIFIED model for optical boundaries",
+   "status": "unchecked"
+  },
+  {
+   "id": "8f651e",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "was utilized for surfaces interfacing the LYSO crystal and glue as well as glue and SiPMs"
+   },
+   "note": "Ground surface model at crystal-glue and glue-SiPM interfaces",
+   "status": "unchecked"
+  },
+  {
+   "id": "ddec01",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "a light yield of 25 000 optical photons per MeV was considered"
+   },
+   "value": {
+    "number": 25000.0,
+    "unit": "ph/MeV",
+    "what": "light yield"
+   },
+   "note": "LYSO light yield 25,000 photons/MeV",
+   "status": "unchecked"
+  },
+  {
+   "id": "d49bd7",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "The PET models implemented in GEANT4 and the image reconstruction code were validated against the empirical data obtained from a prototype small animal PET scanner designed and fabricated in our lab"
+   },
+   "note": "Validated against the group's prototype scanner (Xtrim-PET)",
+   "status": "unchecked"
+  },
+  {
+   "id": "535e17",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "extract the position of each event in the monolithic crystal based on the Correlated Signal Enhancement (CSE) positioning algorithms"
+   },
+   "note": "Positioning by Correlated Signal Enhancement",
+   "status": "unchecked"
+  },
+  {
+   "id": "a7d4a3",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "For each scintillation, we summed the number of optical photons reaching the pixels in each row and column separately"
+   },
+   "note": "Row and column sums of SiPM signals",
+   "status": "unchecked"
+  },
+  {
+   "id": "078c2f",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Although the depth of interaction was not taken into account"
+   },
+   "note": "DOI not modelled/estimated",
+   "status": "unchecked"
+  },
+  {
+   "id": "a21fc6",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "at the cost of poor sensitivity (1.6% and 2.6%, respectively)"
+   },
+   "note": "All-2 mm rings: sensitivity 1.6% and 2.6%",
+   "status": "unchecked"
+  },
+  {
+   "id": "325f16",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "using 10 mm crystal thickness would enhance the detection efficiency of the system up to 4.3% and 3.1% for 10B-10 and 12B-10 PET models, respectively"
+   },
+   "value": {
+    "number": 4.3,
+    "unit": "%",
+    "what": "absolute sensitivity"
+   },
+   "note": "All-10 mm rings: sensitivity up to 4.3%",
+   "status": "unchecked"
+  },
+  {
+   "id": "635035",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "However, the spatial resolution would be limited to 1 mm in the best case"
+   },
+   "note": "All-10 mm rings: resolution no better than 1 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "dd0b6a",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "leading to spatial resolution of 0.9 and 0.6 mm FWHM, respectively, thus outperforming the 10B-6 and 12B-6 PET models with 1.2 to 0.8 mm FHWM, respectively"
+   },
+   "note": "Mixed rings 0.9/0.6 mm vs uniform 6 mm 1.2/0.8 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "6f07c0",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "a detection sensitivity of 2.8% was achieved with the 12B-10-2 PET model compared to the 12B-6 PET model with a sensitivity of 2.45%"
+   },
+   "note": "12B-10-2 sensitivity 2.8% vs 2.45% for 12B-6",
+   "status": "unchecked"
+  },
+  {
+   "id": "0f5ac0",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "models achieved a peak NECR of 20 kcps and 16 kcps at 13 MBq and 11 MBq, respectively"
+   },
+   "note": "Peak NECR 20 and 16 kcps for the mixed rings",
+   "status": "unchecked"
+  },
+  {
+   "id": "52ba7b",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "Even though the NECR performance of the proposed models lagged behind the 10B-6 and 12B-6 models"
+   },
+   "note": "Mixed rings' NECR below the uniform 6 mm rings",
+   "status": "unchecked"
+  },
+  {
+   "id": "83a447",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "do not play a significant role in mouse PET imaging in practice"
+   },
+   "note": "NECR judged irrelevant at mouse activities",
+   "status": "unchecked"
+  },
+  {
+   "id": "468e9c",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "decreased from 250 cm3 and 300 cm3 to 150 cm3 and 180 cm3"
+   },
+   "note": "LYSO volume 250->150 and 300->180 cm3, i.e. 40% less than all-10 mm rings",
+   "status": "unchecked"
+  },
+  {
+   "id": "2c8d73",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "radial (0.75 mm, 0.6 mm, respectively) spatial resolutions"
+   },
+   "note": "All-2 mm rings: radial resolution 0.75 mm (10B-2), 0.6 mm (12B-2)",
+   "status": "unchecked"
+  }
+ ]
+}

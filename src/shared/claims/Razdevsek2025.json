@@ -1,0 +1,535 @@
+{
+ "paper": "Razdevsek2025",
+ "annotations": [
+  {
+   "id": "86f46c",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Monte Carlo simulations using GATE software were used to assess the performance of panel detectors"
+   },
+   "note": "GATE Monte Carlo study",
+   "status": "unchecked"
+  },
+  {
+   "id": "a93de9",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Open-source CASToR software was used for (TOF MLEM) image reconstruction"
+   },
+   "note": "CASToR TOF MLEM reconstruction",
+   "status": "unchecked"
+  },
+  {
+   "id": "d08b33",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The 30 × 30 cm panels comprised pixelated 3 × 3 × 20 mm LSO crystals"
+   },
+   "note": "30x30 cm panels of pixelated 3x3x20 mm LSO",
+   "status": "unchecked"
+  },
+  {
+   "id": "c9e39e",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The Siemens Biograph Vision PET/CT scanner served as the reference model"
+   },
+   "note": "Reference: simulated Siemens Biograph Vision",
+   "status": "unchecked"
+  },
+  {
+   "id": "e1fcca",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Panel detectors were evaluated with CTRs of 70 ps and 200 ps, while the reference scanner had a CTR of 214 ps"
+   },
+   "note": "Panel CTR 70 or 200 ps; reference 214 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "dd1ceb",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The investigated designs comprised 2-layer, 4-layer, 8-layer, and 16-layer DOI configurations using 20 mm long crystals"
+   },
+   "note": "DOI as 2, 4, 8 or 16 layers in 20 mm crystals",
+   "status": "unchecked"
+  },
+  {
+   "id": "4f7702",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The simulated panel detectors were assumed to incorporate DOI information, a feature practically achievable through methods such as dual-ended readout systems"
+   },
+   "note": "DOI layers taken as achievable with e.g. dual-ended readout",
+   "status": "unchecked"
+  },
+  {
+   "id": "c74df1",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The image quality of the scanners was assessed using a range of phantoms (NEMA,Derenzo,XCAT, and a high-resolution brain phantom)"
+   },
+   "note": "NEMA, Derenzo, XCAT and brain phantoms",
+   "status": "unchecked"
+  },
+  {
+   "id": "7f68b5",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The performance of larger 120 × 60 cm panels was also evaluated"
+   },
+   "note": "120x60 cm panels for LAFOV",
+   "status": "unchecked"
+  },
+  {
+   "id": "a0971f",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "Detectors using monolithic and semi-monolithic crystals can achieve excellent DOI resolution"
+   },
+   "note": "Names monolithic and semi-monolithic crystals as panel candidates",
+   "status": "unchecked"
+  },
+  {
+   "id": "028eaa",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "are also relevant candidates for high-performance panel PET scanners"
+   },
+   "note": "Monolithic/semi-monolithic as candidates for panel PET",
+   "status": "unchecked"
+  },
+  {
+   "id": "466b1c",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "large dual flat-panel detectors employing monolithic crystals have been proposed for cost-effective, walk-through total-body PET imaging"
+   },
+   "note": "Cites monolithic walk-through (WT-PET) panels, predicted 300 ps",
+   "status": "unchecked"
+  },
+  {
+   "id": "0ecb22",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The crystals were organized into modules, each with a 16 × 16 crystal arrangement"
+   },
+   "note": "16x16 crystal modules",
+   "status": "unchecked"
+  },
+  {
+   "id": "e4342d",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The position of the interaction within the module was then determined using an energy centroid approach"
+   },
+   "note": "Module-level energy centroid (TakeEnergyCentroid)",
+   "status": "unchecked"
+  },
+  {
+   "id": "d9fd31",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "the layer assigned in the coincidence event was determined based on the position of the gamma interaction"
+   },
+   "note": "DOI layer from interaction position",
+   "status": "unchecked"
+  },
+  {
+   "id": "cc2474",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "If multiple interactions occurred within the detector, the position was obtained using an energy-weighted centroid calculation"
+   },
+   "note": "Multiple interactions merged into energy-weighted centroid",
+   "status": "unchecked"
+  },
+  {
+   "id": "237f06",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Each coincidence event was characterized by the timing of the first gamma interaction in the first crystal and the first gamma interaction in the second crystal"
+   },
+   "note": "Timing from true first interaction",
+   "status": "unchecked"
+  },
+  {
+   "id": "839647",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "The width of this normal distribution was adjusted to achieve the target CTR between detector pairs for a point source at the center"
+   },
+   "note": "Gaussian noise tuned to target CTR for central point source",
+   "status": "unchecked"
+  },
+  {
+   "id": "473ff0",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The energy resolution of the panel detectors was set to 10%, matching that of the reference scanner, and a 435–585 keV energy window was used for all scanners"
+   },
+   "note": "10% energy resolution, 435-585 keV window, same as reference",
+   "status": "unchecked"
+  },
+  {
+   "id": "6446e4",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "For coincidence events, all valid coincidence pairs were included (GATE takeAllGoods policy)"
+   },
+   "note": "takeAllGoods coincidence policy",
+   "status": "unchecked"
+  },
+  {
+   "id": "a9ceff",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "represent the true,scatter,and random coincidence count rates, respectively"
+   },
+   "note": "Scatter and randoms counted in NECR",
+   "status": "unchecked"
+  },
+  {
+   "id": "18c6d5",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Only true coincidences were considered in the reconstructions"
+   },
+   "note": "Only trues reconstructed",
+   "status": "unchecked"
+  },
+  {
+   "id": "9f55c7",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "on image quality for large panels was assessed in the Appendix B"
+   },
+   "note": "Appendix B: scatter and random correction on large-panel XCAT images",
+   "status": "unchecked"
+  },
+  {
+   "id": "28bca0",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The intrinsic detector and acquisition dead times were not taken into account"
+   },
+   "note": "Dead time ignored",
+   "status": "unchecked"
+  },
+  {
+   "id": "975fa5",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "photon noncollinearity was included, but the positron range was not"
+   },
+   "note": "Positron range not simulated",
+   "status": "unchecked"
+  },
+  {
+   "id": "4f4f18",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "each layer being 5 mm thick"
+   },
+   "note": "DOI resolution equals layer thickness (20 mm / layers)",
+   "status": "unchecked"
+  },
+  {
+   "id": "d6a0ed",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Ring, diameter: 78 cm"
+   },
+   "note": "Reference ring diameter 78 cm (Table 1)",
+   "status": "unchecked"
+  },
+  {
+   "id": "d2cd35",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "30 cm 26.3 cm"
+   },
+   "note": "Reference axial FOV 26.3 cm (Table 1)",
+   "status": "unchecked"
+  },
+  {
+   "id": "04c52d",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "3 x 3 x 20 mm 3.2 x 3.2 x 20 mm"
+   },
+   "note": "Reference crystal 3.2x3.2x20 mm LSO (Table 1)",
+   "status": "unchecked"
+  },
+  {
+   "id": "7fad01",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "and they differed only in their DOI capability"
+   },
+   "note": "Reference has no DOI; only difference is DOI",
+   "status": "unchecked"
+  },
+  {
+   "id": "4088e6",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "Comparison of sensitivity, NECR, SF, and crystal volume for various designs with a panel-panel distance of 40 cm"
+   },
+   "note": "System metrics: sensitivity, NECR at 5 kBq/mL, SF, relative crystal volume (Table 2)",
+   "status": "unchecked"
+  },
+  {
+   "id": "6ac6b2",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "quantified in both the x and y directions (with y being orthogonal to the panels)"
+   },
+   "note": "Point-source FWHM in x and y (y across the gap)",
+   "status": "unchecked"
+  },
+  {
+   "id": "3d504e",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "Resolution in the y-direction (the direction orthogonal to the panels) versus MLEM iterations"
+   },
+   "note": "Resolution vs MLEM iterations",
+   "status": "unchecked"
+  },
+  {
+   "id": "ddc7ea",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "This particular phantom comprised six sets of rods with diameters measuring 5.0, 4.0, 3.5, 3.0, 2.5, and 2.0 mm"
+   },
+   "note": "Derenzo rods 2-5 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "325f2d",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "A line profile through the reconstructed Derenzo phantom images, going through the 2.5 and 4 mm diameter rods"
+   },
+   "note": "Line profiles through 2.5 and 4 mm rods",
+   "status": "unchecked"
+  },
+  {
+   "id": "0cf55d",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "illustrates the relationships between percent contrast and background variability for two hot spheres"
+   },
+   "note": "NEMA IQ: percent contrast vs background variability, 13 and 28 mm spheres",
+   "status": "unchecked"
+  },
+  {
+   "id": "613368",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "serving as a surrogate for lesion detectability"
+   },
+   "note": "CNR as surrogate for lesion detectability",
+   "status": "unchecked"
+  },
+  {
+   "id": "afd31d",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Figure 8 displays reconstructed images of the simulated brain phantom"
+   },
+   "note": "Visual quality of brain phantom images",
+   "status": "unchecked"
+  },
+  {
+   "id": "2467fc",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "structed images using an XCAT phantom with inserted hot lesions"
+   },
+   "note": "Visual quality of XCAT images",
+   "status": "unchecked"
+  },
+  {
+   "id": "16debb",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Sensitivity increases over threefold when panel-panel distance is reduced from 80 to 40 cm"
+   },
+   "note": "Sensitivity >3x from 80 to 40 cm",
+   "status": "unchecked"
+  },
+  {
+   "id": "ddeca1",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "matches that of the reference clinical scanner at a distance of approximately 50 cm between the panels"
+   },
+   "note": "NECR matches reference at ~50 cm",
+   "status": "unchecked"
+  },
+  {
+   "id": "b653dd",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "improves from 8.7 to 1.6 mm when the panel-panel distance is reduced, and 70 ps + DOI detectors are used instead of 200 ps, no-DOI detectors"
+   },
+   "note": "Abstract: y-resolution 8.7 -> 1.6 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "65fb39",
+   "page": 7,
+   "kind": "quote",
+   "quote": {
+    "exact": "as the spatial resolution in the y-direction improves from 7.9 to 1.6 mm"
+   },
+   "note": "Section 3.3: y-resolution 7.9 -> 1.6 mm (differs from abstract's 8.7)",
+   "status": "unchecked"
+  },
+  {
+   "id": "436b1d",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "corresponding to 8-layer segmentation of the 20 mm long crystal, is essentially the same as that of the 16-layer segmentation"
+   },
+   "note": "DOI saturates: 8 layers (2.5 mm) perform as 16",
+   "status": "unchecked"
+  },
+  {
+   "id": "bc3653",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "achieves nearly the same spatial resolution as the 70ps-DOI-16layers configuration for a point source near the center when the distance between the panels is 40 cm"
+   },
+   "note": "At 40 cm with DOI, 200 and 70 ps give nearly same central resolution",
+   "status": "unchecked"
+  },
+  {
+   "id": "eae819",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "TOF plays a more significant role in recovering spatial resolution when panels are placed further apart as angular sampling is reduced"
+   },
+   "note": "TOF matters more with panels further apart",
+   "status": "unchecked"
+  },
+  {
+   "id": "eb7798",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "it also becomes more important as we move towards the edges of the panels"
+   },
+   "note": "TOF matters more towards panel edges",
+   "status": "unchecked"
+  },
+  {
+   "id": "416092",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "TOF also enhances the SNR, as reflected in the percent contrast versus background variability curves"
+   },
+   "note": "TOF improves noise/contrast",
+   "status": "unchecked"
+  },
+  {
+   "id": "5ed378",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "it does not address parallax error, which becomes more significant when panels are closer together"
+   },
+   "note": "Parallax (DOI's job) matters more with close panels",
+   "status": "unchecked"
+  },
+  {
+   "id": "4f6439",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "can produce images comparable to, if not superior to, top-tier clinical scanners (Figures 6b, and 7) while utilizing four times less detector material"
+   },
+   "note": "70 ps + DOI panels match/beat reference with 4x less crystal",
+   "status": "unchecked"
+  },
+  {
+   "id": "200a9e",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "These detectors can be extended for LAFOV imaging without distortions or artifacts"
+   },
+   "note": "Extend to LAFOV without distortion",
+   "status": "unchecked"
+  },
+  {
+   "id": "2bec3c",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "focusing primarily on 40 cm and 80 cm"
+   },
+   "note": "Panel distances mainly 40 and 80 cm",
+   "status": "unchecked"
+  },
+  {
+   "id": "a37d8a",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "positron range, block decoding error, and image reconstruction parameters) begin to dominate"
+   },
+   "note": "Beyond saturation other factors dominate",
+   "status": "unchecked"
+  }
+ ]
+}

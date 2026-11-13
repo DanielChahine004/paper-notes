@@ -1,0 +1,360 @@
+{
+ "paper": "Decuyper2021",
+ "annotations": [
+  {
+   "id": "912d3b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Optimal performance was achieved with a network containing three hidden layers of 256 neurons trained on 1000 events/ position"
+   },
+   "note": "3 hidden layers x 256 neurons optimal",
+   "status": "unchecked"
+  },
+  {
+   "id": "f3312f",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "In this work, we evaluate the use of neural networks to estimate the 3D first (Compton or photoelectric) interaction position"
+   },
+   "note": "Target is the first (Compton or photoelectric) interaction position",
+   "status": "unchecked"
+  },
+  {
+   "id": "3a98cf",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The surface reflections of the crystal are defined by the LUT Davis model"
+   },
+   "note": "LUT Davis surface model",
+   "status": "unchecked"
+  },
+  {
+   "id": "3e5831",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "Although a PDE of 75% cannot be obtained with existing commercial SiPMs"
+   },
+   "value": {
+    "number": 75.0,
+    "unit": "%",
+    "what": "PDE"
+   },
+   "note": "PDE 75%, idealised",
+   "status": "unchecked"
+  },
+  {
+   "id": "f2b8ce",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "we chose to use the 16 channel readout in this work as well"
+   },
+   "note": "16-channel row/column-sum readout",
+   "status": "unchecked"
+  },
+  {
+   "id": "ca6d65",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "First a ‘training dataset’ by traversing the entire detector in 1 mm steps"
+   },
+   "note": "Training grid 49x49 at 1 mm steps",
+   "status": "unchecked"
+  },
+  {
+   "id": "665133",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "All networks are trained on a training set of 1000 events/position"
+   },
+   "note": "1000 events per position",
+   "status": "unchecked"
+  },
+  {
+   "id": "6731e8",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "mini-batches of size 256 and L1 loss"
+   },
+   "note": "L1 loss",
+   "status": "unchecked"
+  },
+  {
+   "id": "3a89ad",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "For more complex networks, the performance degrades at intermediate positions and overfitting starts to occur"
+   },
+   "note": "Larger networks overfit on the training grid",
+   "status": "unchecked"
+  },
+  {
+   "id": "ed3c8f",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "A median 3D positioning error of 0.77 mm and a 2D FWHM of 0.46 mm is obtained"
+   },
+   "note": "Median 3D error 0.77 mm, 2D FWHM 0.46 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "ab8377",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "In the detector centre, with the same SiPM readout, the mean FWHM improves with 17%"
+   },
+   "value": {
+    "number": 17.0,
+    "unit": "%",
+    "what": "FWHM improvement vs nearest neighbour"
+   },
+   "note": "17% FWHM improvement over NN at centre, same readout",
+   "status": "unchecked"
+  },
+  {
+   "id": "48680c",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "Hence with neural networks, a performance improvement of 11% in FWHM can be obtained even with less input channels"
+   },
+   "value": {
+    "number": 11.0,
+    "unit": "%",
+    "what": "FWHM improvement vs nearest neighbour"
+   },
+   "note": "11% over whole detector, vs NN with 32-channel readout",
+   "status": "unchecked"
+  },
+  {
+   "id": "a6a9d6",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Evaluation only on events that are not Compton scattered results in a 3D positioning error of 0.40 mm and 2D FWHM of 0.42 mm"
+   },
+   "note": "Non-scattered: 0.40 mm 3D, 0.42 mm FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "ffe524",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "the continuous DOI coordinate can be estimated by only adding one additional output neuron to the architecture used for 2D positioning"
+   },
+   "note": "DOI from one extra output neuron",
+   "status": "unchecked"
+  },
+  {
+   "id": "0adad9",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "This way an improvement in DOI error is achieved of almost 46%"
+   },
+   "value": {
+    "number": 46.0,
+    "unit": "%",
+    "what": "DOI error improvement"
+   },
+   "note": "46% better DOI error than NN 6-layer",
+   "status": "unchecked"
+  },
+  {
+   "id": "9991ae",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "resulting in an event rate of over 21 million events per second"
+   },
+   "value": {
+    "number": 21000000.0,
+    "unit": "events/s",
+    "what": "inference rate"
+   },
+   "note": "21 M events/s on RTX 2080 Ti",
+   "status": "unchecked"
+  },
+  {
+   "id": "0a9c9b",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "around 60% of the gamma rays in our modelled detector undergo one or more Compton interactions within the crystal before the final photoelectric interaction"
+   },
+   "value": {
+    "number": 60.0,
+    "unit": "%",
+    "what": "Compton-scattered fraction"
+   },
+   "note": "~60% Compton scatter before absorption",
+   "status": "unchecked"
+  },
+  {
+   "id": "fc1b2c",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "The median 3D distance increases from 0.40 to 1.59 mm"
+   },
+   "note": "Median 3D 0.40 -> 1.59 mm for scattered",
+   "status": "unchecked"
+  },
+  {
+   "id": "89b76b",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "Compton scatter strongly influences the mean 3D positioning distance (0.49 versus 2.29 mm)"
+   },
+   "note": "Mean 3D 0.49 vs 2.29 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "f14e8e",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "the FWHM of the DOI error distribution increases by 150% (from 0.71 to 1.80 mm)"
+   },
+   "note": "DOI FWHM 0.71 -> 1.80 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "050836",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "the FWHM on scattered data should be considered carefully as the PSF show much larger tails"
+   },
+   "note": "Scattered PSFs have long tails",
+   "status": "unchecked"
+  },
+  {
+   "id": "0e2708",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "Compton scatter increases the positioning error with 93%"
+   },
+   "value": {
+    "number": 93.0,
+    "unit": "%",
+    "what": "positioning error increase"
+   },
+   "note": "93% more positioning error from Compton scatter",
+   "status": "unchecked"
+  },
+  {
+   "id": "d8af93",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "Most events undergo small-angle forward scattering resulting in a final photoelectric interaction that is closer to the SiPM array than the first interaction"
+   },
+   "note": "Small-angle forward scatter",
+   "status": "unchecked"
+  },
+  {
+   "id": "208714",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "As a narrower light distribution is measured, the network will position the event deeper into the crystal"
+   },
+   "note": "Scattered events placed too deep",
+   "status": "unchecked"
+  },
+  {
+   "id": "1113b4",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "to identify Compton scatter and processing them with different positioning networks could help to improve positioning"
+   },
+   "note": "Proposed remedy: identify scatter, separate networks (not done)",
+   "status": "unchecked"
+  },
+  {
+   "id": "9606d5",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "In future work, neural network positioning performance will be evaluated on experimental data"
+   },
+   "note": "Real data is future work",
+   "status": "unchecked"
+  },
+  {
+   "id": "ddb1ce",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "No accurate ground truth depth information of the first interaction can be determined to train the neural network on"
+   },
+   "note": "DOI training not transferable to experiment",
+   "status": "unchecked"
+  },
+  {
+   "id": "f96444",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "since the majority of events (around 60%) are Compton scattered"
+   },
+   "note": "Majority (~60%) of events Compton scattered",
+   "status": "unchecked"
+  },
+  {
+   "id": "eaf783",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "LYSO (Lu1.8Y0.2SiO5) crystal is simulated with GATE v8.0"
+   },
+   "note": "50x50x16 mm3 LYSO, GATE v8.0",
+   "status": "unchecked"
+  },
+  {
+   "id": "9439b3",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Using optical simulation data of a 50×50×16 mm3 LYSO crystal"
+   },
+   "note": "Trained on optical simulation data",
+   "status": "unchecked"
+  },
+  {
+   "id": "bf61f6",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The readout of the crystal is a pixelated 8×8 array of 6.07 mm×6.07 mm SiPM photodetectors"
+   },
+   "note": "8x8 array of 6.07 mm SiPMs",
+   "status": "unchecked"
+  },
+  {
+   "id": "2d86a9",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "an independent ‘overfitting dataset’ of 10×10 intermediate grid points in the detector centre with an offset of 0.5 mm from the ‘training dataset’"
+   },
+   "note": "Second grid offset 0.5 mm to detect overfitting",
+   "status": "unchecked"
+  }
+ ]
+}

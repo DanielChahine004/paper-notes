@@ -1,0 +1,364 @@
+{
+ "paper": "Petersen2024",
+ "annotations": [
+  {
+   "id": "4a0af7",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Phys. Med. Biol. 69 (2024) 035024"
+   },
+   "note": "Journal reference: Phys. Med. Biol. 69 035024",
+   "status": "unchecked"
+  },
+  {
+   "id": "508a78",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Department of Biomedical Engineering, Stony Brook University, Stony Brook, NY, United States of America"
+   },
+   "note": "Affiliations: Stony Brook and Weill Cornell",
+   "status": "unchecked"
+  },
+  {
+   "id": "b48543",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Department of Radiology, Weill Cornell Medical College, Cornell University, New York, NY, United States of America"
+   },
+   "note": "Weill Cornell affiliation",
+   "status": "unchecked"
+  },
+  {
+   "id": "c9b5dd",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "Interaction physics was governed by the Penelope package of low-energy electromagnetic models"
+   },
+   "note": "GATE with Penelope physics",
+   "status": "unchecked"
+  },
+  {
+   "id": "80e0af",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "Range cuts for photons and electrons were set to 0.1 mm"
+   },
+   "value": {
+    "number": 0.1,
+    "unit": "mm",
+    "what": "range cut"
+   },
+   "note": "0.1 mm range cuts",
+   "status": "unchecked"
+  },
+  {
+   "id": "26d14b",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "were estimated via Monte Carlo simulation using the TracePro platform"
+   },
+   "note": "Optical light transport simulated in TracePro",
+   "status": "unchecked"
+  },
+  {
+   "id": "6765a7",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "We deﬁned 80 equally spaced depth bins along the length of each crystal (0.25 mm per bin)"
+   },
+   "value": {
+    "number": 80.0,
+    "what": "depth bins"
+   },
+   "note": "Light pattern tabulated in 80 depth bins of 0.25 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "df6129",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "maintains a 4:1 ratio between crystal elements and readout pixels via light sharing mediated by a segmented light guide"
+   },
+   "note": "4-to-1 Prism-PET module",
+   "status": "unchecked"
+  },
+  {
+   "id": "79cf46",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The 16 × 16 crystal array is comprised of 1.4 × 1.4 × 20 mm3 lutetium-yttrium oxyorthosilicate (LYSO)"
+   },
+   "note": "1.4 mm x 20 mm LYSO crystals",
+   "status": "unchecked"
+  },
+  {
+   "id": "fb16de",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "with an overall resolution of 2.67 mm for the entire block"
+   },
+   "value": {
+    "number": 2.67,
+    "unit": "mm",
+    "what": "DOI FWHM"
+   },
+   "note": "Simulated block DOI resolution 2.67 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "4e09b6",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "These values align with experimental reports of 2.50–3.41 mm FWHM for a single block (Zeng et al 2023)"
+   },
+   "note": "Measured DOI range 2.50-3.41 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "c7a37b",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "experiment, both directionally and quantitatively, with depth-corrected energy resolutions of 8.5%–12.6%"
+   },
+   "note": "Depth-corrected energy resolution matches measured 8.5-12.6%",
+   "status": "unchecked"
+  },
+  {
+   "id": "180e31",
+   "page": 23,
+   "kind": "quote",
+   "quote": {
+    "exact": "A major limitation of the work presented here is that the method is tested only on a simulation dataset"
+   },
+   "note": "Simulation-only is the major limitation; real sensor data future work",
+   "status": "unchecked"
+  },
+  {
+   "id": "76893b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The analytical approach used a Bayesian estimation framework constructed from a scatter absorption model—the prior—and a detector response model—the likelihood."
+   },
+   "note": "Bayesian estimate: scatter-absorption prior times detector-response likelihood",
+   "status": "unchecked"
+  },
+  {
+   "id": "6d45fc",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "The analytical Bayesian method generated an estimation error of 20.5 keV in energy and 3.1 mm in DOI."
+   },
+   "value": {
+    "number": 20.5,
+    "unit": "keV",
+    "what": "energy FWHM error"
+   },
+   "note": "MAP errors 20.5 keV and 3.1 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "82849d",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "Decoding-Net achieved slightly better accuracy in estimating DOI, with a FWHM error of 2.9 mm"
+   },
+   "value": {
+    "number": 2.9,
+    "unit": "mm",
+    "what": "DOI FWHM error"
+   },
+   "note": "Decoding-Net DOI 2.9 mm (energy 26.2 keV in same paragraph)",
+   "status": "unchecked"
+  },
+  {
+   "id": "cb210f",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "achieving an error distribution with full-width at half-maximum (FWHM) of 20.5 keV versus 26.2 keV for Decoding-Net"
+   },
+   "value": {
+    "number": 26.2,
+    "unit": "keV",
+    "what": "energy FWHM error"
+   },
+   "note": "Decoding-Net energy error 26.2 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "303248",
+   "page": 21,
+   "kind": "quote",
+   "quote": {
+    "exact": "we found that, even without any prior weighting, the accuracy is acceptable, with FWHM errors roughly doubling relative to their optimized values with prior information included"
+   },
+   "note": "Without the prior, errors roughly double",
+   "status": "unchecked"
+  },
+  {
+   "id": "700090",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "its mathematical embodiment—the detector response model—was the essential driver of accuracy in our results"
+   },
+   "note": "Detector response model (light guide) drives accuracy",
+   "status": "unchecked"
+  },
+  {
+   "id": "c78f7e",
+   "page": 21,
+   "kind": "quote",
+   "quote": {
+    "exact": "Our derived prior, for example, was very different from the original Klein–Nishina equation."
+   },
+   "note": "Derived prior differs markedly from Klein-Nishina",
+   "status": "unchecked"
+  },
+  {
+   "id": "86a4f4",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "a convolutional neural network with unique architecture that separately predicts the identity and depth-of-interaction (DOI) of the crystal containing the ﬁrst interaction"
+   },
+   "note": "CNN predicts first crystal and depth separately",
+   "status": "unchecked"
+  },
+  {
+   "id": "f2d453",
+   "page": 18,
+   "kind": "quote",
+   "quote": {
+    "exact": "The Recovery-Net achieved an overall crystal selection accuracy of 83.0%, correctly identifying the primary crystal for 100.0% of PE events and 64.7% of ICS events"
+   },
+   "value": {
+    "number": 83.0,
+    "unit": "%",
+    "what": "crystal accuracy"
+   },
+   "note": "83.0% overall, 100% PE, 64.7% ICS",
+   "status": "unchecked"
+  },
+  {
+   "id": "ef68f5",
+   "page": 19,
+   "kind": "quote",
+   "quote": {
+    "exact": "Table 2. Performance of Recovery-Net CNN in positioning the initial point of interaction for all events in the photopeak."
+   },
+   "note": "Table 2: ICS accuracy 65.6% centre, 60.1% edge, 54.9% corner; DOI FWHM all events 2.4 (PE) / 4.2 (ICS) / 3.0 mm (both); PE fraction 51.8%",
+   "status": "unchecked"
+  },
+  {
+   "id": "8abaf4",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "we found crystal identiﬁcation accuracy of 83% and DOI estimation error of 3.0 mm across all events"
+   },
+   "value": {
+    "number": 3.0,
+    "unit": "mm",
+    "what": "DOI FWHM error"
+   },
+   "note": "DOI error 3.0 mm across all events",
+   "status": "unchecked"
+  },
+  {
+   "id": "25b0ea",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "separated by 34 cm"
+   },
+   "value": {
+    "number": 34.0,
+    "unit": "cm",
+    "what": "module separation"
+   },
+   "note": "Two opposed modules 34 cm apart",
+   "status": "unchecked"
+  },
+  {
+   "id": "b57124",
+   "page": 19,
+   "kind": "quote",
+   "quote": {
+    "exact": "reduced count spillover into neighboring LoRs from 63.8% to 47.0%"
+   },
+   "note": "Spillover 63.8% -> 47.0%",
+   "status": "unchecked"
+  },
+  {
+   "id": "35ad62",
+   "page": 19,
+   "kind": "quote",
+   "quote": {
+    "exact": "The ideal detector scenario further reduced spillover to 15.6%"
+   },
+   "value": {
+    "number": 15.6,
+    "unit": "%",
+    "what": "spillover"
+   },
+   "note": "Ideal detector spillover 15.6%",
+   "status": "unchecked"
+  },
+  {
+   "id": "e86cd8",
+   "page": 21,
+   "kind": "quote",
+   "quote": {
+    "exact": "Table 3. Impact of Recovery-Net positioning on intrinsic spatial resolution."
+   },
+   "note": "Table 3: FWHM 0.82 (centroid), 0.75 (Recovery-Net, 38.9% improvement), 0.72 mm (ideal)",
+   "status": "unchecked"
+  },
+  {
+   "id": "21caa9",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "The resultant improvement in intrinsic spatial resolution, compared to baseline centroid-based positioning, was quantiﬁed using the approach described by Lee and Lee (2023)."
+   },
+   "note": "Improvement metric from Lee and Lee",
+   "status": "unchecked"
+  },
+  {
+   "id": "5def82",
+   "page": 19,
+   "kind": "quote",
+   "quote": {
+    "exact": "Recovery-Net increases clarity of the smallest spots and demonstrates potential to resolve 0.8 mm spots"
+   },
+   "note": "0.8 mm rods better resolved",
+   "status": "unchecked"
+  },
+  {
+   "id": "718a14",
+   "page": 22,
+   "kind": "quote",
+   "quote": {
+    "exact": "representing the highest crystal selection accuracy ever reported in a light-sharing detector"
+   },
+   "note": "Claims highest crystal-selection accuracy for light-sharing detector",
+   "status": "unchecked"
+  }
+ ]
+}
