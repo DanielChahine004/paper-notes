@@ -274,7 +274,7 @@
     "exact": "The TOF was set to 300 ps as in our other simulation models"
    },
    "value": {
-    "number": 300.0,
+    "number": 300,
     "unit": "ps",
     "what": "CTR"
    },

@@ -34,7 +34,7 @@
     "exact": "The inner diameter is 106 mm and the total axial length of the system is 52 mm"
    },
    "value": {
-    "number": 106.0,
+    "number": 106,
     "unit": "mm",
     "what": "inner diameter"
    },
@@ -49,7 +49,7 @@
     "exact": "1 × 22 LYSO slabs of 0.97 mm × 25.6 mm × 12 mm each"
    },
    "value": {
-    "number": 12.0,
+    "number": 12,
     "unit": "mm",
     "what": "crystal thickness"
    },
@@ -109,7 +109,7 @@
     "exact": "The system has a total of 1792 channels individually read out using the TOFPET2 ASIC"
    },
    "value": {
-    "number": 1792.0,
+    "number": 1792,
     "what": "channels"
    },
    "note": "1792 channels, each read out by PETsys TOFPET2",
@@ -212,7 +212,7 @@
     "exact": "we have estimated a worsening of 30% in the energy resolution for the entire block after applying this correction"
    },
    "value": {
-    "number": 30.0,
+    "number": 30,
     "unit": "%",
     "what": "estimated worsening"
    },
@@ -227,7 +227,7 @@
     "exact": "A CTR value of 252 ps was estimated averaging the first five timestamps"
    },
    "value": {
-    "number": 252.0,
+    "number": 252,
     "unit": "ps",
     "what": "CTR"
    },
@@ -292,7 +292,7 @@
     "exact": "and 1.0 ± 0.1 mm, respectively, were achieved, using MLEM"
    },
    "value": {
-    "number": 1.0,
+    "number": 1,
     "unit": "mm",
     "what": "mean resolution at 1/4 FOV"
    },
@@ -351,7 +351,7 @@
     "exact": "The 1.5, 1.2, and 1 mm rods reported average VPR values below the Rayleigh criterion"
    },
    "value": {
-    "number": 1.0,
+    "number": 1,
     "unit": "mm",
     "what": "smallest resolved rods"
    },
