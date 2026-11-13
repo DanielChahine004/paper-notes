@@ -30,3 +30,5 @@ tools/notesmap/.venv/
 
 # paper PDFs: a clone of the private thesis-papers repo (pixi run papers-pull)
 papers
+# figures from thesis-papers, fetched by the map (danvas.toml [[app.mount]]); never committed here
+src/paper-notes/remote/

@@ -66,6 +66,10 @@
 % notes map reads (tools/notesmap; the canonical copy is in its templates/)
 \usepackage{notesmap}
 \renewcommand*{\claimurl}{https://danielchahine004.github.io/paperstore/\#/}
+% A figure kept in the private thesis-papers repo (figures/), not here: the map
+% fetches it for readers who can read that repo; the PDF shows it only where a
+% copy sits at the path (it is skipped, not an error, when absent).
+\newcommand{\remotefig}[1]{\IfFileExists{#1}{\begin{center}\includegraphics[width=0.6\linewidth]{#1}\end{center}}{}}
 
 \addbibresource{references.bib}
 
@@ -190,6 +194,8 @@ Pisa (Dipartimento di Fisica E.\ Fermi, Università di Pisa; INFN Sezione di
 Pisa). All seven authors --- Carra, Bisogni, Ciarrocchi, Morrocchi, Sportelli,
 Rosso, Belcari --- share those two affiliations; no Ghent affiliation appears on
 this paper despite the consortium relationship (\ref{prog:UTOFPET}).
+
+\remotefig{remote/thesis-papers/figures/Carra2022-fig1.png}
 
 Method proceeds in two stages: an event timestamping algorithm based on neural
 networks, which is then integrated into a second network performing simultaneous

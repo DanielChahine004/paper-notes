@@ -11,6 +11,11 @@ overview_sections = ["what it is", "summary"]
 # the thesis's own unit shorthands (src/shared/units.tex) are built in:
 # \mm \cm \um \ps \ns \keV \MeV and \qty / \qtyrange / \qtyproduct
 
+[latex.macros]
+# a figure from the private thesis-papers repo (see danvas.toml's [[app.mount]]):
+# shown where it was fetched, quietly left out where it was not
+remotefig = "\n\n![]({1})\n\n"
+
 [check]
 # the bibliography (thesis-papers', copied here by pixi run sync): every \doi{}
 # in the notes should reach an entry here, so a paper is not noted under one DOI
