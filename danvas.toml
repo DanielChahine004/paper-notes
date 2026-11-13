@@ -7,6 +7,9 @@
 entry = "notesmap.static:app"
 requires = ["github:DanielChahine004/notesmap@main"]   # pin a tag or commit to hold a version
 files = ["notesmap.toml"]                              # notesmap.static reads the rest from it
+# the figures are shown at most a panel wide (560 px): shrink bigger ones as
+# they are fetched, which keeps the map within a phone's memory
+max_image = 600
 
 # Figures cut from the papers (paperstore box annotations) stay in the private
 # thesis-papers repo. A reader who can read it (signed in, a collaborator) sees
