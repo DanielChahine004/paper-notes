@@ -32,7 +32,7 @@ def _setup(args):
     for name, template in cfg.macros.items():
         conv.add_template(name, template)
     conv.load_plugins(cfg.plugins, cfg.root)
-    conv.claims, conv.claim_url = cfg.claims(), cfg.claim_url
+    conv.claims, conv.claim_url, conv.claim_figures = cfg.claims(), cfg.claim_url, cfg.claim_figures
     parser = load_parser(cfg.parser, cfg.root)
     return cfg, src, conv, parser
 
@@ -48,7 +48,7 @@ def _doi_of(entry) -> str:
 
 
 def _bib_check(cfg, notes) -> tuple[list[str], list[str]]:
-    """Cross-check the notes' \\doi{} against the thesis bibliography.
+    """Cross-check the notes' \\doi{} against a bibliography ([check] bib).
 
     The two are written at different times and nothing else connects them, so
     a paper can be noted under one DOI and cited under another, or noted and
@@ -72,6 +72,9 @@ def _bib_check(cfg, notes) -> tuple[list[str], list[str]]:
         carried += 1
         if doi in bib.by_doi:
             cited += 1
+            if e.key not in bib.by_doi[doi]:
+                problems.append(f"{e.file}:{e.line}: {e.key}: {path.name} has this doi as "
+                                f"{', '.join(bib.by_doi[doi])}; use that key so the PDF link finds it")
         else:
             problems.append(f"{e.file}:{e.line}: {e.key}: doi {doi} is in no {path.name} entry")
     for doi, keys in sorted(bib.duplicate_dois.items()):
@@ -120,9 +123,12 @@ def cmd_check(args) -> int:
         # claims are checked only where the annotations are (a private clone,
         # absent in CI): elsewhere every claim would read as missing
         if cfg.claim_dir and cfg.resolve(cfg.claim_dir).is_dir():
-            for c in re.findall(r"\\claim\{([^}]*)\}", "\n".join(e.body)):
-                if c.strip() not in conv.claims:
-                    problems.append(f"{e.file}:{e.line}: {e.key}: \\claim{{{c}}}: no such annotation in {cfg.claim_dir}")
+            for cmd, c in re.findall(r"\\(claim|claimfig)\{([^}]*)\}", "\n".join(e.body)):
+                n = conv.claims.get(c.strip())
+                if n is None:
+                    problems.append(f"{e.file}:{e.line}: {e.key}: \\{cmd}{{{c}}}: no such annotation in {cfg.claim_dir}")
+                elif cmd == "claimfig" and n.get("kind") != "area":
+                    problems.append(f"{e.file}:{e.line}: {e.key}: \\claimfig{{{c}}}: not a box (use \\claim for a quote)")
     for p in notes.programmes:
         if p.location is None and p.key not in cfg.map_fixed:
             problems.append(f"{p.file}:{p.line}: {p.key}: no \\location (shelved on the map)")

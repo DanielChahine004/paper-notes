@@ -8,10 +8,10 @@ entry = "notesmap.static:app"
 requires = ["github:DanielChahine004/notesmap@main"]   # pin a tag or commit to hold a version
 files = ["notesmap.toml"]                              # notesmap.static reads the rest from it
 
-# Figures cropped from the papers stay in the private thesis-papers repo. A
-# reader who can read it (signed in, a collaborator) sees them on the map; anyone
-# else gets the map without them. \remotefig{remote/thesis-papers/...} in the
-# notes shows one.
+# Figures cut from the papers (paperstore box annotations) stay in the private
+# thesis-papers repo. A reader who can read it (signed in, a collaborator) sees
+# them on the map; anyone else gets each figure's label and link without the
+# picture. \claimfig{Key/id} in the notes shows one (notesmap.toml [claims]).
 [[app.mount]]
 repo = "DanielChahine004/thesis-papers"
 files = ["figures/"]

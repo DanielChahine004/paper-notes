@@ -521,6 +521,14 @@
    },
    "note": "Motivation: best monolithic positioning algorithms cannot operate in real time in a PET detector",
    "status": "unchecked"
+  },
+  {
+   "id": "ad266a",
+   "page": 5,
+   "kind": "area",
+   "label": "Fig. 1: the P-NN, SiPM charges in, engineered features joining at the last layer",
+   "note": "The network both stages use",
+   "status": "unchecked"
   }
  ]
 }

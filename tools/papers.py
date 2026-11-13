@@ -26,6 +26,7 @@ an entry added on Overleaf reaches thesis-papers instead of being overwritten.
 """
 import json
 import re
+import shutil
 import subprocess
 import sys
 import urllib.error
@@ -86,6 +87,22 @@ def export_claims():
         if stale.name not in keys:
             stale.unlink()
     print(f"{len(keys)} papers' claims copied to src/shared/claims/")
+    export_figures()
+
+
+# box annotations' pictures (paperstore check --fix cuts them into figures/),
+# beside the notes for \claimfig on this machine; git-ignored, so the public
+# repo never holds them (the online map fetches them from thesis-papers itself)
+FIGURES = REPO / "src" / "paper-notes" / "remote" / "thesis-papers" / "figures"
+
+
+def export_figures():
+    src = PAPERS / "figures"
+    if FIGURES.exists():
+        shutil.rmtree(FIGURES)
+    if src.is_dir():
+        shutil.copytree(src, FIGURES)
+        print(f"{sum(1 for _ in FIGURES.glob('*/*.png'))} figures copied beside the notes")
 
 
 # --- the bibliography copy ---------------------------------------------------
