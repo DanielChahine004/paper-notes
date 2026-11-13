@@ -1167,7 +1167,7 @@ Ilisie, Giménez-Alventosa, Moliner, Sánchez, González, Rodríguez-Álvarez,
 Benlloch --- i3M. Simulation (PENELOPE and GATE, agreeing within 1\%\claim{Ilisie2018/f4dcf1}).
 
 \paragraph{Summary}
-The plan behind i3M's 4D-PET. A 511\,keV photon in LYSO is about as likely to
+The physics case i3M's 4D-PET (\ref{note:Valladares2024}) later builds on. A 511\,keV photon in LYSO is about as likely to
 Compton scatter as to be absorbed (48.8 against 45.5\%\claim{Ilisie2018/d418d5}; LaBr$_3$ 65.2 against
 29.2\%\claim{Ilisie2018/a1f82b}), and a scattered event inside the photopeak is reduced to an
 energy-weighted centroid\claim{Ilisie2018/7154bb}. If every interaction and its order were known, the
@@ -1636,7 +1636,7 @@ positions --- which the larger networks do\claim{Decuyper2021/3a89ad}.
 Median 3D positioning error \mm{0.77} and 2D FWHM \mm{0.46}\claim{Decuyper2021/ed3c8f}, a
 \qty{17}{\percent} improvement in FWHM on nearest neighbour at the detector
 centre with the same 16-channel readout\claim{Decuyper2021/ab8377} (11\% over the whole detector\claim{Decuyper2021/48680c}, against
-a 32-channel network); restricted to
+nearest neighbour on a 32-channel readout); restricted to
 non-Compton events, \mm{0.40} and \mm{0.42}\claim{Decuyper2021/a6a9d6}. Continuous DOI comes from one
 more output neuron\claim{Decuyper2021/ffe524}, about 46\% better than nearest neighbour's six layers\claim{Decuyper2021/0adad9};
 inference runs at 21 million events per second on one RTX 2080 Ti\claim{Decuyper2021/9991ae}.
@@ -1743,8 +1743,8 @@ builds and asks for better than \ps{300} to suppress them. Read alone, that is
 the argument for a closed geometry made by the open-geometry camp itself.
 \ref{note:Vervenne2026} answers it: the limited-angle blur grows with object
 size and time of flight is what shrinks it, and with \mm{2} DOI and about
-\ps{300} the panels match a Quadra-like cylinder on organ shapes and lesions,
-leaving the artefact in large, low-contrast structures. So the panels' weakness
+\ps{300} the panels are competitive with a Quadra-like cylinder on organ shapes
+and lesions, though the cylinder still gives better overall image quality. So the panels' weakness
 is real but priced, not fatal, and better timing improves them rather than
 rescues them. What survives for a closed geometry is narrower: no artefact to
 correct at all, and no dependence on the 3D activity outside the plane being
@@ -1895,8 +1895,8 @@ rests on.}
 The third point of the same campaign, and the one that prices the geometry:
 \ref{note:Vandenberghe2023} proposed the panels, \ref{note:Dadgar2023} weighed
 them against a cylinder in BGO, \ref{note:AbiAkl2023} wrapped the same
-monolithic LYSO block into a ring, and this halves the detector count and
-reports what that costs. The perpendicular \qtyrange{3}{3.5}{\mm} is the
+monolithic LYSO block into a ring, and this cuts the detector count by 60\%
+(192 against 480) and reports what that costs. The perpendicular \qtyrange{3}{3.5}{\mm} is the
 panel geometry's standing weakness, in LYSO as in BGO --- the direction a
 monolithic annulus does not have.
 
@@ -1956,9 +1956,9 @@ timing --- limited-angle elongation is the structural cost of a flat panel, and
 \ps{300} is not enough to hide it. That is the argument for a closed geometry
 stated by the panel camp itself: a monolithic annulus has no limited-angle
 problem to buy off, and no moving part to schedule.
-\ref{note:Vervenne2026} then sizes that artefact and finds \ps{300} enough to
-match the cylinder on organ shapes and lesions, which takes much of the force
-out of that argument.
+\ref{note:Vervenne2026} then sizes that artefact: at \ps{300} the panels are
+competitive on organ shapes and lesions, though the cylinder still gives better
+overall image quality, which blunts that argument without removing it.
 
 \end{papernote}
 
@@ -1990,8 +1990,8 @@ and XCAT\claim{Vervenne2026/c6f22d}.
 		flight fixes\claim{Vervenne2026/eaaed3}, grows with object size\claim{Vervenne2026/58c23b} and dominates above a radius of
 		about 0.5--\cm{1}\claim{Vervenne2026/03d2a8}; the shadow zones it leaves are bounded by lines from
 		the panel edges tangent to the object\claim{Vervenne2026/b9dad0}.
-	\item \textbf{Time of flight sets the large-scale picture.} Spillover of a
-		\mm{50} sphere is about 10--\mm{15} at \ps{327} (FW5M) and nearly gone at
+	\item \textbf{Time of flight sets the large-scale picture.} Spillover is
+		about 10--\mm{15} at \ps{327} (FW5M) and nearly gone at
 		\ps{50}\claim{Vervenne2026/036ee1}. Without time of flight the IQ background\claim{Vervenne2026/6630ca} and the XCAT body
 		outline are badly distorted\claim{Vervenne2026/c54b99}; point-source widths barely move with timing\claim{Vervenne2026/4752a3}.
 	\item \textbf{DOI saturates early.} From none to \mm{2} removes most of the
@@ -2017,8 +2017,8 @@ and XCAT\claim{Vervenne2026/c6f22d}.
 It answers the campaign's standing question rather than repeating it. Read
 together, \ref{note:Dadgar2023}, \ref{note:AbiAkl2025} and
 \ref{note:Dhaenens2026} look like the panel camp asking for better timing; this
-paper sizes the request and concludes that \ps{300} already matches the
-cylinder, with the remaining artefact in large, low-contrast structures. It also
+paper sizes the request: at \ps{300} the panels are competitive, but the
+cylinder still gives better overall image quality\claim{Vervenne2026/01c148}. It also
 sets the DOI target from the system side: about \mm{2}, past which nothing is
 gained\claim{Vervenne2026/5ec062} --- the same saturation \ref{note:Razdevsek2025} finds for ideal layers.
 Two caveats keep it from settling \ref{note:IdeaPanelDOI}: the monolith is an
@@ -3644,7 +3644,8 @@ crystals it was not trained on\claim{LaBella2021/f9eb2c}.
 		four highest signals\claim{LaBella2021/d1f81d}.
 	\item By region with four signals: \mm{1.84} centre, \mm{2.14} edge,
 		\mm{2.55} corner\claim{LaBella2021/b2cb79} (classical 2.59, 4.51, 4.38\claim{LaBella2021/92c5b1}). The CNN is best at both
-		crystal ends\claim{LaBella2021/f664e9}, where the ratio estimator is worst.
+		crystal ends\claim{LaBella2021/f664e9}; the ratio estimator is better near the readout
+		end and worst at the radiation-receiving end.
 	\item No SiPM saturation correction\claim{LaBella2021/e6188a}; the authors suggest the CNN learns it\claim{LaBella2021/0d820c}.
 		Energy resolution 8.7\% FWHM\claim{LaBella2021/7908fe}, read from Fig.\ 2(a) only (10\% for the
 		reference module); timing is not reported.
@@ -3852,8 +3853,8 @@ future work, which the authors call the major limitation\claim{Petersen2024/180e
 		\mm{0.75} (\mm{0.72} ideal)\claim{Petersen2024/e86cd8}, reported as a 38.9\% improvement on Lee and
 		Lee's metric\claim{Petersen2024/21caa9}. Simulated hot-rod images resolve \mm{0.8} rods better\claim{Petersen2024/5def82}.
 	\item Claims the highest crystal-selection accuracy reported for a
-		light-sharing detector\claim{Petersen2024/718a14}, against 73\% in \ref{note:Lee2021}'s comparable
-		module.
+		light-sharing detector\claim{Petersen2024/718a14}. (The 0.73 it quotes for \ref{note:Lee2021}'s
+		comparable module is an energy $R^2$, not an accuracy.)
 \end{itemize}
 
 \paragraph{Why it matters here}
@@ -4019,7 +4020,7 @@ times: a first, single-interaction step along the temporal axis.
 The figures in the abstract are not one measurement. Timing and energy (8.9\%
 central)\claim{Pizzichemi2019/ba3782} are measured here; the \mm{3} DOI is cited from Stringhini et al.\
 2016\claim{Pizzichemi2019/13a5a4}, and the \mm{1.5} is the positron-range limit\claim{Pizzichemi2019/af744d} the \mm{1.53} crystals are
-argued to reach (pitch \mm{1.6}), not a measurement. The \ps{157}, like every
+argued to reach (at \ref{note:Pizzichemi2016}'s \mm{1.6} pitch), not a measurement. The \ps{157}, like every
 CTR in its Table 2, is fitted against a reference crystal\claim{Pizzichemi2019/a4d6c5}, the reference
 subtracted and the result scaled by $\sqrt{2}$.
 
@@ -4951,7 +4952,7 @@ Phys.\ Med.\ Biol.\ 66(18):185004, \doi{10.1088/1361-6560/ac215d}.
 
 \paragraph{Summary}
 Simulation (GATE with optical transport)\claim{Lee2021/757840} of four \mm{20} LSO arrays\claim{Lee2021/1a487e} on one
-8 x 8 SiPM array\claim{Lee2021/6d46f0} through a glass window\claim{Lee2021/0cc2ad}: pitches 3.2, 2.1, 1.6 and \mm{1.2},
+8 x 8 photosensor array\claim{Lee2021/6d46f0} through a glass window\claim{Lee2021/0cc2ad}: pitches 3.2, 2.1, 1.6 and \mm{1.2},
 so crystal-to-sensor ratios from 1:1 to 2.6:1\claim{Lee2021/f0c657}. Two CNNs on the 8 x 8 map\claim{Lee2021/25944e}:
 one regresses the energy in every crystal and then picks the event's one or two
 crystals\claim{Lee2021/7b3d04}, the other classifies the first-interacted crystal directly\claim{Lee2021/a51ab1}. Within a
@@ -4966,8 +4967,8 @@ ones. No timing.
 		66.3 to 56.5\%\claim{Lee2021/e61681}.
 	\item The energy network separates events correctly 97, 92, 90 and 77\%
 		of the time and picks the right crystal pair 91, 78, 62 and 35\%\claim{Lee2021/620670},
-		roughly matching a constrained-optimisation baseline at coarse pitch
-		and beating it at fine\claim{Lee2021/32a917}.
+		matching a constrained-optimisation baseline on event type, losing to it
+		on crystal pairs at the two coarse pitches, and beating it at fine\claim{Lee2021/32a917}.
 	\item The classifier finds the first crystal about twice as often as no
 		recovery for scattered events\claim{Lee2021/ea8642}.
 	\item In a simulated ring, centre radial FWHM \mm{1.88} to \mm{1.69}
@@ -5180,7 +5181,7 @@ Aizawa Hospital\claim{Yamagishi2023/405773} and Fukushima Medical University\cla
 GE HealthCare's digital BGO system\claim{Yamagishi2023/3b11a7}: \qtyproduct{4.1 x 4.1 x 30}{\mm} BGO, 72
 crystals on 18 \qtyproduct{6 x 6}{\mm} SiPMs per block\claim{Yamagishi2023/3df77a}, 22 modules\claim{Yamagishi2023/fef7cd},
 \cm{32} axial\claim{Yamagishi2023/b8befc}, \mm{725} ring\claim{Yamagishi2023/c32707}. Window 435--\keV{580}\claim{Yamagishi2023/603558}. No TOF\claim{Yamagishi2023/864fbb}; a network
-trained on TOF images (Precision DL) stands in for it\claim{Yamagishi2023/cfe381}.
+(Precision DL) that mimics TOF image quality stands in for it\claim{Yamagishi2023/cfe381}.
 
 \paragraph{Key Findings}
 \begin{itemize}
