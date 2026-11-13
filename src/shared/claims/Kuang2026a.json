@@ -305,6 +305,76 @@
    },
    "note": "Authors: only one other semi-monolithic small-animal scanner",
    "status": "unchecked"
+  },
+  {
+   "id": "8a0215",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "sinogram-based ordered-subsets expectation maximization (OSEM) algorithm with point spread function (PSF) modeling"
+   },
+   "note": "Images by OSEM with PSF modelling",
+   "status": "unchecked"
+  },
+  {
+   "id": "c13ff5",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "A full-ring PET scanner with 20 long semi-monolithic detectors"
+   },
+   "note": "Simulated ring of 20 detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "90b806",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Geant4 Application for Tomographic Emission (GATE) software (v9.1)"
+   },
+   "note": "Simulated in GATE v9.1",
+   "status": "unchecked"
+  },
+  {
+   "id": "f9686e",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "placing the point source at radial offsets of 0 and 5 mm"
+   },
+   "note": "Point source at 0 and 5 mm radial offset",
+   "status": "unchecked"
+  },
+  {
+   "id": "d85a77",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "The prototype scanner achieved radial and tangential spatial resolutions of ~1.1 mm"
+   },
+   "note": "Measured in-plane ~1.1 mm without PSF",
+   "status": "unchecked"
+  },
+  {
+   "id": "ae3a4b",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "dividing the area under the y profile into 56 equal areas"
+   },
+   "note": "Equal-count (equal-area) bins in y",
+   "status": "unchecked"
+  },
+  {
+   "id": "4b7d84",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "which used shorter slabs (25.6 mm [35])"
+   },
+   "note": "Previous semi-monolithic scanner used 25.6 mm slabs",
+   "status": "unchecked"
   }
  ]
 }

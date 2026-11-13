@@ -1302,30 +1302,30 @@ Med.\ Phys.\ 53:e70471, \doi{10.1002/mp.70471}. Thull, Remennik, Schug, Weissler
 Kuhl, Schulz.
 
 \paragraph{Summary}
-Aachen (Schulz group, RWTH; three authors --- Schug, Weissler, Schulz --- also at Hyperion Hybrid Imaging Systems GmbH)
+Aachen (Schulz group, RWTH\claim{Thull2026/c6541a}; three authors --- Schug, Weissler, Schulz --- also at Hyperion Hybrid Imaging Systems GmbH\claim{Thull2026/9423a0})
 train localisation networks that emit a per-event positional variance alongside the
-position estimate, then use that variance to filter and weight LORs during TOF-OSEM
-reconstruction. Fully experimental: no simulation anywhere in the paper. The system is a
-proof-of-concept preclinical scanner of 24 semi-monolithic LYSO blocks at \mm{62.5} inner
-radius on the Hyperion III platform. Each block is
+position estimate\claim{Thull2026/f48fd1}, then use that variance to filter and weight LORs during TOF-OSEM
+reconstruction\claim{Thull2026/814663}. Fully experimental: no simulation anywhere in the paper. The system is a
+proof-of-concept preclinical scanner\claim{Thull2026/9971b6} of 24 semi-monolithic LYSO blocks at \mm{62.5} inner
+radius\claim{Thull2026/e0d9b6} on the Hyperion III platform\claim{Thull2026/49cf0b}. Each block is
 \qtyproduct{48.4 x 48.3 x 10}{\milli\metre} (planar-segmented,
-planar-monolithic, DOI), built from two arrays of 44 polished LYSO slabs of
-\qtyproduct{1 x 24 x 10}{\milli\metre} separated by \mm{0.1} BaSO$_4$, with a \mm{0.3}
+planar-monolithic, DOI)\claim{Thull2026/b44512}, built from two arrays of 44 polished LYSO slabs of
+\qtyproduct{1 x 24 x 10}{\milli\metre} separated by \mm{0.1} BaSO$_4$\claim{Thull2026/805f82}, with a \mm{0.3}
 light guide onto a 12 x 12
-channel SiPM array formed from a 6 x 6 grid of Philips DPC3200-22 digital SiPMs.
-Baseline detector performance is 12.7\% energy resolution and approximately \ps{500} CTR.
+channel SiPM array formed from a 6 x 6 grid of Philips DPC3200-22 digital SiPMs\claim{Thull2026/f73b74}.
+Baseline detector performance is 12.7\% energy resolution\claim{Thull2026/cf7589} and approximately \ps{500} CTR\claim{Thull2026/2cde94}.
 
 \paragraph{Capsule}
-Thull et al.\ \cite{Thull2026} train per-detector, per-axis localisation networks on a
+Thull et al.\ \cite{Thull2026} train per-detector, per-axis localisation networks\claim{Thull2026/fd4fa4} on a
 24-block semi-monolithic LYSO preclinical scanner that predict a positional variance
 alongside each position estimate, then use that variance to filter and weight LORs in
 TOF-OSEM reconstruction --- entirely on measured data. Headline result: the median
-LOR-to-point-source distance falls from \mm{20.7} unfiltered to \mm{0.983} under combined
-energy and variance filtering at 50\% retention (about 35\% effective), with variance the stronger and
-complementary criterion because energy is a non-monotonic proxy for localisation quality
-while predicted variance is monotonic. The work demonstrates rather than characterises:
+LOR-to-point-source distance falls from \mm{20.7} unfiltered\claim{Thull2026/c6e391} to \mm{0.983} under combined
+energy and variance filtering at 50\% retention (about 35\% effective)\claim{Thull2026/09d274}, with variance the stronger and
+complementary criterion\claim{Thull2026/96180b} because energy is a non-monotonic proxy\claim{Thull2026/1e56c0} for localisation quality
+while predicted variance is monotonic\claim{Thull2026/4546e3}. The work demonstrates rather than characterises:
 $\sigma$ is rank-ordered but never calibrated, timing information is discarded, the
-detector is fixed, and calibration cost is severe (weeks per scanner, 55 networks).
+detector is fixed, and calibration cost is severe (weeks per scanner\claim{Thull2026/2250d1}, 55 networks\claim{Thull2026/ae4f81}).
 For this thesis it is the standing evidence that localisation confidence is a
 first-class quantity, and it marks the light-distribution route as taken --- leaving the
 temporal axis and information-theoretic bounds open.
@@ -1334,39 +1334,39 @@ temporal axis and information-theoretic bounds open.
 \begin{itemize}
     \item \textbf{Unfiltered localisation error dominates rather than dilutes.} Median
         distance from reconstructed LOR to a known point-source location is
-        \textbf{\mm{20.7}} with no filtering. Energy windowing at 50\% retention brings this
-        to \mm{2.4}; variance filtering at 50\% retention to \mm{1.12}; combined energy and
-        variance filtering to \textbf{\mm{0.983}} (Table 4; the combined figure is
-        about 35\% effective retention and a different model from the other two). This is the single most quotable number
+        \textbf{\mm{20.7}}\claim{Thull2026/c6e391} with no filtering. Energy windowing at 50\% retention brings this
+        to \mm{2.4}\claim{Thull2026/c6e391}; variance filtering at 50\% retention to \mm{1.12}\claim{Thull2026/7177cb}; combined energy and
+        variance filtering to \textbf{\mm{0.983}}\claim{Thull2026/09d274} (Table 4; the combined figure is
+        about 35\% effective retention\claim{Thull2026/d09be9} and a different model from the other two). This is the single most quotable number
         in the paper.
     \item \textbf{Variance outperforms energy as a filtering criterion, and the two are
         complementary.} Mean absolute error at 50\% singles retention (segmented /
-        monolithic / DOI, in mm): energy filtering 0.49 / 0.72 / 1.03; variance filtering
-        0.25 / 0.53 / 0.90; variance after energy 0.17 / 0.47 / 0.83 at about 35\%
-        effective retention (0.243 / 0.527 / 0.892 at 49\%). Unfiltered CNN classifier is approximately \mm{1.1} in all three
-        dimensions.
+        monolithic / DOI, in mm): energy filtering 0.49 / 0.72 / 1.03\claim{Thull2026/381d63}; variance filtering
+        0.25 / 0.53 / 0.90\claim{Thull2026/b7212f}; variance after energy 0.17 / 0.47 / 0.83\claim{Thull2026/32dbf0} at about 35\%
+        effective retention\claim{Thull2026/d09be9} (0.243 / 0.527 / 0.892 at 49\%)\claim{Thull2026/f5054a}. Unfiltered CNN classifier is approximately \mm{1.1} in all three
+        dimensions\claim{Thull2026/4cb0c1}.
     \item \textbf{Energy is a non-monotonic proxy for localisation quality; predicted
-        variance is monotonic.} MAE versus deposited energy shows a minimum at \keV{511}, a
+        variance is monotonic.} MAE versus deposited energy shows a minimum at \keV{511}\claim{Thull2026/fe3081}, a
         second minimum near \keV{340} (Compton backscatter, \degs{180}, producing a single
-        light cluster), and elevated error between them --- a single Compton interaction
-        cannot deposit intermediate energy, so that band is necessarily multi-scatter.
-        Above \keV{511}, error rises again from pile-up and $^{176}$Lu background. MAE versus
-        predicted $\sigma$ is monotonic with growing dispersion, i.e.\ a heavy-tailed error
+        light cluster)\claim{Thull2026/da232c}, and elevated error between them --- a single Compton interaction
+        cannot deposit intermediate energy, so that band is necessarily multi-scatter\claim{Thull2026/912ef6}.
+        Above \keV{511}, error rises again from pile-up and $^{176}$Lu background\claim{Thull2026/6f1dc3}. MAE versus
+        predicted $\sigma$ is monotonic\claim{Thull2026/4546e3} with growing dispersion, i.e.\ a heavy-tailed error\claim{Thull2026/c2ecfe}
         distribution.
     \item \textbf{A low-energy, low-variance population exists} (most visible in the
         monolithic and DOI dimensions) that energy windowing discards but variance
-        filtering retains; the authors speculate these are geometrically well-constrained
-        events occurring directly above a SiPM.
+        filtering retains\claim{Thull2026/c34b54}; the authors speculate these are geometrically well-constrained
+        events occurring directly above a SiPM\claim{Thull2026/20cd4b}.
     \item \textbf{Image quality improves, at a noise cost.} With statistics restored to
-        250 M coincidences, 50\% singles filtering gives PSNR 14.603 $\to$ 14.899,
-        SSIM 0.405 $\to$ 0.462, COV 4.90\% $\to$ 4.66\%. Without restoring counts
-        (62.5 M coincidences) COV degrades to 7.49\%. Peak-to-valley ratio on the \mm{0.8}
-        rods rises from 1.0985 to 1.1840 under filtering and to 1.2171 under LOR weighting
-        at $p = 4$, but COV at $p = 4$ blows out to 10.19\%. Filtering dominated weighting
-        at matched effort; recovery coefficients improved at every rod diameter under both.
-    \item \textbf{CNN classifiers beat regressors in-plane; CNN regressors win DOI.}
-        Classifiers show systematically lower bias, and flood maps show regressors
-        producing regions of near-zero prediction density where the continuous output
+        250 M coincidences, 50\% singles filtering gives PSNR 14.603\claim{Thull2026/c186e0} $\to$ 14.899,
+        SSIM 0.405 $\to$ 0.462, COV 4.90\% $\to$ 4.66\%\claim{Thull2026/dfb809}. Without restoring counts
+        (62.5 M coincidences) COV degrades to 7.49\%\claim{Thull2026/fe392e}. Peak-to-valley ratio on the \mm{0.8}
+        rods rises from 1.0985\claim{Thull2026/c3e86e} to 1.1840 under filtering\claim{Thull2026/8c4037} and to 1.2171 under LOR weighting
+        at $p = 4$\claim{Thull2026/0b2a7a}, but COV at $p = 4$ blows out to 10.19\%\claim{Thull2026/800020}. Filtering dominated weighting
+        at matched effort\claim{Thull2026/67a7c0}; recovery coefficients improved at every rod diameter under both\claim{Thull2026/405b09}\claim{Thull2026/cb8457}.
+    \item \textbf{CNN classifiers beat regressors in-plane\claim{Thull2026/ca01f9}; CNN regressors win DOI\claim{Thull2026/5751e4}.}
+        Classifiers show systematically lower bias\claim{Thull2026/df999f}, and flood maps show regressors
+        producing regions of near-zero prediction density\claim{Thull2026/8a98e6} where the continuous output
         collapses.
 \end{itemize}
 
@@ -1376,42 +1376,42 @@ temporal axis and information-theoretic bounds open.
         negative log-likelihood,
         \[\mathrm{NLL} = \sum_n \bigl[\tfrac{1}{2}\log \sigma_n^2
             + (y_n - \hat{y}_n)^2 / 2\sigma_n^2\bigr],\]
-        jointly predicting position and variance. Classifiers use ordinary
-        cross-entropy over position bins, with uncertainty taken as the \emph{variance of
-        the predicted softmax distribution} --- no special loss required.
+        jointly predicting position and variance\claim{Thull2026/f48fd1}. Classifiers use ordinary
+        cross-entropy over position bins\claim{Thull2026/6529f4}, with uncertainty taken as the \emph{variance of
+        the predicted softmax distribution}\claim{Thull2026/d07fb5} --- no special loss required.
     \item \textbf{Per-axis decomposition.} One independent network per detector per spatial
-        dimension; 55 networks in total (7 central detectors x 3, 1 central x 2, 16 outer
-        x 2). Optuna HPO over 12 configurations, approximately 377 trials each.
+        dimension\claim{Thull2026/fd4fa4}; 55 networks in total (7 central detectors x 3, 1 central x 2, 16 outer
+        x 2)\claim{Thull2026/ae4f81}. Optuna HPO over 12 configurations\claim{Thull2026/e0a528}, approximately 377 trials each\claim{Thull2026/1d1e76}.
     \item \textbf{Fan-beam calibration.} Physical collimated fan of \mm{0.5} width on a
-        motorised stage with \um{2} repeatability. Segmented axis: 44 positions at \mm{1.1}
-        pitch, 20{,}000 samples each. Monolithic: 96 positions at \mm{0.5} pitch, 9{,}166
-        each. DOI: 40 positions at \mm{0.25} pitch, 22{,}000 each. Roughly 880{,}000 events
-        per detector per dimension, split 60/20/20. \textbf{Acquisition for the full
-        scanner took several weeks.} DOI calibration fires \emph{parallel} to the
-        photosensor face, so the lateral coordinate is deliberately unconstrained and
+        motorised stage with \um{2} repeatability\claim{Thull2026/de869c}. Segmented axis: 44 positions at \mm{1.1}
+        pitch, 20{,}000 samples each\claim{Thull2026/7f9dd9}. Monolithic: 96 positions at \mm{0.5} pitch, 9{,}166
+        each\claim{Thull2026/d5a977}. DOI: 40 positions at \mm{0.25} pitch, 22{,}000 each\claim{Thull2026/f9c42d}. Roughly 880{,}000 events
+        per detector per dimension, split 60/20/20\claim{Thull2026/0cfa1f}. \textbf{Acquisition for the full
+        scanner took several weeks.}\claim{Thull2026/2250d1} DOI calibration fires \emph{parallel} to the
+        photosensor face\claim{Thull2026/f9c42d}, so the lateral coordinate is deliberately unconstrained and
         marginalised over --- the per-axis decomposition is what makes this admissible.
-        Only 7 of the 8 central-ring detectors could be labelled in all three dimensions; the 16
-        outer detectors have monolithic and DOI labels only and borrow a segmented model.
+        Only 7 of the 8 central-ring detectors could be labelled in all three dimensions\claim{Thull2026/36e089}; the 16
+        outer detectors have monolithic and DOI labels only and borrow a segmented model\claim{Thull2026/646465}.
     \item \textbf{Triggering is inherited, not designed.} The paper does not describe a
         trigger scheme; it uses the DPC die-level two-stage trigger and validation (Frach
         2009). The only stated acquisition-time selection is retention of readouts with
-        more than 500 detected photons; no energy window is applied until evaluation.
-    \item \textbf{Normalisation is recomputed under each filter and weight condition}
-        (fan-sum method), which is what keeps the result quantitative rather than
+        more than 500 detected photons\claim{Thull2026/8709a9}; no energy window is applied until evaluation\claim{Thull2026/6b881d}.
+    \item \textbf{Normalisation is recomputed under each filter and weight condition}\claim{Thull2026/9ee0f7}
+        (fan-sum method)\claim{Thull2026/6983f0}, which is what keeps the result quantitative rather than
         cosmetically sharper. Uncertainty is combined as
         $\sigma_{3D} = \sqrt{\sigma^2_{\mathrm{seg}} + \sigma^2_{\mathrm{mono}} +
-        \sigma^2_{\mathrm{doi}}}$, and LOR weights as
-        $w_{\mathrm{LOR}} = 1 / (\sigma_{3D,I_1} \cdot \sigma_{3D,I_2})^p$.
+        \sigma^2_{\mathrm{doi}}}$\claim{Thull2026/bb4a2f}, and LOR weights as
+        $w_{\mathrm{LOR}} = 1 / (\sigma_{3D,I_1} \cdot \sigma_{3D,I_2})^p$\claim{Thull2026/f703ad}.
     \item \textbf{Reconstruction:} list-mode TOF-OSEM, 20 iterations, 10 subsets,
-        \mm{0.2} isotropic voxels, 250 M coincidences,
-        \qty[separate-uncertainty=true]{511 \pm 80}{\kilo\electronvolt} window,
-        20 LORs sampled per coincidence. Phantoms: cylindrical shell (normalisation),
-        HotRod with 2.0/1.5/1.2/1.0/0.9/\mm{0.8} rods at approximately \MBq{5} initial
-        $^{18}$F-FDG, and a \MBq{1.5} $^{22}$Na point source at \mm{25} and \mm{35} radii.
+        \mm{0.2} isotropic voxels\claim{Thull2026/5f39bd}, 250 M coincidences\claim{Thull2026/4fd511},
+        \qty[separate-uncertainty=true]{511 \pm 80}{\kilo\electronvolt} window\claim{Thull2026/8c602b},
+        20 LORs sampled per coincidence\claim{Thull2026/8ba19e}. Phantoms: cylindrical shell (normalisation)\claim{Thull2026/798fc6},
+        HotRod with 2.0/1.5/1.2/1.0/0.9/\mm{0.8} rods\claim{Thull2026/62689b} at approximately \MBq{5} initial
+        $^{18}$F-FDG\claim{Thull2026/e1bfcd}, and a \MBq{1.5} $^{22}$Na point source\claim{Thull2026/81a46f} at \mm{25} and \mm{35} radii\claim{Thull2026/af0139}.
     \item \textbf{Interpretation ceiling.} Label precision is \mm{0.5} (monolithic) and
-        \mm{0.25} (DOI) with a \mm{0.5} fan width, so sub-\mm{0.5} MAE figures are not
+        \mm{0.25} (DOI) with a \mm{0.5} fan width\claim{Thull2026/c86292}, so sub-\mm{0.5} MAE figures are not
         interpretable --- the authors say so, and introduce the LOR-to-point-source metric
-        specifically to sidestep this.
+        specifically to sidestep this\claim{Thull2026/8b3b6e}.
 \end{itemize}
 
 \paragraph{Relevance to This Thesis}
@@ -1433,34 +1433,34 @@ What the paper does \emph{not} do:
         inverse-variance weighting would be optimal by construction. The authors do not
         remark on this. A rank-correct $\sigma$ does not transfer between detectors and
         does not compose across the two singles of a coincidence in any principled way.
-    \item \textbf{Timing is entirely unused.} Network inputs are the 144 SiPM photon counts
+    \item \textbf{Timing is entirely unused.} Network inputs are the 144 SiPM photon counts\claim{Thull2026/88acd0}
         and nothing else. The 36 dies supply up to 36 independent timestamps per event at
         approximately \ps{500} CTR, all discarded, along with the pattern of \emph{which}
         dies triggered. The authors state that Compton interaction \emph{sequence} cannot
-        be inferred from the light pattern because scintillation emission is isotropic ---
+        be inferred from the light pattern because scintillation emission is isotropic\claim{Thull2026/6d0a74} ---
         true of photon counts, but not of arrival times.
     \item \textbf{The detector is fixed.} No design feedback; $\sigma$ is a measurement
         outcome, never an objective.
-    \item \textbf{Aleatoric and epistemic uncertainty are not disentangled}, which the
+    \item \textbf{Aleatoric and epistemic uncertainty are not disentangled}\claim{Thull2026/1e62b5}, which the
         authors acknowledge: a deterministic network emitting a variance is nominally
         claiming aleatoric uncertainty but is contaminated by finite training data and
-        model capacity.
+        model capacity\claim{Thull2026/21108c}.
 \end{itemize}
 
 \paragraph{Where It Might Go}
 Motivation for any chapter arguing that localisation confidence is a first-class quantity;
 the \mm{20.7} figure belongs in an introduction. Also the reference point for calibration
-burden (several weeks per scanner, 55 networks, outer-ring detectors physically
-unlabellable in the segmented direction) --- though note the group's own in-system
+burden (several weeks per scanner\claim{Thull2026/2250d1}, 55 networks\claim{Thull2026/ae4f81}, outer-ring detectors physically
+unlabellable in the segmented direction\claim{Thull2026/36e089}) --- though note the group's own in-system
 calibration work (Kuhl et al.\ 2025) claims to reduce this to hours via virtual
-collimation, so ``calibrate faster'' is taken and ``design so that calibration is cheap''
+collimation\claim{Thull2026/83abbe}, so ``calibrate faster'' is taken and ``design so that calibration is cheap''
 is not.
 
 \emph{Competitive note:} the discussion explicitly announces future work analysing
 multi-cluster events, relating light-spread structure to predicted uncertainty, and
-characterising the impact of inter-crystal Compton scatter on positioning uncertainty.
-Aachen has the built scanner, the fan-beam rig, four RTX 6000 Ada GPUs and a commercial
-arm. The light-distribution version of ICS characterisation should be treated as theirs.
+characterising the impact of inter-crystal Compton scatter on positioning uncertainty\claim{Thull2026/460b8c}.
+Aachen has the built scanner, the fan-beam rig, four RTX 6000 Ada GPUs\claim{Thull2026/25936b} and a commercial
+arm\claim{Thull2026/9423a0}. The light-distribution version of ICS characterisation should be treated as theirs.
 The temporal axis --- cardinality and interaction ordering inferred from the joint
 distribution of per-channel arrival times rather than from photon counts --- and the
 information-theoretic bound on separability are the surviving directions. Note that
@@ -1570,38 +1570,38 @@ Phys.\ Med.\ Biol.\ 66:155014, \doi{10.1088/1361-6560/ac1459}. Stockhoff,
 Decuyper, Van Holen, Vandenberghe.
 
 \paragraph{Detector}
-A \qtyproduct{50 x 50 x 16}{\mm} LYSO monolith (Epic Crystal), sides rough and
-black-painted, top polished under a black-painted specular reflector, on an
-8 x 8 array of \qtyproduct{6 x 6}{\mm} onsemi MicroFJ-60035 SiPMs at \mm{6}
-pitch; a resistor network sums rows and columns, 64 pixels to 16 channels,
-digitised free-running at 64 MHz. Measured, not simulated: a collimated
-$^{68}$Ge beam of 0.6 or \mm{1.0}, 49 x 49 positions, with a 10 x 10 grid
-offset by \mm{0.5} for validation.
+A \qtyproduct{50 x 50 x 16}{\mm} LYSO monolith (Epic Crystal)\claim{Stockhoff2021/0a8550}, sides rough and
+black-painted\claim{Stockhoff2021/9f78d2}, top polished under a black-painted specular reflector\claim{Stockhoff2021/9f78d2}, on an
+8 x 8 array of \qtyproduct{6 x 6}{\mm} onsemi MicroFJ-60035 SiPMs\claim{Stockhoff2021/1fde03} at \mm{6}
+pitch; a resistor network sums rows and columns, 64 pixels to 16 channels\claim{Stockhoff2021/63e112},
+digitised free-running at 64 MHz\claim{Stockhoff2021/443c29}. Measured, not simulated: a collimated
+$^{68}$Ge beam of 0.6 or \mm{1.0}\claim{Stockhoff2021/9fcd47}, 49 x 49 positions\claim{Stockhoff2021/533f06}, with a 10 x 10 grid
+offset by \mm{0.5} for validation\claim{Stockhoff2021/6e99a1}.
 
 \paragraph{Method}
 Mean nearest neighbour (MNN) against a shallow network (three hidden layers of
-256). The six ``virtual DOI layers'' are not measured depths: each event's
+256)\claim{Stockhoff2021/cf069c}. The six ``virtual DOI layers'' are not measured depths: each event's
 light is normalised, events at a position are sorted by the variance across
-the 16 channels, and cut into six quantiles sized to Beer--Lambert
-attenuation (29.5 / 23.0 / 17.9 / 13.9 / 10.8 / 4.9\% for MNN). DOI is
+the 16 channels\claim{Stockhoff2021/4ca058}, and cut into six quantiles sized to Beer--Lambert
+attenuation (29.5 / 23.0 / 17.9 / 13.9 / 10.8 / 4.9\% for MNN)\claim{Stockhoff2021/433beb}. DOI is
 checked only as the share of events landing in each layer --- no side
 irradiation, no DOI FWHM; the authors reject side irradiation because events
-pile up at the edge. No Compton rejection beyond a 20\% energy window; about
-60\% of events scatter.
+pile up at the edge\claim{Stockhoff2021/c7780c}. No Compton rejection beyond a 20\% energy window\claim{Stockhoff2021/348fc2}; about
+60\% of events scatter\claim{Stockhoff2021/73663b}.
 
 \paragraph{Key Findings}
 Intrinsic resolution \mm{1.14} FWHM over the whole face with a neural
-network and \mm{1.17} with mean nearest neighbour; \mm{1.02} and \mm{1.13}
-respectively over the central \qtyproduct{30 x 30}{\mm}. The stated target is
-the \mm{1.3} intrinsic needed for \mm{2} at system level in whole-body PET.
-2D bias falls from \mm{0.59} (MNN) to \mm{0.20} (network) over the face.
-Energy resolution 11.0\% (10.7\% centre, up to 18\% in corners); no timing
-reported. Bar phantom resolves 0.6--\mm{1.2} slits with both algorithms.
+network\claim{Stockhoff2021/7f067e} and \mm{1.17} with mean nearest neighbour\claim{Stockhoff2021/489c26}; \mm{1.02} and \mm{1.13}
+respectively over the central \qtyproduct{30 x 30}{\mm}\claim{Stockhoff2021/7f067e}\claim{Stockhoff2021/489c26}. The stated target is
+the \mm{1.3} intrinsic needed for \mm{2} at system level in whole-body PET\claim{Stockhoff2021/e174a9}.
+2D bias falls from \mm{0.59} (MNN)\claim{Stockhoff2021/b4acbb} to \mm{0.20} (network)\claim{Stockhoff2021/ed0c15} over the face.
+Energy resolution 11.0\%\claim{Stockhoff2021/0dd9d5} (10.7\% centre\claim{Stockhoff2021/96bd22}, up to 18\% in corners\claim{Stockhoff2021/2aa716}); no timing
+reported. Bar phantom resolves 0.6--\mm{1.2} slits\claim{Stockhoff2021/5d1d16} with both algorithms\claim{Stockhoff2021/319ebf}.
 The network's gain is a centre gain: 9.7\% better FWHM in the central
-\qtyproduct{30 x 30}{\mm} but 2.6\% over the whole face, so near the edges
+\qtyproduct{30 x 30}{\mm} but 2.6\% over the whole face\claim{Stockhoff2021/8bd367}, so near the edges
 it is roughly nil on FWHM, though its bias advantage survives. The paper's
-own figures disagree in places (1.13 against 1.14, a ``1.5'' that Table 2 gives
-as 1.15).
+own figures disagree in places (1.13 against 1.14\claim{Stockhoff2021/b57a7c}, a ``1.5'' that Table 2 gives
+as 1.15\claim{Stockhoff2021/c1bda4}).
 
 \paragraph{Why it matters here}
 This is the block the walk-through work scales up from
@@ -3445,38 +3445,38 @@ interaction, let alone two.
 Phys.\ Med.\ Biol.\ 71(1):015032, \doi{10.1088/1361-6560/ae2db7}.
 
 \paragraph{Summary}
-A single BGO slab, \qtyproduct{42.68 x 2 x 20}{\mm}, all faces polished, read
+A single BGO slab, \qtyproduct{42.68 x 2 x 20}{\mm}, all faces polished\claim{Lee2026/d7cc68}, read
 out along its long edge by a 16 x 1 row of \qtyproduct{2 x 2}{\mm} Broadcom
-SiPMs at \mm{2.68} pitch through a \mm{1} BG40 bandpass filter. Each channel
-has a fast comparator, so the output is a train of digital single-photon
-pulses with a timestamp on each rising edge, and pileup read from the pulse
-width. Position across the slab comes from a small CNN on the 16 channel
-amplitudes, trained with a fan beam in \mm{1} steps; depth is binned four
-ways by the max-to-mean ratio of the amplitudes. For each of the 42 x 4
-voxels and each of the 16 channels they fit a first-photon delay distribution
+SiPMs at \mm{2.68} pitch\claim{Lee2026/a1a649} through a \mm{1} BG40 bandpass filter\claim{Lee2026/bbfbf9}. Each channel
+has a fast comparator\claim{Lee2026/38c8ce}, so the output is a train of digital single-photon
+pulses with a timestamp on each rising edge\claim{Lee2026/36cef5}, and pileup read from the pulse
+width\claim{Lee2026/fcd6d1}. Position across the slab comes from a small CNN on the 16 channel
+amplitudes\claim{Lee2026/52b7de}, trained with a fan beam in \mm{1} steps\claim{Lee2026/12aff3}; depth is binned four
+ways by the max-to-mean ratio of the amplitudes\claim{Lee2026/112e14}. For each of the 42 x 4
+voxels\claim{Lee2026/5628a8} and each of the 16 channels they fit a first-photon delay distribution
 (FPDD): a Cherenkov delta plus a scintillation bi-exponential, convolved with
-the detector response. Its offset $\theta$ corrects each event's first-photon
-timestamp for where the interaction was, and its Cherenkov share gives a
-per-event probability that the first photon was Cherenkov.
-Authors: Lee, Heller, Choong, Cates --- all LBNL.
+the detector response\claim{Lee2026/10b362}. Its offset $\theta$ corrects each event's first-photon
+timestamp for where the interaction was\claim{Lee2026/24ae19}, and its Cherenkov share gives a
+per-event probability that the first photon was Cherenkov\claim{Lee2026/3010c7}.
+Authors: Lee, Heller, Choong, Cates --- all LBNL\claim{Lee2026/8aba6f}.
 
 \paragraph{Key Findings}
 \begin{itemize}
 	\item \textbf{First photon resolved:} 77\% of events have a uniquely
-		timestamped first photon (69\% single-width pulses, plus those whose
+		timestamped first photon\claim{Lee2026/85e0f9} (69\% single-width pulses\claim{Lee2026/6806a7}, plus those whose
 		only extra width is crosstalk).
-	\item \textbf{Readout:} single-photon time resolution \ps{60 \pm 7} FWHM
-		per channel; crosstalk 7.8\% against the SiPM's 30\%, thanks to the
+	\item \textbf{Readout:} single-photon time resolution \ps{60 \pm 7} FWHM\claim{Lee2026/c4da75}
+		per channel; crosstalk 7.8\%\claim{Lee2026/eaf976} against the SiPM's 30\%\claim{Lee2026/96b92d}, thanks to the
 		filter.
-	\item \textbf{Timing:} CTR against a \ps{45} LYSO reference \ps{197}
-		FWHM from the first photon, \ps{172} after FPDD position correction;
-		about \ps{186} estimated for two such BGO slabs. Binning events by
+	\item \textbf{Timing:} CTR against a \ps{45} LYSO reference\claim{Lee2026/d50e97} \ps{197}\claim{Lee2026/4dca6f}
+		FWHM from the first photon, \ps{172} after FPDD position correction\claim{Lee2026/d2c43f};
+		about \ps{186} estimated for two such BGO slabs\claim{Lee2026/2af6c9}. Binning events by
 		Cherenkov probability gives \ps{103} FWHM for the most Cherenkov-like
-		20\%, and about \ps{100} for the best 40\%.
+		20\%\claim{Lee2026/5223cf}, and about \ps{100} for the best 40\%\claim{Lee2026/f0344b}.
 	\item \textbf{Positioning:} \mm{3.17} FWHM across the slab, bias
-		\mm{0.69}, worse at the ends; DOI in four bins, not measured as a
+		\mm{0.69}\claim{Lee2026/90576f}, worse at the ends\claim{Lee2026/0446f0}; DOI in four bins\claim{Lee2026/112e14}, not measured as a
 		resolution.
-	\item \textbf{Energy:} 21\% FWHM.
+	\item \textbf{Energy:} 21\% FWHM\claim{Lee2026/961485}.
 \end{itemize}
 
 \begin{center}
@@ -3488,7 +3488,7 @@ The temporal axis is the direction the notes keep marking as open after
 \ref{note:Thull2026} and \ref{note:Carra2022}: cardinality and interaction
 order from the joint pattern of per-channel arrival times. This detector
 produces exactly that pattern --- their discussion of Figure 10 calls it ``video-like
-frames of photon arrivals'' --- and the paper spends it on one number, the
+frames of photon arrivals''\claim{Lee2026/721195} --- and the paper spends it on one number, the
 interaction time. Every event is assumed to be one interaction; Compton
 scatter inside the slab is never mentioned, and the FPDDs are calibrated with
 the same assumption, so a two-site event is fitted as one voxel. Position
@@ -3591,35 +3591,35 @@ J.\ Nucl.\ Med.\ 61(10):1528--1533, \doi{10.2967/jnumed.119.239343}.
 
 \paragraph{Summary}
 The module paper that introduced the prismatoid light guide, measured against a
-uniform glass light guide built the same way. Flood histograms were taken with
-a \MBq{3} \textsuperscript{22}Na source and DOI resolution from lead-collimated
-irradiation at known depths.
+uniform glass light guide built the same way\claim{LaBella2020/22b45b}. Flood histograms were taken with
+a \MBq{3} \textsuperscript{22}Na source\claim{LaBella2020/f46f0f} and DOI resolution from lead-collimated
+irradiation at known depths\claim{LaBella2020/ca32a0}.
 
 \paragraph{Key findings}
 \begin{itemize}
 	\item The uniform glass light-guide module gave DOI resolution \mm{5.0}
-		FWHM and energy resolution \qty{13}{\percent} FWHM.
+		FWHM and energy resolution \qty{13}{\percent} FWHM\claim{LaBella2020/621541}.
 	\item The 4-to-1 coupled Prism-PET module gave DOI resolution \mm{2.5}
-		FWHM and energy resolution \qty{9}{\percent} FWHM --- a factor of two in
+		FWHM and energy resolution \qty{9}{\percent} FWHM\claim{LaBella2020/f09e7b} --- a factor of two in
 		DOI from the light guide alone. Both from one centre crystal per
-		module; both energies after DOI correction (20\% and 14\% before).
+		module\claim{LaBella2020/3dc533}; both energies after DOI correction (20\%\claim{LaBella2020/b2840d} and 14\%\claim{LaBella2020/17de39} before).
 	\item Crystal separation in the flood histogram is uniform across the
-		Prism-PET array, where the uniform glass module degrades at the edges
+		Prism-PET array, where the uniform glass module degrades at the edges\claim{LaBella2020/f8fc79}
 		and corners.
 \end{itemize}
 
 \paragraph{The number to take}
-\mm{2.5} FWHM DOI at \mm{20} thickness with single-ended readout, with the
+\mm{2.5} FWHM DOI at \mm{20} thickness\claim{LaBella2020/7fc5af} with single-ended readout, with the
 edge-and-corner uniformity as the second claim. The uniformity is the one that
 is hard to match statistically, because an edge crystal in a monolith sees a
 truncated light distribution no matter what the bulk does.
 
 The paper also stakes the Compton claim: a uniform guide gives each event a
-random SiPM pattern, the prismatoids a deterministic one wherever the
-interaction sits in the column, which lets side-by-side scattered-photon and
+random SiPM pattern\claim{LaBella2020/a6c8a2}, the prismatoids a deterministic one wherever the
+interaction sits in the column\claim{LaBella2020/f43b63}, which lets side-by-side scattered-photon and
 recoil-electron events be decomposed into their energies, positions and DOI
-(Supplemental Note 2). Inter-crystal scatter recovery is listed among the
-design's sensitivity gains, not shown in the main text.
+(Supplemental Note 2)\claim{LaBella2020/dde748}. Inter-crystal scatter recovery is listed among the
+design's sensitivity gains\claim{LaBella2020/ca88d6}, not shown in the main text.
 
 \end{papernote}
 
@@ -4631,19 +4631,19 @@ Enríquez-Mier-y-Terán, Zhou, Meikle, Kyme. Open access.
 
 \paragraph{Key Findings}
 \begin{itemize}
-	\item GATE simulation of the mousePET's finely segmented LYSO blocks;
+	\item GATE simulation of the mousePET's\claim{EnriquezMierYTeran2024a/c47e43} finely segmented LYSO blocks\claim{EnriquezMierYTeran2024a/2be71d};
 		light distributions of photoelectric-only (P) and Compton-then-
 		photoelectric (CP) events from optical GATE plus a faster analytic
-		model, through the multiplexed readout.
+		model\claim{EnriquezMierYTeran2024a/3a164e}, through the multiplexed readout\claim{EnriquezMierYTeran2024a/aba8e2}.
 	\item Inter-crystal scatter is nearly symmetric: 54\% forward, 46\%
-		backward, against the 70\% forward a naive Klein--Nishina reading
-		predicts.
+		backward\claim{EnriquezMierYTeran2024a/6540c3}, against the 70\% forward a naive Klein--Nishina reading
+		predicts\claim{EnriquezMierYTeran2024a/b2a699}.
 	\item A network classifies the crystal for 90\% of P events and 82\% of
-		CP events, positioning at least 34\% and 14\% better than Anger logic;
-		an energy-guided rule inside it picks the first crystal of a CP event.
+		CP events\claim{EnriquezMierYTeran2024a/342642}, positioning at least 34\% and 14\% better than Anger logic\claim{EnriquezMierYTeran2024a/a4c16f};
+		an energy-guided rule inside it\claim{EnriquezMierYTeran2024a/e677ea} picks the first crystal of a CP event\claim{EnriquezMierYTeran2024a/1306f3}.
 	\item The authors put the ceiling on the physics: with backward and
 		forward scatter near 1:1, the first crystal of a CP event cannot be
-		chosen with high certainty.
+		chosen with high certainty\claim{EnriquezMierYTeran2024a/d0edd4}.
 \end{itemize}
 
 \paragraph{Why it matters here}

@@ -115,6 +115,71 @@
    },
    "note": "Prism-PET uniform crystal separation; uniform guide degrades at edges and corners",
    "status": "unchecked"
+  },
+  {
+   "id": "7fc5af",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "20-mm-thick detec"
+   },
+   "value": {
+    "number": 20.0,
+    "unit": "mm",
+    "what": "crystal thickness"
+   },
+   "note": "20 mm thick detectors",
+   "status": "unchecked"
+  },
+  {
+   "id": "a6c8a2",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "A uniform light-guide is not optimal for this task because the SiPM pattern of individual events is random"
+   },
+   "note": "Uniform guide: random SiPM pattern per event",
+   "status": "unchecked"
+  },
+  {
+   "id": "f43b63",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "whereas our Prism-PET modules create a deterministic light-sharing pattern"
+   },
+   "note": "Prismatoids: deterministic pattern regardless of interaction location in the column",
+   "status": "unchecked"
+  },
+  {
+   "id": "dde748",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "scattered photon and recoil electron events"
+   },
+   "note": "Side-by-side scattered-photon and recoil-electron events decomposed into energies, positions and DOI (Supplemental Note 2)",
+   "status": "unchecked"
+  },
+  {
+   "id": "22b45b",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "sisted of the same crystal and readout geom"
+   },
+   "note": "Prism-PET module same crystal and readout geometry as the uniform glass module",
+   "status": "unchecked"
+  },
+  {
+   "id": "ca88d6",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "high sensitivity (20-mm-thick detectors and intercrystal Compton scatter recovery)"
+   },
+   "note": "Inter-crystal scatter recovery listed among sensitivity gains",
+   "status": "unchecked"
   }
  ]
 }

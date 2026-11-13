@@ -713,6 +713,36 @@
    },
    "note": "Localiser input: 20x20x2 optical photon map per energy-depositing event",
    "status": "unchecked"
+  },
+  {
+   "id": "9a5b31",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "The accuracy with which the FPoI can be localised using both neural networks significantly improves"
+   },
+   "note": "Both networks beat Wilson et al.'s classical least-squares fit",
+   "status": "unchecked"
+  },
+  {
+   "id": "432f20",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "compared to the classical least-squares error-minimisation approach used by Wilson et al."
+   },
+   "note": "Earlier method was least-squares error minimisation",
+   "status": "unchecked"
+  },
+  {
+   "id": "f2f9c0",
+   "page": 8,
+   "kind": "quote",
+   "quote": {
+    "exact": "Classification accuracy for events involving one, two and three or more energy depositing"
+   },
+   "note": "Table 8: three-plus events misclassified as single in 23.3-25.8% across materials",
+   "status": "unchecked"
   }
  ]
 }

@@ -139,6 +139,16 @@
    },
    "note": "Backward:forward scatter near 1 limits first-crystal selection",
    "status": "unchecked"
+  },
+  {
+   "id": "aba8e2",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "To account for the electronic signal multiplexing of the photodetector data in our small"
+   },
+   "note": "Light distributions passed through the multiplexed (row/column) readout",
+   "status": "unchecked"
   }
  ]
 }

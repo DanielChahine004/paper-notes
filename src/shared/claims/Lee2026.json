@@ -235,6 +235,126 @@
    },
    "note": "CTR vs reference from first-photon timestamps, uncorrected",
    "status": "unchecked"
+  },
+  {
+   "id": "d2c43f",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "improved the measured CTRs to 172 ps in FWHM and 854 ps in FWTM"
+   },
+   "value": {
+    "number": 172.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "CTR vs reference after FPDD 3D skew correction",
+   "status": "unchecked"
+  },
+  {
+   "id": "2af6c9",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "The estimated CTR between the fast distribution of two identical BGO slabs would be 186 ps FWHM"
+   },
+   "value": {
+    "number": 186.0,
+    "unit": "ps",
+    "what": "CTR"
+   },
+   "note": "Estimated CTR of two identical slabs, fast component",
+   "status": "unchecked"
+  },
+  {
+   "id": "8aba6f",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Applied Nuclear Physics Program, Nuclear Science Division, Lawrence Berkeley National Laboratory"
+   },
+   "note": "All four authors at LBNL",
+   "status": "unchecked"
+  },
+  {
+   "id": "38c8ce",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "naling (LVDS) comparator with the threshold at the midpoint of the single photon pulse height"
+   },
+   "note": "Per-channel fast comparator turns analog pulses into binary photon pulses",
+   "status": "unchecked"
+  },
+  {
+   "id": "36cef5",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "and timestamp at the rising edge"
+   },
+   "note": "Each binary photon pulse timestamped at its rising edge",
+   "status": "unchecked"
+  },
+  {
+   "id": "90576f",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "3.17 mm FWHM and a global absolute bias of 0.69 mm throughout the crystal volume"
+   },
+   "note": "CNN X positioning: 3.17 mm FWHM, 0.69 mm bias",
+   "status": "unchecked"
+  },
+  {
+   "id": "0446f0",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "and worse resolution at the edge regions were attributed to optical photon reflections"
+   },
+   "note": "Positioning worse at the slab ends",
+   "status": "unchecked"
+  },
+  {
+   "id": "961485",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The global energy resolution of the BGO detector was measured to be 21%"
+   },
+   "note": "Energy resolution 21% FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "5223cf",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "events, achieving 103 ps FWHM and 237 ps FWTM with Bin 1"
+   },
+   "note": "Most Cherenkov-like pCheren bin (20% of events): 103 ps FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "f0344b",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "Bins 1 and 2, which together contained 40% of all events, achieved 100 ps FWHM"
+   },
+   "note": "Best 40% by pCheren: about 100 ps FWHM",
+   "status": "unchecked"
+  },
+  {
+   "id": "721195",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "the rich information provided by the video-like frames of photon arrivals"
+   },
+   "note": "Authors' own phrase for the per-channel arrival pattern",
+   "status": "unchecked"
   }
  ]
 }

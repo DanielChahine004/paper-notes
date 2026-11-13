@@ -295,6 +295,36 @@
    },
    "note": "Each end a 4x16 SiPM array, 3.0x3.0 mm2 pixels at 3.2 mm pitch",
    "status": "unchecked"
+  },
+  {
+   "id": "6ba741",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Center for Advanced Material Diagnostic Technology, Shenzhen Technology University"
+   },
+   "note": "First author affiliation: Shenzhen Technology University",
+   "status": "unchecked"
+  },
+  {
+   "id": "1fce3e",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences"
+   },
+   "note": "SIAT affiliation (all authors)",
+   "status": "unchecked"
+  },
+  {
+   "id": "c6c40a",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "Dual-ended readout slightly improves the energy resolution and timing resolution of the detector, and signiﬁcantly improves the Y and Z position resolutions"
+   },
+   "note": "Second array: big gain in Y and Z, slight in energy and timing",
+   "status": "unchecked"
   }
  ]
 }

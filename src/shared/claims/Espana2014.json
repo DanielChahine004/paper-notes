@@ -153,6 +153,16 @@
    },
    "note": "No relevant DOI effect in the 2 mm crystal (inferred from uniform resolution across the FOV)",
    "status": "unchecked"
+  },
+  {
+   "id": "223913",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "the cost per detector is low, as thin and unpixelated crystals are used"
+   },
+   "note": "Low cost: thin unpixelated crystals",
+   "status": "unchecked"
   }
  ]
 }

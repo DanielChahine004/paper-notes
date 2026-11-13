@@ -265,6 +265,626 @@
    },
    "note": "Secondary MAE minimum near 340 keV from 180 deg backscatter",
    "status": "unchecked"
+  },
+  {
+   "id": "d5a977",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "96 positions with a 0.5 mm pitch and 9,166 collected samples per target"
+   },
+   "value": {
+    "number": 0.5,
+    "unit": "mm",
+    "what": "monolithic pitch"
+   },
+   "note": "Monolithic calibration: 96 positions, 0.5 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "912ef6",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "as a single gamma photon cannot physically deposit such intermediate energy without undergoing successive interactions"
+   },
+   "note": "Intermediate-energy band attributed to multiple scattering",
+   "status": "unchecked"
+  },
+  {
+   "id": "f9c42d",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "parallel to the photosensor for DOI calibration (40 positions with a 0.25 mm pitch and 22,000 collected samples per target)"
+   },
+   "value": {
+    "number": 0.25,
+    "unit": "mm",
+    "what": "DOI pitch"
+   },
+   "note": "DOI calibration parallel to photosensor: 40 positions, 0.25 mm pitch",
+   "status": "unchecked"
+  },
+  {
+   "id": "c6541a",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Department of Physics of Molecular Imaging"
+   },
+   "note": "Affiliation: RWTH Aachen (Schulz group)",
+   "status": "unchecked"
+  },
+  {
+   "id": "9971b6",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "monolithic detectors of a proof-of-concept PET system"
+   },
+   "note": "All 24 detectors of a proof-of-concept PET system calibrated",
+   "status": "unchecked"
+  },
+  {
+   "id": "d07fb5",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "while the uncertainty is quantiﬁed as the variance of the predicted distribution"
+   },
+   "note": "Classifier uncertainty = variance of predicted softmax distribution",
+   "status": "unchecked"
+  },
+  {
+   "id": "6529f4",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the categorical cross-entropy loss"
+   },
+   "note": "Classifiers trained with categorical cross-entropy",
+   "status": "unchecked"
+  },
+  {
+   "id": "fd4fa4",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "separate models were trained for each spatial dimension"
+   },
+   "note": "One model per detector per spatial dimension",
+   "status": "unchecked"
+  },
+  {
+   "id": "ae4f81",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "In total, 55 calibration networks were trained"
+   },
+   "note": "55 networks: 7x3 + 1x2 + 16x2",
+   "status": "unchecked"
+  },
+  {
+   "id": "e0a528",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "12 independent HPO runs were conducted"
+   },
+   "note": "12 HPO configurations with Optuna",
+   "status": "unchecked"
+  },
+  {
+   "id": "1d1e76",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "an average of 377 trials were evaluated"
+   },
+   "note": "~377 Optuna trials per configuration",
+   "status": "unchecked"
+  },
+  {
+   "id": "0cfa1f",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "880,000 events per spatial dimension was acquired and randomly split into 60%"
+   },
+   "note": "880k events per detector per dimension, 60/20/20 split",
+   "status": "unchecked"
+  },
+  {
+   "id": "2250d1",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "was acquired over several weeks"
+   },
+   "note": "Full benchtop calibration took several weeks",
+   "status": "unchecked"
+  },
+  {
+   "id": "36e089",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "with one exception lacking segmented-axis labelling"
+   },
+   "note": "Only 7 of 8 central detectors labelled in all three dims; outer 16 monolithic+DOI only",
+   "status": "unchecked"
+  },
+  {
+   "id": "646465",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "the outer ring detectors used a model trained on a central ring detector"
+   },
+   "note": "Outer detectors borrow a central-ring segmented model",
+   "status": "unchecked"
+  },
+  {
+   "id": "8709a9",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "only readouts with more than 500 detected photons were retained"
+   },
+   "note": "Only acquisition-time selection: >500 detected photons",
+   "status": "unchecked"
+  },
+  {
+   "id": "6b881d",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "No energy window was applied during data acquisition"
+   },
+   "note": "No energy window at acquisition; applied at evaluation",
+   "status": "unchecked"
+  },
+  {
+   "id": "83abbe",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "via virtual collimation, reducing data acquisition times to hours"
+   },
+   "note": "In-system calibration (Kuhl et al, ref 32) cuts acquisition to hours",
+   "status": "unchecked"
+  },
+  {
+   "id": "88acd0",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "144 features corresponding to the photon counts from the 12 × 12 SiPM array"
+   },
+   "note": "Network inputs: 144 SiPM photon counts",
+   "status": "unchecked"
+  },
+  {
+   "id": "bb4a2f",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "using the norm of the predicted variances"
+   },
+   "note": "sigma_3D = sqrt of summed per-axis variances (eq. 3)",
+   "status": "unchecked"
+  },
+  {
+   "id": "f703ad",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "where the exponent p controls the strength of"
+   },
+   "note": "w_LOR = 1/(sigma_I1 sigma_I2)^p (eq. 4)",
+   "status": "unchecked"
+  },
+  {
+   "id": "6983f0",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "using the fan-sum method"
+   },
+   "note": "Normalisation by fan-sum method",
+   "status": "unchecked"
+  },
+  {
+   "id": "9ee0f7",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "For each ﬁlter, we recomputed the normalization"
+   },
+   "note": "Normalisation recomputed per filter condition",
+   "status": "unchecked"
+  },
+  {
+   "id": "5f39bd",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "We then performed 20 iterations with 10 subsets and an image voxel size of 0.2"
+   },
+   "note": "TOF-OSEM 20 it, 10 subsets, 0.2 mm voxels",
+   "status": "unchecked"
+  },
+  {
+   "id": "4fd511",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "a total of 250 million coincidences were used for reconstruction"
+   },
+   "note": "250 M coincidences",
+   "status": "unchecked"
+  },
+  {
+   "id": "8c602b",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "All reconstructions employed an energy window of 511 keV ± 80 keV"
+   },
+   "note": "Recon energy window 511 +/- 80 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "8ba19e",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "We uniformly sampled 20 LORs per coincidence"
+   },
+   "note": "20 LORs sampled per coincidence",
+   "status": "unchecked"
+  },
+  {
+   "id": "62689b",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "diameters 2,1.5,1.2,1,0.9,and 0.8 mm"
+   },
+   "note": "HotRod rods 2.0-0.8 mm, F-18 FDG",
+   "status": "unchecked"
+  },
+  {
+   "id": "e1bfcd",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "The initial activity of the HotRod scan was approximately 5 MBq"
+   },
+   "note": "HotRod ~5 MBq initial",
+   "status": "unchecked"
+  },
+  {
+   "id": "798fc6",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "tom was used to derive scanner normalization"
+   },
+   "note": "Cylindrical shell phantom for normalisation",
+   "status": "unchecked"
+  },
+  {
+   "id": "81a46f",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "using a 1.5 MBq 22Na source"
+   },
+   "note": "1.5 MBq Na-22 point source",
+   "status": "unchecked"
+  },
+  {
+   "id": "af0139",
+   "page": 6,
+   "kind": "quote",
+   "quote": {
+    "exact": "at radial distances of 25 mm and 35"
+   },
+   "note": "Point source at 25 and 35 mm radii",
+   "status": "unchecked"
+  },
+  {
+   "id": "c86292",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "given a label precision of 0.5 mm in the monolithic dimension and 0.25 mm in DOI"
+   },
+   "note": "Label precision limits interpretability of sub-0.5 mm MAE",
+   "status": "unchecked"
+  },
+  {
+   "id": "8b3b6e",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "To further investigate geometric accuracy while evading these limitations"
+   },
+   "note": "LOR-to-point-source metric introduced to sidestep label precision",
+   "status": "unchecked"
+  },
+  {
+   "id": "c6e391",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "20.688 6.349 2.399"
+   },
+   "note": "Table 4 CNN regressor energy filter: 20.7 mm unfiltered, 2.4 mm at 50%",
+   "status": "unchecked"
+  },
+  {
+   "id": "7177cb",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "20.688 1.792 1.121"
+   },
+   "note": "Table 4 CNN regressor variance filter: 1.12 mm at 50%",
+   "status": "unchecked"
+  },
+  {
+   "id": "09d274",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "7.009 1.339 0.983"
+   },
+   "note": "Table 4 MLP classifier energy+variance: 0.983 mm at 50% (35% effective)",
+   "status": "unchecked"
+  },
+  {
+   "id": "d09be9",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "resulting in an effective data retention of 70%×p"
+   },
+   "note": "Variance-after-energy effective retention 0.7p (35% at 50%, 49% at 70%)",
+   "status": "unchecked"
+  },
+  {
+   "id": "4cb0c1",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "CNN classiﬁer achieves MAEs of approx. 1.1 mm in all"
+   },
+   "note": "Unfiltered CNN classifier MAE ~1.1 mm all dims",
+   "status": "unchecked"
+  },
+  {
+   "id": "381d63",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "improves the MAEs down to approx. 0.49, 0.72 and 1.03 mm"
+   },
+   "note": "Energy filtering 50%: 0.49/0.72/1.03 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "b7212f",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "yielding improved MAEs of 0.25, 0.53, and 0.9 mm"
+   },
+   "note": "Variance filtering 50%: 0.25/0.53/0.90 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "32dbf0",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "the MAEs to 0.17, 0.47, and 0.83 mm"
+   },
+   "note": "Variance after energy: 0.17/0.47/0.83 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "f5054a",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "0.611 0.243 0.175 0.787 0.527 0.470 1.071 0.892"
+   },
+   "note": "Table 3 CNN classifier variance-after-energy row: 0.243/0.527/0.892 at 70% (49%)",
+   "status": "unchecked"
+  },
+  {
+   "id": "96180b",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "indicating a complementary effect"
+   },
+   "note": "Energy and variance filtering complementary",
+   "status": "unchecked"
+  },
+  {
+   "id": "dfb809",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "14.899 0.462 4.66%"
+   },
+   "note": "Table 7: 50% filter, 250M restored: PSNR 14.899, SSIM 0.462, COV 4.66%",
+   "status": "unchecked"
+  },
+  {
+   "id": "fe392e",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "14.895 0.461 7.49%"
+   },
+   "note": "Table 7: 50% filter, 62.5M: COV 7.49%",
+   "status": "unchecked"
+  },
+  {
+   "id": "c186e0",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "14.603 0.405 4.90% Note: Bold"
+   },
+   "note": "Table 5 CNN classifier baseline PSNR 14.603, SSIM 0.405, COV 4.90%",
+   "status": "unchecked"
+  },
+  {
+   "id": "c3e86e",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "1.0985 250M (70%)"
+   },
+   "note": "Table 8 baseline PVR 0.8 mm rods 1.0985",
+   "status": "unchecked"
+  },
+  {
+   "id": "8c4037",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "1.2246 1.1840"
+   },
+   "note": "Table 8 250M (50%) PVR 0.8 mm 1.1840",
+   "status": "unchecked"
+  },
+  {
+   "id": "0b2a7a",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "1.2233 1.2171"
+   },
+   "note": "Table 10 p=4 PVR 0.8 mm 1.2171",
+   "status": "unchecked"
+  },
+  {
+   "id": "800020",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "10.1874%"
+   },
+   "note": "Table 9 p=4 COV 10.19%",
+   "status": "unchecked"
+  },
+  {
+   "id": "67a7c0",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "with ﬁltering providing the strongest gains"
+   },
+   "note": "Filtering stronger than weighting",
+   "status": "unchecked"
+  },
+  {
+   "id": "405b09",
+   "page": 12,
+   "kind": "quote",
+   "quote": {
+    "exact": "are higher for all ﬁltering conditions than for the unﬁltered"
+   },
+   "note": "RCs improve under all filtering conditions",
+   "status": "unchecked"
+  },
+  {
+   "id": "cb8457",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "improves rod-wise RCs, yielding the highest RC for p = 4"
+   },
+   "note": "RCs improve under weighting",
+   "status": "unchecked"
+  },
+  {
+   "id": "fe3081",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The lowest errors are found near 511 keV"
+   },
+   "note": "MAE minimum at 511 keV",
+   "status": "unchecked"
+  },
+  {
+   "id": "6f1dc3",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "indicative of poor energy resolution or pile-up effects and LYSO background noise"
+   },
+   "note": "Above 511 keV error rises: pile-up, LYSO background",
+   "status": "unchecked"
+  },
+  {
+   "id": "6d0a74",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "Because scintillation light emission is isotropic, the interaction sequence cannot be inferred"
+   },
+   "note": "Authors: interaction sequence not inferable from light pattern (isotropic emission)",
+   "status": "unchecked"
+  },
+  {
+   "id": "1e62b5",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "The current framework does not disentangle these inﬂuences"
+   },
+   "note": "Aleatoric and epistemic not disentangled",
+   "status": "unchecked"
+  },
+  {
+   "id": "21108c",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "its estimates may be affected by epistemic limitations"
+   },
+   "note": "Variance may be contaminated by epistemic effects",
+   "status": "unchecked"
+  },
+  {
+   "id": "460b8c",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "Future work will analyze multi-cluster events to relate light spread structure to predicted uncertainty and to characterize the impact of inter-crystal Compton scatter on positioning uncertainty"
+   },
+   "note": "Announced future work: multi-cluster events, ICS impact",
+   "status": "unchecked"
+  },
+  {
+   "id": "25936b",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "provided by four NVIDIA RTX 6000 Ada Generation GPUs"
+   },
+   "note": "Four RTX 6000 Ada GPUs",
+   "status": "unchecked"
   }
  ]
 }

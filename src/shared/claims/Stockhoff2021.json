@@ -218,6 +218,126 @@
    },
    "note": "Target 1.3 mm intrinsic for 2 mm system resolution",
    "status": "unchecked"
+  },
+  {
+   "id": "b4acbb",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The mean x and y bias is 0.37 mm and the resulting 2D bias is 0.59 mm"
+   },
+   "value": {
+    "number": 0.59,
+    "unit": "mm",
+    "what": "2D bias"
+   },
+   "note": "MNN 2D bias over the face",
+   "status": "unchecked"
+  },
+  {
+   "id": "ed0c15",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "is 0.13/0.11 mm and the resulting 2D bias is 0.20 mm"
+   },
+   "value": {
+    "number": 0.2,
+    "unit": "mm",
+    "what": "2D bias"
+   },
+   "note": "NN 2D bias over the face",
+   "status": "unchecked"
+  },
+  {
+   "id": "2aa716",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "Degradations of up to 18% can be observed in the top left and right corner regions"
+   },
+   "note": "Energy resolution degrades up to 18% in corners",
+   "status": "unchecked"
+  },
+  {
+   "id": "0dd9d5",
+   "page": 16,
+   "kind": "quote",
+   "quote": {
+    "exact": "The measured energy resolution for the whole detector is 11.03%"
+   },
+   "note": "Energy resolution 11.03% whole detector",
+   "status": "unchecked"
+  },
+  {
+   "id": "5d1d16",
+   "page": 9,
+   "kind": "quote",
+   "quote": {
+    "exact": "0.6, 0.8, 1.0 and 1.2 mm are machined by wire erosion"
+   },
+   "note": "Bar phantom slits 0.6-1.2 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "319ebf",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "The bar patterns can be well distinguished for all bar sizes with both algorithms"
+   },
+   "note": "All bar sizes resolved with MNN and NN",
+   "status": "unchecked"
+  },
+  {
+   "id": "8bd367",
+   "page": 14,
+   "kind": "quote",
+   "quote": {
+    "exact": "superior positioning performance to the MNN positioning algorithm by 2.6% and 9.7% respectively"
+   },
+   "note": "NN beats MNN by 2.6% whole face, 9.7% centre",
+   "status": "unchecked"
+  },
+  {
+   "id": "b57a7c",
+   "page": 17,
+   "kind": "quote",
+   "quote": {
+    "exact": "The detector resolution using neural networks is 1.13 mm FWHM over the whole detector"
+   },
+   "note": "Conclusion gives 1.13 mm for NN whole detector (vs 1.14 in results)",
+   "status": "unchecked"
+  },
+  {
+   "id": "c1bda4",
+   "page": 10,
+   "kind": "quote",
+   "quote": {
+    "exact": "The neural network can keep up the overall mean resolution of 1.5 mm FWHM"
+   },
+   "note": "Text says 1.5 mm; Table 2 gives 1.15 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "1fde03",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "to an 8 x 8 array of 6 x 6 mm2 SiPMs"
+   },
+   "note": "8 x 8 array of 6 x 6 mm SiPMs (onsemi MicroFJ-60035-TSV)",
+   "status": "unchecked"
+  },
+  {
+   "id": "96bd22",
+   "page": 11,
+   "kind": "quote",
+   "quote": {
+    "exact": "1.1% and 10.7%"
+   },
+   "note": "Energy resolution 11.03% whole detector, 10.7% in the central 30 x 30 mm",
+   "status": "unchecked"
   }
  ]
 }

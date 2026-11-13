@@ -274,6 +274,56 @@
    },
    "note": "NEMA IQ uniformity (SOR ~8%)",
    "status": "unchecked"
+  },
+  {
+   "id": "dd90ea",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Department of Radiology, University of Pennsylvania, Philadelphia"
+   },
+   "note": "Penn affiliation (Krishnamoorthy, Blankemeyer, Surti, Karp)",
+   "status": "unchecked"
+  },
+  {
+   "id": "df8f67",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "MOLECUBES NV, Ottergemsesteenweg Zuid 808/325, Ghent, Belgium"
+   },
+   "note": "MOLECUBES (Ghent) affiliation of Mollet and Van Holen",
+   "status": "unchecked"
+  },
+  {
+   "id": "2c7652",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The bore size and axial length are suitable for imaging both whole-body rats and mice"
+   },
+   "note": "Bore and axial length fit whole-body mice and rats",
+   "status": "unchecked"
+  },
+  {
+   "id": "f5f0c6",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "spill-over ratio of 8% were measured"
+   },
+   "note": "Spill-over ratio 8%",
+   "status": "unchecked"
+  },
+  {
+   "id": "89e786",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Number of detectors per ring 9"
+   },
+   "note": "Table 1: 9 detectors per ring, 5 rings",
+   "status": "unchecked"
   }
  ]
 }

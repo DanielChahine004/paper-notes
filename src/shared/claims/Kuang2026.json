@@ -518,6 +518,76 @@
    },
    "note": "Table 1: GAGG 530 nm, LYSO 420 nm; decay 150 vs 40 ns",
    "status": "unchecked"
+  },
+  {
+   "id": "334636",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Paul C. Lauterbur Research Center for Biomedical Imaging, Shenzhen Institutes of Advanced Technology"
+   },
+   "note": "Affiliation: SIAT",
+   "status": "unchecked"
+  },
+  {
+   "id": "b5c5de",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The centroid-of-gravity (COG) algorithm was employed to determine the positions in the x (slab) and y (monolithic) directions"
+   },
+   "note": "Slab (x) and y from COG of rows/columns",
+   "status": "unchecked"
+  },
+  {
+   "id": "dabf87",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The y position was also calculated using a squared COG algorithm"
+   },
+   "note": "y also by squared COG",
+   "status": "unchecked"
+  },
+  {
+   "id": "684833",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "FWHM 2.33 ± 0.68 2.37 ± 0.58 2.14 ± 0.76"
+   },
+   "note": "Table 3 DOI FWHM: GAGG 2.33/2.37, LYSO 2.14 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "5d3cb7",
+   "page": 13,
+   "kind": "quote",
+   "quote": {
+    "exact": "Energy resolution (%) 15.6 ± 1.8 14.7 ± 1.2 17.4 ± 2.4"
+   },
+   "note": "Table 3 energy: GAGG 15.6/14.7, LYSO 17.4%",
+   "status": "unchecked"
+  },
+  {
+   "id": "c308aa",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Xiangnan University"
+   },
+   "note": "Affiliation: Xiangnan University (with SIAT)",
+   "status": "unchecked"
+  },
+  {
+   "id": "e9fb50",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "Decay time (ns) 150 40"
+   },
+   "note": "Table 1: decay GAGG 150 ns, LYSO 40 ns",
+   "status": "unchecked"
   }
  ]
 }

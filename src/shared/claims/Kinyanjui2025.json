@@ -315,6 +315,16 @@
    },
    "note": "Events beyond ±1.5 FWHM of each column's energy peak removed to reduce inter-crystal scatter",
    "status": "unchecked"
+  },
+  {
+   "id": "e72743",
+   "page": 3,
+   "kind": "quote",
+   "quote": {
+    "exact": "read out by a 4 × 16 SiPM array made of individual Hamamatsu S14160-3050HS SiPM"
+   },
+   "note": "4x16 SiPM array of S14160-3050HS",
+   "status": "unchecked"
   }
  ]
 }

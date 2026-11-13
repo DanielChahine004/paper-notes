@@ -329,6 +329,36 @@
    },
    "note": "Sizing estimate: a 4x4 SiPM array suffices for BGO with a 4 ns FWHM single-photon response (sentence continues 'when an electronic readout achieves 4 ns FWHM impulse response width')",
    "status": "unchecked"
+  },
+  {
+   "id": "d64fa0",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Joshua W Cates1, Woon-Seng Choong1 and Erik Brubaker2"
+   },
+   "note": "Authors",
+   "status": "unchecked"
+  },
+  {
+   "id": "72cb0c",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "2 Sandia National Laboratories, Livermore, CA"
+   },
+   "note": "Brubaker at Sandia; Cates and Choong at LBNL",
+   "status": "unchecked"
+  },
+  {
+   "id": "f2332e",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "1 Lawrence Berkeley National Laboratory, Berkeley, CA"
+   },
+   "note": "Cates and Choong at LBNL",
+   "status": "unchecked"
   }
  ]
 }

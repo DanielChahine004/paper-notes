@@ -220,6 +220,16 @@
    },
    "note": "Reason the max-energy layer works: best SNR, small error from low-angle forward scatter",
    "status": "unchecked"
+  },
+  {
+   "id": "34e4d8",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "Strategy (3) likely provides the highest spatial resolution as it gives the best signal"
+   },
+   "note": "Max-energy layer gives the best signal-to-noise for positioning",
+   "status": "unchecked"
   }
  ]
 }

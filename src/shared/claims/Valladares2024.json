@@ -250,6 +250,46 @@
    },
    "note": "Inner ring repurposed as magnifying ring",
    "status": "unchecked"
+  },
+  {
+   "id": "11537a",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "The authors are with the Instituto de Instrumentación para Imagen"
+   },
+   "note": "Affiliation: i3M",
+   "status": "unchecked"
+  },
+  {
+   "id": "7d9647",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "This work is licensed under a Creative Commons Attribution 4.0 License"
+   },
+   "note": "Open access, CC BY 4.0",
+   "status": "unchecked"
+  },
+  {
+   "id": "9340d2",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "with 8 × 8 elements and 3 mm × 3 mm"
+   },
+   "note": "Hamamatsu S13361-3050AE-08, 8x8 SiPMs of 3x3 mm",
+   "status": "unchecked"
+  },
+  {
+   "id": "ed5946",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "whereas the inner scatter subsystem is based on"
+   },
+   "note": "4D-PET: outer semi-monolithic absorber ring, inner pixelated scatter subsystem",
+   "status": "unchecked"
   }
  ]
 }

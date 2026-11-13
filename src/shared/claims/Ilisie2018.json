@@ -240,6 +240,16 @@
    },
    "note": "Full system simulation deferred",
    "status": "unchecked"
+  },
+  {
+   "id": "c8842a",
+   "page": 1,
+   "kind": "quote",
+   "quote": {
+    "exact": "Instituto de Instrumentación para Imagen Molecular (I3M)"
+   },
+   "note": "Affiliation: i3M",
+   "status": "unchecked"
   }
  ]
 }

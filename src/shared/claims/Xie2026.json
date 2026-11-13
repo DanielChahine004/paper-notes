@@ -600,6 +600,66 @@
    "label": "Fig. 2: experimental setup diagram, digitizer labelled CAEN DT5730D",
    "note": "Fig. 2 labels the digitiser CAEN DT5730D; the text says DT5740D",
    "status": "unchecked"
+  },
+  {
+   "id": "8a2632",
+   "page": 2,
+   "kind": "quote",
+   "quote": {
+    "exact": "Department of Biomedical Engineering, University of California-Davis"
+   },
+   "note": "Affiliation: UC Davis BME",
+   "status": "unchecked"
+  },
+  {
+   "id": "429bf4",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "fabricated by BOYA Advanced Materials"
+   },
+   "note": "LYSO array from BOYA Advanced Materials",
+   "status": "unchecked"
+  },
+  {
+   "id": "c2eb7d",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "The four lateral sides of the LYSO array were also wrapped with Toray E60 sheets"
+   },
+   "note": "Lateral sides also wrapped with E60",
+   "status": "unchecked"
+  },
+  {
+   "id": "0f0752",
+   "page": 5,
+   "kind": "quote",
+   "quote": {
+    "exact": "The Model 584 discriminator was operated in constant fraction discriminator"
+   },
+   "note": "ORTEC 584 in CFD mode, start of a TAC",
+   "status": "unchecked"
+  },
+  {
+   "id": "130190",
+   "page": 15,
+   "kind": "quote",
+   "quote": {
+    "exact": "Dejun Han from the Novel Device Laboratory for providing the CRL PS-SiPMs"
+   },
+   "note": "Devices supplied by Prof. Dejun Han, NDL",
+   "status": "unchecked"
+  },
+  {
+   "id": "caa838",
+   "page": 4,
+   "kind": "quote",
+   "quote": {
+    "exact": "one cathode for bias voltage and timing information (Shao et al 2024, 2025b)"
+   },
+   "note": "One cathode for bias/timing; device refs Shao et al 2024/2025b",
+   "status": "unchecked"
   }
  ]
 }
