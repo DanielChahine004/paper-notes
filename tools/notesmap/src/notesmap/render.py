@@ -31,6 +31,12 @@ PITCH, ROW_GAP = PANEL_W + 40, 100
 PIN_D = 38                   # the marker's size, and the room a panel leaves it
 
 
+def _image_can_stretch() -> bool:
+    """danvas's image panel scales a picture up to the panel (fit="fill"), from 0.9.2."""
+    from danvas.components import image
+    return "pc-fill" in getattr(image, "_IMG_CSS", "")
+
+
 
 def _row_id(r: dict, first: str) -> str:
     """A table row's identity across panels: its set, first column and detector."""
@@ -52,6 +58,7 @@ class Board:
         self.canvas, self.cfg, self.src, self.conv, self.map_mode = canvas, cfg, source, conv, map_mode
         self.lock = threading.RLock()
         self.panels: dict[str, object] = {}       # group key -> panel
+        self.custom_panels: dict[str, tuple] = {}  # [custom] name -> (panel, its document)
         self.table_panels: dict[str, tuple] = {}  # [tables] key -> (table panel, its rows)
         self.owner: dict[str, str] = {}           # any entry key -> its group key
         self.props: dict[str, dict] = {}
@@ -196,6 +203,7 @@ class Board:
                         self.props[key] = props
                         self.panels[key].update(**props)
             self._tables(groups)
+            self._custom(groups)
             self.notes = notes
             self._arrows(notes)
             self._match()                         # the box learns the new notes
@@ -387,6 +395,10 @@ class Board:
         guarded = re.sub(r"\b(al|vs|et|cf|e\.g|i\.e)\.", r"\1․", plain)
         guarded = re.sub(r"\b([A-Z])\.", r"\1․", guarded)
         first = re.split(r"(?<=[.!?])\s", guarded, maxsplit=1)[0].replace("․", ".")
+        # the summary shows as plain text: superscripts as Unicode (11C), other tags dropped
+        sup = str.maketrans("0123456789+-=()n", "⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾ⁿ")
+        first = re.sub(r"<sup>([^<]*)</sup>", lambda m: m.group(1).translate(sup), first)
+        first = re.sub(r"</?[a-z][^>]*>", "", first)
         return re.sub(r"[*`]", "", first)[:220]
 
     @staticmethod
@@ -553,7 +565,9 @@ class Board:
                  "f": {k: r.get(f"_{spec.get('flag_from', {}).get(k, k)} flag", "") for k in keys}} for r in data]
         reference = [r for r in rows if r["set"] == spec.get("reference")]
         rows = [r for r in rows if r["set"] != spec.get("reference")]
-        props = {"axes": axes, "rows": rows, "reference": reference, "flags": spec.get("flags", {}),
+        props = {"axes": axes, "rows": rows, "reference": reference,
+                 "reference_label": spec.get("reference_label", spec.get("reference", "reference")),
+                 "flags": spec.get("flags", {}),
                  "bus": key, "selInitial": _sel_initial(data, spec, name),
                  "simSet": spec.get("simulated", ""), "scale": self.map_w / 4500 if self.map_mode else 1.0}
         if have is None:
@@ -592,11 +606,55 @@ class Board:
 
     # --- placement ----------------------------------------------------------------
 
+    def _notes_json(self, groups) -> list[dict]:
+        """The notes as plain data for a [custom] page: one entry per programme."""
+        txt = lambda s: self.conv.to_text(s or "")
+        out = []
+        for key, (title, node, papers) in groups.items():
+            loc = node.location if node else None
+            out.append({
+                "key": key, "title": txt(title),
+                "place": loc.place if loc else None,
+                "lat": loc.lat if loc else None, "lon": loc.lon if loc else None,
+                "thumb": self._image(node.thumb) if node else None,
+                "papers": [{"key": p.key, "title": txt(p.title), "year": p.year, "link": p.link,
+                            "thumb": self._image(p.thumb)} for p in papers],
+            })
+        return out
+
+    def _custom(self, groups) -> None:
+        """Each [custom.<name>]: the page at `html`, with window.NOTES set before it runs."""
+        if not self.cfg.custom:
+            return
+        import json
+        data = json.dumps(self._notes_json(groups)).replace("</", "<\\/")
+        inject = f"<script>window.NOTES = {data};</script>"
+        for name, spec in self.cfg.custom.items():
+            page = self.cfg.resolve(spec["html"]).read_text(encoding="utf-8")
+            m = re.search(r"<head[^>]*>", page, re.I)
+            doc = page[:m.end()] + inject + page[m.end():] if m else inject + page
+            have = self.custom_panels.get(name)
+            if have is None:
+                x, y, w, h = spec["at"]
+                panel = self.canvas.custom(html=doc, name=f"custom_{name}", x=x, y=y, w=w, h=h,
+                                           frame=spec.get("frame", True), keep_mounted=True,
+                                           forward_wheel=not spec.get("wheel", False))
+                self.custom_panels[name] = (panel, doc)
+            elif have[1] != doc:
+                have[0].update(html=doc)
+                self.custom_panels[name] = (have[0], doc)
+
     def _draw_map(self) -> None:
-        from PIL import Image
         src = self.cfg.resolve(self.cfg.map_image) if self.cfg.map_image else \
             Path(__file__).parent / "assets" / "world-blue-marble.jpg"
         w, h = self.map_w, self.map_w // 2
+        if _image_can_stretch():
+            # the browser scales the picture to the panel: enlarging it here
+            # adds no detail, and a 9000-pixel map is more than a phone can hold
+            # (an iPhone reloads the tab, over and over)
+            self.canvas.image(src.read_bytes(), name="world", w=w, h=h, x=0, y=0, fit="fill", decorative=True)
+            return
+        from PIL import Image
         cache = Path(tempfile.gettempdir()) / "notesmap" / f"{src.stem}-{src.stat().st_mtime_ns}-{w}.jpg"
         if not cache.exists():   # the image panel shows pixels 1:1, so scale once and keep it
             cache.parent.mkdir(parents=True, exist_ok=True)

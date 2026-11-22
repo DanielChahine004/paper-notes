@@ -243,6 +243,9 @@ a.claim { font-size: .8em; font-weight: 600; padding: 0 5px; border-radius: 6px;
 .card.hit { border-color: #4caf78; background: rgba(76,175,120,.18); }
 .card.miss { opacity: .4; }
 .sel, .sel * { -webkit-user-select: text; user-select: text; cursor: text; }
+/* links in note text: the accent lifted toward the text colour, readable on a dark or light panel */
+.prog .sel a { color: color-mix(in srgb, var(--pc-accent, #3b82f6) 45%, var(--pc-text, #ddd)); text-decoration: underline; text-underline-offset: 2px; }
+.prog .sel a:hover { color: var(--pc-text, #ddd); }
 .note { margin-top: 14px; padding: 10px 12px; border-top: 1px solid rgba(127,127,127,.4); }
 .note .nh { font-weight: 600; display: flex; justify-content: space-between; margin-bottom: 6px; }
 .note .nh { gap: 16px; }
@@ -662,9 +665,9 @@ function Component({ props }) {
           {(alt[i] ? a.alt : a).label} &#8644;</button> : null)}
         {refs.length ? <label className="refbox"><input type="checkbox" checked={refOn.length === refs.length}
           ref={el => { if (el) el.indeterminate = refOn.length > 0 && refOn.length < refs.length; }}
-          onChange={e => setRefOn(e.target.checked ? refs.map((_, k) => k) : [])} />clinical</label> : null}
+          onChange={e => setRefOn(e.target.checked ? refs.map((_, k) => k) : [])} />{p.reference_label}</label> : null}
         <button onClick={() => setPicked(s => s.filter(id => refIds.includes(id)))}>clear</button>
-        <span className="n">{sel.length} shown; tick rows in the leaderboard table to draw them</span></div>
+        <span className="n">{sel.length} shown; tick rows in the table to draw them</span></div>
       <div className="cols">
         <div className="plot">
           <svg viewBox="-130 -60 720 490">
